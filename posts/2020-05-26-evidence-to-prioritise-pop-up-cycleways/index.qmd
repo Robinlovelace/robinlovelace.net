@@ -1,0 +1,23 @@
+---
+title: "Evidence to prioritise pop-up cycleways"
+date: 2020-05-26
+categories: [news]
+tags: [cycling, cycleways, COVID]
+description: "Talk on prioritising pop-up cycleways during the pandemic"
+---
+
+I gave a talk at the 'Ideas with Beers' seminar series on evidence to prioritise pop-up cycleways.
+
+## Context
+
+During COVID-19, there was urgent need for evidence to support rapid deployment of cycling infrastructure. The talk covered:
+
+- Methods for identifying priority routes
+- Using open data for quick analysis
+- Case studies from the UK
+
+## Key message
+
+Pop-up cycleways can be implemented quickly and cheaply using evidence-based approaches. The Propensity to Cycle Tool methodology was adapted to support this work.
+
+This led to the development of tools used by local authorities across the UK.

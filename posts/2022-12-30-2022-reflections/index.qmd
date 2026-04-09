@@ -1,0 +1,25 @@
+---
+title: "Reflections on 2022"
+date: 2022-12-30
+categories: [news]
+tags: [fatherhood, optimism]
+description: "Thoughts on the year gone by and the years ahead"
+---
+
+A brief reflection on 2022, a year of growth and transition.
+
+## Personal highlights
+
+- Became a father (mentioned in tags!)
+- Continued work at University of Leeds
+- Started part-time role in Civil Service
+
+## Work highlights
+
+- Progress on the Propensity to Cycle Tool
+- Transport Data Science module going well
+- Open source software development
+
+## Looking forward
+
+Hope for more balance between work and personal life, continuing to grow as a researcher and teacher.

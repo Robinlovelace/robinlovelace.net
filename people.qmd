@@ -1,0 +1,29 @@
+---
+title: "People"
+subtitle: "Team and collaborators"
+page-layout: full
+date-format: "YYYY-MM"
+listing: 
+- id: team
+  sort: "lastname asc"
+  type: grid
+  fields: [image, title, subtitle]
+  grid-item-align: center
+  grid-columns: 3
+  image-height: 200px
+  contents: 
+    - /people/pi.yml
+
+page-navigation: false
+title-block-banner: false
+toc: false
+---
+
+## Team
+
+:::{#team}
+:::
+
+## Collaborators
+
+I work with collaborators from various institutions. Get in touch if you're interested in collaboration.

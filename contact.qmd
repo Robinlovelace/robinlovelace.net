@@ -1,0 +1,39 @@
+---
+title: "Contact"
+description-meta: "Get in touch with Robin Lovelace"
+title-block-banner: false
+---
+
+## Get in touch
+
+Feel free to get in touch with me through any of these channels:
+
+### Email
+- **University**: [r.lovelace@leeds.ac.uk](mailto:r.lovelace@leeds.ac.uk)
+- Find my work email online if directly related to my work
+
+### GitHub
+- [github.com/robinlovelace](https://github.com/robinlovelace)
+- Comment on an existing issue or discussion, or create a new one
+- I get a lot of software questions - asking on GitHub is best because:
+  - You're likely to get a response quicker
+  - Other people can benefit from the answer
+  - I prioritize well-asked questions with reproducible examples
+
+### Social Media
+- Twitter/X: [@robinlovelace](https://twitter.com/robinlovelace)
+- Mastodon: [@robinlovelace@fosstodon.org](https://fosstodon.org/web/@robinlovelace)
+- YouTube: [RobinLovelace](https://www.youtube.com/c/RobinLovelace)
+
+### Discord
+Join the Geocompr Discord Server to ask questions about methods and technology:
+[![discord](https://img.shields.io/discord/878051191374876683?label=discord&logo=Discord&color=blue)](https://discord.gg/PMztXYgNxp)
+
+---
+
+## Postal Address
+
+Institute for Transport Studies  
+University of Leeds  
+Leeds LS2 9JT  
+United Kingdom

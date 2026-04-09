@@ -1,0 +1,46 @@
+---
+title: "Looking back on 2024 and forward to 2025"
+date: 2025-01-03
+categories: [news]
+tags: []
+description: "Completing my Civil Service job, new role at the University of Leeds and family updates"
+---
+
+In this post I look back on 2024 and forward to 2025.
+
+## Work in 2024
+
+I completed my two-year contract at [Active Travel England](https://www.activetravelengland.gov.uk/) where I was Director of Data and Analysis. I got a [promotion](https://robinlovelace.net/posts/2024-07-23-professorship/) to Professor, and from January 2025 am back to a single full-time job at the University of Leeds.
+
+### Key achievements at Active Travel England:
+- Set up a grant funding agreement between ATE and the Alan Turing Institute
+- Instigated the ATIP project (plan.activetravelengland.gov.uk)
+- The SchoolRoutes project for identifying school routes for active travel investment
+
+## Academic highlights
+
+- Two books with CRC Press (published in 2025):
+  - Geocomputation with R (second edition)
+  - Geocomputation with Python
+- Keynote at Mobile Tartu conference
+- CRUSE project published (cruse.bike)
+- Biclar web application for Lisbon
+
+## Open source contributions
+
+- `od2net` R interface for route network generation
+- `spanishoddata` R package for Spanish OD data
+- `parenx` Python package for network simplification
+- Contributions to `anime` package for linestring matching
+
+## Community projects
+
+- **Bike Fix Sunday**: Community bike repair project (150 members)
+- **Chapeltown Cohousing**: Got a shared electric cargo bike
+- **Oaty Cortado run club**: Weekly runs with mates
+
+## Personal update
+
+I became a father again! Baby girl Rosa was born on November 12th, 2024. Big brother Kit is being excellent.
+
+Looking forward to 2025!

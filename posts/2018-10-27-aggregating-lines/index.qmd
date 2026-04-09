@@ -1,0 +1,20 @@
+---
+title: "Aggregating lines, Part I"
+date: 2018-10-27
+categories: [news]
+tags: [R, stplanr]
+description: "Tutorial on aggregating lines in R for transport analysis"
+---
+
+Part I of a series on aggregating lines in R for transport planning.
+
+## Overview
+
+When working with route networks, you often need to aggregate multiple lines into single segments. This is useful for:
+- Calculating summary statistics
+- Visualizing flows
+- Simplifying networks
+
+The stplanr package provides functions for this, particularly `overline()` which aggregates lines by geography.
+
+See also Part II for more advanced techniques.

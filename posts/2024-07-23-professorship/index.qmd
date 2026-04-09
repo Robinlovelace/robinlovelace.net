@@ -1,0 +1,67 @@
+---
+title: "The Pathway to Professorship"
+date: 2024-07-24
+categories: []
+tags: []
+description: "A celebratory post reflecting on the journey to becoming a Professor of Transport Data Science"
+---
+
+I am delighted to announce that I have been appointed to a Professorship at the [University of Leeds](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace).
+A small change in my job title (just removing the first word of my previous job title "Associate Professor of Transport Data Science") means a lot for my career.
+
+This post is a reflection on the path that got me here, provides some insight into the promotion system in the UK, outlines some of the work that I'm most proud of, and provides a chance to say thank you to the many people who have inspired and supported me along the way.
+
+## My career path
+
+I didn't set out to work in academia and certainly didn't plan to become a professor.
+Although my career has been mostly in higher education, I think it is a little unusual in the way I've got there, with a big focus on impact and practical skills, rather than research outputs, administrative roles and memberships of committees and boards.
+
+- 1990-2002: Attended Weobley High School and Weobley Primary in Herefordshire
+- 2002-2004: A-levels at Hereford Sixth Form College (Maths, Geography, Psychology)
+- 2004-2008: Geography at University of Bristol, School of Geographical Sciences
+- 2008-2009: MSc Environmental Science and Management, University of York
+- 2009-2013: PhD at University of Sheffield (EPSRC-funded E-Futures Doctoral Training Centre)
+- 2013-2014: Research Fellow, NCRM funded TALISMAN project, University of Leeds
+- 2014-2016: Research Fellow in Data Analytics, University of Leeds
+- 2016-2019: University Academic Fellow in Transport and Big Data, ITS Leeds
+- 2019-2024: Associate Professor of Transport Data Science (part time since 2023)
+- 2023-2024: Part time role at Active Travel England (Civil Service)
+- 2024 onwards: Professor of Transport Data Science at University of Leeds
+
+## The promotion process
+
+In the UK higher education system, promotions take place through a formal process based on a set of criteria. There are three pathways:
+
+- Student Education
+- Research & Innovation  
+- Academic Leadership
+
+As someone focused on research and innovation, I applied for the Research & Innovation pathway.
+
+## Key publications
+
+My portfolio included 10 key publications demonstrating impact:
+
+1. **Propensity to Cycle Tool REF Impact Case Study** (2023) - Four-star level of impact
+2. **The Propensity to Cycle Tool** (2017) - JTLU, major impact on transport planning internationally
+3. **Geocomputation with R** (2019) - CRC Press, widely adopted in university courses
+4. **From Big Noise to Big Data** (2016) - Geographical Analysis
+5. **Stplanr** (2018) - R Journal, downloaded 153k+ times
+6. **Open Source Tools for Geographic Analysis** (2021) - Journal of Geographical Systems
+7. **Open Access Transport Models** (2020) - Transport Policy
+8. **Methods to Prioritise Pop-up Active Transport Infrastructure** (2020) - Transport Findings
+9. **ClockBoard** (2022) - Journal of Spatial Information Science
+10. **London Cycle Hire Scheme** (2020) - Transportation Research Part A
+
+## Portfolio highlights
+
+- 60+ academic publications, 2,450+ citations, H-index of 27
+- Led REF Impact Case Study on cycle network planning
+- Developed tools used by 50k+ people per year
+- International impact: PCT adapted for Ireland, Portugal, Scotland, New Zealand
+
+## Reflections
+
+I was surprised at the extent to which it's up to the promotion candidate to ask about or lobby for promotion. My message to people who are doing great work but not sure if they should apply for promotion is: go for it, you're worth it!
+
+Thanks to all the colleagues, students, collaborators, and family who have supported me on this journey.

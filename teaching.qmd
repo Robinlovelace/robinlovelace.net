@@ -1,0 +1,43 @@
+---
+title: "Teaching"
+subtitle: "Teaching and supervision"
+title-block-banner: false
+---
+
+## Current Teaching
+
+### Transport Data Science (TDS)
+- **Level**: Masters module (MSc)
+- **Institution**: University of Leeds, Institute for Transport Studies
+- **Since**: 2020
+- **Description**: Teaching data science methods for transport research and planning, covering R programming, spatial analysis, reproducibility, and transport modelling.
+- **Resources**: [GitHub](https://github.com/ITSLeeds/tds)
+- **Related courses**: Data Science and Data Analytics MSc, Urban Data Science and Analytics MSc
+
+### Past Teaching
+- **Geographic Data Science**: University of Leeds (2016-2019)
+- **Introduction to R**: Various workshops (2015-present)
+
+---
+
+## Supervision
+
+I supervise PhD and Masters students on topics related to:
+- Active travel and cycling infrastructure
+- Transport modelling and simulation
+- Geocomputation and spatial data analysis
+- Reproducible research methods
+
+Current and past students can be found on the [people](/people.qmd) page.
+
+---
+
+## Training Materials
+
+I regularly deliver workshops on:
+- R for transport analysis
+- Spatial data processing with sf andigraph
+- Reproducible research with Quarto/R Markdown
+- Git and GitHub for academics
+
+See [GitHub](https://github.com/robinlovelace) for training materials and code examples.

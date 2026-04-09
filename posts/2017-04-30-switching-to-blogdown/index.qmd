@@ -1,0 +1,13 @@
+---
+title: "Switching to blogdown"
+date: 2017-04-30
+categories: [news]
+tags: [R, blogging]
+description: "Testing the new blogdown setup for R-based blogging"
+---
+
+I've finally got a new blog post, to test that my new set-up is working, using the wonderful [blogdown](https://bookdown.org/yihui/blogdown/) package.
+
+This allows R code to be embedded directly in blog posts, making it perfect for data science and research blogging.
+
+The transition from oldWordPress to blogdown was smooth and I haven't looked back since!

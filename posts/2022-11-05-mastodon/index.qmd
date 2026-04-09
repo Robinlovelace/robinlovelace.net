@@ -1,0 +1,32 @@
+---
+title: "Setting up Mastodon: an appropriate social media platform for the 2020s"
+date: 2022-11-05
+categories: [news]
+tags: [mastodon, social-media]
+description: "Why I moved to Mastodon and how to get started"
+---
+
+I've moved from Twitter to [Mastodon](https://fosstodon.org/@robinlovelace). Here's why and how.
+
+## Why Mastodon?
+
+Twitter has become increasingly toxic and unreliable. Mastodon is:
+- **Open source**: No single company controls it
+- **Decentralized**: No algorithmic manipulation
+- **Community-run**: No advertising or tracking
+- **Better for the planet**: Lower environmental impact
+
+## Getting started
+
+1. Choose an instance (I use fosstodon.org for tech/science)
+2. Create an account
+3. Follow people and join conversations
+4. Use the hashtag #OpenScience to find researchers
+
+## My experience
+
+I've found the Mastodon community to be more supportive and constructive than other platforms. It's a breath of fresh air to be in an environment focused on sharing knowledge rather than engagement metrics.
+
+The transition wasn't instantaneous but has been rewarding. I now have connections across academia, open source, and the cycling community that wouldn't have happened on traditional social media.
+
+Come find me at: [@robinlovelace@fosstodon.org](https://fosstodon.org/@robinlovelace)

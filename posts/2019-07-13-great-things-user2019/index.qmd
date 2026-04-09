@@ -1,0 +1,20 @@
+---
+title: "Six great things about UseR! 2019"
+date: 2019-07-13
+categories: [event]
+tags: [R, conference, toulouse]
+description: "Highlights from UseR! 2019 conference in Toulouse"
+---
+
+UseR! is the most popular annual meeting for R enthusiasts. UseR! 2019 was held in Toulouse, France.
+
+## Key highlights
+
+1. **Community**: Huge, friendly community of R users
+2. **Tutorials**: Excellent workshops on topics from Shiny to tidyverse
+3. **Keynotes**: Inspiring talks from RStudio and academia
+4. **Networking**: Met people from diverse backgrounds
+5. **Packages**: Saw the latest developments in R packages
+6. **Location**: Toulouse was a great host city
+
+It was my first UseR! conference and definitely won't be the last.

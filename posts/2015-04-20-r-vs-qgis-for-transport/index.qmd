@@ -1,0 +1,20 @@
+---
+title: "R vs QGIS for sustainable transport planning"
+date: 2015-04-20
+categories: [news]
+tags: [R, QGIS, GIS, open-source]
+description: "Comparing R and QGIS for transport planning"
+---
+
+Presented at GISRUK 2015 (GIS Research UK conference) on comparing R and QGIS for sustainable transport planning.
+
+## Key points
+
+- Both are free and open source
+- R is better for analysis and reproducibility
+- QGIS is better for quick visualization and editing
+- Best approach: use both!
+
+R excels at statistical analysis, reproducible workflows, and integrating with other tools. QGIS is great for interactive mapping and data management.
+
+The best transport planning workflows often combine both.

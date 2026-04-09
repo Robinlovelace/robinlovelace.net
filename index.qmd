@@ -1,0 +1,76 @@
+---
+title: "Robin Lovelace"
+description-meta: "Professor of Transport Data Science at University of Leeds"
+image: "files/profiles/profile1.png"
+page-navigation: false
+toc: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 70%
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:r.lovelace@leeds.ac.uk
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/robinlovelace
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/robinlovelace
+      target: _blank
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/c/RobinLovelace
+      target: _blank
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/web/@robinlovelace
+      target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.co.uk/citations?user=xDJHVCAAAAAJ&hl=en
+      target: _blank
+
+listing:
+  - id: recent-posts
+    contents: 
+      - posts
+      - posts/post-links.yml
+    exclude:
+      title: ""
+    type: grid
+    max-items: 3
+    page-size: 3
+    fields: [image, date, title, subtitle]
+    max-description-length: 100
+    sort: 
+      - "date desc"
+---
+
+:::{#hero-heading}
+
+I'm a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport)(ITS), where I undertake research, develop software and web applications, and teach data science for evidence-based transport planning.
+
+## Research Interests
+
+- **Geocomputation** - spatial data analysis and modeling
+- **Transport modelling** - active travel uptake and route modeling
+- **Reproducible research** - open source software and data-driven methods
+- **Decarbonising transport** - evidence-based planning for sustainable mobility
+
+## Current Projects
+
+- **SaferActive** - Improving safety for active travel through data-driven approaches
+- **Propensity to Cycle Tool (PCT)** - Online tool for cycling potential modeling
+- **Transport Data Science** - Teaching module for Masters students
+
+## Recent Work
+
+I share lots of code for data science and reproducible research. Check out my [GitHub](https://github.com/robinlovelace/) for projects and the [posts](/posts.qmd) section for blog entries.
+
+If you'd like to get in touch, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).
+
+:::

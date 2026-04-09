@@ -1,0 +1,39 @@
+- path: https://saferactive.org
+  image: 
+  title: "SaferActive"
+  author: "Robin Lovelace (PI)"
+  subtitle: "UKRI IAA"
+  description: "Improving safety for active travel through data-driven approaches. Developing methods to measure and improve cyclist and pedestrian safety using open data and statistical models."
+  started: "2019"
+  ended: ""
+  funding: ""
+
+- path: https://www.pct.bike
+  image:
+  title: "Propensity to Cycle Tool (PCT)"
+  author: "Robin Lovelace (Lead Developer)"
+  subtitle: "Department for Transport"
+  description: "Open-source online tool for modelling cycling potential at regional and national scales. Used by over 100 local authorities in the UK."
+  started: "2015"
+  ended: ""
+  funding: ""
+
+- path: https://cyipt.bike
+  image:
+  title: "Cycling Infrastructure Prioritisation Tool"
+  author: "Robin Lovelace (PI)"
+  subtitle: "Department for Transport"
+  description: "Prioritisation tool for identifying the most cost-effective locations for new cycling infrastructure."
+  started: "2017"
+  ended: "2018"
+  funding: ""
+
+- path: https://github.com/ITSLeeds/tds
+  image:
+  title: "Transport Data Science"
+  author: "Robin Lovelace (Module Lead)"
+  subtitle: "University of Leeds"
+  description: "Teaching module for Masters students on data science methods for transport research and planning."
+  started: "2020"
+  ended: ""
+  funding: ""

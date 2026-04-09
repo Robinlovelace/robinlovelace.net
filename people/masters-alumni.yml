@@ -1,0 +1,10 @@
+    - path: https://drganghe.github.io/quarto-academic-website-template
+      image: "/files/profiles/profile4.JPG"
+      title: "Alumni B"
+      lastname: "B"
+#      author: 
+      subtitle: "Masters Alumni"
+#      date: "2024-03-12"
+      categories: [Masters Student] 
+      started: "2024-01"
+      ended: "2025-01"

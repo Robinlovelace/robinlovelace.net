@@ -1,0 +1,23 @@
+- path: https://github.com/Robinlovelace/geocompr
+  image: ""
+  title: "Geocomputation with R book"
+  author: "Robin Lovelace"
+  description: "Open source book on geographic data analysis"
+  date: "2024-01-01"
+  categories: [news] 
+
+- path: https://www.pct.bike
+  image: ""
+  title: "Propensity to Cycle Tool"
+  author: "Robin Lovelace"
+  description: "Open source online tool for cycling potential modeling"
+  date: "2023-06-01"
+  categories: [news]
+
+- path: https://saferactive.org
+  image: ""
+  title: "SaferActive Project"
+  author: "Robin Lovelace"
+  description: "Improving safety for active travel through data-driven approaches"
+  date: "2023-04-01"
+  categories: [news]

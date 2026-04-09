@@ -1,0 +1,19 @@
+---
+title: "Clipping spatial data in R"
+date: 2014-07-29
+categories: [news]
+tags: [R, GIS, open-source]
+description: "Tutorial on clipping spatial data in R"
+---
+
+This post shows how to clip spatial data in R using different methods.
+
+## Key methods covered
+
+1. **Bounding box clipping** - Using `gClip()` function
+2. **Polygon clipping** - Using sf/raster packages
+3. **Spatial subsetting** - Extracting data within a region
+
+R has mature and fairly fast functions for spatial overlays and clipping. The `sf` package has made this even easier in recent years.
+
+This was originally part of the "Creating maps in R" tutorial series.

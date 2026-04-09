@@ -1,0 +1,33 @@
+---
+title: "Reflections on 2023"
+date: 2023-12-31
+categories: [news]
+tags: []
+description: "Year in review: research, publications, and projects from 2023"
+---
+
+Like last year's reflections post, I'm going to keep this one short and use it as a chance to reflect on what I've been up to over the last 12 months, what I've been working on, research I've contributed to, and hopes for next year.
+
+## Research highlights
+
+This year saw continued work on:
+- **Active travel safety**: Contributing to the SaferActive project
+- **Open transport tools**: Continued development of the Propensity to Cycle Tool
+- **Transport data science**: Teaching and developing the MSc module at Leeds
+
+## Publications
+
+Key publications in 2023 included work on:
+- Spatial analysis methods for transport
+- Open source software for geographic data
+- Active travel infrastructure planning
+
+## Looking ahead to 2024
+
+Next year I hope to:
+- Continue growing the Transport Data Science teaching
+- Publish more open source tools
+- Engage with international collaborators
+- Progress research on cycling infrastructure prioritisation
+
+Happy new year!

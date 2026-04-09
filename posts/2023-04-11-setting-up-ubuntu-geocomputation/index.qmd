@@ -1,0 +1,28 @@
+---
+title: "Setting up Ubuntu for Geocomputation"
+date: 2023-04-11
+categories: [news]
+tags: [ubuntu, R, geocomputation]
+description: "Setting up a new computer with Ubuntu for spatial data analysis"
+---
+
+I recently got a new laptop and set it up with Ubuntu for spatial data analysis. Here's my approach.
+
+## Why Ubuntu?
+
+- Free and open source
+- Excellent for R and Python development
+- Great support for spatial packages
+- Reliable and fast
+
+## Key steps
+
+1. Install Ubuntu (I use LTS versions)
+2. Install R and RStudio
+3. Add spatial packages: `sf`, `terra`, `igraph`
+4. Set up Python with conda/mamba
+5. Install QGIS for visualization
+
+## Resources
+
+See my [install-geocomp-ubuntu](https://github.com/Robinlovelace/install-geocomp-ubuntu) repo for detailed setup scripts.

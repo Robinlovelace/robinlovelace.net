@@ -1,0 +1,23 @@
+---
+title: "Reflections on 2021"
+date: 2022-01-01
+categories: [news]
+tags: [fatherhood, optimism]
+description: "Thoughts on the year gone by and the years ahead"
+---
+
+It's been another crazy year for many people with lifestyles still disrupted by COVID. But it's been an amazing year for me and my family.
+
+## Highlights
+
+- **First solo-authored paper**: Published "Open source tools for geographic analysis in transport planning" in the Journal of Geographical Systems
+- **10DS Fellowship**: Awarded an 18 month fellowship to work with the No. 10 Data Science team
+- **Became a dad**: The most rewarding event of my life!
+
+## Academic output
+
+5 peer-reviewed papers in 2021, including solo-authored work on open source transport planning tools.
+
+## Looking ahead to 2022
+
+More policy-relevant research, continuing the 10DS fellowship work, and enjoying fatherhood!

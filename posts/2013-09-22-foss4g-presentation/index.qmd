@@ -1,0 +1,13 @@
+---
+title: "Presentation at FOSS4G 2013"
+date: 2013-09-22
+categories: [event]
+tags: [FOSS4G, conference, visualization]
+description: "Presented at FOSS4G 2013 conference"
+---
+
+I presented at FOSS4G 2013, THE conference for Free Open Source Software for Geospatial applications.
+
+The conference was in Nottingham with hundreds of delegates. I presented on visualisation.
+
+FOSS4G is a great conference for anyone interested in open source geospatial tools - highly recommended!

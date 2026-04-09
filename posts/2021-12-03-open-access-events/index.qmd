@@ -1,0 +1,14 @@
+---
+title: "Open access events on data science in transport"
+date: 2021-12-03
+categories: [event]
+tags: []
+description: "Upcoming events on data science in transport planning"
+---
+
+A couple of events where I and colleagues presented on building tools for evidence-based decision making:
+
+1. **Evidence to Support Active Travel in the Planning System** - LSSI and Department for Transport, June 2021
+2. **Propensity to Cycle Tool Advanced Training Workshop** - December 2021
+
+These events covered topics in data science skills for transport planning and using tools like the PCT for evidence-based planning.

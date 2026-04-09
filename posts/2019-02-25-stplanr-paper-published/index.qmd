@@ -1,0 +1,17 @@
+---
+title: "stplanr paper published"
+date: 2019-02-25
+categories: [news]
+tags: [R, planning, paper]
+description: "stplanr: A package for transport paper published in The R Journal"
+---
+
+I am very happy to announce that the paper *stplanr: A package for transport planning* has been published in The R Journal!
+
+This is the result of around 3 years of work with co-author Richard Ellison. The stplanr package was first released on CRAN in November 2015 and has been downloaded over 150,000 times.
+
+The paper describes the key functions for transport planning including:
+- Origin-destination analysis
+- Route finding
+- Network analysis
+- Spatial aggregation

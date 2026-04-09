@@ -1,0 +1,33 @@
+---
+title: "Mobile Tartu 2024"
+date: 2024-06-15
+categories: [event]
+tags: []
+description: "Keynote presentation at Mobile Tartu conference on Future-Proof Transport Planning"
+---
+
+I gave a keynote presentation at [Mobile Tartu 2024](https://mobile.terra.tartu.ee/) on Future-Proof Transport Planning.
+
+## PhD School
+
+The conference started with a PhD School, which was a great opportunity to engage with early-career researchers.
+
+## Keynote: Future-Proof Transport Planning
+
+My talk focused on the need for transport planning to adapt to changing circumstances, drawing on experience from the COVID-19 pandemic and the urgent need to decarbonise transport systems.
+
+Key themes included:
+- The importance of open source tools in transport planning
+- Data-driven approaches to active travel
+- Reproducible research methods
+- International collaboration in transport research
+
+## Conference highlights
+
+The conference brought together researchers from around the world to discuss:
+- Accessibility metrics and methods
+- Mobility patterns and behaviour
+- Transport modelling and simulation
+- Active travel research
+
+Thanks to the organisers for a great event!
