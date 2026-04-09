@@ -38,12 +38,17 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+
       - name: Deploy to robinlovelace.github.io
         run: |
-          echo "Workspace: $GITHUB_WORKSPACE"
-          ls -la $GITHUB_WORKSPACE/
+          echo "Downloaded files:"
+          ls -la
           mkdir -p /tmp/deploy
-          cp -r $GITHUB_WORKSPACE/_site/* /tmp/deploy/ || ls -la $GITHUB_WORKSPACE/_site/
+          cp -r . /tmp/deploy/
           cd /tmp/deploy
           git init
           git checkout -b main
