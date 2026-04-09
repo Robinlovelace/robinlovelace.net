@@ -35,11 +35,19 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
+      url: https://robinlovelace.net
     steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      - name: Deploy to robinlovelace.github.io
+        run: |
+          git clone --depth 1 https://github.com/Robinlovelace/robinlovelace.github.io.git /tmp/output
+          cd /tmp/output
+          git checkout -B main
+          rm -rf .
+          cp -r ${{ github.workspace }}/_site/* .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Deploy from robinlovelace.net" || true
+          git push -f https://${{ secrets.GH_PUBLISH_TOKEN }}@github.com/Robinlovelace/robinlovelace.github.io.git main
