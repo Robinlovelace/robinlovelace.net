@@ -40,8 +40,10 @@ jobs:
     steps:
       - name: Deploy to robinlovelace.github.io
         run: |
+          echo "Workspace: $GITHUB_WORKSPACE"
+          ls -la $GITHUB_WORKSPACE/
           mkdir -p /tmp/deploy
-          cp -r ${{ github.workspace }}/_site/* /tmp/deploy/
+          cp -r $GITHUB_WORKSPACE/_site/* /tmp/deploy/ || ls -la $GITHUB_WORKSPACE/_site/
           cd /tmp/deploy
           git init
           git checkout -b main
