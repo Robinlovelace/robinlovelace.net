@@ -40,15 +40,12 @@ jobs:
       url: https://robinlovelace.net
     steps:
       - name: Deploy to robinlovelace.github.io
-        run: |
-          git clone --depth 1 https://github.com/Robinlovelace/robinlovelace.github.io.git /tmp/output
-          cd /tmp/output
-          git checkout -B main
-          git rm -rf . 2>/dev/null || true
-          rm -rf *
-          cp -r ${{ github.workspace }}/_site/* .
-          git add -A
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Deploy from robinlovelace.net" || true
-          git push -f https://${{ secrets.GH_PUBLISH_TOKEN }}@github.com/Robinlovelace/robinlovelace.github.io.git main
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GH_PUBLISH_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: main
+          external_repository: Robinlovelace/robinlovelace.github.io
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
+          cname: robinlovelace.net
