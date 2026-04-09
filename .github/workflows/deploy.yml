@@ -35,17 +35,14 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: https://robinlovelace.net
     steps:
       - name: Deploy to robinlovelace.github.io
-        uses: peaceiris/actions-gh-pages@v4
+        uses: dmnemec/copy_file_to_another_repo@v1.1.1
         with:
-          github_token: ${{ secrets.GH_PUBLISH_TOKEN }}
-          publish_dir: ./_site
-          publish_branch: main
-          external_repository: Robinlovelace/robinlovelace.github.io
-          user_name: github-actions[bot]
+          source_file: "_site"
+          destination_repo: Robinlovelace/robinlovelace.github.io
+          destination_folder: ""
           user_email: github-actions[bot]@users.noreply.github.com
-          cname: robinlovelace.net
+          user_name: github-actions[bot]
+          commit_message: "Deploy from robinlovelace.net"
+          api_token: ${{ secrets.GH_PUBLISH_TOKEN }}
