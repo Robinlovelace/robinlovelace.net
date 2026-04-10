@@ -27,34 +27,21 @@ jobs:
       - name: Render Quarto
         run: quarto render
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: site-files
           path: _site/
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site-files
-
-      - name: Deploy to robinlovelace.github.io
-        run: |
-          echo "Downloaded files:"
-          ls -R
-          mkdir -p /tmp/deploy
-          cp -r . /tmp/deploy/
-          cd /tmp/deploy
-          git init
-          git checkout -b master
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Deploy from robinlovelace.net"
-          git push -f https://x-access-token:${{ secrets.GH_PUBLISH_TOKEN }}@github.com/Robinlovelace/robinlovelace.github.io.git master
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
