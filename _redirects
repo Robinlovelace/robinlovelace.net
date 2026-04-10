@@ -1,0 +1,2 @@
+/event/* /events/:splat 301
+/publication/* /publications/:splat 301

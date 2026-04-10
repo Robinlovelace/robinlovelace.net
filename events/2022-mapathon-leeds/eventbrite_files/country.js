@@ -1,0 +1,1 @@
+(function () { /*GB Great Britain (UK)*/	var country = {'code':'gb','id':6,'defaultLangauge':'en-gb'};	if (!window.evidon) window.evidon = {};	if (window.evidon.notice) {window.evidon.notice.setLocation(country);}	window.evidon.location = country;})(); 

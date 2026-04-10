@@ -1,0 +1,1 @@
+Join us at the 10th Mobile Tartu Conference & PhD School, June 7-10, 2026, in Tartu, Estonia! Celebrating two decades of human mobility studies with mobile big data. Featuring keynotes by Prof. Kay W. Axhausen & Prof. Mimi Sheller. Learn more: mobiletartu.ut.ee #MobileTartu #HumanMobility #BigData #GIScience

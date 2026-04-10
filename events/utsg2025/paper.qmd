@@ -1,0 +1,116 @@
+---
+title: "UTSG 2025 abstract submission"
+subtitle: "UTSG 2025 abstract submission (max 300 words, deadline 2025-02-10)"
+format: gfm
+---
+
+```{r}
+#| label: generate docx
+#| echo: false
+#| eval: false
+quarto::quarto_render("utsg_2025.qmd", output_format = "docx")
+system("cp utsg_2025.docx ~/OneDrive/projects-all/atumscotland/phase3")
+```
+
+Robin Lovelace, University of Leeds, UK
+
+Zhao Wang, University of Leeds, UK
+
+Hussein Mahfouz, University of Leeds, UK
+
+Juan Jose Fonseca Zamora, University of Leeds, UK
+
+Martin Lucas-Smith, CycleStreets Ltd, UK
+
+Dustin Carlino, Alan Turing Institute, UK
+
+Angus Calder, Sustrans Scotland, UK
+
+Congying Hu, Sustrans Scotland, UK
+
+Michael Naysmith, Sustrans Scotland, UK
+
+Matthew Davis, Sustrans Scotland, UK 
+
+<!-- Pre-Call UTSG 2025: 57th Annual UTSG Conference in Dublin 25-27 June 2025
+December 12, 2024/in Annual Conference, News /by Chia-Hsun Chang
+
+We are delighted to announce that the 57th Universities’ Transport Studies Group (UTSG) Annual Conference will take place at University College Dublin (UCD) between 25th to 27th June 2025. This prestigious event will be co-hosted by University College Dublin and Trinity College Dublin, bringing together leading researchers, academics, and practitioners in the field of transport studies.
+
+Colleagues are reminded that the UTSG conference is a doctoral-student-friendly conference and as always, we strongly encourage research students to submit their work for consideration. Additionally, we are pleased to announce that the conference will feature a mentoring surgery scheme aimed at supporting colleagues at various career stages, including doctoral students.
+
+We are excited to announce that the UTSG conference will feature a collaboration initiative for special issues with top-tier journals from Elsevier, Taylor & Francis, Wiley, and others.
+
+Authors are invited to submit their research papers to the Conference. Topics include but are not limited to:
+
+    Transportation Policy and Economics
+    Transportation and Environment
+    Energy in Transportation
+    Climate Change and Resilience in Transportation
+    Intelligent Transportation Systems (ITS)
+    Autonomous Vehicles & Future Mobility
+    Logistics and Freight Transportation
+    Public Transportation Systems
+    Traffic Management, Operations and Safety
+    Social Equity and Transportation
+    Emerging Trends in Air and Water Transport
+    Transportation and Health
+    Gender, Diversity, and Inclusion in Transport
+    Traffic Psychology and Behaviour
+    Infrastructure Design and Maintenance
+
+Presenting your work at the UTSG Conference involves two stages:
+
+1. Abstract Submission:
+
+Authors must submit a 300-word abstract and six keywords that should clearly identify the objectives, background, methods, main findings, and conclusions of your work. The abstracts will be reviewed and authors will be informed of the decision by the end of 2025. Only authors of accepted abstracts will be invited to submit either a ‘full paper’ or an ‘extended abstract’ using the appropriate templates available on the UTSG and Conference websites.
+
+Abstract Submission Deadline: Monday 10th February, 2025.
+
+2. Paper Submission Guidelines:
+
+Authors of accepted abstracts will have two options for submitting their research work:
+
+  *   A full paper (max. 12 pages long); this is the recommended option for authors considering the special-issue initiative.
+
+  *   An extended abstract of max. 1500 words
+
+Deadline: Monday 5th May 2025
+
+Full papers and extended abstracts will need to use the corresponding UTSG templates. Please also note that Smeed Prize entrants must submit a full paper to be eligible (see, criteria below). Templates and further information can be found on the UTSG website. -->
+
+
+<!-- Emphasis: integrating diverse datasets to support more evidence-based and data-driven decision-making in transport planning. -->
+
+<!-- Start broad:
+
+- transport models are usually based on a handful of key input datasets
+  - this is problematic because it can lead to biases in the model outputs and 'blind spots' in the evidence base, e.g. an exessive focus on car travel or commuting
+  - this is particularly problematic in the context of active travel, where the evidence base is less well-developed than for other modes
+- we propose a new approach to transport modelling that integrates diverse datasets from a range of sources, including open data, proprietary data, and crowdsourced data
+  - this approach is designed to provide a more comprehensive and nuanced understanding of travel patterns and behaviours
+- we present a case study of this approach in action in Scotland, where we have developed a new tool for network planning that integrates data on cycling infrastructure, cycling behaviour, and cycling demand
+  - this tool is designed to support local authorities in developing more evidence-based and data-driven cycling strategies
+
+End specific:
+- we present the results of a validation exercise that compares the outputs of our tool with observed cycling counts
+  - this exercise demonstrates that our tool is able to accurately predict cycling demand and behaviour
+  - we have generalised the approach by packaging some of the key methods in software packages for others to use and build on -->
+
+## Integrating diverse data sources to support future-proof transport modelling
+
+Transport models historically rely on limited input datasets, such as 'trip generators' and simplified networks, leading to biases and blind-spots.
+This lack of data diversity can lead to biases and blind-spots in model outputs.
+For example, over-reliance on commuting data over-emphasises arterial routes to historic employment centres, while motorised traffic datasets disproportionately highlight long-distance car trips and neglect active travel.
+Transport models were developed at a time when data was scarce and expensive to collect but but the 'data revolution' has changed this.
+We argue that models should be capable of integrating open, proprietary, and crowdsourced, datasets, with ease of integrating new data sources being a key design principle.
+We present a case study of this approach in the Network Planning Tool for Scotland (NPT), which is publicly available at [npt.scot](https://www.npt.scot).
+The NPT integrates data on transport infrastructure from 4 sources: OpenStreetMap, Ordnance Survey (OS) OpenRoads, OS MasterMap Highways, and OS Mastermap Topography, and we are planning to add more, including from the Scottish Spatial Hub, that integrates datasets from Scottish local authorities and partners.
+Furthermore, the NPT integrates multiple datasets on transport behaviour (including from the Census, the Scottish Household Travel Survey and the British National Travel Survey), and scenarios of change based on international datasets, supporting more data-driven cycling strategies.
+The results highlight the benefits of data integration, with results tending to improve as more data sources are added, and diminishing returns highlighting the importance of careful selection of input datasets.
+The approach, based on reproducible code written in open source languages, can be generalised and packaged for benefit of others seeking develop future-proof modelling solutions to transport challenges.
+We argue that integrating diverse data sources is essential for future-proof transport modelling, enabling adaptation to evolving travel patterns and behaviours.
+
+<!--  -->
+
+<!-- ## UTSG full paper (max 12 pages, deadline 2025-05-05) -->

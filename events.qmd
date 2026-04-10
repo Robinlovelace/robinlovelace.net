@@ -1,0 +1,22 @@
+---
+title: "Events"
+subtitle: "Talks, workshops, and other events"
+description-meta: "Talks, workshops, and other events"
+listing: 
+  sort: "date desc"
+  type: default
+  page-size: 100
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  contents: 
+      - events
+#page-layout: full
+draft-mode: unlinked
+page-navigation: false
+title-block-banner: false
+---
+
+:::{#events}
+:::

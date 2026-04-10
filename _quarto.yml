@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - _redirects
 
 # Meta
 description-meta: "Personal website of Robin Lovelace"
@@ -23,7 +25,7 @@ website:
           - text: News
             href: posts.qmd#category=news
           - text: Events
-            href: posts.qmd#category=event      
+            href: events.qmd      
           - text: Contact
             href: contact.qmd             
       - text: Research

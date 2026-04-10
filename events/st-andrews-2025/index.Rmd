@@ -1,0 +1,83 @@
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+title:  "Seminar in St Andrews: Future-Proof Transport Planning"
+event: St Andrews Bell Edwards Geographic Data Institute (BEGIN) Seminar Series
+event_url: https://begin.wp.st-andrews.ac.uk/2025/04/30/begin-seminar-prof-robin-lovelace/
+location: University of St Andrews
+address:
+  street: Irvine Building, University of St Andrews, North Street
+  city: St Andrews
+  region: 
+  postcode: KY16 9AL
+  country: Scotland
+summary:
+abstract: "Transport planning has always been a complex and multi-disciplinary enterprise requiring wide-ranging skills and methods. Like many fields of research exposed to the data revolution, it is also fast-moving, meaning that it's hard to know how to keep the work future-proof. This talk will explore the challenges and opportunities of future-proofing transport planning, focusing on the role of data science and open source software. It will draw my experience developing and deploying tools such as the Propensity to Cycle Tool for England and Wales (publicly available at [www.pct.bike](https://www.pct.bike/)), the Network Planning Tool for Scotland (publicly available at [www.npt.scot](https://www.npt.scot/)) and the Biclar tool for Portugal (publicly available at [biclar.tmlmobilidade.pt](https://biclar.tmlmobilidade.pt/). I will also outline some tools and techniques we have developed at the University of Leeds for working with origin-destination data"
+
+# Talk start and end times.
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: 2025-05-20T14:00:00+01:00
+date_end: 2025-05-20T15:00:00+01:00
+all_day: false
+
+# Schedule page publish date (NOT event date).
+publishDate: 2022-05-21T07:43:56+01:00
+
+authors: []
+tags: []
+
+# Is this a featured event? (true/false)
+featured: true
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
+
+# Optional filename of your slides within your event's folder or a URL.
+url_slides: https://robinlovelace.github.io/future-proof-transport-planning/st-andrews#/title-slide
+url_code: https://github.com/Robinlovelace/future-proof-transport-planning
+url_video:
+
+# Markdown Slides (optional).
+#   Associate this event with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+format: gfm
+---
+
+## Introduction
+
+This is part of the [St Andrews Bell Edwards Geographic Data Institute (BEGIN) Seminar Series](https://begin.wp.st-andrews.ac.uk/category/seminars/), held in the Irvine Building, University of St Andrews, North Street, St Andrews, KY16 9AL, Scotland, and hosted by [Fernando Benitez](https://www.st-andrews.ac.uk/geography-sustainable-development/people/mfbp1/).
+
+## Blurb
+
+[Robin Lovelace](https://www.robinlovelace.net) is Professor of Transport Data Science at the Leeds Institute for Transport Studies ([ITS](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace)).
+Robin specializes in data science and geocomputation, with a focus on developing geographic methods applied to modeling transport systems, active travel, and decarbonisation.
+Robin has experience not only researching but deploying transport models in inform sustainable policies and more effective use of transport investment, including as Lead Developer of the Propensity to Cycle Tool (see www.pct.bike), the basis of strategic cycle network plans nationwide.
+Robin has led numerous data science projects for organizations ranging from the Department for Transport and Transport Infrastructure Ireland to the World Bank.
+
+<!-- ![](images/paste-3.png) -->
+
+Illustration of the Network Planning Tool (NPT) results for St Andrews
+
+![](images/paste-2.png)

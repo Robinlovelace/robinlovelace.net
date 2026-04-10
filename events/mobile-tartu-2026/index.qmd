@@ -1,0 +1,57 @@
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+
+title: "10th Mobile Tartu Conference"
+event: "Mobile Tartu Conference"
+event-url: ""
+location: "University of Tartu"
+address:
+  street: ""
+  city: "Tartu"
+  region: ""
+  postcode: ""
+  country: "Estonia"
+summary: "The Mobile Tartu Conference focuses on human mobility studies for resilient, just, and sustainable societies, using primarily digital traces from mobile big data."
+abstract: "The Mobile Tartu Conference focuses on human mobility studies for resilient, just, and sustainable societies, using primarily digital traces from mobile big data. At the Jubilee Conference, we reflect on the evolution of mobility studies over the past two decades and how this has influenced the need to consider mobility data justice in research and governance. Our confirmed keynote speakers include Prof. Kay W. Axhausen (ETH Zurich, Switzerland) and Prof. Mimi Sheller (Worcester Polytechnic Institute, USA)."
+
+date: 2026-06-08
+date-end: 2026-06-10
+all_day: true
+
+publishDate: 2025-11-11T12:00:00+00:00
+
+authors: []
+tags: []
+
+featured: false
+
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+url_slides: ""
+url_code: "https://github.com/tdscience/tartu26"
+url_video: ""
+
+slides: ""
+
+projects: []
+format: gfm
+---
+
+We welcome you to join us at the 10th biennial Mobile Tartu Conference and PhD School on June 7/8‒10, 2026, to celebrate two decades of human mobility studies based on mobile phone data!
+
+The Mobile Tartu Conference focuses on human mobility studies for resilient, just, and sustainable societies, using primarily digital traces from mobile big data. At the Jubilee Conference, we reflect on the evolution of mobility studies over the past two decades and how this has influenced the need to consider mobility data justice in research and governance. Our confirmed keynote speakers include Prof. Kay W. Axhausen (ETH Zurich, Switzerland) and Prof. Mimi Sheller (Worcester Polytechnic Institute, USA).
+
+The special themes of the jubilee Mobile Tartu 2026 include:
+
+*   Activity space studies informing just and sustainable societies
+*   Multilocal living and cross-border interactions in digital transition
+*   Mobility data justice in research and governance
+
+The conference also features panel discussions, paper sessions (including NECTAR and Cycle4Climate sessions), and a rich social programme with vibrant discussions on the conceptual, methodological, and empirical dimensions of measuring human mobility using mobile big data.
+
+In collaboration with the EIT Urban Mobility Doctoral Training Network and the Estonian Doctoral School, the conference also includes a PhD School, comprising lectures and hands-on workshops on mobile big data applications for understanding human mobility. The workshops are led by Andres Sevtsuk (MIT), Robin Lovelace (University of Leeds), Francisco Rowe (University of Liverpool), and Anto Aasa (University of Tartu).
+
+Abstract submission deadline: 16 January 2026

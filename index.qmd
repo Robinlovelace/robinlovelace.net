@@ -8,10 +8,9 @@ toc: false
 page-layout: custom
 
 listing:
-  - id: recent-updates
+  - id: upcoming-events
     contents: 
-      - posts
-      - posts/post-links.yml
+      - events
     type: table
     max-items: 2
     page-size: 2
@@ -55,9 +54,9 @@ I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/tra
 :::
 
 :::{.landing-updates .landing-panel}
-### Recent Updates
+### Upcoming and Recent Talks and Events
 
-:::{#recent-updates}
+:::{#upcoming-events}
 :::
 
 I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](posts.qmd). If you would like to collaborate, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).

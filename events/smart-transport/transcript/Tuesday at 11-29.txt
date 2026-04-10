@@ -1,0 +1,191 @@
+Okay, just not transport board. So it's my absolute pleasure. Today to be chairing this panel, It just heard. All of the clever things that are happening in and around the UK when it comes to data and some very clever people behind that data are here today, But how can we really make you best use of that data account to get such a grounding level, that we can use it as that evidence, that was cited early around to really make smart of the transport.
+
+So that's really what we're going to be making in this session today, So hopefully, we can have some maybe diverse opinions. Maybe, I'm not sure. So, hopefully, we'll have something today, But I'm just like to introduce the those clever people I'm not coming on today. So start with we have Dr.
+
+Robin Lovelays, who is an associate professor of transport data, science leads institute for transport spillage. So you'll be able to see on Robin's bio. There's a variety of different things that he's involved in, including the propensity to cycle tool and currently working with number 10 on their data sets and data science techniques.
+
+Now in the Q&A, please don't ask questions about parties, okay? And our next speaker will be Martin how who is a director of transport market. So you can I live for world line and he looks after these smart mobility strategy for transport and previously vice president of cubic corporations.
+
+San Diego to swap that really treat, but not sure. And then finally, I'm is Chris Lane how to transport innovation and transport for West. Midlands. I'm sure you all know Chris's place when it comes to mobility as a service. And and has also helped successfully deliver its smart card and passenger information.
+
+So these guys are open to do presentation and that's why I hope you've got some really cool questions. I'm past over to Robin's. Start with Keith.
+
+So yeah. Hi everyone and it's great to see lots of people interested in data and I think there's so much more that we can do with existing data sets. That's one of the key messages is that there's a lot of focus on future data sets. But in fact, if we can just harness data that we've already got, that would be a really good thing.
+
+And I've got a few examples of that and then we can open it up to questions. And I think there's a lot of untapped opportunities in the data sets that we've already got. So, yeah, thanks a lot for the intro. I don't need to reintroduce myself here but it's great to be here.
+
+One, final thing I'll say about my background is I've done a lot of focus on active travel, over the last five years. But in fact, my PhD was looking at decarbonization and energy and transport. And I think we do need to be more multimodal in our thinking and also broaden the transport questions outside of this kind of siled, thinking of it's the Department of Transport, Remix Actually so effects every part of our lifestyle.
+
+So I think that's a really good thing about this conference is it is fully multimodal and it's going beyond just this narrow transport and area. So that's another kind of opening comment. But yeah, I've got a long title there and I think it's more than just about getting creative data.
+
+I think it's about the power of open interactive dynamic and participatory data. So, if we take our data sets, from some hard drive, or some web site that may already be open and then you give it to someone, that's not really much use. So it's actually about making the data come to life and tell a story and I've got a few examples and from my experience of using data sets to build transport planning tools.
+
+So a comment I often come across when talking about data. And transport is, oh, but you need political will without political will, you're not going to get anywhere. And I think it's worth just raising that upfront. I think you need a and I've seen definite examples where good evidence can actually lead to changing opinions and you hear you heard it from some of the political people, some counsellors evidence-based policy, especially in the post-covig world is, yeah, it's risen to prominent.
+
+So I think people know a lot of the time what the truth is. But the reason that I've got this kind of twisted threader is because it shows I think that politicians who are willing to state, what the data says, and actually, it may not be the most popular view if you can put it out there and defend your decisions based on the evidence.
+
+And in this case, we're talking about low traffic, neighbourhoods, and it is a contentious issue. But there's a lot of evidence about this. It seems that the electorate has gone with the evidence and that's really encouraging, but of course you need the data. So I said it's about making the data comes to life and this is just an example from the propensity cycle tool at the time, Chris Grayling was the Secretary of State for Department of Transport and he came and visited the Institute for Transport Service when we opened the new building and I had a chance to speak with him once one and show him what I was doing and we may have different ideologies and belief systems.
+
+But when it comes down to making decisions based on evidence, we can all agree that you have open data representing where people travel if you put it onto the map you can estimate potential for change on the right network. So I actually zoomed in to a specific road in his constituency and I could say to him.
+
+Does that really have a cycle on it? And he was like, no. And I said, well maybe according out to our tool, that should have a sideways. There's no ideology there. There's no, it's kind of inflammatory, it's not polarising and it just shows the power of not only taking data but making it locally specific and tell a story.
+
+So I don't know what's going to happen here but I can, I think it's probably better if I do a live demo during the questions. If anyone wants to know more about this because I'm not just about talking about dates for actually build tools that actually work and actually deployed that the public can use.
+
+But this is a more recent example, which is called active, Steven, Joseph mentioned it in the talk and it's basically an automated tool for giving you an assessment of your planning location. So, if you're thinking about building your housing development, you can plug it into this tool and you get a loaded numbers, but it simplifies it and it actually gives you a score out of 100.
+
+So, this is a real housing development in leads, which is called the climate innovation districts. And you can see it has a score of 39%, which is pretty good. I compared with other tools And the problem that I'm going to get onto is for decision makers. It's almost like we've got too much data for most of the history of transport planning and I have reads some books on the history of it data.
+
+Scarcity was a massive issue. But now you're overwhelmed with data and you have to use many different tools to gain insight from it. So, a key point is it needs to be user-friendly and I believe map-based, projects and dashboards give you access to the data sets, you need when you need it.
+
+And there's no one-size-fits-all so everyone can generate the results that they want using this tool interactively. So that raises the question. Do we have too much data? Is it a nice problem to have? And I think the answer to that question. Depends on your capacities as organisations. If you don't have data science teams but in your organisation, it can be a real headache.
+
+Having gigabytes and ter the data and it's quite hard to make sense of it all. And, you know, this is just one example which is an open access data set and finding something, and it's huge. It's complex to make sense of it. So my point is that we need capacity building in the transport sector and my way of working on transport tools is to not only develop the tool that works, but also release the source code and try and build capacity within government.
+
+And other organisations that I'm doing work for, and I see this process as going from your data kind of refining it into information, and then knowledge, and then hopefully maybe towards the end, you get some wisdom out of it. Yeah. So given all of these data sets, I do think we need to build new tools.
+
+It's not just about using the existing tools. Some of these data sets are quite unusual and so in ICS leads, we not only use data sets and do analysis. We actually built tools and you can check out our GitHub and page GetHub.com, ITS leads, where we've got a number of our packages and other tools to help work with data.
+
+So I think that is the future building modular tools that other people can use and then you build a community around them. So we're not constantly reinventing the wheel In terms of future transport models. I think they need to be modular. Future proof scalable and be flexible, in the sense that they can be have outputs in a variety of formats.
+
+And this is basically a modelling framework that we use for the propensity deciding tool. There's been various innovations that have happened since then, so we don't need to represent our OE data. Just as from centroids, you can actually discipre gate the OD data but I believe this framework and these high level principles can be used in many other areas, including lift sharing, including a propensity to bus tool that I know.
+
+Someone's mentioned and we apply these frameworks to help support evidence-based decision-making. There are debates to be had. So how complex should I tools be? How much should we try and represent the entirety of the real world versus simplicity and scalability? And my personal opinion is actually simple, a simple tool that everyone understands may be more valuable than a huge complex tool.
+
+That's hard to get rolling and hard to communicate. So, overall, I think it's about making transport data come to life and I really look forward to the other talks and your questions. Thank you very much.
+
+This one.
+
+For your body which is the only thing I brought my script in me here because I'm not a youngster as well. My memory is not quite as good. So I will refer to that, but I'm not gonna read out. Hello. Notice here, I wasn't so sure about the session title here because I think from my perspective, it could easily have been titled getting frustrated with transport data or not getting very far with transport data like set robins.
+
+A point that those multiple sources of data out there and many of them are captured and something is done with them. And there is a growing, I think welcome growing attitude towards open data, being the norm, that's great. What I see though. And I think some people may agree with me is that it's like that pots in a giant kitchen and really, to be taken off the tops.
+
+And somebody said go in public cells and no one can find the place and we can't find the spoons. So, we know the data's there for a nicely doing enough with it on a general basis, specifically, in some places. Yes, we are. And the reason I felt a little bit frustrated about it is because I think we've got a huge opportunity to use data to improve customer experience in transport.
+
+That's a huge opportunity to bring between improved planning to improve maintenance and scheduling and to reduce costs. But are we going far enough? I'll be even getting the right direction. I'm not so sure yet.
+
+Because to my mind, there is a continuum of directly linked consequences here. We need to get people using public transport again to relieve the dozen under taxpayer and to make services sustainable. You need people using them. We need to get private internal combustion engines vehicle users out of their single occupancy cars and onto public transport.
+
+The environmental pressures are growing. And let's not forget, we've got an my kids own no exception for this. We've got a whole generation that is growing up with the moment making their decisions on two factors. Principally, Number one, is the environment. Number two is cost, balanced those out, one way or another, it's cost in some cases, but also got a friend who travels from bristle to London on the coast specifically because of price Doesn't matter that it's going to take two hours longer than the train would make that student on price and you can then get into a loan debate about raw weight.
+
+Fair pricing, and I won't go down that road because we could be all day. So, we have to make the public and share transport, attractive affordable and accessible for the mass of the population. And we can do that by truly optimising customer experience Quite often. It seems to the customers be more of an afterthought, but we think about when we think about transport, the focus has been on timetables infrastructure, schedules franchises.
+
+We have especially in rail due to the thankfully now dead franchising system, while site of the central importance of the customer and how they use transport services of all kinds that customer experience. It would need to be about joining up, really needs to be easy to understand encompass, all the available services to providing choice, provide assurance of best value.
+
+Every time and be told as much as possible to the needs of the customer. The way to do that is, if Robin says, rightly through data, understanding mind, understand need which may not be the same thing, understand people's behaviour and understand the resources at disposal on what they're doing.
+
+I heard an interesting program recently. A bar of iron costs five pounds leading to four shoes was worth quoted Made it to needles. It's made. It's worth 3,000 pounds made into balance springs for rocks, for watches is worth 300,000 pounds. The value of something is determined by what you make of it Data is no different.
+
+You can argue about that because something was said, well, you do different types of metal for making balance springs for watches? That's missing the point. So, personally made that crow some of you may know may have seen his pitch to the dragon and some dragons dead was a rifle.
+
+Sam shows who set up a company called. Generate he produced what Peter Jones one of the dragons in their relationship said was the best pitching ever seen to the dragons. It was outstanding and very simple, he got the money and additional value on top, check it out on YouTube is it's a master class in how to sell an idea to investors but in case you don't know what generate does.
+
+They turn the table on the data gatherers, the data marketers by returning to the premise of the true owner, of the data relating to people are the people who generated it. You me, everyone else in the country generating enables people and it's not an ad for generators. I'll just using this illustrator point generate enables people to make money on that.
+
+They on the data that they create that concept to personal data, is one that will come back to in a moment. Now, talking in the value of the data, consider the trade, any tray, the customers on that train on a passenger train, if they have the smartphones with them?
+
+No, pretty accurately that Chinese. It's a 5G users. They know where they were that. Trainers at the nearest metre. A 60 will enable them to know where it is to the nearest 10 centimetres. The interesting thing about that fact is that there is an absurd irony that the very people who need to have that data.
+
+That knowledge network rail. Don't actually move at the trains They just know somewhere between two points which could be kilometres apart in worst case in 20 kilometres apart. Now there's a reason I mentioned that and I didn't make that up the person who said that was actually a week ago, the railway industry association conference in Nottingham.
+
+So Peter and the chairman and network rails. So he knows what he's talking about as he points out all new cars. Have location and diagnostic capabilities. They're still not visited on trains and to go back to my continuum if we can understand. Even if a basic level where each train really is, we can tap into the own used, but blocked capacity on the rail network and begin to get more free off the road.
+
+The problem is that, we've been running trains according to the franchise system. That franchise system says, you have to run a certain number of trades to get paid those change. In some cases to be empty and others as we heard from movies getting will be over. So overall they can't pick up the people who need to use them.
+
+Of course, I know I'm a risk of sounding negative and there's some great work going on as Robin has said and TFL is openly open access. Data policy is yielding. Multiple customer benefits, but lots of data still holding silos by transport organisations, in particular, since that's what we're talking about today.
+
+We think the data's qualify you don't remember. The value actually is what it's potential could be or how to realise it and there's a number of ways we can address that one and we've probably have to face about this afterwards. Is we can spend the flu of legislation that's generally earning too much on the side of privacy.
+
+Which I understand completely given how much data has been abused for so many millions of people and for so long. But we can think about what is the outcome that we want to achieve? What data do, we need to get there? And one of the barriers to making that happen If we can remove those barriers, we should We shouldn't be.
+
+So concerned about personally, identifiable data, if people have given us permission express permission to use that data, Within the confines of absolute watertight guarantees, it will only be used for their benefit. That's where we've been going on. I think we've drawn a distinction between anonymized data used which is useful for service planning and personally, attributable data that's been given up voluntarily for a purpose, which is crystal more critical for customer experience than we can start to make some progress.
+
+As I said earlier, that data belongs to the individual who generated it, we can use it for their benefit and collectively for society's benefit Because a great recent example, of how forward thinking some cities are the city of Tatooine Estonia has put online detailed. Open access models, which you can slice and dice by date time, location and flows through an easy to use visualiz.
+
+Equally 11. I'm now. Yeah, I'm also used to overlay land, use accessibility, and transport into the city tools, which actually make the transport planning results, among you doing easier and more inclusive. There's a great example. But the possibility insists to do more, if we can be transparently responsible for data, then people will begin to trust what it's being used for, which makes the process of tracking people back to public and shared transport more likely to succeed will be able to go a lot.
+
+Go beyond the simple map and mode offering I, here's here's where you want to get to, and here's your potential options and actually begin to offer a huge meaningful customer experience, so I'll give you an example. If you think about a regular traveller, I won't use the word commuters because I'm not sure what that means anymore.
+
+Who allows their patch travel time to the analysed. You would then be able to tell them about disruption and incident data by an act by some other former communication as they choose and that disruption incident of the data. As you start to build up historic data records of it, you can start to predict what the consequences will be.
+
+I, if you have a signal failure at a certain time, you know what, they're not going to affect. It's going to be for the services for next, two hours. You can start diverting people to different modes or offering them options to go to modes. Customers can be steered away from travelling delay.
+
+And you can even reward people with self-selected incentives, provided either through sponsors, or commercial partners to incentivise them to do something different. Everybody wins. If you can do that and understand what the travel patterns are of the individuals and what the knock on effects and the consequences are of incidents and, and delays.
+
+Although those incentives could even be offered by the authorities themselves and more efficient and less bottom. Net transport ecosystem will result from it. So, I guess, one of my takeaways we need open data for society's good. And in case you're wondering worldwide is prepared to share, its own data By default.
+
+We can make it happen by commercial agreement by legislation franchise or concession terms. There's a number of ways. We could, we can change the change the system, The silent data across our transport ecosystem is a daily wasted opportunity By combining different payments between data sources payment. In the case of worldline movement location, even health later, we can begin to provide optimised services rail plus mobility helps that match need and demand We can understand demand because we know what people want to travel from and to not just as services, they want to use, We can understand their preferences and restrictions.
+
+So for example, if someone has personal mobility issues, they can and be offered journeys and journey choices that recognise that We do a lot of work with RNIB specifically on that on that topic. But we have to have people trust that the personalised data that they have given up is used expressly and exclusively for the stated purpose to which they agree and not sold on.
+
+And by the way, we're all in the habit of when on the screen pops, do you want your kingdom accepted cookies in the interests to be every so? Yes, check the settings. Next time you use my, offer that choice go and see how many companies have been sold are going to be sold at data.
+
+The huge accepted, I did a yesterday, I lost count it runs into the thousands and they're all over the world. It is scary. Now, a friendly use that as a person I did a personalised data especially for the intended. That way we can maximise the attraction and likelihood of making the transport pi bigger because that's the way you don't scare the bus operators.
+
+You have more people using the surfaces. They may have a smaller size of that pipe. We need to pass our operators on board, but their overall pay is bigger. That's the, that's a thinking behind this and we minimise loose and undermine the I'm gonna lose customers arguement, but whatever happens.
+
+We need to be bold and make some big decisions now. Thank you.
+
+What I'm hoping I'm going to be a nice sort of dovetail on from the work that we've seen so far. We talk about our data journey and in terms of us, we've been going to talk about what our visually is, how we've been planning for the future building our days, for engine, a bit of an example, from our gene network and a little bit of more games at the end.
+
+We've only got 10 minutes so I can have many kids. Yeah, the tip of the iceberg I think but hopefully it will wet your appetising. You, you might come back with other questions, really late. So I have to mention the Westlifers were just down the right rail line. So we just down there and got a huge transport network.
+
+Lots of people using it again as, with many other live players, we are all about using this data to put their core objectives and let's zero. A healthier people are throwing economy. So again, really linking our data, to our local transport plan, to make sure that we are doing things for the right reasons.
+
+And really was started to experience a return from where we were in terms of the pendetic, but really interested in. This is where data is really important. We're starting to see certainly in the West piglands, the motorway box. There has more cars than it had before the pandemic. I want to look at the other modes.
+
+This was February data and again you can see the comparison buttons not going too bad. They'll be back quite well like why I was doing okay but Riley's really struggling for the brains and understanding that it must be better then but still know where near back where it was before.
+
+And so part of this data for OxiCup is understanding why people change and what are they going to change to? I'm postponing it was a little relationship to people what to work from home. You know it gave us the opportunity to produce growth congestion. The people who came healthier speak challenge for us as a sort of a combined authority is that they used the private class still really wine and single occupancy and even if that's electric, we're still going to have congestion.
+
+So it's still really important to get that, right? So what we do is apply for the future, big thing. We're doing in terms of data is understanding behaviour. So we spend a lot of time understanding who people are dividing that will? Where do they live? What influence is there looked at things like yeah they looked at experience days with other day to help us do that.
+
+And they actually been really fortunate to create an online market research community that we can ask all sorts of ridiculous questions to. So that's about one time, a speaker goes away drones you know, we've we've passed them but they need some real people across those persons and it gets really interesting dancers back answers that are different than maybe.
+
+We thought as transport professionals, it could be quite different. So that's been a real benefit for us to actually understand people. And you can say here that then we've been able to group people's different behaviours into those persona groups and recognise, the different groups, travel different. Everybody is an individual.
+
+But what I've tried to do is when we create an intervention, have some sort of knowledge of how that will pether the work. I like that support is what the people think. Well, lots of people are satisfied and actually, possibly, even if you're in your car, it's too slow.
+
+You're stuck in traffic. So but again, these are the problems that we're looking to solve but really are dated rivers. So you see on the left hand side data there, customer at the top and all the things we do are sort of, you know, brought around that mobility to service to bring that in the middle.
+
+Got ticket in various modes, we're going to hear all the stuff today. I think I'm dealing with people. And again, we've had the opportunity to set it up a number of test beds, which are listed on the left hand side. And this is a real interesting way of getting data in control circumstances and understanding over those those things will behave.
+
+So we thought it's really important to build the data engine and the good news. It wasn't made and so forth obviously with us but it's a we've got a data insight team on what we're basically. So they're trying to hoover all the data, they can get from all the different sources that we've got.
+
+And that is not the complete set. It's much bigger than that. But what we're trying to say is looking across the West Midlands, how can we create an insight of what I network of doing, what he has done and what it might do in the future? So again, I think about this predictive and looking if we and we do that because we've got a real legacy that I think a number of local authorities have the traditional ways to do things, which send people out of the streets with clickers and counters.
+
+Believe it's not that was into English, just a couple years ago. So, these really old techniques, very expensive, very slow, not very current. We're still happening and probably still do happen in a number of places but we have really innovation. I think we're here to talk about repurposing day.
+
+So in 2018, we spoke to West Bengals police. But they have a wifey to look at a number of automatic number plate, registry cameras around the area. I'm sure they've got some in your area too. But what we're saying is that they were they got their data and they're doing it for craft looking at criminal activity, they can use it for anything else.
+
+So really through our deck project, what we looked at these, how could we use that West AMPR, camera data, to give us some more information on the network that we've got. So we didn't need to invest in cameras and we've actually helped them invest a bit more in those shorts cameras.
+
+And so what we did come to an agreement with the pizza is aggregated data. So we do not know where your car is. And so the police are happy but that's four and a half million data points a day through the police, AMDR camera network, And that's going into our traffic management.
+
+So it's something we don't need to do It. Sort of has already been collected. It's something that publics already paid for. So it's a really good way of reusing that information. And there you can see an evolution by data platform, a regular transfer coordination centre. It is continuing to evolve.
+
+We're doing that other piece of your basis, but behind this is all those core data sets and then as we start to evolve somebody eventually this morning in leads the traffic management, that's our wall and the bottom there. So we've got to travel because most people have we got branch apps to support the warmth now.
+
+But we are continuing to pull out almost bank city to drive. These the space is helped with us to be protected with controlling our network. Not just public transport. But you know, the car as well, the bus networks are trying that works to pull up all together. So we've got a single oversized and the benefits of our work that we did with the police.
+
+They been able to deploy more than AMD diagrams. Apologies. Sorry. But there's a lot more out there. Now if you come to the West Midlands but we've got much higher volumes of data as a significantly lower cost, We can actually use the policy's own framework, that every department. So they were good at this.
+
+So we've actually learnt that for our own camera deployments and actually the public sector start is co-operate. So this side those we talked about earlier. Now this is one example of when we've tried to break down those. Silos. I'd like to just talk as a data project. The supplemented this?
+
+We've heard about 5G and 6 and 6 doing and what not doing? 16 years. Since we've heard both, we're not doing it. We got 5G road sets of projects. I won't read all of us assume this lies. We circulated that but what we're saying is that the project now too?
+
+I am. So the 5G sensor can look at traffic management to have that improves that they can also, look at what's important 5G. Does it really do what it's saying? Does it make a business case? So it's not the answer that not the answer to everything and what we've got there and the game there's other cities and I'm looking at so much just got some of these and we put up some throwing centres which are basically cameras.
+
+They're very good at analysing, the type of vehicles that we got there. We've got the train every scooters, like them, all of them, we've got these scooters but they they can detect tea scooters. Now, but the really important thing is we spread that across the job of being it's billion gaps on that network of where we don't have the data.
+
+So where the police can result happiness and local authority cameras aren't. As I said that these into the dashboard, the look of diagram in the right hand corner, is that road centre data being pulled through the industrial board. But again, we'll call these through a lot of waste days from other data sets into that dashboard.
+
+And this is the sort of stuff it shows you. As at any we'll talk about the planning cities. When you start to analyse the data, you realise people don't use the facility. If you plan to build, you know, we've seen people crossing the road in dangerous places. We've seen people cycling and the scooting on the pavement, but this starts to help you understand that.
+
+And then how did you put interventions in place for the white way to do it? Where should we investigation? If we help people with their behaviour, it helps you with events football matchbox. I'm sorry. We're not in the top with the top five at the moment for West Memphis, but we're working on it and I think it shows you incident data.
+
+He's like close roads. You can start to understand on the network. I'm really just to close again. We are going to use the data for the homework, going to be helped to manage that visitors. And I would encourage you tickets back on sale. So if you, if you would like to come to the West, Midlands in the summer, to see some, brilliant athletics swimming, and all sorts of other events and encourage you to come along and surprise tickets.
+
+Yes, I could come up we're not even working, but thank you all very much.
+
+Brilliant. Thank you. So hopefully you've all got lots of good questions. I'm going to start if that's okay. And then we'll move to the audience. Just
