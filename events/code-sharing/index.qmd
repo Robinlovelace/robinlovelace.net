@@ -1,7 +1,8 @@
 ---
 title: Creating and Sharing Code for Reproducible Research and Scalable Impact
 date: 2022-01-21 10:00:00+00:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Creating and Sharing Code for Reproducible Research and Scalable Impact
 

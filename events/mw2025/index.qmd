@@ -2,7 +2,8 @@
 title: New ways of working for a new generation of transport modellers
 abstract: "Closing plenary: New ways of working for a new generation of transport modellers"
 date: 2025-06-17 14:00:00+01:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 I am looking forward to leading the closing plenary session at Modelling World 2025, which will be held from 17-18 June 2025 at the Manchester Conference Centre.
 

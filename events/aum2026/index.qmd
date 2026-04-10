@@ -13,7 +13,8 @@ tags:
   - "Cambridge"
   - "Data Science"
   - "ATE"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 I'll be presenting on **Modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling**.
 

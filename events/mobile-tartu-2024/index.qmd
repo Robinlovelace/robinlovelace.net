@@ -1,6 +1,8 @@
 ---
 title: Reproducible research and open tools for future-proof transport planning
 abstract: Talk on reproducible research and open tools for transport planning.
+author:
+  - "Robin Lovelace"
 ---
  including fast and fair decarbonisation and the need to make active travel the natural choice for everyday trips in cities worldwide --- has increased the demands on transport planners and researchers in the field. With burgeoning pressures and options, how to decide what to do? This talk will make the case that reproducible research and open tools are essential ingredients for effective transport planning in the 21st century. It will map out the landscape of open tools for transport planning, distinguish between open source and open access models, and demonstrate how reproducibility is the key not just for research but also for future-proof, socially sustainable and high impact transport planning practice. I will draw on my experience developing, deploying and collaborating on tools such as the Propensity to Cycle Tool for England and Wales (publicly available at [www.pct.bike](https://www.pct.bike/)), the Network Planning Tool for Scotland (publicly available at [www.npt.scot](https://www.npt.scot/)) and the Biclar tool for Portugal (publicly available at [biclar.tmlmobilidade.pt](https://biclar.tmlmobilidade.pt/). Each is used to inform strategic transport planning decisions, raising questions around the use of new technologies and collaborations with practitioner and advocacy communities to maximise the long term positive impacts of transport research. The talk will not answer all of these questions but it will surely generate debate and hopefully provide insight into how the field could develop as the data revolution accelerates."
 

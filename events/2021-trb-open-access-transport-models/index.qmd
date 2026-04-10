@@ -1,7 +1,8 @@
 ---
 title: "Open Access Transport Models: from collaborative code to citizen science"
 date: 2021-01-21 20:30:00+00:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Open Access Transport Models: from collaborative code to citizen science
 

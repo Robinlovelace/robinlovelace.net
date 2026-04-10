@@ -1,7 +1,8 @@
 ---
 title: Data-Driven Transport Planning Hackathon
 date: 2026-05-18 14:00:00+01:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 Join us for an afternoon of collaborative problem-solving, exploring how data can improve transport planning. Whether you're a student, researcher, practitioner, or enthusiast, bring your ideas and laptop to develop innovative solutions using R, Python, JavaScript, or any tools you prefer.
 

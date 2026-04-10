@@ -1,7 +1,8 @@
 ---
 date: 2017-05-02
 title: "Seminar: invited talk at Geographic Data Science lab"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 Talk at the Geographic Data Science ([GDS](https://www.liverpool.ac.uk/geographic-data-science/)) Lab in Liverpool.
 

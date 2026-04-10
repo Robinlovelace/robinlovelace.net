@@ -1,11 +1,6 @@
 ---
 title: "Inaugural Lecture: Data Science for Future-Proof Transport Planning"
-abstract: "I'm delighted to be giving my Inaugural Lecture at The University of Leeds. I welcome everyone – colleagues, researchers, students, alumni, and visitors – to celebrate this milestone.
-In this lecture, I'll discuss my work developing evidence for effective and future-proof transport planning using data science. I'll cover key methodological, empirical, and applied contributions from my research journey, including:
-*   Developing the national Propensity to Cycle Tool ([www.pct.bike](https://www.pct.bike/)) *   A secondment to the No. 10 Downing Street data science team *   Building data capacity at Active Travel England ([plan.activetravelengland.gov.uk](https://plan.activetravelengland.gov.uk/)) *   Current projects on integrated transport in Portugal ([biclar.tmlmobilidade.pt](https://biclar.tmlmobilidade.pt/)) and the Network Planning Tool for Scotland.
-My approach emphasizes reproducible, open, and verifiable research. I'm passionate about open source software and community building, leading to R packages and books like *Geocomputation with R* ([r.geocompx.org](https://r.geocompx.org)) and *Geocomputation with Python* ([py.geocompx.org](https://py.geocompx.org)).
-A hands-on 'Hackathon' will precede the lecture ([details and sign up at itsleeds.github.io/tds](https://itsleeds.github.io/tds/minihack-transport-data)).
-**Schedule:** *   16:00 – 16:25: Drinks reception (ITS social space) *   16:30 – 17:30: Lecture (Esther Simpson room 1.01) *   17:30 - 18:00: Refreshments (ITS social space)"
+abstract: "I'm delighted to be giving my Inaugural Lecture at The University of Leeds. I welcome everyone – colleagues, researchers, students, alumni, and visitors – to celebrate this milestone. In this lecture, I'll discuss my work developing evidence for effective and future-proof transport planning using data science. I'll cover key methodological, empirical, and applied contributions from my research journey, including: *   Developing the national Propensity to Cycle Tool ([www.pct.bike](https://www.pct.bike/)) *   A secondment to the No. 10 Downing Street data science team *   Building data capacity at Active Travel England ([plan.activetravelengland.gov.uk](https://plan.activetravelengland.gov.uk/)) *   Current projects on integrated transport in Portugal ([biclar.tmlmobilidade.pt](https://biclar.tmlmobilidade.pt/)) and the Network Planning Tool for Scotland. My approach emphasizes reproducible, open, and verifiable research. I'm passionate about open source software and community building, leading to R packages and books like *Geocomputation with R* ([r.geocompx.org](https://r.geocompx.org)) and *Geocomputation with Python* ([py.geocompx.org](https://py.geocompx.org)). A hands-on 'Hackathon' will precede the lecture ([details and sign up at itsleeds.github.io/tds](https://itsleeds.github.io/tds/minihack-transport-data)). **Schedule:** *   16:00 – 16:25: Drinks reception (ITS social space) *   16:30 – 17:30: Lecture (Esther Simpson room 1.01) *   17:30 - 18:00: Refreshments (ITS social space)"
 date: 2025-05-08 16:30:00+01:00
 tags:
   - "Inaugural Lecture"
@@ -16,6 +11,7 @@ tags:
   - "Python"
   - "Geocomputation"
   - "Leeds"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 <!-- ![demo](image.png) -->

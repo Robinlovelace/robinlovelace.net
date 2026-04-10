@@ -2,6 +2,7 @@
 title: Building Capacity for Data-Driven Urban Mobility
 abstract: A keynote exploring the challenges and opportunities of bridging the data-to-policy gap in urban mobility, with a focus on open standards, open-source tooling, and communities of practice to build sustainable analytical capacity.
 date: 2025-11-04
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 This keynote outlines practical steps to enable data-driven decision-making in transport using open and reproducible workflows, with examples from communities of practice and national-level data integration.

@@ -2,7 +2,8 @@
 title: Open Source Tools for Geographic and Transport Research
 abstract: "On [Thursday 25th February](https://www.robinlovelace.net/presentations/reproducibilitea-2021/), we will be hosting our next virtual ReproducibiliTea journal club session. The paper we will be discussing describes the importance of open source tools in research, how to identify open source tools, and types of open source tools that can be used for geographic analysis. We will be joined by the author of the paper, Dr Robin Lovelace, who will be discussing his research into open source tools. Click [here for the paper](https://link.springer.com/article/10.1007/s10109-020-00342-2). Please feel free to join even if you have not read the paper, we always have great discussions/ debates on the general concepts in the paper, and would love to hear your views!"
 date: 2021-02-25 13:30:00+00:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Open Source Tools for Geographic and Transport Research
 

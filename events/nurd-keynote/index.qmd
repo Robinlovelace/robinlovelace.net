@@ -1,7 +1,8 @@
 ---
 date: 2018-10-31
 title: "Geocomputation with R: Empower yourself with geo data"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ### Keynote lecture for the [ Northwest Universities R Day](https://twitter.com/hashtag/NWURday?src=hash), Manchester
 

@@ -3,7 +3,8 @@ title: Transport AI 2025
 date: 2025-02-05 09:00:00+00:00
 tags:
   - "ai"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 I'm looking forward to learning about the latest developments in transport AI at this event. 
 

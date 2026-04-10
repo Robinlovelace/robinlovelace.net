@@ -8,7 +8,8 @@ tags:
   - "Active Travel"
   - "UK Parliament"
   - "Data Science"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 The Transport Committee is holding an academic engagement event to strengthen connections with the research community and discuss pertinent transport policy issues.
 

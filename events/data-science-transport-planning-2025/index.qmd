@@ -8,7 +8,8 @@ tags:
   - "R"
   - "Python"
   - "Leeds"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 <!-- https://store.leeds.ac.uk/product-catalogue/environment/transport-studies/short-courses/0925dstp2-data-science-for-transport-planning -->
 ## Note: tickets are now on sale! Get yours at [store.leeds.ac.uk](https://store.leeds.ac.uk/product-catalogue/environment/transport-studies/short-courses/0925dstp2-data-science-for-transport-planning).

@@ -2,7 +2,8 @@
 abstract: This keynote puts cycling in the context of transport planning priorities.
 date: 2016-06-10
 title: "Keynote: Cycling and transport policy"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 Invited keynote lecture titled *Cycling and transport policy: embedding active travel in every stage of the planning process*, at the [Hackney Cycling Conference](https://hackney.gov.uk/cycling-conference)
 

@@ -2,7 +2,8 @@
 title: "Seminar in St Andrews: Future-Proof Transport Planning"
 abstract: "Transport planning has always been a complex and multi-disciplinary enterprise requiring wide-ranging skills and methods. Like many fields of research exposed to the data revolution, it is also fast-moving, meaning that it's hard to know how to keep the work future-proof. This talk will explore the challenges and opportunities of future-proofing transport planning, focusing on the role of data science and open source software. It will draw my experience developing and deploying tools such as the Propensity to Cycle Tool for England and Wales (publicly available at [www.pct.bike](https://www.pct.bike/)), the Network Planning Tool for Scotland (publicly available at [www.npt.scot](https://www.npt.scot/)) and the Biclar tool for Portugal (publicly available at [biclar.tmlmobilidade.pt](https://biclar.tmlmobilidade.pt/). I will also outline some tools and techniques we have developed at the University of Leeds for working with origin-destination data"
 date: 2025-05-20 14:00:00+01:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Introduction
 

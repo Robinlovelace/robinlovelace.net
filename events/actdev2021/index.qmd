@@ -1,7 +1,8 @@
 ---
 title: Evidence to Support Active Travel in the Planning System
 date: 2021-12-07 13:00:00+00:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 This talk, details of which can be found on the [registration web page](event.html), my colleague Joey Talbot and discuss our prototype [ActDev](https://actdev.cyipt.bike/) tool.
 Developed in collaboration with partners from [CycleStreets.net](https://www.cyclestreets.net/), [StreetFocus](https://www.cyclestreets.org/sites/streetfocus/) (and associated organisation PlanIt), and [A/B Street](https://a-b-street.github.io/docs/), the project pushed the boundaries of what can be done with open data to generate an accessible and actionable evidence base on active travel potential and provision in and around proposed housing developments (and potentially other developments).

@@ -1,7 +1,8 @@
 ---
 title: "Keynote: Geocomputation, reproducible research and open tools to inform the transition away from fossil fuels"
 date: 2023-09-04 09:00:00+01:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 The Economics of Low-Carbon Markets workshop, 4-5 September in Oldenburg (Germany), marks 10 years since the event was first held.
 The presentation is part of "Policy Session" on open compuational tools such as the Propensity to Cycle Tool that have informed policy.

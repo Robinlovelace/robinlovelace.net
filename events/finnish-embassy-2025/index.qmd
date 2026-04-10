@@ -2,6 +2,7 @@
 title: New tools for internationally-scalable future-proof transport planning
 abstract: An overview of open and future-proof transport planning methods, communities of practice, and case studies including NPT (Scotland), PCT (England/Wales) and international adaptations, with links to exposure-aware routing and multi-city analysis.
 date: 2025-10-22
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 This talk highlights scalable, open transport planning tools and opportunities to align with GREENTRAVEL, including reproducible research practices and international portability.

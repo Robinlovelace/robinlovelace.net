@@ -1,7 +1,8 @@
 ---
 title: The Active Travel Infrastructure Platform (ATIP)​
 date: 2023-05-24 10:45:00+01:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 # Abstract
 

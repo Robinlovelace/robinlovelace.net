@@ -1,6 +1,8 @@
 ---
 title: "Keynote Speech: Safe routes to school: finding gaps in quiet networks to prioritise investment in active travel infrastructure"
 date: 2022-11-03 15:00:00+01:00
+author:
+  - "Robin Lovelace"
 ---
 
 ## Keynote Speech: Safe routes to school: finding gaps in quiet networks to prioritise investment in active travel infrastructure

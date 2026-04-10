@@ -1,7 +1,8 @@
 ---
 title: Tidy geographic data with sf, dplyr, ggplot2, geos and friends
 date: 2023-08-27 17:00:00+02:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 This workshop explores recent development in R's spatial data analysis ecosystem and exciting new developments in the field.
 

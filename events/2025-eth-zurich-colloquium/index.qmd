@@ -6,7 +6,8 @@ tags:
   - "Transport"
   - "Micromobility"
   - "Active Travel"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Modelling active travel with efficient, future-proof tools
 

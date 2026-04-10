@@ -1,7 +1,8 @@
 ---
 title: Data Driven 2025
 date: 2025-05-01 09:00:00+01:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 Presentation based on work by me and colleagues on the Network Planning Tool for Scotland (NPT) project, funded by Transport Scotland and delivered in collaboration with Sustrans Scotland.
 

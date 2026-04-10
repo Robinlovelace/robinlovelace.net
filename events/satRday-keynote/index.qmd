@@ -1,7 +1,8 @@
 ---
 date: 2019-04-06
 title: Keynote talk on geocomputation, SatRdays Newcastle
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Keynote talk at [SatRdays Newcastle](https://newcastle2019.satrdays.org/#portfolio)
 

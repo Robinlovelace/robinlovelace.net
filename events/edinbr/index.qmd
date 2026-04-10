@@ -5,7 +5,8 @@ tags:
   - "geocomputation"
   - "software"
   - "tools"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Open source software for decaRbonisation
 

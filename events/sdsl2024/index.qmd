@@ -1,7 +1,8 @@
 ---
 title: Spatial Data Sciences across the Languages (SDSL) 2024
 date: 2024-09-18 09:00:00+01:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Spatial Data Sciences across the Languages (SDSL) 2024
 

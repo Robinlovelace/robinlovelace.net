@@ -1,7 +1,8 @@
 ---
 title: Active Travel Mapathon
 date: 2022-10-31 10:00:00+01:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 For the first time an active travel mapathon is being organised in Leeds!
 

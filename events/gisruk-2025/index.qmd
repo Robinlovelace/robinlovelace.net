@@ -12,7 +12,8 @@ tags:
   - "R"
   - "Python"
   - "Bristol"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 See a video from the talk below:
 

@@ -2,7 +2,8 @@
 title: Propensity to Cycle Tool Advanced Training Workshop 2021
 abstract: The Propensity to Cycle Tool (PCT) is widely used to provide an evidence base to inform cycling investment. In this training session you will learn how to download and use these open datasets. This may be of use to anyone interested in data-driven planning for sustainable and active travel futures. The focus here is on analysing cycling potential in the open source statistical programming language R. We use R because the PCT was developed in, and can be extended with, R code. Using open source software with a command-line interface reduces barriers to entry, enabling the development of open access transport models for more citizen-led and participatory transport planning, such as integration with the A/B Street city simulation and editing software
 date: 2021-12-09 14:00:00+00:00
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 This event is hosted by Hopin, who handled the [sign-up page](https://hopin.com/events/propensity-to-cycle-tool-advanced-training-workshop-b97560b7-2a95-4642-aca0-2973d53f22b2/registration).
 See [here](event.html) for details.

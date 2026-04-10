@@ -7,7 +7,8 @@ tags:
   - "Data Science"
   - "Open Source"
   - "Future-Proofing"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Keynote Talk
 

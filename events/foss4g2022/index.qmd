@@ -5,7 +5,8 @@ tags:
   - "geocomputation"
   - "software"
   - "tools"
-author: ["Robin Lovelace"]
+author:
+  - "Robin Lovelace"
 ---
 ## Jittering and routing options for converting origin-destination data into route networks 
 
