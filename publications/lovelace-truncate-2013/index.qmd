@@ -9,17 +9,22 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Computers, Environment and Urban Systems"
 doi: ""
-publication-url: ""
+publication-url: "http://linkinghub.elsevier.com/retrieve/pii/S0198971513000240"
 authors:
   - "Robin Lovelace"
   - "Dimitris Ballas"
+abstract: "This technical note presents a methodological approach for generating integer-based weights from fractional weights in spatial microsimulation models. The TRS method is described as a way to preserve population characteristics during computation."
 ---
 
 **Type:** Journal Article
 **Venue:** Computers, Environment and Urban Systems
 **Year:** 2013
 
-[BibTeX](entry.bib)
+[URL](http://linkinghub.elsevier.com/retrieve/pii/S0198971513000240) [BibTeX](entry.bib)
+
+## Abstract
+
+This technical note presents a methodological approach for generating integer-based weights from fractional weights in spatial microsimulation models. The TRS method is described as a way to preserve population characteristics during computation.
 
 ## Citation
 
@@ -29,15 +34,17 @@ Robin Lovelace and Dimitris Ballas (2013). “Truncate, replicate, sample”: A 
 
 ```bibtex
 @article{lovelace_truncate_2013,
-  title = {`{{Truncate}}, Replicate, Sample': {{A}} Method for Creating Integer Weights for Spatial Microsimulation},
-  author = {Lovelace, Robin and Ballas, Dimitris},
-  year = {2013},
-  month = sep,
-  journal = {Computers, Environment and Urban Systems},
-  volume = {41},
-  pages = {1--11},
-  issn = {01989715},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {‘{Truncate}, replicate, sample’: {A} method for creating integer weights for spatial microsimulation},
+	volume = {41},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	issn = {01989715},
+	url = {http://linkinghub.elsevier.com/retrieve/pii/S0198971513000240},
+	abstract = {This technical note presents a methodological approach for generating integer-based weights from fractional weights in spatial microsimulation models. The TRS method is described as a way to preserve population characteristics during computation.},
+	journal = {Computers, Environment and Urban Systems},
+	author = {Lovelace, Robin and Ballas, Dimitris},
+	month = sep,
+	year = {2013},
+	pages = {1--11},
 }
 ```
 

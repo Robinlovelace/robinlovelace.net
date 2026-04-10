@@ -9,16 +9,21 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Geoinformatics"
 doi: ""
-publication-url: ""
+publication-url: "http://fluidbook.geoinformatics.com/GEO-Informatics_4_2014/#/12/"
 authors:
   - "Robin Lovelace"
+abstract: "This report provides an overview of the \"Jornadas de SIG Libre\" conference, highlighting key themes and developments in open-source geographic information systems and digital mapping."
 ---
 
 **Type:** Journal Article
 **Venue:** Geoinformatics
 **Year:** 2014
 
-[BibTeX](entry.bib)
+[URL](http://fluidbook.geoinformatics.com/GEO-Informatics_4_2014/#/12/) [BibTeX](entry.bib)
+
+## Abstract
+
+This report provides an overview of the "Jornadas de SIG Libre" conference, highlighting key themes and developments in open-source geographic information systems and digital mapping.
 
 ## Citation
 
@@ -28,14 +33,16 @@ Robin Lovelace (2014). Jornadas de SIG Libre: A European Digital Mapping Confere
 
 ```bibtex
 @article{lovelace_jornadas_2014,
-  title = {Jornadas de {{SIG Libre}}: {{A European Digital Mapping Conference}}},
-  author = {Lovelace, Robin},
-  year = {2014},
-  journal = {Geoinformatics},
-  volume = {17},
-  number = {4},
-  pages = {12--12},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Jornadas de {SIG} {Libre}: {A} {European} {Digital} {Mapping} {Conference}},
+	volume = {17},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://fluidbook.geoinformatics.com/GEO-Informatics_4_2014/#/12/},
+	abstract = {This report provides an overview of the "Jornadas de SIG Libre" conference, highlighting key themes and developments in open-source geographic information systems and digital mapping.},
+	number = {4},
+	journal = {Geoinformatics},
+	author = {Lovelace, Robin},
+	year = {2014},
+	pages = {12--12},
 }
 ```
 

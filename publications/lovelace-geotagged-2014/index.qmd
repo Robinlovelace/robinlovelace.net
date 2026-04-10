@@ -9,19 +9,24 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Arxiv working paper"
 doi: ""
-publication-url: ""
+publication-url: "https://arxiv.org/abs/1403.5118"
 authors:
   - "Robin Lovelace"
   - "Nick Malleson"
   - "Kirk Harland"
   - "Mark Birkin"
+abstract: "This study explores the use of geotagged social media data to parameterize and validate spatial interaction models. The methodology is applied to museum visitor patterns to assess the utility of digital footprints in urban and cultural research."
 ---
 
 **Type:** Journal Article
 **Venue:** Arxiv working paper
 **Year:** 2014
 
-[BibTeX](entry.bib)
+[URL](https://arxiv.org/abs/1403.5118) [BibTeX](entry.bib)
+
+## Abstract
+
+This study explores the use of geotagged social media data to parameterize and validate spatial interaction models. The methodology is applied to museum visitor patterns to assess the utility of digital footprints in urban and cultural research.
 
 ## Citation
 
@@ -31,11 +36,13 @@ Robin Lovelace, Nick Malleson, Kirk Harland, and Mark Birkin (2014). Geotagged t
 
 ```bibtex
 @article{lovelace_geotagged_2014,
-  title = {Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums},
-  author = {Lovelace, Robin and Malleson, Nick and Harland, Kirk and Birkin, Mark},
-  year = {2014},
-  journal = {Arxiv working paper},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Geotagged tweets to inform a spatial interaction model: a case study of museums},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {https://arxiv.org/abs/1403.5118},
+	abstract = {This study explores the use of geotagged social media data to parameterize and validate spatial interaction models. The methodology is applied to museum visitor patterns to assess the utility of digital footprints in urban and cultural research.},
+	journal = {Arxiv working paper},
+	author = {Lovelace, Robin and Malleson, Nick and Harland, Kirk and Birkin, Mark},
+	year = {2014},
 }
 ```
 

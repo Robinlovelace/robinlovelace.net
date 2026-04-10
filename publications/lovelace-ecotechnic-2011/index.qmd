@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Now Then"
 doi: ""
-publication-url: ""
+publication-url: "http://nowthenmagazine.com/issue-37/the-ecotechnic-future/ http://ubuntuone.com/p/1FBU/"
 authors:
   - "Robin Lovelace"
 abstract: "More captivating than any sci-fi book I’ve ever read."
@@ -19,7 +19,7 @@ abstract: "More captivating than any sci-fi book I’ve ever read."
 **Venue:** Now Then
 **Year:** 2011
 
-[BibTeX](entry.bib)
+[URL](http://nowthenmagazine.com/issue-37/the-ecotechnic-future/ http://ubuntuone.com/p/1FBU/) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -33,14 +33,15 @@ Robin Lovelace (2011). The Ecotechnic Future. *Now Then*.
 
 ```bibtex
 @article{lovelace_ecotechnic_2011,
-  title = {The {{Ecotechnic Future}}},
-  author = {Lovelace, Robin},
-  year = {2011},
-  journal = {Now Then},
-  pages = {2011--2011},
-  abstract = {More captivating than any sci-fi book I've ever read.},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  keywords = {ecotechnic future,John Michael Greer}
+	title = {The {Ecotechnic} {Future}},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://nowthenmagazine.com/issue-37/the-ecotechnic-future/ http://ubuntuone.com/p/1FBU/},
+	abstract = {More captivating than any sci-fi book I've ever read.},
+	journal = {Now Then},
+	author = {Lovelace, Robin},
+	year = {2011},
+	keywords = {John Michael Greer, ecotechnic future},
+	pages = {2011--2011},
 }
 ```
 

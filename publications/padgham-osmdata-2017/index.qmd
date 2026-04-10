@@ -9,19 +9,24 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "The Journal of Open Source Software"
 doi: "10.21105/joss.00305"
-publication-url: ""
+publication-url: "https://doi.org/10.21105/joss.00305"
 authors:
   - "Mark Padgham"
   - "Robin Lovelace"
   - "Maëlle Salmon"
   - "Bob Rudis"
+abstract: "osmdata imports OpenStreetMap (OSM) data into R as either Simple Features or R Spatial objects, respectively able to be processed with the R packages sf and sp. OSM data are extracted from the Overpass API and processed with very fast C++ routines for return to R. The package enables simple Overpass queries to be constructed without the user necessarily understanding the syntax of the Overpass query language, while retaining the ability to handle arbitrarily complex queries. Functions are also provided to enable recursive searching between different kinds of OSM data (for example, to find all lines which intersect a given point). The package is faster than current alternatives for importing OSM data into R and is the only one compatible with sf."
 ---
 
 **Type:** Journal Article
 **Venue:** The Journal of Open Source Software
 **Year:** 2017
 
-[DOI](https://doi.org/10.21105/joss.00305) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.21105/joss.00305) [URL](https://doi.org/10.21105/joss.00305) [BibTeX](entry.bib)
+
+## Abstract
+
+osmdata imports OpenStreetMap (OSM) data into R as either Simple Features or R Spatial objects, respectively able to be processed with the R packages sf and sp. OSM data are extracted from the Overpass API and processed with very fast C++ routines for return to R. The package enables simple Overpass queries to be constructed without the user necessarily understanding the syntax of the Overpass query language, while retaining the ability to handle arbitrarily complex queries. Functions are also provided to enable recursive searching between different kinds of OSM data (for example, to find all lines which intersect a given point). The package is faster than current alternatives for importing OSM data into R and is the only one compatible with sf.
 
 ## Citation
 
@@ -31,17 +36,19 @@ Mark Padgham, Robin Lovelace, Maëlle Salmon, and Bob Rudis (2017). Osmdata. *Th
 
 ```bibtex
 @article{padgham_osmdata_2017,
-  ids = {osmdata2017},
-  title = {Osmdata},
-  author = {Padgham, Mark and Lovelace, Robin and Salmon, Ma{\"e}lle and Rudis, Bob},
-  year = {2017},
-  month = jun,
-  journal = {The Journal of Open Source Software},
-  volume = {2},
-  number = {14},
-  publisher = {{[object Object]}},
-  doi = {10.21105/joss.00305},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {osmdata},
+	volume = {2},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {https://doi.org/10.21105/joss.00305},
+	doi = {10.21105/joss.00305},
+	abstract = {osmdata imports OpenStreetMap (OSM) data into R as either Simple Features or R Spatial objects, respectively able to be processed with the R packages sf and sp. OSM data are extracted from the Overpass API and processed with very fast C++ routines for return to R. The package enables simple Overpass queries to be constructed without the user necessarily understanding the syntax of the Overpass query language, while retaining the ability to handle arbitrarily complex queries. Functions are also provided to enable recursive searching between different kinds of OSM data (for example, to find all lines which intersect a given point). The package is faster than current alternatives for importing OSM data into R and is the only one compatible with sf.},
+	number = {14},
+	journal = {The Journal of Open Source Software},
+	author = {Padgham, Mark and Lovelace, Robin and Salmon, Maëlle and Rudis, Bob},
+	month = jun,
+	year = {2017},
+	note = {Citation Key Alias: osmdata2017
+tex.publisher: [object Object]},
 }
 ```
 

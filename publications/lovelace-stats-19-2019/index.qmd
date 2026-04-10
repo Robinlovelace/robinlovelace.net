@@ -1,6 +1,6 @@
 ---
-title: "Stats19 A package for working with open road crash data"
-description: "Robin Lovelace, Malcolm Morgan, Layik Hama, and Mark Padgham (2019). Stats19 A package for working with open road crash data. *Journal of Open Source Software*. https://doi.org/10.21105/joss.01181"
+title: "stats19 A package for working with open road crash data"
+description: "Robin Lovelace, Malcolm Morgan, Layik Hama, and Mark Padgham (2019). stats19 A package for working with open road crash data. *Journal of Open Source Software*. https://doi.org/10.21105/joss.01181"
 date: "2019-01-01"
 title-block-banner: false
 toc: false
@@ -9,39 +9,46 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Journal of Open Source Software"
 doi: "10.21105/joss.01181"
-publication-url: ""
+publication-url: "http://doi.org/10.21105/joss.01181"
 authors:
   - "Robin Lovelace"
   - "Malcolm Morgan"
   - "Layik Hama"
   - "Mark Padgham"
+abstract: "This paper introduces the ’stats19’ R package, designed to facilitate the acquisition and processing of official road traffic casualty data from Great Britain. It describes the package’s functionality for road safety research."
 ---
 
 **Type:** Journal Article
 **Venue:** Journal of Open Source Software
 **Year:** 2019
 
-[DOI](https://doi.org/10.21105/joss.01181) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.21105/joss.01181) [Publisher Link](http://doi.org/10.21105/joss.01181) [BibTeX](entry.bib)
+
+## Abstract
+
+This paper introduces the ’stats19’ R package, designed to facilitate the acquisition and processing of official road traffic casualty data from Great Britain. It describes the package’s functionality for road safety research.
 
 ## Citation
 
-Robin Lovelace, Malcolm Morgan, Layik Hama, and Mark Padgham (2019). Stats19 A package for working with open road crash data. *Journal of Open Source Software*. https://doi.org/10.21105/joss.01181
+Robin Lovelace, Malcolm Morgan, Layik Hama, and Mark Padgham (2019). stats19 A package for working with open road crash data. *Journal of Open Source Software*. https://doi.org/10.21105/joss.01181
 
 ## BibTeX
 
 ```bibtex
 @article{lovelace_stats19_2019,
-  ids = {stats192019},
-  title = {Stats19 {{A}} Package for Working with Open Road Crash Data},
-  author = {Lovelace, Robin and Morgan, Malcolm and Hama, Layik and Padgham, Mark},
-  year = {2019},
-  journal = {Journal of Open Source Software},
-  volume = {4},
-  number = {33},
-  pages = {1181},
-  publisher = {{[object Object]}},
-  doi = {10.21105/joss.01181},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {stats19 {A} package for working with open road crash data},
+	volume = {4},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://doi.org/10.21105/joss.01181},
+	doi = {10.21105/joss.01181},
+	abstract = {This paper introduces the 'stats19' R package, designed to facilitate the acquisition and processing of official road traffic casualty data from Great Britain. It describes the package's functionality for road safety research.},
+	number = {33},
+	journal = {Journal of Open Source Software},
+	author = {Lovelace, Robin and Morgan, Malcolm and Hama, Layik and Padgham, Mark},
+	year = {2019},
+	note = {Citation Key Alias: stats192019
+tex.publisher: [object Object]},
+	pages = {1181},
 }
 ```
 

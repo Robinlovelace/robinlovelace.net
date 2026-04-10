@@ -9,16 +9,21 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "National Centre for Research Methods"
 doi: ""
-publication-url: ""
+publication-url: "http://eprints.ncrm.ac.uk/3348/"
 authors:
   - "Robin Lovelace"
+abstract: "This practical guide introduces the fundamental principles of spatial microsimulation using the R programming language. It is designed to assist researchers in building their first models for population synthesis and analysis."
 ---
 
 **Type:** Journal Article
 **Venue:** National Centre for Research Methods
 **Year:** 2014
 
-[BibTeX](entry.bib)
+[URL](http://eprints.ncrm.ac.uk/3348/) [BibTeX](entry.bib)
+
+## Abstract
+
+This practical guide introduces the fundamental principles of spatial microsimulation using the R programming language. It is designed to assist researchers in building their first models for population synthesis and analysis.
 
 ## Citation
 
@@ -28,13 +33,15 @@ Robin Lovelace (2014). Introducing spatial microsimulation with R: A practical. 
 
 ```bibtex
 @article{lovelace_introducing_2014,
-  title = {Introducing Spatial Microsimulation with {{R}}: A Practical},
-  author = {Lovelace, Robin},
-  year = {2014},
-  journal = {National Centre for Research Methods},
-  volume = {08},
-  number = {14},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Introducing spatial microsimulation with {R}: a practical},
+	volume = {08},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://eprints.ncrm.ac.uk/3348/},
+	abstract = {This practical guide introduces the fundamental principles of spatial microsimulation using the R programming language. It is designed to assist researchers in building their first models for population synthesis and analysis.},
+	number = {14},
+	journal = {National Centre for Research Methods},
+	author = {Lovelace, Robin},
+	year = {2014},
 }
 ```
 

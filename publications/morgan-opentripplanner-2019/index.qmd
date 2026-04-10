@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Journal of Open Source Software"
 doi: "10.21105/joss.01926"
-publication-url: ""
+publication-url: "https://joss.theoj.org/papers/10.21105/joss.01926"
 authors:
   - "Malcolm Morgan"
   - "Marcus Young"
@@ -22,7 +22,7 @@ abstract: "Morgan et al., (2019). OpenTripPlanner for R. Journal of Open Source 
 **Venue:** Journal of Open Source Software
 **Year:** 2019
 
-[DOI](https://doi.org/10.21105/joss.01926) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.21105/joss.01926) [Publisher Link](https://joss.theoj.org/papers/10.21105/joss.01926) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -36,22 +36,22 @@ Malcolm Morgan, Marcus Young, Robin Lovelace, and Layik Hama (2019). OpenTripPla
 
 ```bibtex
 @article{morgan_opentripplanner_2019,
-  title = {{{OpenTripPlanner}} for {{R}}},
-  author = {Morgan, Malcolm and Young, Marcus and Lovelace, Robin and Hama, Layik},
-  year = {2019},
-  month = dec,
-  journal = {Journal of Open Source Software},
-  volume = {4},
-  number = {44},
-  pages = {1926},
-  issn = {2475-9066},
-  doi = {10.21105/joss.01926},
-  urldate = {2020-01-29},
-  abstract = {Morgan et al., (2019). OpenTripPlanner for R. Journal of Open Source Software, 4(44), 1926, https://doi.org/10.21105/joss.01926},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  langid = {english},
-  annotation = {ZSCC: 0000000},
-  file = {/home/robin/Zotero/storage/4SLLZ5YE/Morgan et al. - 2019 - OpenTripPlanner for R.pdf}
+	title = {{OpenTripPlanner} for {R}},
+	volume = {4},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	issn = {2475-9066},
+	url = {https://joss.theoj.org/papers/10.21105/joss.01926},
+	doi = {10.21105/joss.01926},
+	abstract = {Morgan et al., (2019). OpenTripPlanner for R. Journal of Open Source Software, 4(44), 1926, https://doi.org/10.21105/joss.01926},
+	language = {en},
+	number = {44},
+	urldate = {2020-01-29},
+	journal = {Journal of Open Source Software},
+	author = {Morgan, Malcolm and Young, Marcus and Lovelace, Robin and Hama, Layik},
+	month = dec,
+	year = {2019},
+	note = {ZSCC: 0000000},
+	pages = {1926},
 }
 ```
 

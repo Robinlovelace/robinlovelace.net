@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Global Environmental Change"
 doi: "10.1016/j.gloenvcha.2018.11.004"
-publication-url: ""
+publication-url: "http://www.sciencedirect.com/science/article/pii/S0959378018305776"
 authors:
   - "Nicholas Roxburgh"
   - "Dabo Guan"
@@ -18,18 +18,18 @@ authors:
   - "Shunsuke Managi"
   - "Robin Lovelace"
   - "Jing Meng"
-abstract: "When extreme weather events occur, people often turn to social media platforms to share information, opinions and experiences. One of the topics commonly discussed is the role climate change may or may not have played in influencing an event. Here, we examine Twitter posts that mentioned climate change in the context of three high-magnitude extreme weather events Hurricane Irene, Hurricane Sandy and Snowstorm Jonas in order to assess how the framing of the topic and the attention paid to it can vary between events. We also examine the role that contextual factors can play in shaping climate change coverage on the platform. We find that criticism of climate change denial dominated during Irene, while political and ideological struggle frames dominated during Sandy. Discourse during Jonas was, in contrast, more divided between posts about the scientific links between climate change and the events, and posts contesting climate science in general. The focus on political and ideological struggle frames during Sandy reflects the event’s occurrence at a time when the Occupy movement was active and the 2012 US Presidential Election was nearing. These factors, we suggest, could also contribute to climate change being a more prominent discussion point during Sandy than during Irene or Jonas. The Jonas frames, meanwhile, hint at lesser public understanding of how climate change may influence cold weather events when compared with tropical storms. Overall, our findings demonstrate how event characteristics and short-term socio-political context can play a critical role in determining the lenses through which climate change is viewed."
+abstract: "When extreme weather events occur, people often turn to social media platforms to share information, opinions and experiences. One of the topics commonly discussed is the role climate change may or may not have played in influencing an event. Here, we examine Twitter posts that mentioned climate change in the context of three high-magnitude extreme weather events – Hurricane Irene, Hurricane Sandy and Snowstorm Jonas – in order to assess how the framing of the topic and the attention paid to it can vary between events. We also examine the role that contextual factors can play in shaping climate change coverage on the platform. We find that criticism of climate change denial dominated during Irene, while political and ideological struggle frames dominated during Sandy. Discourse during Jonas was, in contrast, more divided between posts about the scientific links between climate change and the events, and posts contesting climate science in general. The focus on political and ideological struggle frames during Sandy reflects the event’s occurrence at a time when the Occupy movement was active and the 2012 US Presidential Election was nearing. These factors, we suggest, could also contribute to climate change being a more prominent discussion point during Sandy than during Irene or Jonas. The Jonas frames, meanwhile, hint at lesser public understanding of how climate change may influence cold weather events when compared with tropical storms. Overall, our findings demonstrate how event characteristics and short-term socio-political context can play a critical role in determining the lenses through which climate change is viewed."
 ---
 
 **Type:** Journal Article
 **Venue:** Global Environmental Change
 **Year:** 2019
 
-[DOI](https://doi.org/10.1016/j.gloenvcha.2018.11.004) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.1016/j.gloenvcha.2018.11.004) [Publisher Link](http://www.sciencedirect.com/science/article/pii/S0959378018305776) [BibTeX](entry.bib)
 
 ## Abstract
 
-When extreme weather events occur, people often turn to social media platforms to share information, opinions and experiences. One of the topics commonly discussed is the role climate change may or may not have played in influencing an event. Here, we examine Twitter posts that mentioned climate change in the context of three high-magnitude extreme weather events Hurricane Irene, Hurricane Sandy and Snowstorm Jonas in order to assess how the framing of the topic and the attention paid to it can vary between events. We also examine the role that contextual factors can play in shaping climate change coverage on the platform. We find that criticism of climate change denial dominated during Irene, while political and ideological struggle frames dominated during Sandy. Discourse during Jonas was, in contrast, more divided between posts about the scientific links between climate change and the events, and posts contesting climate science in general. The focus on political and ideological struggle frames during Sandy reflects the event’s occurrence at a time when the Occupy movement was active and the 2012 US Presidential Election was nearing. These factors, we suggest, could also contribute to climate change being a more prominent discussion point during Sandy than during Irene or Jonas. The Jonas frames, meanwhile, hint at lesser public understanding of how climate change may influence cold weather events when compared with tropical storms. Overall, our findings demonstrate how event characteristics and short-term socio-political context can play a critical role in determining the lenses through which climate change is viewed.
+When extreme weather events occur, people often turn to social media platforms to share information, opinions and experiences. One of the topics commonly discussed is the role climate change may or may not have played in influencing an event. Here, we examine Twitter posts that mentioned climate change in the context of three high-magnitude extreme weather events – Hurricane Irene, Hurricane Sandy and Snowstorm Jonas – in order to assess how the framing of the topic and the attention paid to it can vary between events. We also examine the role that contextual factors can play in shaping climate change coverage on the platform. We find that criticism of climate change denial dominated during Irene, while political and ideological struggle frames dominated during Sandy. Discourse during Jonas was, in contrast, more divided between posts about the scientific links between climate change and the events, and posts contesting climate science in general. The focus on political and ideological struggle frames during Sandy reflects the event’s occurrence at a time when the Occupy movement was active and the 2012 US Presidential Election was nearing. These factors, we suggest, could also contribute to climate change being a more prominent discussion point during Sandy than during Irene or Jonas. The Jonas frames, meanwhile, hint at lesser public understanding of how climate change may influence cold weather events when compared with tropical storms. Overall, our findings demonstrate how event characteristics and short-term socio-political context can play a critical role in determining the lenses through which climate change is viewed.
 
 ## Citation
 
@@ -39,19 +39,20 @@ Nicholas Roxburgh, Dabo Guan, Kong Joo Shin, William Rand, Shunsuke Managi, Robi
 
 ```bibtex
 @article{roxburgh_characterising_2019,
-  title = {Characterising Climate Change Discourse on Social Media during Extreme Weather Events},
-  author = {Roxburgh, Nicholas and Guan, Dabo and Shin, Kong Joo and Rand, William and Managi, Shunsuke and Lovelace, Robin and Meng, Jing},
-  year = {2019},
-  month = jan,
-  journal = {Global Environmental Change},
-  volume = {54},
-  pages = {50--60},
-  issn = {0959-3780},
-  doi = {10.1016/j.gloenvcha.2018.11.004},
-  urldate = {2018-12-03},
-  abstract = {When extreme weather events occur, people often turn to social media platforms to share information, opinions and experiences. One of the topics commonly discussed is the role climate change may or may not have played in influencing an event. Here, we examine Twitter posts that mentioned climate change in the context of three high-magnitude extreme weather events {\textendash} Hurricane Irene, Hurricane Sandy and Snowstorm Jonas {\textendash} in order to assess how the framing of the topic and the attention paid to it can vary between events. We also examine the role that contextual factors can play in shaping climate change coverage on the platform. We find that criticism of climate change denial dominated during Irene, while political and ideological struggle frames dominated during Sandy. Discourse during Jonas was, in contrast, more divided between posts about the scientific links between climate change and the events, and posts contesting climate science in general. The focus on political and ideological struggle frames during Sandy reflects the event's occurrence at a time when the Occupy movement was active and the 2012 US Presidential Election was nearing. These factors, we suggest, could also contribute to climate change being a more prominent discussion point during Sandy than during Irene or Jonas. The Jonas frames, meanwhile, hint at lesser public understanding of how climate change may influence cold weather events when compared with tropical storms. Overall, our findings demonstrate how event characteristics and short-term socio-political context can play a critical role in determining the lenses through which climate change is viewed.},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  keywords = {Climate change,Extreme weather,Public perception,Social media,Twitter}
+	title = {Characterising climate change discourse on social media during extreme weather events},
+	volume = {54},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	issn = {0959-3780},
+	url = {http://www.sciencedirect.com/science/article/pii/S0959378018305776},
+	doi = {10.1016/j.gloenvcha.2018.11.004},
+	abstract = {When extreme weather events occur, people often turn to social media platforms to share information, opinions and experiences. One of the topics commonly discussed is the role climate change may or may not have played in influencing an event. Here, we examine Twitter posts that mentioned climate change in the context of three high-magnitude extreme weather events – Hurricane Irene, Hurricane Sandy and Snowstorm Jonas – in order to assess how the framing of the topic and the attention paid to it can vary between events. We also examine the role that contextual factors can play in shaping climate change coverage on the platform. We find that criticism of climate change denial dominated during Irene, while political and ideological struggle frames dominated during Sandy. Discourse during Jonas was, in contrast, more divided between posts about the scientific links between climate change and the events, and posts contesting climate science in general. The focus on political and ideological struggle frames during Sandy reflects the event’s occurrence at a time when the Occupy movement was active and the 2012 US Presidential Election was nearing. These factors, we suggest, could also contribute to climate change being a more prominent discussion point during Sandy than during Irene or Jonas. The Jonas frames, meanwhile, hint at lesser public understanding of how climate change may influence cold weather events when compared with tropical storms. Overall, our findings demonstrate how event characteristics and short-term socio-political context can play a critical role in determining the lenses through which climate change is viewed.},
+	urldate = {2018-12-03},
+	journal = {Global Environmental Change},
+	author = {Roxburgh, Nicholas and Guan, Dabo and Shin, Kong Joo and Rand, William and Managi, Shunsuke and Lovelace, Robin and Meng, Jing},
+	month = jan,
+	year = {2019},
+	keywords = {Climate change, Extreme weather, Public perception, Social media, Twitter},
+	pages = {50--60},
 }
 ```
 

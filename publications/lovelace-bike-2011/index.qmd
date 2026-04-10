@@ -9,16 +9,21 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Now Then"
 doi: ""
-publication-url: ""
+publication-url: "http://nowthenmagazine.com/issue-42/bike-trailers/"
 authors:
   - "Robin Lovelace"
+abstract: "Bike sharing systems (BSSs) are widely adopted in major cities of the world due to traffic congestion and carbon emissions. Although there have been approaches to exploit either bike trailers via crowdsourcing or carrier vehicles to reposition bikes in the “right” stations in the “right” time, they did not jointly consider the usage of both bike trailers and carrier vehicles. In this paper, we aim to take advantage of both bike trailers and carrier vehicles to reduce the loss of demand by determining whether bike trailers or carrier vehicles (or both) should be used. In addition, we also would like to maximize the overall profit with regard to the crowdsourcing of bike trailers and the fuel cost of carrier vehicles. In the experiment, we exhibit that our approach outperforms baselines in multiple data sets from bike sharing companies."
 ---
 
 **Type:** Journal Article
 **Venue:** Now Then
 **Year:** 2011
 
-[BibTeX](entry.bib)
+[URL](http://nowthenmagazine.com/issue-42/bike-trailers/) [BibTeX](entry.bib)
+
+## Abstract
+
+Bike sharing systems (BSSs) are widely adopted in major cities of the world due to traffic congestion and carbon emissions. Although there have been approaches to exploit either bike trailers via crowdsourcing or carrier vehicles to reposition bikes in the “right” stations in the “right” time, they did not jointly consider the usage of both bike trailers and carrier vehicles. In this paper, we aim to take advantage of both bike trailers and carrier vehicles to reduce the loss of demand by determining whether bike trailers or carrier vehicles (or both) should be used. In addition, we also would like to maximize the overall profit with regard to the crowdsourcing of bike trailers and the fuel cost of carrier vehicles. In the experiment, we exhibit that our approach outperforms baselines in multiple data sets from bike sharing companies.
 
 ## Citation
 
@@ -28,13 +33,15 @@ Robin Lovelace (2011). Bike trailers. *Now Then*.
 
 ```bibtex
 @article{lovelace_bike_2011,
-  title = {Bike Trailers},
-  author = {Lovelace, Robin},
-  year = {2011},
-  month = sep,
-  journal = {Now Then},
-  pages = {20--22},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Bike trailers},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://nowthenmagazine.com/issue-42/bike-trailers/},
+	abstract = {Bike sharing systems (BSSs) are widely adopted in major cities of the world due to traffic congestion and carbon emissions. Although there have been approaches to exploit either bike trailers via crowdsourcing or carrier vehicles to reposition bikes in the “right” stations in the “right” time, they did not jointly consider the usage of both bike trailers and carrier vehicles. In this paper, we aim to take advantage of both bike trailers and carrier vehicles to reduce the loss of demand by determining whether bike trailers or carrier vehicles (or both) should be used. In addition, we also would like to maximize the overall profit with regard to the crowdsourcing of bike trailers and the fuel cost of carrier vehicles. In the experiment, we exhibit that our approach outperforms baselines in multiple data sets from bike sharing companies.},
+	journal = {Now Then},
+	author = {Lovelace, Robin},
+	month = sep,
+	year = {2011},
+	pages = {20--22},
 }
 ```
 

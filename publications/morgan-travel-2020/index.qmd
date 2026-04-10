@@ -9,17 +9,22 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Environment & Planning B: Planning & Design"
 doi: "10.1177/2399808320942779"
-publication-url: ""
+publication-url: "https://doi.org/10.1177/2399808320942779"
 authors:
   - "Malcolm Morgan"
   - "Robin Lovelace"
+abstract: "Travel behavior modeling is fundamental to sustainable transport planning. This paper presents nationally scalable methods for interactive and online visualisation of transport behaviour at the road network level."
 ---
 
 **Type:** Journal Article
 **Venue:** Environment & Planning B: Planning & Design
 **Year:** 2020
 
-[DOI](https://doi.org/10.1177/2399808320942779) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.1177/2399808320942779) [URL](https://doi.org/10.1177/2399808320942779) [BibTeX](entry.bib)
+
+## Abstract
+
+Travel behavior modeling is fundamental to sustainable transport planning. This paper presents nationally scalable methods for interactive and online visualisation of transport behaviour at the road network level.
 
 ## Citation
 
@@ -29,16 +34,17 @@ Malcolm Morgan and Robin Lovelace (2020). Travel flow aggregation: Nationally sc
 
 ```bibtex
 @article{morgan_travel_2020,
-  ids = {morgan_travel_2020a},
-  title = {Travel Flow Aggregation: Nationally Scalable Methods for Interactive and Online Visualisation of Transport Behaviour at the Road Network Level},
-  author = {Morgan, Malcolm and Lovelace, Robin},
-  year = {2020},
-  month = jul,
-  journal = {Environment \& Planning B: Planning \& Design},
-  publisher = {{SAGE PublicationsSage UK: London, England}},
-  doi = {10.1177/2399808320942779},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  file = {/home/robin/Zotero/storage/PFJBTCV8/Morgan and Lovelace - 2020 - Travel flow aggregation Nationally scalable metho.pdf;/home/robin/Zotero/storage/3MAT8X6H/2399808320942779.html}
+	title = {Travel flow aggregation: nationally scalable methods for interactive and online visualisation of transport behaviour at the road network level},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {https://doi.org/10.1177/2399808320942779},
+	doi = {10.1177/2399808320942779},
+	abstract = {Travel behavior modeling is fundamental to sustainable transport planning. This paper presents nationally scalable methods for interactive and online visualisation of transport behaviour at the road network level.},
+	journal = {Environment \& Planning B: Planning \& Design},
+	author = {Morgan, Malcolm and Lovelace, Robin},
+	month = jul,
+	year = {2020},
+	note = {tex.ids: morgan\_travel\_2020a
+publisher: SAGE PublicationsSage UK: London, England},
 }
 ```
 
