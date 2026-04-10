@@ -1,0 +1,10 @@
+This output represents a significant contribution to "Open Science" and "Big Data" in transport. It introduces spanishoddata, the first R package to provide high-resolution, analysis-ready access to Spain's national-scale mobile phone origin-destination data. The rigour lies in its technical architecture, utilizing DuckDB and Parquet formats to enable the processing of 200GB+ datasets on consumer-grade hardware—a 5-8x performance increase over traditional methods. Its significance is evidenced by its immediate uptake (2200+ downloads), lowering the barrier for researchers to conduct multi-year mobility studies. It solves the "reproducibility crisis" in MND (Mobile Network Data) research by automating ETL (Extract, Transform, Load) processes and enforcing standardized citation.
+
+**Unit of Assessment:** UoA 9 (Architecture, Built Environment and Planning).  
+**Alternative UoA:** UoA 11 (Computer Science and Informatics).  
+**PGR student co-author:** True (Egor Kotov).  
+**Potential for Double Weighting:** No.  
+**Author rating:** Likely 3* for technical innovation and reproducibility.
+
+**Author Contribution:**  
+Lovelace and Vidal-Tortosa conceptualized the package framework and its application to transport planning. Kotov led the software engineering, backend optimization (DuckDB integration), and documentation. All authors collaborated on the literature review of 36 existing studies to identify the gaps the package addresses.

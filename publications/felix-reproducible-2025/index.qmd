@@ -57,3 +57,7 @@ Rosa Félix, Filipe Moura, and Robin Lovelace (2025). Reproducible methods for m
 ## Notes
 
 {{< include _notes.qmd >}}
+
+## Impact Statement
+
+{{< include _impact.qmd >}}

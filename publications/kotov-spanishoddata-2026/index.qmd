@@ -59,3 +59,7 @@ Egor Kotov, Eugeni Vidal-Tortosa, Oliva G. Cantú-Ros, Javier Burrieza-Galán, R
 ## Notes
 
 {{< include _notes.qmd >}}
+
+## Impact Statement
+
+{{< include _impact.qmd >}}

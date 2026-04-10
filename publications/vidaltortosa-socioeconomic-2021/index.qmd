@@ -65,3 +65,7 @@ This study found that people from deprived areas are at higher risk of cycling i
 ## Notes
 
 {{< include _notes.qmd >}}
+
+## Impact Statement
+
+{{< include _impact.qmd >}}

@@ -1,0 +1,10 @@
+This paper addresses a critical gap in transport safety literature: the intersection of active travel and social justice. It provides a rigorous quantitative analysis of how residential deprivation correlates with cycling injury risk in England. By utilizing large-scale injury data and deprivation indices, the research demonstrates that cyclists from the most deprived areas face a disproportionately higher risk of injury, even when accounting for exposure. This work is significant for its direct policy implications regarding "Vision Zero" goals, arguing that infrastructure investment must be equitably distributed to avoid exacerbating existing health inequalities. It challenges the "safety in numbers" narrative by showing that socioeconomic context is a primary moderator of risk.
+
+**Unit of Assessment:** UoA 9 (Architecture, Built Environment and Planning).  
+**Alternative UoA:** UoA 2 (Public Health, Health Services and Primary Care).  
+**PGR student co-author:** True (Eugeni Vidal-Tortosa was a PhD candidate at Leeds during this work).  
+**Potential for Double Weighting:** No.  
+**Author rating:** Internal Leeds metric – typically 3* or 4*.
+
+**Author Contribution:**  
+Vidal-Tortosa led the conceptualization, data processing, and primary statistical analysis as part of his doctoral research. Lovelace provided senior oversight, methodological guidance on spatial data analysis, and edited the manuscript. Mann and Heinen contributed to the experimental design and the interpretation of the health-transport nexus.

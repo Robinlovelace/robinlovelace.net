@@ -34,9 +34,7 @@ Eugeni Vidal Tortosa, R. Lovelace, E. Heinen, and R. P. Mann (2021). Infrastruct
 
 ## Impact Statement
 
-This paper provides a high-rigour, large-scale (n=167,178) analysis of the "participation gap" in English cycling. Its primary significance lies in its counter-intuitive finding: despite deprived areas often having higher levels of objective "cyclability" and infrastructure, participation remains significantly lower than in affluent areas. By utilizing multilevel logistic models, the research demonstrates that the "Build it and they will come" mantra is insufficient for tackling transport equity. It identifies socioeconomic disadvantage as a primary barrier that outweighs physical environment factors, particularly for leisure cycling.
-
-This work is foundational for the next generation of "socially inclusive" transport policy, arguing that infrastructure must be accompanied by targeted social programs to reduce health inequalities and address environmental justice. It serves as a crucial counter-narrative to traditional transport planning, which often focuses purely on infrastructure provision. This research highlights the social and economic complexities that prevent infrastructure from being a "silver bullet" for increasing cycling participation among all socioeconomic groups.
+{{< include _impact.qmd >}}
 
 ## BibTeX
 

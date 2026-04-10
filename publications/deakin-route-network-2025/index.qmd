@@ -46,3 +46,7 @@ Will Deakin, Zhao Wang, Josiah Parry, and Robin Lovelace (2025). Route network s
 ## Notes
 
 {{< include _notes.qmd >}}
+
+## Impact Statement
+
+{{< include _impact.qmd >}}

@@ -1,0 +1,10 @@
+The paper solves a long-standing "wicked problem" in GIS-based transport modeling: the "braided line" or parallel geometry issue where single corridors (like dual carriageways) are represented as multiple lines, obscuring flow visualization. It introduces two novel computational methods—Skeletonization (raster-based) and Voronoi-based centrelines (vector-based)—and implements them in the open-source parenx Python package. The significance is found in its application to the Scottish Network Planning Tool, proving its utility for national-scale strategic planning. By reducing geometric complexity while preserving topology, this work allows for clearer communication of model results to policymakers and significantly reduces computational overhead for routing engines.
+
+**Unit of Assessment:** UoA 9 (Architecture, Built Environment and Planning).  
+**Alternative UoA:** UoA 11 (Computer Science and Informatics).  
+**PGR student co-author:** False.  
+**Potential for Double Weighting:** No.  
+**Author rating:** Likely 3*.
+
+**Author Contribution:**  
+Lovelace directed the research and its integration into the Propensity to Cycle Tool (PCT) framework. Deakin (Network Rail) developed the core algorithms and the parenx package. Wang contributed to the data validation and the application of these methods to the Edinburgh city-centre case study.

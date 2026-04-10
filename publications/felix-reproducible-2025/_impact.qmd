@@ -1,0 +1,10 @@
+This output is highly significant for transport decarbonization. It presents the biclaR tool, the first reproducible framework to integrate public transport (GTFS) and cycling data for multi-modal "first-and-last mile" modeling. The rigour involves combining R5R routing with WHO Health Economic Assessment Tools (HEAT) to quantify the benefits of shifting car trips to intermodal active travel. The significance is demonstrated through the Lisbon case study, identifying that 10% of all trips could be replaced, yielding socio-environmental benefits valued between €125M and €325M over 10 years. It provides a blueprint for international metropolitan areas to prioritize infrastructure investment based on monetized health and carbon benefits.
+
+**Unit of Assessment:** UoA 9 (Architecture, Built Environment and Planning).  
+**Alternative UoA:** UoA 17 (Geography and Environmental Studies).  
+**PGR student co-author:** False.  
+**Potential for Double Weighting:** No.  
+**Author rating:** Strong 3* or 4* based on impact and socio-economic valuation.
+
+**Author Contribution:**  
+Félix and Lovelace co-developed the biclaR tool, adapting the Propensity to Cycle Tool (PCT) methodology for intermodal PT trips. Félix led the data curation for Lisbon and the HEAT analysis. Moura provided project oversight and expertise on the Portuguese transport policy context and cost-benefit analysis.
