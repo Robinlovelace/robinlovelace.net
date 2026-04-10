@@ -1,0 +1,12 @@
+## REF2029 Impact Statement
+
+While the 2023 paper proved contraflows are safe, this output proves they are effective at increasing participation. Utilizing Strava Metro crowdsourced data, the research assesses the impact of contraflow introduction on cycling volumes. The technical rigour lies in the creation of a "baseline" index to adjust for seasonality and the general growth of Strava users, allowing for a true assessment of the infrastructure's "pull factor." The finding that some streets saw a 1750% increase in trips provides transport planners with empirical evidence to justify road reallocation. The qualitative assessment of "successful" vs. "unsuccessful" streets offers a direct toolkit for local authorities to maximize the return on investment for active travel infrastructure by focusing on network connectivity.
+
+**Unit of Assessment:** UoA 9 (Architecture, Built Environment and Planning).  
+**Alternative UoA:** UoA 2 (Public Health, Health Services and Primary Care).  
+**PGR student co-author:** True (Caroline Tait).  
+**Potential for Double Weighting:** No.  
+**Author rating:** Likely 3* or 4* for innovative use of crowdsourced data.
+
+**Author Contribution:**  
+Tait led the acquisition and processing of the Strava Metro dataset, developed the "expected count" adjustment methodology, and performed the qualitative Google Street View audits. Beecham and Lovelace supervised the data visualization and conceptualized the relationship between infrastructure "coherence" and volume. Barber advised on the temporal data alignment.

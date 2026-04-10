@@ -58,3 +58,7 @@ Caroline Tait, Roger Beecham, Robin Lovelace, and Stuart Barber (2023). Contrafl
 ## Notes
 
 {{< include _notes.qmd >}}
+
+## Impact Statement
+
+{{< include _impact.qmd >}}

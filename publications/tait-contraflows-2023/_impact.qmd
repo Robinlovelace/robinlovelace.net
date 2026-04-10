@@ -1,0 +1,12 @@
+## REF2029 Impact Statement
+
+This paper provides the most comprehensive longitudinal evidence base to date on the safety of contraflow cycling. By analyzing 22 years of crash data (1998–2019) across 508 one-way streets in London, the research definitively refutes the common UK political and public objection that contraflows increase risk. The study's rigour is evidenced by its use of bootstrap resampling and adjustments for cordon cycling volume and injury severity reporting changes. Key findings—that crash rates are identical regardless of direction and that junctions, not contraflows, are the primary risk factor—have direct implications for UK road legislation. It explicitly calls for a mandatory two-way cycling default for one-way streets, aligning with international best practices and the UK's "Gear Change" strategy.
+
+**Unit of Assessment:** UoA 9 (Architecture, Built Environment and Planning).  
+**Alternative UoA:** UoA 17 (Geography and Environmental Studies).  
+**PGR student co-author:** True (Caroline Tait).  
+**Potential for Double Weighting:** No.  
+**Author rating:** Likely 4* due to the longitudinal scale and policy influence.
+
+**Author Contribution:**  
+Tait (PGR) conducted the primary data collection from thousands of Traffic Regulation Orders (TROs) in The Gazette, designed the spatial join methodology, and performed the statistical analysis. Lovelace and Beecham provided supervision on spatial data science and transport modeling. Barber provided expertise in statistical resampling and uncertainty estimation.
