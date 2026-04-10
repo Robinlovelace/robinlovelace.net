@@ -10,7 +10,7 @@ page-layout: custom
 listing:
   - id: upcoming-events
     contents: 
-      - events
+      - events/**/index.qmd
     type: table
     max-items: 2
     page-size: 2
