@@ -54,7 +54,8 @@ def load_new_urls():
 
 
 def load_redirects(path):
-    maps = {}
+    exact = {}
+    wildcard = []
     with open(path) as f:
         for line in f:
             line=line.strip()
@@ -62,8 +63,22 @@ def load_redirects(path):
                 continue
             bits = line.split()
             if len(bits) >= 2 and bits[0].startswith("/old-site/"):
-                maps[bits[0]] = bits[1]
-    return maps
+                src, tgt = bits[0], bits[1]
+                if "*" in src:
+                    wildcard.append((src, tgt))
+                else:
+                    exact[src] = tgt
+    return exact, wildcard
+
+
+def match_redirect(path, redirects_exact, redirects_wild):
+    if path in redirects_exact:
+        return redirects_exact[path]
+    for pat, tgt in redirects_wild:
+        prefix = pat.split("*", 1)[0]
+        if path.startswith(prefix):
+            return tgt
+    return ""
 
 
 def old_type(u):
@@ -87,14 +102,14 @@ def main():
     random.seed(args.seed)
     sample = random.sample(old_pages, min(args.sample, len(old_pages)))
     new_urls = load_new_urls()
-    redirects = load_redirects(args.redirects)
+    redirects_exact, redirects_wild = load_redirects(args.redirects)
 
     rows = []
     for u in sample:
         path = urlparse(u).path
         s = slug(u)
         exact = [n for n in new_urls if f"/{s}/" in n or n.rstrip("/").endswith("/" + s)]
-        red = redirects.get(path, "")
+        red = match_redirect(path, redirects_exact, redirects_wild)
         present = bool(exact) or bool(red)
         rows.append({
             "old_url": u,

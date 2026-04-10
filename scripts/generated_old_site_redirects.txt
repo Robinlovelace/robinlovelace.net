@@ -1,38 +1,4 @@
-/event/* /events/:splat 301
-/publication/* /publications/:splat 301
-
-# Sample migration compatibility redirects (old-site -> new-site)
-/old-site/post/copenhagenize/ /posts/2025-04-03-copenhagenize/ 301
-/old-site/post/2024-retrospective/ /posts/2025-01-03-2024-retrospective/ 301
-/old-site/post/professorship/ /posts/2024-07-23-professorship/ 301
-/old-site/post/tartu2024/ /posts/2024-06-15-tartu2024/ 301
-
-# Old-site collection-level compatibility
-/old-site/publication/* /publications/:splat 301
-/old-site/talk/* /events/:splat 301
-/old-site/event/* /events/:splat 301
-/old-site/tag/* /posts/ 301
-
-# Event/talk slug harmonisation
-/old-site/talk/10th-mobile-tartu-conference/ /events/mobile-tartu-2024/ 301
-/old-site/talk/transport-committee-academic-engagement-event/ /events/2026-transport-committee-engagement/ 301
-/old-site/talk/travel-planning-co-ordinator-event-leeds/ /events/travel-planning-coordinator-leeds-2026/ 301
-/old-site/talk/aum2026-applied-urban-modelling-symposium-and-pre-conference-seminar/ /events/aum2026/ 301
-/old-site/talk/modelling-active-travel-with-efficient-future-proof-tools/ /events/data-science-transport-planning-2025/ 301
-/old-site/talk/satrday-keynote/ /events/satRday-keynote/ 301
-/old-site/talk/propensity-to-cycle-tool-advanced-training-workshop-2021/ /events/pcttraining2021/ 301
-/old-site/talk/creating-and-sharing-code-for-reproducible-research-and-scalable-impact/ /events/code-sharing/ 301
-
-# Project continuity
-/old-site/project/saferactive/ https://saferactive.org/ 301
-
-# Legacy paginated/tag catch-alls
-/old-site/post/page/* /posts/ 301
-/old-site/tag/cycling/page/* /posts/ 301
-/old-site/tag/ate/ /posts/ 301
-
-# --- Full old-site slug mapping (auto-generated) ---
-# Auto-generated old-site redirect mappings (cleaned)
+# Auto-generated old-site redirect mappings
 /old-site/post/2013-09-22-foss4g-presentation/ /posts/ 301
 /old-site/post/2013-10-13-bicycle-trailer-move/ /posts/ 301
 /old-site/post/2013-12-27-coxcomb-plots-spiecharts-r/ /posts/ 301
@@ -59,6 +25,9 @@
 /old-site/post/new-year-reflections/ /posts/ 301
 /old-site/post/open-access-events/ /posts/ 301
 /old-site/post/open-science-in-transportation-workshop/ /posts/ 301
+/old-site/post/page/2/ /posts/ 301
+/old-site/post/page/3/ /posts/ 301
+/old-site/post/page/4/ /posts/ 301
 /old-site/post/professorship/ /posts/2024-07-23-professorship/ 301
 /old-site/post/setting-up-ubuntu-geocomputation/ /posts/ 301
 /old-site/post/stats19-v4/ /posts/ 301
@@ -214,6 +183,7 @@
 /old-site/tag/cycling-networks/ /posts/ 301
 /old-site/tag/cycling-safety/ /posts/ 301
 /old-site/tag/cycling/ /posts/ 301
+/old-site/tag/cycling/page/2/ /posts/ 301
 /old-site/tag/data-science/ /posts/ 301
 /old-site/tag/daylight/ /posts/ 301
 /old-site/tag/death-rates/ /posts/ 301
