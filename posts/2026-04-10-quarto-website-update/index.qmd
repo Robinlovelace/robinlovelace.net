@@ -30,6 +30,10 @@ It did an excellent job of converting legacy Academic/Wowchemy-style content int
 
 For anyone sitting on years of posts, events, and publication metadata, this is the kind of utility that turns a risky migration into a manageable one.
 
+Another useful piece of the Quarto ecosystem is the Academicons extension workflow documented here: <https://rmflight.github.io/posts/2022-12-03-using-academicons-in-your-quarto-blog/>.
+[Academicons](https://jpswalsh.github.io/academicons/) are great for academic profile links (ORCID, Google Scholar and similar), but the experience is still more extension-oriented and less integrated than the tightly packaged academic site features available in HugoBlox.
+That is one reason I think Quarto could benefit from more high-level, Wowchemy/HugoBlox-style extensions for academic websites.
+
 ## Legacy site archive
 
 The old version of my site remains online here:
@@ -50,9 +54,20 @@ For example:
 
 The old GitHub-hosted URL now redirects, so links continue to work while the canonical home is on robinlovelace.net.
 
+## Questions for next improvements
+
+I would appreciate feedback on what to prioritise next. A few specific questions:
+
+1. Which area should I improve first: publications pages, project pages, or events/talks pages?
+2. Do you prefer a minimal homepage or one with more featured content blocks?
+3. Should I invest in a Quarto extension specifically for publication handling to get closer to the HugoBlox experience?
+4. Are there old URLs (besides `/rs5c/`) that should get explicit redirect checks?
+
 ## Links
 
 - Site source code: <https://github.com/robinlovelace/robinlovelace.net>
 - HugoBlox organisation: <https://github.com/HugoBlox>
 - Wowchemy org page: <https://github.com/wowchemy>
 - academic-file-converter: <https://github.com/lore-labs/academic-file-converter>
+- Academicons extension post: <https://rmflight.github.io/posts/2022-12-03-using-academicons-in-your-quarto-blog/>
+- Academicons project: <https://jpswalsh.github.io/academicons/>
