@@ -7,6 +7,7 @@ then writes:
 1. per-publication `index.qmd` pages under `publications/<slug>/`
 2. matching `entry.bib` files for each publication
 3. a `publications/publications.yml` data file for future listings/tables
+4. per-publication `_notes.qmd` and `_impact.qmd` child files
 
 The script is intentionally dependency-light so it can live inside this site
 repo and be extracted into a standalone package later if it proves useful.
@@ -90,6 +91,7 @@ class Publication:
     abstract: str
     citation: str
     bibtex: str
+    impact: str = ""
 
 
 def run_pandoc(bib_path: Path) -> list[dict[str, Any]]:
@@ -194,7 +196,9 @@ def venue_from_item(item: dict[str, Any]) -> str:
     return ""
 
 
-def make_citation(item: dict[str, Any], authors: list[str], year: int | None, venue: str) -> str:
+def make_citation(
+    item: dict[str, Any], authors: list[str], year: int | None, venue: str
+) -> str:
     title = strip_braces(item.get("title", ""))
     author_part = authors_string(authors)
     pieces = []
@@ -212,10 +216,14 @@ def make_citation(item: dict[str, Any], authors: list[str], year: int | None, ve
     return " ".join(piece for piece in pieces if piece).strip()
 
 
-def publication_from_item(item: dict[str, Any], bibtex: str) -> Publication:
+def publication_from_item(
+    item: dict[str, Any], bibtex: str, impact: str = ""
+) -> Publication:
     key = item["id"]
     slug = slugify(key.replace("_", "-"))
-    authors = [person_name(person) for person in item.get("author", []) if person_name(person)]
+    authors = [
+        person_name(person) for person in item.get("author", []) if person_name(person)
+    ]
     date, year = date_from_parts(item)
     venue = venue_from_item(item)
     pub_type = item.get("type", "document")
@@ -240,6 +248,7 @@ def publication_from_item(item: dict[str, Any], bibtex: str) -> Publication:
         abstract=abstract,
         citation=citation,
         bibtex=bibtex,
+        impact=impact,
     )
 
 
@@ -262,7 +271,7 @@ def qmd_body(publication: Publication) -> str:
     if publication.authors:
         lines.extend([f"  - {yaml_quote(author)}" for author in publication.authors])
     else:
-        lines.append("  - \"\"")
+        lines.append('  - ""')
     if publication.abstract:
         lines.append(f"abstract: {yaml_quote(publication.abstract)}")
     lines.extend(
@@ -282,7 +291,12 @@ def qmd_body(publication: Publication) -> str:
     if publication.doi:
         link_bits.append(f"[DOI](https://doi.org/{publication.doi})")
     if publication.url:
-        label = "Publisher Link" if publication.doi and publication.url.rstrip("/") != f"https://doi.org/{publication.doi}" else "URL"
+        label = (
+            "Publisher Link"
+            if publication.doi
+            and publication.url.rstrip("/") != f"https://doi.org/{publication.doi}"
+            else "URL"
+        )
         link_bits.append(f"[{label}]({publication.url})")
     link_bits.append("[BibTeX](entry.bib)")
     lines.append(" ".join(link_bits))
@@ -313,9 +327,20 @@ def qmd_body(publication: Publication) -> str:
             "## Notes",
             "",
             "{{< include _notes.qmd >}}",
-            "",
         ]
     )
+
+    if publication.impact:
+        lines.extend(
+            [
+                "",
+                "## Impact Statement",
+                "",
+                "{{< include _impact.qmd >}}",
+            ]
+        )
+
+    lines.append("")
     return "\n".join(lines)
 
 
@@ -336,6 +361,17 @@ def yaml_list_item(publication: Publication) -> str:
     return "\n".join(lines)
 
 
+def load_impact_data(impact_path: Path | None) -> dict[str, str]:
+    """Load impact statements from a YAML file keyed by citation key."""
+    if not impact_path or not impact_path.exists():
+        return {}
+    import yaml
+
+    with impact_path.open(encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    return {str(k): str(v) for k, v in data.items()}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("bibtex", type=Path, help="Input BibTeX file")
@@ -351,11 +387,18 @@ def main() -> None:
         default=ROOT / "files" / "bibliography" / "my-citations-for-web.bib",
         help="Copy the source BibTeX file to this path before generating pages",
     )
+    parser.add_argument(
+        "--impact-data",
+        type=Path,
+        default=None,
+        help="YAML file mapping citation keys to impact statement text",
+    )
     args = parser.parse_args()
 
     source_bib = args.bibtex.resolve()
     output_dir = args.output_dir.resolve()
     copy_to = args.copy_to.resolve()
+    impact_data = load_impact_data(args.impact_data)
 
     copy_to.parent.mkdir(parents=True, exist_ok=True)
     if source_bib != copy_to:
@@ -373,19 +416,29 @@ def main() -> None:
         bibtex = bib_entries.get(key)
         if not bibtex:
             raise KeyError(f"Missing original BibTeX for key {key}")
-        publication = publication_from_item(item, bibtex)
+        impact = impact_data.get(key, "")
+        publication = publication_from_item(item, bibtex, impact=impact)
         publications.append(publication)
 
         pub_dir = output_dir / publication.slug
         pub_dir.mkdir(parents=True, exist_ok=True)
         (pub_dir / "index.qmd").write_text(qmd_body(publication), encoding="utf-8")
         (pub_dir / "entry.bib").write_text(publication.bibtex, encoding="utf-8")
+
         notes_path = pub_dir / "_notes.qmd"
         if not notes_path.exists():
             notes_path.write_text("", encoding="utf-8")
 
+        impact_path = pub_dir / "_impact.qmd"
+        if publication.impact:
+            impact_path.write_text(publication.impact, encoding="utf-8")
+        elif not impact_path.exists():
+            impact_path.write_text("", encoding="utf-8")
+
     publications.sort(key=lambda pub: (pub.year or 0, pub.title.lower()), reverse=True)
-    data_text = "\n".join(yaml_list_item(publication) for publication in publications) + "\n"
+    data_text = (
+        "\n".join(yaml_list_item(publication) for publication in publications) + "\n"
+    )
     (output_dir / "publications.yml").write_text(data_text, encoding="utf-8")
 
     print(
