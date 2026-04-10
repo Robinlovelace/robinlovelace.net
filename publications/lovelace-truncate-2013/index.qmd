@@ -1,0 +1,45 @@
+---
+title: "“Truncate, replicate, sample”: A method for creating integer weights for spatial microsimulation"
+description: "Robin Lovelace and Dimitris Ballas (2013). “Truncate, replicate, sample”: A method for creating integer weights for spatial microsimulation. *Computers, Environment and Urban Systems*."
+date: "2013-09-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_truncate_2013"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Computers, Environment and Urban Systems"
+doi: ""
+publication-url: "http://linkinghub.elsevier.com/retrieve/pii/S0198971513000240"
+authors:
+  - "Robin Lovelace"
+  - "Dimitris Ballas"
+---
+
+**Type:** Journal Article
+**Venue:** Computers, Environment and Urban Systems
+**Year:** 2013
+
+[URL](http://linkinghub.elsevier.com/retrieve/pii/S0198971513000240) [BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace and Dimitris Ballas (2013). “Truncate, replicate, sample”: A method for creating integer weights for spatial microsimulation. *Computers, Environment and Urban Systems*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_truncate_2013,
+  title = {‘{{Truncate}}, Replicate, Sample’: {{A}} Method for Creating Integer Weights for Spatial Microsimulation},
+  author = {Lovelace, Robin and Ballas, Dimitris},
+  date = {2013-09},
+  journaltitle = {Computers, Environment and Urban Systems},
+  volume = {41},
+  pages = {1--11},
+  issn = {01989715},
+  url = {http://linkinghub.elsevier.com/retrieve/pii/S0198971513000240}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

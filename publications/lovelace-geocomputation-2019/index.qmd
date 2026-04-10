@@ -1,0 +1,51 @@
+---
+title: "Geocomputation with R"
+description: "Robin Lovelace, Jakub Nowosad, and Jannes Muenchow (2019). Geocomputation with R. *CRC Press*."
+date: "2019-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_geocomputation_2019"
+citation-type: "book"
+citation-type-label: "Book"
+venue: "CRC Press"
+doi: ""
+publication-url: "https://r.geocompx.org"
+authors:
+  - "Robin Lovelace"
+  - "Jakub Nowosad"
+  - "Jannes Muenchow"
+abstract: "Book on geographic data with R."
+---
+
+**Type:** Book
+**Venue:** CRC Press
+**Year:** 2019
+
+[URL](https://r.geocompx.org) [BibTeX](entry.bib)
+
+## Abstract
+
+Book on geographic data with R.
+
+## Citation
+
+Robin Lovelace, Jakub Nowosad, and Jannes Muenchow (2019). Geocomputation with R. *CRC Press*.
+
+## BibTeX
+
+```bibtex
+@book{lovelace_geocomputation_2019,
+  title = {Geocomputation with {{R}}},
+  author = {Lovelace, Robin and Nowosad, Jakub and Muenchow, Jannes},
+  date = {2019},
+  publisher = {CRC Press},
+  url = {https://r.geocompx.org},
+  urldate = {2017-10-05},
+  abstract = {Book on geographic data with R.},
+  isbn = {1-138-30451-4}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

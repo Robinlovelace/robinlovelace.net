@@ -1,0 +1,49 @@
+---
+title: "Who, where, when: The demographic and geographic distribution of bicycle crashes in West Yorkshire"
+description: "Robin Lovelace, Hannah Roberts, and Ian Kellar (2016). Who, where, when: The demographic and geographic distribution of bicycle crashes in West Yorkshire. *Transportation Research Part F: Traffic Psychology and Behaviour*. https://doi.org/10.1016/j.trf.2015.02.010"
+date: "2016-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_who_2016"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Transportation Research Part F: Traffic Psychology and Behaviour"
+doi: "10.1016/j.trf.2015.02.010"
+publication-url: "http://eprints.whiterose.ac.uk/83930/"
+authors:
+  - "Robin Lovelace"
+  - "Hannah Roberts"
+  - "Ian Kellar"
+---
+
+**Type:** Journal Article
+**Venue:** Transportation Research Part F: Traffic Psychology and Behaviour
+**Year:** 2016
+
+[DOI](https://doi.org/10.1016/j.trf.2015.02.010) [Publisher Link](http://eprints.whiterose.ac.uk/83930/) [BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace, Hannah Roberts, and Ian Kellar (2016). Who, where, when: The demographic and geographic distribution of bicycle crashes in West Yorkshire. *Transportation Research Part F: Traffic Psychology and Behaviour*. https://doi.org/10.1016/j.trf.2015.02.010
+
+## BibTeX
+
+```bibtex
+@article{lovelace_who_2016,
+  title = {Who, Where, When: The Demographic and Geographic Distribution of Bicycle Crashes in {{West Yorkshire}}},
+  author = {Lovelace, Robin and Roberts, Hannah and Kellar, Ian},
+  date = {2016},
+  journaltitle = {Transportation Research Part F: Traffic Psychology and Behaviour},
+  series = {Bicycling and Bicycle Safety},
+  volume = {41, Part B},
+  issn = {13698478},
+  doi = {10.1016/j.trf.2015.02.010},
+  url = {http://eprints.whiterose.ac.uk/83930/},
+  keywords = {Cycling,Exposure,Geographical factors,Risk,Safety},
+  file = {/home/robin/Zotero/storage/8GIWK5II/Lovelace et al. - 2016 - Who, where, when the demographic and geographic d.pdf}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

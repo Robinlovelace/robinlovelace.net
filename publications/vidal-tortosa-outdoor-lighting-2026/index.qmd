@@ -1,0 +1,51 @@
+---
+title: "Outdoor lighting and active travel: A high-resolution analysis using satellite imagery and strava data in glasgow"
+description: "Eugeni Vidal-Tortosa, Eva Heinen, Jim Uttley, Demet Yesiltepe, Steve Fotios, and Robin Lovelace (2026). Outdoor lighting and active travel: A high-resolution analysis using satellite imagery and strava data in glasgow. *Journal of Transport & Health*. https://doi.org/10.1016/j.jth.2025.102224"
+date: "2026-02-01"
+title-block-banner: false
+toc: false
+citation-key: "vidal-tortosa_outdoor_lighting_2026"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Journal of Transport & Health"
+doi: "10.1016/j.jth.2025.102224"
+publication-url: "https://www.sciencedirect.com/science/article/pii/S2214140525002440"
+authors:
+  - "Eugeni Vidal-Tortosa"
+  - "Eva Heinen"
+  - "Jim Uttley"
+  - "Demet Yesiltepe"
+  - "Steve Fotios"
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Journal of Transport & Health
+**Year:** 2026
+
+[DOI](https://doi.org/10.1016/j.jth.2025.102224) [Publisher Link](https://www.sciencedirect.com/science/article/pii/S2214140525002440) [BibTeX](entry.bib)
+
+## Citation
+
+Eugeni Vidal-Tortosa, Eva Heinen, Jim Uttley, Demet Yesiltepe, Steve Fotios, and Robin Lovelace (2026). Outdoor lighting and active travel: A high-resolution analysis using satellite imagery and strava data in glasgow. *Journal of Transport & Health*. https://doi.org/10.1016/j.jth.2025.102224
+
+## BibTeX
+
+```bibtex
+@article{vidal-tortosa_outdoor_lighting_2026,
+  title = {Outdoor lighting and active travel: A high-resolution analysis using satellite imagery and Strava data in Glasgow},
+  author = {Vidal-Tortosa, Eugeni and Heinen, Eva and Uttley, Jim and Yesiltepe, Demet and Fotios, Steve and Lovelace, Robin},
+  date = {2026-02},
+  journaltitle = {Journal of Transport & Health},
+  volume = {46},
+  issn = {2214-1405},
+  doi = {10.1016/j.jth.2025.102224},
+  url = {https://www.sciencedirect.com/science/article/pii/S2214140525002440},
+  pages = {102224},
+  langid = {english}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

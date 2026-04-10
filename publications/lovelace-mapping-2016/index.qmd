@@ -1,0 +1,45 @@
+---
+title: "Mapping out the future of cycling"
+description: "Robin Lovelace (2016). Mapping out the future of cycling. *Get Britain Cycling*."
+date: "2016-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_mapping_2016"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Get Britain Cycling"
+doi: ""
+publication-url: "http://eprints.whiterose.ac.uk/100080/"
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Get Britain Cycling
+**Year:** 2016
+
+[URL](http://eprints.whiterose.ac.uk/100080/) [BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2016). Mapping out the future of cycling. *Get Britain Cycling*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_mapping_2016,
+  title = {Mapping out the Future of Cycling},
+  author = {Lovelace, Robin},
+  date = {2016},
+  journaltitle = {Get Britain Cycling},
+  volume = {5},
+  pages = {22--24},
+  url = {http://eprints.whiterose.ac.uk/100080/},
+  urldate = {2016-06-08},
+  file = {/home/robin/Zotero/storage/84X46AAD/Get_Britain_Cycling_2016_PCT.pdf}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

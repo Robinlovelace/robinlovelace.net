@@ -1,0 +1,48 @@
+---
+title: "Route network simplification for transport planning"
+description: "Will Deakin, Zhao Wang, Josiah Parry, and Robin Lovelace (2025). Route network simplification for transport planning. *Environment and Planning B: Urban Analytics and City Science*. https://doi.org/10.1177/23998083251387986"
+date: "2025-10-01"
+title-block-banner: false
+toc: false
+citation-key: "deakin_route_network_2025"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Environment and Planning B: Urban Analytics and City Science"
+doi: "10.1177/23998083251387986"
+publication-url: "https://doi.org/10.1177/23998083251387986"
+authors:
+  - "Will Deakin"
+  - "Zhao Wang"
+  - "Josiah Parry"
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Environment and Planning B: Urban Analytics and City Science
+**Year:** 2025
+
+[DOI](https://doi.org/10.1177/23998083251387986) [URL](https://doi.org/10.1177/23998083251387986) [BibTeX](entry.bib)
+
+## Citation
+
+Will Deakin, Zhao Wang, Josiah Parry, and Robin Lovelace (2025). Route network simplification for transport planning. *Environment and Planning B: Urban Analytics and City Science*. https://doi.org/10.1177/23998083251387986
+
+## BibTeX
+
+```bibtex
+@article{deakin_route_network_2025,
+  title = {Route network simplification for transport planning},
+  author = {Deakin, Will and Wang, Zhao and Parry, Josiah and Lovelace, Robin},
+  date = {2025-10},
+  journaltitle = {Environment and Planning B: Urban Analytics and City Science},
+  issn = {2399-8083},
+  doi = {10.1177/23998083251387986},
+  url = {https://doi.org/10.1177/23998083251387986},
+  pages = {23998083251387986},
+  langid = {english}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

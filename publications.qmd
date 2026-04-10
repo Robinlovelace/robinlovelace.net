@@ -3,6 +3,8 @@ title: "Publications"
 description-meta: "Publications, papers, and scholarly work"
 title-block-banner: false
 css: custom.css
+nocite: |
+  @*
 ---
 
 ## Selected Publications
@@ -23,6 +25,13 @@ Total citations as of April 2025:
 ### Recent Publications
 
 See [Google Scholar](https://scholar.google.com/citations?user=xDJHVCAAAAAJ&hl=en) for a full list.
+
+### Full Publications List
+
+The bibliography below is merged from the legacy website's publication records and the references available in this Quarto site.
+
+::: {#refs}
+:::
 
 <!--Include social share buttons-->
 

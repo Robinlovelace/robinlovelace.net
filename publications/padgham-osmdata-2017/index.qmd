@@ -1,0 +1,49 @@
+---
+title: "Osmdata"
+description: "Mark Padgham, Robin Lovelace, Maëlle Salmon, and Bob Rudis (2017). Osmdata. *The Journal of Open Source Software*. https://doi.org/10.21105/joss.00305"
+date: "2017-06-01"
+title-block-banner: false
+toc: false
+citation-key: "padgham_osmdata_2017"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "The Journal of Open Source Software"
+doi: "10.21105/joss.00305"
+publication-url: "https://doi.org/10.21105/joss.00305"
+authors:
+  - "Mark Padgham"
+  - "Robin Lovelace"
+  - "Maëlle Salmon"
+  - "Bob Rudis"
+---
+
+**Type:** Journal Article
+**Venue:** The Journal of Open Source Software
+**Year:** 2017
+
+[DOI](https://doi.org/10.21105/joss.00305) [URL](https://doi.org/10.21105/joss.00305) [BibTeX](entry.bib)
+
+## Citation
+
+Mark Padgham, Robin Lovelace, Maëlle Salmon, and Bob Rudis (2017). Osmdata. *The Journal of Open Source Software*. https://doi.org/10.21105/joss.00305
+
+## BibTeX
+
+```bibtex
+@article{padgham_osmdata_2017,
+  ids = {osmdata2017},
+  title = {Osmdata},
+  author = {Padgham, Mark and Lovelace, Robin and Salmon, Maëlle and Rudis, Bob},
+  date = {2017-06},
+  journaltitle = {The Journal of Open Source Software},
+  volume = {2},
+  number = {14},
+  publisher = {[object Object]},
+  doi = {10.21105/joss.00305},
+  url = {https://doi.org/10.21105/joss.00305}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

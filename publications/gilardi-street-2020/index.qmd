@@ -1,0 +1,54 @@
+---
+title: "Street Networks in R"
+description: "Andrea Gilardi and Robin Lovelace (2020). Street Networks in R. *OSF*. https://doi.org/10.17605/OSF.IO/WTQAS"
+date: "2020-05-29"
+title-block-banner: false
+toc: false
+citation-key: "gilardi_street_2020"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "OSF"
+doi: "10.17605/OSF.IO/WTQAS"
+publication-url: "https://osf.io/wtqas/"
+authors:
+  - "Andrea Gilardi"
+  - "Robin Lovelace"
+abstract: "The idea of this project is to compare stplanr and dodgr approaches to street networks in R. This is a draft for the paper. Hosted on the Open Science Framework"
+---
+
+**Type:** Journal Article
+**Venue:** OSF
+**Year:** 2020
+
+[DOI](https://doi.org/10.17605/OSF.IO/WTQAS) [Publisher Link](https://osf.io/wtqas/) [BibTeX](entry.bib)
+
+## Abstract
+
+The idea of this project is to compare stplanr and dodgr approaches to street networks in R. This is a draft for the paper. Hosted on the Open Science Framework
+
+## Citation
+
+Andrea Gilardi and Robin Lovelace (2020). Street Networks in R. *OSF*. https://doi.org/10.17605/OSF.IO/WTQAS
+
+## BibTeX
+
+```bibtex
+@article{gilardi_street_2020,
+  title = {Street {{Networks}} in {{R}}},
+  author = {Gilardi, Andrea and Lovelace, Robin},
+  date = {2020-05-29},
+  publisher = {OSF},
+  doi = {10.17605/OSF.IO/WTQAS},
+  url = {https://osf.io/wtqas/},
+  urldate = {2020-06-26},
+  abstract = {The idea of this project is to compare stplanr and dodgr approaches to street networks in R. This is a draft for the paper.       Hosted on the Open Science Framework},
+  langid = {english},
+  keywords = {R},
+  annotation = {ZSCC: NoCitationData[s0]},
+  file = {/home/robin/Zotero/storage/WJDZTWSA/wtqas.html}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

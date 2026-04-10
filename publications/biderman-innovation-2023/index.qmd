@@ -1,0 +1,50 @@
+---
+title: "Innovation Center in Urban Public Policies–FGV Cidades"
+description: "Ciro Biderman, Patrícia Alencar Silva Mello, Area Coordinators, Claudia Acosta, Mariana Giannotti, Mariana Levy, Frederico Roman Ramos, German Freiberg, Robin Lovelace, and Hannah Machado (2023). Innovation Center in Urban Public Policies–FGV Cidades."
+date: "2023-01-01"
+title-block-banner: false
+toc: false
+citation-key: "biderman_innovation_2023"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: ""
+doi: ""
+publication-url: "https://documents1.worldbank.org/curated/en/099050223201017669/pdf/P1734140dc76b105509b6f074cc8fe0f3a1.pdf"
+authors:
+  - "Ciro Biderman"
+  - "Patrícia Alencar Silva Mello"
+  - "Area Coordinators"
+  - "Claudia Acosta"
+  - "Mariana Giannotti"
+  - "Mariana Levy"
+  - "Frederico Roman Ramos"
+  - "German Freiberg"
+  - "Robin Lovelace"
+  - "Hannah Machado"
+---
+
+**Type:** Journal Article
+**Year:** 2023
+
+[URL](https://documents1.worldbank.org/curated/en/099050223201017669/pdf/P1734140dc76b105509b6f074cc8fe0f3a1.pdf) [BibTeX](entry.bib)
+
+## Citation
+
+Ciro Biderman, Patrícia Alencar Silva Mello, Area Coordinators, Claudia Acosta, Mariana Giannotti, Mariana Levy, Frederico Roman Ramos, German Freiberg, Robin Lovelace, and Hannah Machado (2023). Innovation Center in Urban Public Policies–FGV Cidades.
+
+## BibTeX
+
+```bibtex
+@article{biderman_innovation_2023,
+  title = {Innovation {{Center}} in {{Urban Public Policies}}–{{FGV Cidades}}},
+  author = {Biderman, Ciro and Mello, Patrícia Alencar Silva and Coordinators, Area and Acosta, Claudia and Giannotti, Mariana and Levy, Mariana and Ramos, Frederico Roman and Freiberg, German and Lovelace, Robin and Machado, Hannah},
+  date = {2023},
+  url = {https://documents1.worldbank.org/curated/en/099050223201017669/pdf/P1734140dc76b105509b6f074cc8fe0f3a1.pdf},
+  urldate = {2024-10-02},
+  file = {/home/robin/Zotero/storage/3LYM9D5J/Biderman et al. - 2023 - Innovation Center in Urban Public Policies–FGV Cid.pdf}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

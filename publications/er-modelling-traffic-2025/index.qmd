@@ -1,0 +1,49 @@
+---
+title: "Modelling of traffic collisions at road intersections in cape town, south africa: A bayesian spatio-temporal approach"
+description: "Sebnem Er, Álvaro Briz-Redón, Sulaiman Salau, and Robin Lovelace (2025). Modelling of traffic collisions at road intersections in cape town, south africa: A bayesian spatio-temporal approach. *Applied Spatial Analysis and Policy*. https://doi.org/10.1007/s12061-025-09703-0"
+date: "2025-07-01"
+title-block-banner: false
+toc: false
+citation-key: "er_modelling_traffic_2025"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Applied Spatial Analysis and Policy"
+doi: "10.1007/s12061-025-09703-0"
+publication-url: "https://doi.org/10.1007/s12061-025-09703-0"
+authors:
+  - "Sebnem Er"
+  - "Álvaro Briz-Redón"
+  - "Sulaiman Salau"
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Applied Spatial Analysis and Policy
+**Year:** 2025
+
+[DOI](https://doi.org/10.1007/s12061-025-09703-0) [URL](https://doi.org/10.1007/s12061-025-09703-0) [BibTeX](entry.bib)
+
+## Citation
+
+Sebnem Er, Álvaro Briz-Redón, Sulaiman Salau, and Robin Lovelace (2025). Modelling of traffic collisions at road intersections in cape town, south africa: A bayesian spatio-temporal approach. *Applied Spatial Analysis and Policy*. https://doi.org/10.1007/s12061-025-09703-0
+
+## BibTeX
+
+```bibtex
+@article{er_modelling_traffic_2025,
+  title = {Modelling of Traffic Collisions at Road Intersections in Cape Town, South Africa: A Bayesian Spatio-Temporal Approach},
+  author = {Er, Sebnem and Briz-Redón, Álvaro and Salau, Sulaiman and Lovelace, Robin},
+  date = {2025-07},
+  journaltitle = {Applied Spatial Analysis and Policy},
+  volume = {18},
+  issn = {1874-4621},
+  doi = {10.1007/s12061-025-09703-0},
+  url = {https://doi.org/10.1007/s12061-025-09703-0},
+  pages = {93},
+  langid = {english}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

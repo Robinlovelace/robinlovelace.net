@@ -1,0 +1,58 @@
+---
+title: "Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database"
+description: "Caroline Tait, Roger Beecham, Robin Lovelace, and Stuart Barber (2022). Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database. *Journal of Transport & Health*. https://doi.org/10.1016/j.jth.2022.101369"
+date: "2022-07-08"
+title-block-banner: false
+toc: false
+citation-key: "tait_cycling_2022"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Journal of Transport & Health"
+doi: "10.1016/j.jth.2022.101369"
+publication-url: "https://www.sciencedirect.com/science/article/pii/S221414052200041X"
+authors:
+  - "Caroline Tait"
+  - "Roger Beecham"
+  - "Robin Lovelace"
+  - "Stuart Barber"
+abstract: "Introduction We describe and analyse a new, open dataset of surveyed cycling infrastructure in London UK. We demonstrate its potential to contribute to research and evidence-based policy development through a spatial analysis of infrastructure provision in London, before evaluating administrative boroughs on their infrastructure mix and compliance with UK Cycle Infrastructure Design Standards. Methods We processed and cleaned the 233,596 records in the London Cycling Infrastructure Database (CID) that contains nine infrastructure types. To support comparison between London boroughs, infrastructure provision was normalised to borough area, population size and level of commuter cycling. We generated variables capturing cyclist separation from motor vehicles and estimated cycle lane compliance for such segregation against design standards. Results Each CID record contains the infrastructure survey date, spatial location, infrastructure-specific variables and accompanying photographs. Traffic calming assets are numerous and distributed throughout London. Cyclist signals, crossings, Advanced Stop Lanes and cycle lanes and tracks are less numerous and more commonly seen in inner rather than outer London. Normalisation by area and population did not change these spatial patterns. Six percent of on-road cycle lane length is physically segregated from vehicles. Estimated compliance with UK design standards was notably higher for inner London boroughs with 66% exceeding mean compliance compared to just 24% of outer London boroughs. Conclusions In this first systematic description and analysis of the CID we have demonstrated its potential to quantitively and qualitatively compare infrastructure and a method to estimate compliance against design standards. We found that cycling infrastructure is not distributed equally across London and may not be of the quality that provides safe space for cycling. Such datasets are critical assets to evaluate infrastructure and guide health and transport policies."
+---
+
+**Type:** Journal Article
+**Venue:** Journal of Transport & Health
+**Year:** 2022
+
+[DOI](https://doi.org/10.1016/j.jth.2022.101369) [Publisher Link](https://www.sciencedirect.com/science/article/pii/S221414052200041X) [BibTeX](entry.bib)
+
+## Abstract
+
+Introduction We describe and analyse a new, open dataset of surveyed cycling infrastructure in London UK. We demonstrate its potential to contribute to research and evidence-based policy development through a spatial analysis of infrastructure provision in London, before evaluating administrative boroughs on their infrastructure mix and compliance with UK Cycle Infrastructure Design Standards. Methods We processed and cleaned the 233,596 records in the London Cycling Infrastructure Database (CID) that contains nine infrastructure types. To support comparison between London boroughs, infrastructure provision was normalised to borough area, population size and level of commuter cycling. We generated variables capturing cyclist separation from motor vehicles and estimated cycle lane compliance for such segregation against design standards. Results Each CID record contains the infrastructure survey date, spatial location, infrastructure-specific variables and accompanying photographs. Traffic calming assets are numerous and distributed throughout London. Cyclist signals, crossings, Advanced Stop Lanes and cycle lanes and tracks are less numerous and more commonly seen in inner rather than outer London. Normalisation by area and population did not change these spatial patterns. Six percent of on-road cycle lane length is physically segregated from vehicles. Estimated compliance with UK design standards was notably higher for inner London boroughs with 66% exceeding mean compliance compared to just 24% of outer London boroughs. Conclusions In this first systematic description and analysis of the CID we have demonstrated its potential to quantitively and qualitatively compare infrastructure and a method to estimate compliance against design standards. We found that cycling infrastructure is not distributed equally across London and may not be of the quality that provides safe space for cycling. Such datasets are critical assets to evaluate infrastructure and guide health and transport policies.
+
+## Citation
+
+Caroline Tait, Roger Beecham, Robin Lovelace, and Stuart Barber (2022). Is cycling infrastructure in London safe and equitable? Evidence from the cycling infrastructure database. *Journal of Transport & Health*. https://doi.org/10.1016/j.jth.2022.101369
+
+## BibTeX
+
+```bibtex
+@article{tait_cycling_2022,
+  title = {Is Cycling Infrastructure in {{London}} Safe and Equitable? {{Evidence}} from the Cycling Infrastructure Database},
+  shorttitle = {Is Cycling Infrastructure in {{London}} Safe and Equitable?},
+  author = {Tait, Caroline and Beecham, Roger and Lovelace, Robin and Barber, Stuart},
+  date = {2022-07-08},
+  journaltitle = {Journal of Transport \& Health},
+  shortjournal = {Journal of Transport \& Health},
+  pages = {101369},
+  issn = {2214-1405},
+  doi = {10.1016/j.jth.2022.101369},
+  url = {https://www.sciencedirect.com/science/article/pii/S221414052200041X},
+  urldate = {2022-07-08},
+  abstract = {Introduction We describe and analyse a new, open dataset of surveyed cycling infrastructure in London UK. We demonstrate its potential to contribute to research and evidence-based policy development through a spatial analysis of infrastructure provision in London, before evaluating administrative boroughs on their infrastructure mix and compliance with UK Cycle Infrastructure Design Standards. Methods We processed and cleaned the 233,596 records in the London Cycling Infrastructure Database (CID) that contains nine infrastructure types. To support comparison between London boroughs, infrastructure provision was normalised to borough area, population size and level of commuter cycling. We generated variables capturing cyclist separation from motor vehicles and estimated cycle lane compliance for such segregation against design standards. Results Each CID record contains the infrastructure survey date, spatial location, infrastructure-specific variables and accompanying photographs. Traffic calming assets are numerous and distributed throughout London. Cyclist signals, crossings, Advanced Stop Lanes and cycle lanes and tracks are less numerous and more commonly seen in inner rather than outer London. Normalisation by area and population did not change these spatial patterns. Six percent of on-road cycle lane length is physically segregated from vehicles. Estimated compliance with UK design standards was notably higher for inner London boroughs with 66\% exceeding mean compliance compared to just 24\% of outer London boroughs. Conclusions In this first systematic description and analysis of the CID we have demonstrated its potential to quantitively and qualitatively compare infrastructure and a method to estimate compliance against design standards. We found that cycling infrastructure is not distributed equally across London and may not be of the quality that provides safe space for cycling. Such datasets are critical assets to evaluate infrastructure and guide health and transport policies.},
+  langid = {english},
+  keywords = {Active travel,Cycling equity,Cycling infrastructure,Cycling safety,Spatial analysis,Transport planning}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

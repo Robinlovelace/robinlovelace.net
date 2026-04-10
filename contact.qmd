@@ -21,8 +21,8 @@ Feel free to get in touch with me through any of these channels:
   - I prioritize well-asked questions with reproducible examples
 
 ### Social Media
-- Twitter/X: [@robinlovelace](https://twitter.com/robinlovelace)
-- Mastodon: [@robinlovelace@fosstodon.org](https://fosstodon.org/web/@robinlovelace)
+- Twitter/X: [Robin Lovelace on Twitter/X](https://twitter.com/robinlovelace)
+- Mastodon: [Robin Lovelace on Fosstodon](https://fosstodon.org/web/@robinlovelace)
 - YouTube: [RobinLovelace](https://www.youtube.com/c/RobinLovelace)
 
 ### Discord

@@ -1,0 +1,43 @@
+---
+title: "Road user video evidence of road traffic offences: Preliminary analysis of operation snap data and suggestions for a research agenda"
+description: "Graham Farrell, Robin Lovelace, and Steve O’Hern (2024). Road user video evidence of road traffic offences: Preliminary analysis of operation snap data and suggestions for a research agenda. https://doi.org/10.31235/osf.io/cgjmr"
+date: "2024-07-01"
+title-block-banner: false
+toc: false
+citation-key: "farrell_road_user_video_2024"
+citation-type: ""
+citation-type-label: ""
+venue: ""
+doi: "10.31235/osf.io/cgjmr"
+publication-url: "https://osf.io/cgjmr"
+authors:
+  - "Graham Farrell"
+  - "Robin Lovelace"
+  - "Steve O’Hern"
+---
+
+**Type:** 
+**Year:** 2024
+
+[DOI](https://doi.org/10.31235/osf.io/cgjmr) [Publisher Link](https://osf.io/cgjmr) [BibTeX](entry.bib)
+
+## Citation
+
+Graham Farrell, Robin Lovelace, and Steve O’Hern (2024). Road user video evidence of road traffic offences: Preliminary analysis of operation snap data and suggestions for a research agenda. https://doi.org/10.31235/osf.io/cgjmr
+
+## BibTeX
+
+```bibtex
+@misc{farrell_road_user_video_2024,
+  title = {Road User Video Evidence of Road Traffic Offences: Preliminary Analysis of Operation Snap Data and Suggestions for a Research Agenda},
+  author = {Farrell, Graham and Lovelace, Robin and O'Hern, Steve},
+  date = {2024-07},
+  doi = {10.31235/osf.io/cgjmr},
+  url = {https://osf.io/cgjmr},
+  langid = {english}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

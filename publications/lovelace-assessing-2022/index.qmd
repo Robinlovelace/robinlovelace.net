@@ -1,0 +1,56 @@
+---
+title: "Assessing methods for generating route networks from origin-destionation data: Jittering, routing, and visualisation"
+description: "Robin Lovelace, Rosa Félix, Dustin Carlin, and Roger Beecham (2022). Assessing methods for generating route networks from origin-destionation data: Jittering, routing, and visualisation. *Zenodo*. https://doi.org/10.5281/zenodo.6410196"
+date: "2022-03-29"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_assessing_2022"
+citation-type: "speech"
+citation-type-label: "Speech"
+venue: "Zenodo"
+doi: "10.5281/zenodo.6410196"
+publication-url: "https://zenodo.org/record/6410196"
+authors:
+  - "Robin Lovelace"
+  - "Rosa Félix"
+  - "Dustin Carlin"
+  - "Roger Beecham"
+abstract: "Origin-destination (OD) datasets are widely available but transport interventions require network level data. OD-“desire line”-route-“route network” conversion techniques are typically based on lines between zone centroids. This approach fails to show the diffuse nature of travel patterns. This paper presents “jittering” methods to overcome these limitations and seeks to assess them. We find that jittered OD datasets result in a closer fit between observed and estimated flow in a reproducible case study using open data in Edinburgh. We conclude that jittering can add value to OD but work is needed to parameteterise them in the context of route network generation techniques"
+---
+
+**Type:** Speech
+**Venue:** Zenodo
+**Year:** 2022
+
+[DOI](https://doi.org/10.5281/zenodo.6410196) [Publisher Link](https://zenodo.org/record/6410196) [BibTeX](entry.bib)
+
+## Abstract
+
+Origin-destination (OD) datasets are widely available but transport interventions require network level data. OD-“desire line”-route-“route network” conversion techniques are typically based on lines between zone centroids. This approach fails to show the diffuse nature of travel patterns. This paper presents “jittering” methods to overcome these limitations and seeks to assess them. We find that jittered OD datasets result in a closer fit between observed and estimated flow in a reproducible case study using open data in Edinburgh. We conclude that jittering can add value to OD but work is needed to parameteterise them in the context of route network generation techniques
+
+## Citation
+
+Robin Lovelace, Rosa Félix, Dustin Carlin, and Roger Beecham (2022). Assessing methods for generating route networks from origin-destionation data: Jittering, routing, and visualisation. *Zenodo*. https://doi.org/10.5281/zenodo.6410196
+
+## BibTeX
+
+```bibtex
+@unpublished{lovelace_assessing_2022,
+  title = {Assessing Methods for Generating Route Networks from Origin-Destionation Data: Jittering, Routing, and Visualisation},
+  shorttitle = {Assessing Methods for Generating Route Networks from Origin-Destionation Data},
+  author = {Lovelace, Robin and Félix, Rosa and Carlin, Dustin and Beecham, Roger},
+  date = {2022-03-29},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.6410196},
+  url = {https://zenodo.org/record/6410196},
+  urldate = {2022-06-27},
+  abstract = {Origin-destination (OD) datasets are widely available but transport interventions require network level data. OD-‘desire line’-route-‘route network’ conversion techniques are typically based on lines between zone centroids. This approach fails to show the diffuse nature of travel patterns. This paper presents ‘jittering’ methods to overcome these limitations and seeks to assess them. We find that jittered OD datasets result in a closer fit between observed and estimated flow in a reproducible case study using open data in Edinburgh. We conclude that jittering can add value to OD but work is needed to parameteterise them in the context of route network generation techniques},
+  eventtitle = {30th {{Annual Geographical Information Science Research UK}} ({{GISRUK}})},
+  venue = {Liverpool, United Kingdom},
+  file = {/home/robin/Zotero/storage/83XYIBJK/Lovelace et al. - 2022 - Assessing methods for generating route networks fr.pdf}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

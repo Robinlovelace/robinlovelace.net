@@ -1,0 +1,43 @@
+---
+title: "Efficient R Programming: A Practical Guide to Smarter Programming"
+description: "Colin Gillespie and Robin Lovelace (2016). Efficient R Programming: A Practical Guide to Smarter Programming. *O’Reilly Media*."
+date: "2016-01-01"
+title-block-banner: false
+toc: false
+citation-key: "gillespie_efficient_2016"
+citation-type: "book"
+citation-type-label: "Book"
+venue: "O’Reilly Media"
+doi: ""
+publication-url: "https://csgillespie.github.io/efficientR/"
+authors:
+  - "Colin Gillespie"
+  - "Robin Lovelace"
+---
+
+**Type:** Book
+**Venue:** O’Reilly Media
+**Year:** 2016
+
+[URL](https://csgillespie.github.io/efficientR/) [BibTeX](entry.bib)
+
+## Citation
+
+Colin Gillespie and Robin Lovelace (2016). Efficient R Programming: A Practical Guide to Smarter Programming. *O’Reilly Media*.
+
+## BibTeX
+
+```bibtex
+@book{gillespie_efficient_2016,
+  title = {Efficient {{R Programming}}: {{A Practical Guide}} to {{Smarter Programming}}},
+  author = {Gillespie, Colin and Lovelace, Robin},
+  date = {2016},
+  publisher = {O'Reilly Media},
+  url = {https://csgillespie.github.io/efficientR/},
+  isbn = {978-1-4919-5078-4}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

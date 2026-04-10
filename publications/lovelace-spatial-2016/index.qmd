@@ -1,0 +1,43 @@
+---
+title: "Spatial microsimulation with R"
+description: "Robin Lovelace and Morgane Dumont (2016). Spatial microsimulation with R. *CRC Press*."
+date: "2016-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_spatial_2016"
+citation-type: "book"
+citation-type-label: "Book"
+venue: "CRC Press"
+doi: ""
+publication-url: "https://spatial-microsim-book.robinlovelace.net/"
+authors:
+  - "Robin Lovelace"
+  - "Morgane Dumont"
+---
+
+**Type:** Book
+**Venue:** CRC Press
+**Year:** 2016
+
+[URL](https://spatial-microsim-book.robinlovelace.net/) [BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace and Morgane Dumont (2016). Spatial microsimulation with R. *CRC Press*.
+
+## BibTeX
+
+```bibtex
+@book{lovelace_spatial_2016,
+  title = {Spatial Microsimulation with {{R}}},
+  author = {Lovelace, Robin and Dumont, Morgane},
+  date = {2016},
+  publisher = {CRC Press},
+  url = {https://spatial-microsim-book.robinlovelace.net/},
+  file = {/home/robin/Zotero/storage/G4IGUB3X/books.html}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

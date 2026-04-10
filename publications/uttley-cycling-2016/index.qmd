@@ -1,0 +1,57 @@
+---
+title: "Cycling promotion schemes and long-term behavioural change: A case study from the University of Sheffield"
+description: "J. Uttley and R. Lovelace (2016). Cycling promotion schemes and long-term behavioural change: A case study from the University of Sheffield. *Case Studies on Transport Policy*. https://doi.org/10.1016/j.cstp.2016.01.001"
+date: "2016-01-01"
+title-block-banner: false
+toc: false
+citation-key: "uttley_cycling_2016"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Case Studies on Transport Policy"
+doi: "10.1016/j.cstp.2016.01.001"
+publication-url: "http://www.sciencedirect.com/science/article/pii/S2213624X16300013"
+authors:
+  - "J. Uttley"
+  - "R. Lovelace"
+abstract: "Cycling has a range of health, environmental and economic benefits compared with motorised forms of transport. There is a need to encourage more cycling, yet previous evaluations of cycling promotion schemes have been inconclusive about what works. A case study of a cycling promotion scheme at the University of Sheffield – the Cycle Challenge – is used in this paper to examine commuting behaviour and long-term behavioural shifts towards cycling in response to outside intervention at the organisational level. The Cycle Challenge was designed to encourage more people at the University to cycle through inter-departmental competition. Cycling behaviour was recorded before the Cycle Challenge and two years after the scheme’s completion. It was found that seventy five percent of participants who were not already regular cyclists reported increased cycling, yet the overall impact of this shift was limited because the majority of participants already cycled regularly. This failure to attract new cyclists suggests recruiting non-cyclists should be a priority in future schemes. Moreover, our study has methodological implications. Current strategies for evaluating the positive impact of cycle initiatives may overestimate the savings by neglecting the tendency of people to resume routine behaviour in the long run. Studies evaluating modal shift should therefore include provision for monitoring long-term behavioural change to provide input into estimated economic, environmental or health metrics of success."
+---
+
+**Type:** Journal Article
+**Venue:** Case Studies on Transport Policy
+**Year:** 2016
+
+[DOI](https://doi.org/10.1016/j.cstp.2016.01.001) [Publisher Link](http://www.sciencedirect.com/science/article/pii/S2213624X16300013) [BibTeX](entry.bib)
+
+## Abstract
+
+Cycling has a range of health, environmental and economic benefits compared with motorised forms of transport. There is a need to encourage more cycling, yet previous evaluations of cycling promotion schemes have been inconclusive about what works. A case study of a cycling promotion scheme at the University of Sheffield – the Cycle Challenge – is used in this paper to examine commuting behaviour and long-term behavioural shifts towards cycling in response to outside intervention at the organisational level. The Cycle Challenge was designed to encourage more people at the University to cycle through inter-departmental competition. Cycling behaviour was recorded before the Cycle Challenge and two years after the scheme’s completion. It was found that seventy five percent of participants who were not already regular cyclists reported increased cycling, yet the overall impact of this shift was limited because the majority of participants already cycled regularly. This failure to attract new cyclists suggests recruiting non-cyclists should be a priority in future schemes. Moreover, our study has methodological implications. Current strategies for evaluating the positive impact of cycle initiatives may overestimate the savings by neglecting the tendency of people to resume routine behaviour in the long run. Studies evaluating modal shift should therefore include provision for monitoring long-term behavioural change to provide input into estimated economic, environmental or health metrics of success.
+
+## Citation
+
+J. Uttley and R. Lovelace (2016). Cycling promotion schemes and long-term behavioural change: A case study from the University of Sheffield. *Case Studies on Transport Policy*. https://doi.org/10.1016/j.cstp.2016.01.001
+
+## BibTeX
+
+```bibtex
+@article{uttley_cycling_2016,
+  title = {Cycling Promotion Schemes and Long-Term Behavioural Change: {{A}} Case Study from the {{University}} of {{Sheffield}}},
+  shorttitle = {Cycling Promotion Schemes and Long-Term Behavioural Change},
+  author = {Uttley, J. and Lovelace, R.},
+  date = {2016},
+  journaltitle = {Case Studies on Transport Policy},
+  shortjournal = {Case Studies on Transport Policy},
+  volume = {4},
+  number = {2},
+  issn = {2213-624X},
+  doi = {10.1016/j.cstp.2016.01.001},
+  url = {http://www.sciencedirect.com/science/article/pii/S2213624X16300013},
+  urldate = {2016-02-20},
+  abstract = {Cycling has a range of health, environmental and economic benefits compared with motorised forms of transport. There is a need to encourage more cycling, yet previous evaluations of cycling promotion schemes have been inconclusive about what works. A case study of a cycling promotion scheme at the University of Sheffield – the Cycle Challenge – is used in this paper to examine commuting behaviour and long-term behavioural shifts towards cycling in response to outside intervention at the organisational level. The Cycle Challenge was designed to encourage more people at the University to cycle through inter-departmental competition. Cycling behaviour was recorded before the Cycle Challenge and two years after the scheme’s completion. It was found that seventy five percent of participants who were not already regular cyclists reported increased cycling, yet the overall impact of this shift was limited because the majority of participants already cycled regularly. This failure to attract new cyclists suggests recruiting non-cyclists should be a priority in future schemes. Moreover, our study has methodological implications. Current strategies for evaluating the positive impact of cycle initiatives may overestimate the savings by neglecting the tendency of people to resume routine behaviour in the long run. Studies evaluating modal shift should therefore include provision for monitoring long-term behavioural change to provide input into estimated economic, environmental or health metrics of success.},
+  keywords = {Commuting,Cycling,Long-term behaviour change},
+  file = {/home/robin/Zotero/storage/5HDU5CVT/1-s2.0-S2213624X16300013-main.pdf;/home/robin/Zotero/storage/CBHUVBX7/S2213624X16300013.html}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

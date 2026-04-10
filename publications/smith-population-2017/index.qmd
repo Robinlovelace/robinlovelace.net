@@ -1,0 +1,55 @@
+---
+title: "Population Synthesis with Quasirandom Integer Sampling"
+description: "Andrew Smith, Robin Lovelace, and Mark Birkin (2017). Population Synthesis with Quasirandom Integer Sampling. *Journal of Artificial Societies and Social Simulation*. https://doi.org/10.18564/jasss.3550"
+date: "2017-01-01"
+title-block-banner: false
+toc: false
+citation-key: "smith_population_2017"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Journal of Artificial Societies and Social Simulation"
+doi: "10.18564/jasss.3550"
+publication-url: "http://jasss.soc.surrey.ac.uk/20/4/14.html"
+authors:
+  - "Andrew Smith"
+  - "Robin Lovelace"
+  - "Mark Birkin"
+abstract: "Established methods for synthesising a population from geographically aggregated data are robust and well understood. However, most rely on the potentially detrimental process of integerisation if a whole individual population is required, e.g. for use in agent-based modelling (ABM). This paper describes and investigates the use of quasirandom sequences to sample populations from known marginal constraints whilst preserving those marginal distributions. We call this technique Quasirandom Integer Without-replacement Sampling (QIWS) and show that the statistical properties of quasirandomly sampled populations to be superior to those of pseudorandomly sampled ones in that they tend to yield entropies much closer to populations generated using the entropy-maximising iterative proportional fitting (IPF) algorithm. The implementation is extremely efficient, easily outperforming common IPF implementations. It is freely available as an open source R package called humanleague. Finally, we suggest how the current limitations of the implementation can be overcome, providing a direction for future work."
+---
+
+**Type:** Journal Article
+**Venue:** Journal of Artificial Societies and Social Simulation
+**Year:** 2017
+
+[DOI](https://doi.org/10.18564/jasss.3550) [Publisher Link](http://jasss.soc.surrey.ac.uk/20/4/14.html) [BibTeX](entry.bib)
+
+## Abstract
+
+Established methods for synthesising a population from geographically aggregated data are robust and well understood. However, most rely on the potentially detrimental process of integerisation if a whole individual population is required, e.g. for use in agent-based modelling (ABM). This paper describes and investigates the use of quasirandom sequences to sample populations from known marginal constraints whilst preserving those marginal distributions. We call this technique Quasirandom Integer Without-replacement Sampling (QIWS) and show that the statistical properties of quasirandomly sampled populations to be superior to those of pseudorandomly sampled ones in that they tend to yield entropies much closer to populations generated using the entropy-maximising iterative proportional fitting (IPF) algorithm. The implementation is extremely efficient, easily outperforming common IPF implementations. It is freely available as an open source R package called humanleague. Finally, we suggest how the current limitations of the implementation can be overcome, providing a direction for future work.
+
+## Citation
+
+Andrew Smith, Robin Lovelace, and Mark Birkin (2017). Population Synthesis with Quasirandom Integer Sampling. *Journal of Artificial Societies and Social Simulation*. https://doi.org/10.18564/jasss.3550
+
+## BibTeX
+
+```bibtex
+@article{smith_population_2017,
+  title = {Population {{Synthesis}} with {{Quasirandom Integer Sampling}}},
+  author = {Smith, Andrew and Lovelace, Robin and Birkin, Mark},
+  date = {2017},
+  journaltitle = {Journal of Artificial Societies and Social Simulation},
+  volume = {20},
+  number = {4},
+  pages = {14},
+  issn = {1460-7425},
+  doi = {10.18564/jasss.3550},
+  url = {http://jasss.soc.surrey.ac.uk/20/4/14.html},
+  abstract = {Established methods for synthesising a population from geographically aggregated data are robust and well understood. However, most rely on the potentially detrimental process of integerisation if a whole individual population is required, e.g. for use in agent-based modelling (ABM). This paper describes and investigates the use of quasirandom sequences to sample populations from known marginal constraints whilst preserving those marginal distributions. We call this technique Quasirandom Integer Without-replacement Sampling (QIWS) and show that the statistical properties of quasirandomly sampled populations to be superior to those of pseudorandomly sampled ones in that they tend to yield entropies much closer to populations generated using the entropy-maximising iterative proportional fitting (IPF) algorithm. The implementation is extremely efficient, easily outperforming common IPF implementations. It is freely available as an open source R package called humanleague. Finally, we suggest how the current limitations of the implementation can be overcome, providing a direction for future work.},
+  keywords = {Microsimulation,Population Synthesis,Quasirandom Numbers,Statistical Sampling}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -1,0 +1,43 @@
+---
+title: "Geotagged tweets to inform a spatial interaction model: A case study of museums"
+description: "Robin Lovelace, Nick Malleson, Kirk Harland, and Mark Birkin (2014). Geotagged tweets to inform a spatial interaction model: A case study of museums. *Arxiv working paper*."
+date: "2014-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_geotagged_2014"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Arxiv working paper"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+  - "Nick Malleson"
+  - "Kirk Harland"
+  - "Mark Birkin"
+---
+
+**Type:** Journal Article
+**Venue:** Arxiv working paper
+**Year:** 2014
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace, Nick Malleson, Kirk Harland, and Mark Birkin (2014). Geotagged tweets to inform a spatial interaction model: A case study of museums. *Arxiv working paper*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_geotagged_2014,
+  title = {Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums},
+  author = {Lovelace, Robin and Malleson, Nick and Harland, Kirk and Birkin, Mark},
+  date = {2014},
+  journaltitle = {Arxiv working paper}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

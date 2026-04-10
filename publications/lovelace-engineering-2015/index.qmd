@@ -1,0 +1,43 @@
+---
+title: "Engineering in Development: Transport"
+description: "Robin Lovelace and Andy Mcloughlin (2015). Engineering in Development: Transport. *Engineers Without Borders UK*."
+date: "2015-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_engineering_2015"
+citation-type: "book"
+citation-type-label: "Book"
+venue: "Engineers Without Borders UK"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+  - "Andy Mcloughlin"
+---
+
+**Type:** Book
+**Venue:** Engineers Without Borders UK
+**Year:** 2015
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace and Andy Mcloughlin (2015). Engineering in Development: Transport. *Engineers Without Borders UK*.
+
+## BibTeX
+
+```bibtex
+@book{lovelace_engineering_2015,
+  title = {Engineering in {{Development}}: {{Transport}}},
+  author = {Lovelace, Robin and Mcloughlin, Andy},
+  date = {2015},
+  publisher = {Engineers Without Borders UK},
+  location = {London},
+  pagetotal = {135}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

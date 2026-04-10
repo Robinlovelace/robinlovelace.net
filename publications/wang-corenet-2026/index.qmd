@@ -1,0 +1,56 @@
+---
+title: "Corenet: A flexible framework for generating and prioritising core cycle network designs"
+description: "Zhao Wang, Hang Hu, Hussein Mahfouz, Juan Pablo Fonseca-Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Matthew Davis, Joseph Talbot, and Robin Lovelace (2026). Corenet: A flexible framework for generating and prioritising core cycle network designs. *Journal of Transport Geography*. https://doi.org/10.1016/j.jtrangeo.2026.104549"
+date: "2026-02-01"
+title-block-banner: false
+toc: false
+citation-key: "wang_corenet_2026"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Journal of Transport Geography"
+doi: "10.1016/j.jtrangeo.2026.104549"
+publication-url: "https://www.sciencedirect.com/science/article/pii/S0966692326000037"
+authors:
+  - "Zhao Wang"
+  - "Hang Hu"
+  - "Hussein Mahfouz"
+  - "Juan Pablo Fonseca-Zamora"
+  - "Martin Lucas-Smith"
+  - "Dustin Carlino"
+  - "Angus Calder"
+  - "Congying Hu"
+  - "Matthew Davis"
+  - "Joseph Talbot"
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Journal of Transport Geography
+**Year:** 2026
+
+[DOI](https://doi.org/10.1016/j.jtrangeo.2026.104549) [Publisher Link](https://www.sciencedirect.com/science/article/pii/S0966692326000037) [BibTeX](entry.bib)
+
+## Citation
+
+Zhao Wang, Hang Hu, Hussein Mahfouz, Juan Pablo Fonseca-Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Matthew Davis, Joseph Talbot, and Robin Lovelace (2026). Corenet: A flexible framework for generating and prioritising core cycle network designs. *Journal of Transport Geography*. https://doi.org/10.1016/j.jtrangeo.2026.104549
+
+## BibTeX
+
+```bibtex
+@article{wang_corenet_2026,
+  title = {Corenet: A flexible framework for generating and prioritising core cycle network designs},
+  author = {Wang, Zhao and Hu, Hang and Mahfouz, Hussein and Fonseca-Zamora, Juan Pablo and Lucas-Smith, Martin and Carlino, Dustin and Calder, Angus and Hu, Congying and Davis, Matthew and Talbot, Joseph and Lovelace, Robin},
+  date = {2026-02},
+  journaltitle = {Journal of Transport Geography},
+  volume = {131},
+  issn = {0966-6923},
+  doi = {10.1016/j.jtrangeo.2026.104549},
+  url = {https://www.sciencedirect.com/science/article/pii/S0966692326000037},
+  pages = {104549},
+  langid = {english}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

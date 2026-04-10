@@ -1,0 +1,46 @@
+---
+title: "Travel flow aggregation: Nationally scalable methods for interactive and online visualisation of transport behaviour at the road network level"
+description: "Malcolm Morgan and Robin Lovelace (2020). Travel flow aggregation: Nationally scalable methods for interactive and online visualisation of transport behaviour at the road network level. *Environment & Planning B: Planning & Design*. https://doi.org/10.1177/2399808320942779"
+date: "2020-07-01"
+title-block-banner: false
+toc: false
+citation-key: "morgan_travel_2020"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Environment & Planning B: Planning & Design"
+doi: "10.1177/2399808320942779"
+publication-url: "https://doi.org/10.1177/2399808320942779"
+authors:
+  - "Malcolm Morgan"
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Environment & Planning B: Planning & Design
+**Year:** 2020
+
+[DOI](https://doi.org/10.1177/2399808320942779) [URL](https://doi.org/10.1177/2399808320942779) [BibTeX](entry.bib)
+
+## Citation
+
+Malcolm Morgan and Robin Lovelace (2020). Travel flow aggregation: Nationally scalable methods for interactive and online visualisation of transport behaviour at the road network level. *Environment & Planning B: Planning & Design*. https://doi.org/10.1177/2399808320942779
+
+## BibTeX
+
+```bibtex
+@article{morgan_travel_2020,
+  ids = {morgan_travel_2020a},
+  title = {Travel Flow Aggregation: Nationally Scalable Methods for Interactive and Online Visualisation of Transport Behaviour at the Road Network Level},
+  author = {Morgan, Malcolm and Lovelace, Robin},
+  date = {2020-07},
+  journaltitle = {Environment \& Planning B: Planning \& Design},
+  publisher = {SAGE PublicationsSage UK: London, England},
+  doi = {10.1177/2399808320942779},
+  url = {https://doi.org/10.1177/2399808320942779},
+  file = {/home/robin/Zotero/storage/PFJBTCV8/Morgan and Lovelace - 2020 - Travel flow aggregation Nationally scalable metho.pdf;/home/robin/Zotero/storage/3MAT8X6H/2399808320942779.html}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

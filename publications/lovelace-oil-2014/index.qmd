@@ -1,0 +1,48 @@
+---
+title: "The “oil vulnerability” of commuter patterns: A case study from Yorkshire and the Humber, UK"
+description: "Robin Lovelace and Ian Philips (2014). The “oil vulnerability” of commuter patterns: A case study from Yorkshire and the Humber, UK. *Geoforum*. https://doi.org/http://dx.doi.org/10.1016/j.geoforum.2013.11.005"
+date: "2014-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_oil_2014"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Geoforum"
+doi: "http://dx.doi.org/10.1016/j.geoforum.2013.11.005"
+publication-url: "http://www.sciencedirect.com/science/article/pii/S0016718513002480"
+authors:
+  - "Robin Lovelace"
+  - "Ian Philips"
+---
+
+**Type:** Journal Article
+**Venue:** Geoforum
+**Year:** 2014
+
+[DOI](https://doi.org/http://dx.doi.org/10.1016/j.geoforum.2013.11.005) [Publisher Link](http://www.sciencedirect.com/science/article/pii/S0016718513002480) [BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace and Ian Philips (2014). The “oil vulnerability” of commuter patterns: A case study from Yorkshire and the Humber, UK. *Geoforum*. https://doi.org/http://dx.doi.org/10.1016/j.geoforum.2013.11.005
+
+## BibTeX
+
+```bibtex
+@article{lovelace_oil_2014,
+  title = {The ‘Oil Vulnerability’ of Commuter Patterns: {{A}} Case Study from {{Yorkshire}} and the {{Humber}}, {{UK}}},
+  author = {Lovelace, Robin and Philips, Ian},
+  date = {2014-01},
+  journaltitle = {Geoforum},
+  volume = {51},
+  number = {0},
+  pages = {169--182},
+  issn = {0016-7185},
+  doi = {http://dx.doi.org/10.1016/j.geoforum.2013.11.005},
+  url = {http://www.sciencedirect.com/science/article/pii/S0016718513002480},
+  keywords = {Oil vulnerability,Peak oil,resilience,vulnerability}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -1,0 +1,42 @@
+---
+title: "Flowcluster: Cluster origin-destination flow data"
+description: "Hussein Mahfouz and Robin Lovelace (2025). Flowcluster: Cluster origin-destination flow data. https://doi.org/10.32614/CRAN.package.flowcluster"
+date: "2025-01-01"
+title-block-banner: false
+toc: false
+citation-key: "mahfouz_flowcluster_2025"
+citation-type: "book"
+citation-type-label: "Book"
+venue: ""
+doi: "10.32614/CRAN.package.flowcluster"
+publication-url: "https://CRAN.R-project.org/package=flowcluster"
+authors:
+  - "Hussein Mahfouz"
+  - "Robin Lovelace"
+---
+
+**Type:** Book
+**Year:** 2025
+
+[DOI](https://doi.org/10.32614/CRAN.package.flowcluster) [Publisher Link](https://CRAN.R-project.org/package=flowcluster) [BibTeX](entry.bib)
+
+## Citation
+
+Hussein Mahfouz and Robin Lovelace (2025). Flowcluster: Cluster origin-destination flow data. https://doi.org/10.32614/CRAN.package.flowcluster
+
+## BibTeX
+
+```bibtex
+@manual{mahfouz_flowcluster_2025,
+  title = {flowcluster: Cluster origin-destination flow data},
+  author = {Mahfouz, Hussein and Lovelace, Robin},
+  date = {2025},
+  doi = {10.32614/CRAN.package.flowcluster},
+  url = {https://CRAN.R-project.org/package=flowcluster},
+  langid = {english}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -1,0 +1,53 @@
+---
+title: "Sykkelpotensial og bysykler En beregning av potensialet for økt hverdagssykling og evaluering av bysykkelordningene på Nord-Jæren, i Trondheim og i Bergen"
+description: "Ray Pritchard and Robin Lovelace (2022). Sykkelpotensial og bysykler En beregning av potensialet for økt hverdagssykling og evaluering av bysykkelordningene på Nord-Jæren, i Trondheim og i Bergen. *117*."
+date: "2022-01-01"
+title-block-banner: false
+toc: false
+citation-key: "pritchard_sykkelpotensial_2022"
+citation-type: "book"
+citation-type-label: "Book"
+venue: "117"
+doi: ""
+publication-url: "https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/2994058"
+authors:
+  - "Ray Pritchard"
+  - "Robin Lovelace"
+abstract: "Det er to hovedformål med denne studien. Det første er å modellere potensialet for økt sykling i Trondheim og på Nord-Jæren ved bruk av en metode som kalles for «Propensity to Cycle Tool». To scenarioer for fremtidig sykling basert på sykkeltilrettelegging og elsykkeleierskap er modellert. Interaktive kart som viser den kombinerte effekten av sykkeltilrettelegging og elsykkeleierskap er tilgjengelige som en del av denne rapporten. Det andre formålet er å evaluere effekten av og bruksmønsteret for bysykkelordningene i Trondheim, Bergen og Nord-Jæren i perioden 2018-2021."
+---
+
+**Type:** Book
+**Venue:** 117
+**Year:** 2022
+
+[URL](https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/2994058) [BibTeX](entry.bib)
+
+## Abstract
+
+Det er to hovedformål med denne studien. Det første er å modellere potensialet for økt sykling i Trondheim og på Nord-Jæren ved bruk av en metode som kalles for «Propensity to Cycle Tool». To scenarioer for fremtidig sykling basert på sykkeltilrettelegging og elsykkeleierskap er modellert. Interaktive kart som viser den kombinerte effekten av sykkeltilrettelegging og elsykkeleierskap er tilgjengelige som en del av denne rapporten. Det andre formålet er å evaluere effekten av og bruksmønsteret for bysykkelordningene i Trondheim, Bergen og Nord-Jæren i perioden 2018-2021.
+
+## Citation
+
+Ray Pritchard and Robin Lovelace (2022). Sykkelpotensial og bysykler En beregning av potensialet for økt hverdagssykling og evaluering av bysykkelordningene på Nord-Jæren, i Trondheim og i Bergen. *117*.
+
+## BibTeX
+
+```bibtex
+@book{pritchard_sykkelpotensial_2022,
+  title = {Sykkelpotensial og bysykler En beregning av potensialet for økt hverdagssykling og evaluering av bysykkelordningene på Nord-Jæren, i Trondheim og i Bergen},
+  author = {Pritchard, Ray and Lovelace, Robin},
+  date = {2022},
+  journaltitle = {117},
+  publisher = {NORCE Helse og samfunn},
+  url = {https://norceresearch.brage.unit.no/norceresearch-xmlui/handle/11250/2994058},
+  urldate = {2024-08-26},
+  abstract = {Det er to hovedformål med denne studien. Det første er å modellere potensialet for økt sykling i Trondheim og på Nord-Jæren ved bruk av en metode som kalles for «Propensity to Cycle Tool». To scenarioer for fremtidig sykling basert på sykkeltilrettelegging og elsykkeleierskap er modellert. Interaktive kart som viser den kombinerte effekten av sykkeltilrettelegging og elsykkeleierskap er tilgjengelige som en del av denne rapporten. Det andre formålet er å evaluere effekten av og bruksmønsteret for bysykkelordningene i Trondheim, Bergen og Nord-Jæren i perioden 2018-2021.},
+  isbn = {978-82-8408-220-2},
+  langid = {nob},
+  annotation = {Accepted: 2022-05-04T08:23:38Z}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

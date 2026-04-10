@@ -1,0 +1,50 @@
+---
+title: "A spatial microsimulation approach for the analysis of commuter patterns: From individual to regional levels"
+description: "Robin Lovelace, Dimitris Ballas, and Matt Watson (2013). A spatial microsimulation approach for the analysis of commuter patterns: From individual to regional levels. *Journal of Transport Geography*. https://doi.org/10.1016/j.jtrangeo.2013.07.008"
+date: "2013-08-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_spatial_2013"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Journal of Transport Geography"
+doi: "10.1016/j.jtrangeo.2013.07.008"
+publication-url: "http://dx.doi.org/10.1016/j.jtrangeo.2013.07.008"
+authors:
+  - "Robin Lovelace"
+  - "Dimitris Ballas"
+  - "Matt Watson"
+---
+
+**Type:** Journal Article
+**Venue:** Journal of Transport Geography
+**Year:** 2013
+
+[DOI](https://doi.org/10.1016/j.jtrangeo.2013.07.008) [Publisher Link](http://dx.doi.org/10.1016/j.jtrangeo.2013.07.008) [BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace, Dimitris Ballas, and Matt Watson (2013). A spatial microsimulation approach for the analysis of commuter patterns: From individual to regional levels. *Journal of Transport Geography*. https://doi.org/10.1016/j.jtrangeo.2013.07.008
+
+## BibTeX
+
+```bibtex
+@article{lovelace_spatial_2013,
+  ids = {lovelace_spatial_2014},
+  title = {A Spatial Microsimulation Approach for the Analysis of Commuter Patterns: From Individual to Regional Levels},
+  author = {Lovelace, Robin and Ballas, Dimitris and Watson, Matt},
+  date = {2013-08},
+  journaltitle = {Journal of Transport Geography},
+  volume = {34},
+  publisher = {Elsevier},
+  issn = {09666923},
+  doi = {10.1016/j.jtrangeo.2013.07.008},
+  url = {http://dx.doi.org/10.1016/j.jtrangeo.2013.07.008},
+  keywords = {Commuting,Policy evaluation,Spatial microsimulation},
+  file = {/home/robin/Zotero/storage/47F7WWV5/Lovelace et al. - 2014 - A spatial microsimulation approach for the analysi.pdf;/home/robin/Zotero/storage/9IM82VC6/Lovelace et al. - 2013 - A spatial microsimulation approach for the analysi.pdf;/home/robin/Zotero/storage/2U5995WL/S0966692313001361.html;/home/robin/Zotero/storage/LHE7TBZG/S0966692313001361.html}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

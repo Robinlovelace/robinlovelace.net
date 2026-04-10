@@ -1,0 +1,42 @@
+---
+title: "The energy costs of commuting: A spatial microsimulation approach"
+description: "Robin Lovelace (2014). The energy costs of commuting: A spatial microsimulation approach. *University of Sheffield*."
+date: "2014-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_energy_2014"
+citation-type: "thesis"
+citation-type-label: "Thesis"
+venue: "University of Sheffield"
+doi: ""
+publication-url: "http://etheses.whiterose.ac.uk/5027/"
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Thesis
+**Venue:** University of Sheffield
+**Year:** 2014
+
+[URL](http://etheses.whiterose.ac.uk/5027/) [BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2014). The energy costs of commuting: A spatial microsimulation approach. *University of Sheffield*.
+
+## BibTeX
+
+```bibtex
+@thesis{lovelace_energy_2014,
+  type = {Thesis},
+  title = {The Energy Costs of Commuting: A Spatial Microsimulation Approach},
+  author = {Lovelace, Robin},
+  date = {2014},
+  institution = {University of Sheffield},
+  url = {http://etheses.whiterose.ac.uk/5027/}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -1,0 +1,51 @@
+---
+title: "Spanishoddata: A package for accessing and working with spanish open mobility big data"
+description: "Egor Kotov, Eugeni Vidal-Tortosa, Oliva G. Cantú-Ros, Javier Burrieza-Galán, Ricardo Herranz, Tania Gullón Muñoz-Repiso, and Robin Lovelace (2026). Spanishoddata: A package for accessing and working with spanish open mobility big data. *Environment and Planning B: Urban Analytics and City Science*. https://doi.org/10.1177/23998083251415040"
+date: "2026-01-01"
+title-block-banner: false
+toc: false
+citation-key: "kotov_spanishoddata_2026"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Environment and Planning B: Urban Analytics and City Science"
+doi: "10.1177/23998083251415040"
+publication-url: "https://doi.org/10.1177/23998083251415040"
+authors:
+  - "Egor Kotov"
+  - "Eugeni Vidal-Tortosa"
+  - "Oliva G. Cantú-Ros"
+  - "Javier Burrieza-Galán"
+  - "Ricardo Herranz"
+  - "Tania Gullón Muñoz-Repiso"
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Environment and Planning B: Urban Analytics and City Science
+**Year:** 2026
+
+[DOI](https://doi.org/10.1177/23998083251415040) [URL](https://doi.org/10.1177/23998083251415040) [BibTeX](entry.bib)
+
+## Citation
+
+Egor Kotov, Eugeni Vidal-Tortosa, Oliva G. Cantú-Ros, Javier Burrieza-Galán, Ricardo Herranz, Tania Gullón Muñoz-Repiso, and Robin Lovelace (2026). Spanishoddata: A package for accessing and working with spanish open mobility big data. *Environment and Planning B: Urban Analytics and City Science*. https://doi.org/10.1177/23998083251415040
+
+## BibTeX
+
+```bibtex
+@article{kotov_spanishoddata_2026,
+  title = {spanishoddata: A package for accessing and working with Spanish Open Mobility Big Data},
+  author = {Kotov, Egor and Vidal-Tortosa, Eugeni and Cantú-Ros, Oliva G. and Burrieza-Galán, Javier and Herranz, Ricardo and Gullón Muñoz-Repiso, Tania and Lovelace, Robin},
+  date = {2026-01},
+  journaltitle = {Environment and Planning B: Urban Analytics and City Science},
+  issn = {2399-8083},
+  doi = {10.1177/23998083251415040},
+  url = {https://doi.org/10.1177/23998083251415040},
+  pages = {23998083251415040},
+  langid = {english}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}
