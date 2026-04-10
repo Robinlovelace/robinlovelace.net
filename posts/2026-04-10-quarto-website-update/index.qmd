@@ -1,0 +1,73 @@
+---
+title: "Website update: Quarto migration, HugoBlox links, and GitHub Pages at the apex domain"
+date: 2026-04-10
+categories: []
+tags: [quarto, website, github-pages, wowchemy, hugoblox]
+subtitle: "A practical migration and deployment update"
+description: ""
+---
+
+I have just updated my website stack and wanted to document what changed and why.
+The short version is that I looked at migration options from Wowchemy, moved the site to Quarto, and improved how project pages are published under robinlovelace.net.
+
+Looking back over recent commits in this repo, the practical work included switching to native GitHub Pages deploys, fixing event content and front matter, and consolidating the Quarto-based structure.
+I also wanted to write this up because the ecosystem has shifted in a way that can be confusing if you have not looked recently.
+
+## Looking at migration options: Wowchemy and HugoBlox
+
+I explored options including migrating from Wowchemy to [HugoBlox](https://github.com/HugoBlox).
+If you search for Wowchemy on GitHub today, there are no public repositories under [github.com/wowchemy](https://github.com/wowchemy).
+The project activity has moved under the HugoBlox organisation: [github.com/HugoBlox](https://github.com/HugoBlox).
+
+So one path was to stay in the Hugo ecosystem and migrate templates and content there.
+The other path was to simplify and move to Quarto for content-first publishing and easier long-term maintenance.
+I went with Quarto.
+
+## Converting content
+
+A key tool in this process was [academic-file-converter](https://github.com/lore-labs/academic-file-converter).
+It did an excellent job of converting legacy Academic/Wowchemy-style content into formats that are much easier to work with in a modern Quarto workflow.
+
+For anyone sitting on years of posts, events, and publication metadata, this is the kind of utility that turns a risky migration into a manageable one.
+
+Another useful piece of the Quarto ecosystem is the Academicons extension workflow documented here: <https://rmflight.github.io/posts/2022-12-03-using-academicons-in-your-quarto-blog/>.
+[Academicons](https://jpswalsh.github.io/academicons/) are great for academic profile links (ORCID, Google Scholar and similar), but the experience is still more extension-oriented and less integrated than the tightly packaged academic site features available in HugoBlox.
+That is one reason I think Quarto could benefit from more high-level, Wowchemy/HugoBlox-style extensions for academic websites.
+
+## Legacy site archive
+
+The old version of my site remains online here:
+
+- <http://robinlovelace.net/old-site/>
+
+That gives a stable reference point while the new stack evolves.
+
+## Domain and GitHub Pages setup
+
+With help from [Jakub Nowosad](https://jakubnowosad.com/), I configured my domain so GitHub Pages can serve from the apex domain setup.
+The practical result is that repositories with `gh-pages` outputs appear automatically under robinlovelace.net.
+
+For example:
+
+- New URL: <https://robinlovelace.net/rs5c/>
+- Previous URL: <https://robinlovelace.github.io/rs5c/>
+
+The old GitHub-hosted URL now redirects, so links continue to work while the canonical home is on robinlovelace.net.
+
+## Questions for next improvements
+
+I would appreciate feedback on what to prioritise next. A few specific questions:
+
+1. Which area should I improve first: publications pages, project pages, or events/talks pages?
+2. Do you prefer a minimal homepage or one with more featured content blocks?
+3. Should I invest in a Quarto extension specifically for publication handling to get closer to the HugoBlox experience?
+4. Are there old URLs (besides `/rs5c/`) that should get explicit redirect checks?
+
+## Links
+
+- Site source code: <https://github.com/robinlovelace/robinlovelace.net>
+- HugoBlox organisation: <https://github.com/HugoBlox>
+- Wowchemy org page: <https://github.com/wowchemy>
+- academic-file-converter: <https://github.com/lore-labs/academic-file-converter>
+- Academicons extension post: <https://rmflight.github.io/posts/2022-12-03-using-academicons-in-your-quarto-blog/>
+- Academicons project: <https://jpswalsh.github.io/academicons/>
