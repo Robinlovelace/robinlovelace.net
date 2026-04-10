@@ -1,0 +1,45 @@
+---
+title: "Carbon Capture and Storage: Bury the myth and focus on alternatives"
+description: "Robin Lovelace and Luke Temple (2012). Carbon Capture and Storage: Bury the myth and focus on alternatives. *Metis*."
+date: "2012-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_carbon_2012"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Metis"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+  - "Luke Temple"
+---
+
+**Type:** Journal Article
+**Venue:** Metis
+**Year:** 2012
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace and Luke Temple (2012). Carbon Capture and Storage: Bury the myth and focus on alternatives. *Metis*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_carbon_2012,
+  title = {Carbon {{Capture}} and {{Storage}}: Bury the Myth and Focus on Alternatives},
+  author = {Lovelace, Robin and Temple, Luke},
+  year = {2012},
+  journal = {Metis},
+  volume = {3},
+  number = {September 2012},
+  pages = {20--26},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -1,0 +1,55 @@
+---
+title: "Estimating the Determinants of Cycling: From Area to Road Network Levels"
+description: "Robin Lovelace and John Parkin (2018). Estimating the Determinants of Cycling: From Area to Road Network Levels. *Journal of Transport & Health*. https://doi.org/10.1016/j.jth.2018.05.054"
+date: "2018-06-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_estimating_2018a"
+citation-type: "paper-conference"
+citation-type-label: "Conference Paper"
+venue: "Journal of Transport & Health"
+doi: "10.1016/j.jth.2018.05.054"
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+  - "John Parkin"
+abstract: "Background It is important to model the determinants of mode choice for many health-related reasons: to find-out what is holding people back from healthy active travel choices, to understand the drivers of detrimental car dependency, and to identify the causal factors over which public authorities have some control. Another motivation is that model results could feed into forecasts of behaviour change following specific interventions. Numerous papers have explored the issue but few have been able to provide results that can feed-into models forecasting uptake following local interventions for a number of reasons including small sample size, lack of a temporal component, and use of explanatory variables that cannot easily be applied beyond the case study region. This gap in the literature was identified and tackled as part of a UK Department for Transport funded project to develop a Cycling Infrastructure Prioritisation Toolkit (CyIPT). Methods Origin-destination (OD) data on commuter mode choice was obtained from the 2001 and 2011 Census. The data was processed to ensure that the 2001 data, which was provided at a different geographic level, as compatible with the 2011 data. It was further processed to create a dependent variable (cycling uptake) and explanatory variables including environmental (e.g. length of off-road cycle infrastructure) and demographic (e.g. age and gender splits) factors, for each desire-line. A model was developed to explain cycling uptake as a function of the explanatory variables and forecast future uptake following simulated interventions. Results Preliminary results show a clear infrastructure signal in the noise surrounding mode choice but other factors seem to be at play. Further research over the coming months will seek to improve the model and our resulting ability to forecast uptake at the local level from specific interventions. Conclusions Newly available data, combined with emerging high performance and open source statistical software, mean that large natural experiments on the impact of new infrastructure on mode choice can now be performed at the national level using geographically detailed data at the origin-destination level. This has the potential to make the prioritisation of new infrastructure much more evidence-based and holds the promise of allowing a-priori benefit-cost estimates to be automated to support transport planners to enable a rapid transition away from fossil fuels and towards healthy travel patterns across the world, in urban and rural areas alike."
+---
+
+**Type:** Conference Paper
+**Venue:** Journal of Transport & Health
+**Year:** 2018
+
+[DOI](https://doi.org/10.1016/j.jth.2018.05.054) [BibTeX](entry.bib)
+
+## Abstract
+
+Background It is important to model the determinants of mode choice for many health-related reasons: to find-out what is holding people back from healthy active travel choices, to understand the drivers of detrimental car dependency, and to identify the causal factors over which public authorities have some control. Another motivation is that model results could feed into forecasts of behaviour change following specific interventions. Numerous papers have explored the issue but few have been able to provide results that can feed-into models forecasting uptake following local interventions for a number of reasons including small sample size, lack of a temporal component, and use of explanatory variables that cannot easily be applied beyond the case study region. This gap in the literature was identified and tackled as part of a UK Department for Transport funded project to develop a Cycling Infrastructure Prioritisation Toolkit (CyIPT). Methods Origin-destination (OD) data on commuter mode choice was obtained from the 2001 and 2011 Census. The data was processed to ensure that the 2001 data, which was provided at a different geographic level, as compatible with the 2011 data. It was further processed to create a dependent variable (cycling uptake) and explanatory variables including environmental (e.g. length of off-road cycle infrastructure) and demographic (e.g. age and gender splits) factors, for each desire-line. A model was developed to explain cycling uptake as a function of the explanatory variables and forecast future uptake following simulated interventions. Results Preliminary results show a clear infrastructure signal in the noise surrounding mode choice but other factors seem to be at play. Further research over the coming months will seek to improve the model and our resulting ability to forecast uptake at the local level from specific interventions. Conclusions Newly available data, combined with emerging high performance and open source statistical software, mean that large natural experiments on the impact of new infrastructure on mode choice can now be performed at the national level using geographically detailed data at the origin-destination level. This has the potential to make the prioritisation of new infrastructure much more evidence-based and holds the promise of allowing a-priori benefit-cost estimates to be automated to support transport planners to enable a rapid transition away from fossil fuels and towards healthy travel patterns across the world, in urban and rural areas alike.
+
+## Citation
+
+Robin Lovelace and John Parkin (2018). Estimating the Determinants of Cycling: From Area to Road Network Levels. *Journal of Transport & Health*. https://doi.org/10.1016/j.jth.2018.05.054
+
+## BibTeX
+
+```bibtex
+@inproceedings{lovelace_estimating_2018a,
+  title = {Estimating the {{Determinants}} of {{Cycling}}: {{From Area}} to {{Road Network Levels}}},
+  shorttitle = {2268 - {{Estimating}} the {{Determinants}} of {{Cycling}}},
+  booktitle = {Journal of {{Transport}} \& {{Health}}},
+  author = {Lovelace, Robin and Parkin, John},
+  year = {2018},
+  month = jun,
+  volume = {9},
+  pages = {S4-S5},
+  doi = {10.1016/j.jth.2018.05.054},
+  urldate = {2018-08-15},
+  abstract = {Background It is important to model the determinants of mode choice for many health-related reasons: to find-out what is holding people back from healthy active travel choices, to understand the drivers of detrimental car dependency, and to identify the causal factors over which public authorities have some control. Another motivation is that model results could feed into forecasts of behaviour change following specific interventions. Numerous papers have explored the issue but few have been able to provide results that can feed-into models forecasting uptake following local interventions for a number of reasons including small sample size, lack of a temporal component, and use of explanatory variables that cannot easily be applied beyond the case study region. This gap in the literature was identified and tackled as part of a UK Department for Transport funded project to develop a Cycling Infrastructure Prioritisation Toolkit (CyIPT). Methods Origin-destination (OD) data on commuter mode choice was obtained from the 2001 and 2011 Census. The data was processed to ensure that the 2001 data, which was provided at a different geographic level, as compatible with the 2011 data. It was further processed to create a dependent variable (cycling uptake) and explanatory variables including environmental (e.g. length of off-road cycle infrastructure) and demographic (e.g. age and gender splits) factors, for each desire-line. A model was developed to explain cycling uptake as a function of the explanatory variables and forecast future uptake following simulated interventions. Results Preliminary results show a clear infrastructure signal in the noise surrounding mode choice but other factors seem to be at play. Further research over the coming months will seek to improve the model and our resulting ability to forecast uptake at the local level from specific interventions. Conclusions Newly available data, combined with emerging high performance and open source statistical software, mean that large natural experiments on the impact of new infrastructure on mode choice can now be performed at the national level using geographically detailed data at the origin-destination level. This has the potential to make the prioritisation of new infrastructure much more evidence-based and holds the promise of allowing a-priori benefit-cost estimates to be automated to support transport planners to enable a rapid transition away from fossil fuels and towards healthy travel patterns across the world, in urban and rural areas alike.},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
+  file = {/home/robin/Zotero/storage/UJ7CQJ83/S2214140518302391.html}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

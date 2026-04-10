@@ -1,0 +1,39 @@
+---
+title: "Assessing the energy implication of political intervention"
+description: "Robin Lovelace (2011). Assessing the energy implication of political intervention."
+date: "2011-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_assessing_2011a"
+citation-type: ""
+citation-type-label: ""
+venue: ""
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** 
+**Year:** 2011
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2011). Assessing the energy implication of political intervention.
+
+## BibTeX
+
+```bibtex
+@misc{lovelace_assessing_2011a,
+  title = {Assessing the Energy Implication of Political Intervention},
+  author = {Lovelace, Robin},
+  year = {2011},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

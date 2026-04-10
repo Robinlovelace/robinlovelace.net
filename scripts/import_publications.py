@@ -136,6 +136,8 @@ def strip_braces(value: str) -> str:
 
 def slugify(value: str) -> str:
     value = value.lower()
+    value = re.sub(r"stats19", "stats-19", value)
+    value = re.sub(r"([0-9]{4})([a-z])$", r"\1-\2", value)
     value = re.sub(r"[^a-z0-9]+", "-", value)
     value = re.sub(r"-{2,}", "-", value).strip("-")
     return value or "publication"
@@ -356,7 +358,8 @@ def main() -> None:
     copy_to = args.copy_to.resolve()
 
     copy_to.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(source_bib, copy_to)
+    if source_bib != copy_to:
+        shutil.copy2(source_bib, copy_to)
 
     bib_text = copy_to.read_text(encoding="utf-8")
     bib_entries = split_bibtex_entries(bib_text)

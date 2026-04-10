@@ -1,7 +1,7 @@
 ---
 title: "Open access, open source and cloud computing: A glimpse into the future of GIS"
 description: "Christopher Pettit, Bob Stimson, Jack Barton, Xavier Goldie, Philip Greenwood, Robin Lovelace, and Serryn Eagleson (2020). Open access, open source and cloud computing: A glimpse into the future of GIS. *Handbook of Planning Support Science*."
-date: "2020-02-18"
+date: "2020-02-01"
 title-block-banner: false
 toc: false
 citation-key: "pettit_open_2020"
@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Handbook of Planning Support Science"
 doi: ""
-publication-url: "https://www.elgaronline.com/view/edcoll/9781788971072/9781788971072.00011.xml"
+publication-url: ""
 authors:
   - "Christopher Pettit"
   - "Bob Stimson"
@@ -25,7 +25,7 @@ abstract: "$<$p$>$Open access data, open source software and cloud computing are
 **Venue:** Handbook of Planning Support Science
 **Year:** 2020
 
-[URL](https://www.elgaronline.com/view/edcoll/9781788971072/9781788971072.00011.xml) [BibTeX](entry.bib)
+[BibTeX](entry.bib)
 
 ## Abstract
 
@@ -42,12 +42,14 @@ Christopher Pettit, Bob Stimson, Jack Barton, Xavier Goldie, Philip Greenwood, R
   title = {Open Access, Open Source and Cloud Computing: A Glimpse into the Future of {{GIS}}},
   shorttitle = {Open Access, Open Source and Cloud Computing},
   author = {Pettit, Christopher and Stimson, Bob and Barton, Jack and Goldie, Xavier and Greenwood, Philip and Lovelace, Robin and Eagleson, Serryn},
-  date = {2020-02-18},
-  journaltitle = {Handbook of Planning Support Science},
-  publisher = {Edward Elgar Publishing},
-  url = {https://www.elgaronline.com/view/edcoll/9781788971072/9781788971072.00011.xml},
+  year = {2020},
+  month = feb,
+  journal = {Handbook of Planning Support Science},
+  publisher = {{Edward Elgar Publishing}},
   urldate = {2020-05-22},
   abstract = {{$<$}p{$>$}Open access data, open source software and cloud computing are three parallel and mutually reinforcing drivers of change in the field of applied geographical information systems (GIS). While these developments create many new opportunities for GIS users and companies, they are also associated with under-explored risks. This chapter investigates cloud GIS, focusing on the Australian Urban Research Infrastructure Network (AURIN), an online, cloud-based data portal and GIS designed explicitly for Australian urban research and public-sector planning applications. AURIN provides direct access to more than 4000 data sets, over 100 spatial analysis tools and powerful computational resources that are typically available in desktop GIS. The experience of developing, communicating and using AURIN has provided insights into the opportunities unleashed by new models of GIS research. This chapter explores those opportunities, such as greater accessibility, transparency and consistency in decision support for public policy, and risks of cloud GIS and its potential uses for social benefit.{$<$}/p{$>$}},
+  chapter = {Handbook of Planning Support Science},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
   isbn = {9781788971089},
   langid = {american},
   annotation = {ZSCC: 0000000},

@@ -1,0 +1,43 @@
+---
+title: "Bike trailers"
+description: "Robin Lovelace (2011). Bike trailers. *Now Then*."
+date: "2011-09-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_bike_2011"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Now Then"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Now Then
+**Year:** 2011
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2011). Bike trailers. *Now Then*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_bike_2011,
+  title = {Bike Trailers},
+  author = {Lovelace, Robin},
+  year = {2011},
+  month = sep,
+  journal = {Now Then},
+  pages = {20--22},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

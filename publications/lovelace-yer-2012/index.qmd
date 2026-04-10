@@ -1,0 +1,44 @@
+---
+title: "On Yer Bike: Joining the sustainable transport revolution"
+description: "Robin Lovelace (2012). On Yer Bike: Joining the sustainable transport revolution. *Now Then*."
+date: "2012-12-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_yer_2012"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Now Then"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Now Then
+**Year:** 2012
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2012). On Yer Bike: Joining the sustainable transport revolution. *Now Then*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_yer_2012,
+  title = {On {{Yer Bike}}: {{Joining}} the Sustainable Transport Revolution},
+  author = {Lovelace, Robin},
+  year = {2012},
+  month = dec,
+  journal = {Now Then},
+  pages = {23--24},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
+  keywords = {bicycle}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -1,0 +1,45 @@
+---
+title: "Spatial data visualisation with R"
+description: "James Cheshire and Robin Lovelace (2015). Spatial data visualisation with R. *Geocomputation*."
+date: "2015-01-01"
+title-block-banner: false
+toc: false
+citation-key: "cheshire_spatial_2015"
+citation-type: "chapter"
+citation-type-label: "Book Chapter"
+venue: "Geocomputation"
+doi: ""
+publication-url: ""
+authors:
+  - "James Cheshire"
+  - "Robin Lovelace"
+---
+
+**Type:** Book Chapter
+**Venue:** Geocomputation
+**Year:** 2015
+
+[BibTeX](entry.bib)
+
+## Citation
+
+James Cheshire and Robin Lovelace (2015). Spatial data visualisation with R. *Geocomputation*.
+
+## BibTeX
+
+```bibtex
+@incollection{cheshire_spatial_2015,
+  title = {Spatial Data Visualisation with {{R}}},
+  booktitle = {Geocomputation},
+  author = {Cheshire, James and Lovelace, Robin},
+  editor = {Brunsdon, Chris and Singleton, Alex},
+  year = {2015},
+  pages = {1--14},
+  publisher = {{SAGE Publications}},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

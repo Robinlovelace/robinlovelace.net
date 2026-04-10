@@ -9,7 +9,7 @@ citation-type: "book"
 citation-type-label: "Book"
 venue: "CRC Press"
 doi: ""
-publication-url: "https://r.geocompx.org"
+publication-url: ""
 authors:
   - "Robin Lovelace"
   - "Jakub Nowosad"
@@ -21,7 +21,7 @@ abstract: "Book on geographic data with R."
 **Venue:** CRC Press
 **Year:** 2019
 
-[URL](https://r.geocompx.org) [BibTeX](entry.bib)
+[BibTeX](entry.bib)
 
 ## Abstract
 
@@ -37,11 +37,11 @@ Robin Lovelace, Jakub Nowosad, and Jannes Muenchow (2019). Geocomputation with R
 @book{lovelace_geocomputation_2019,
   title = {Geocomputation with {{R}}},
   author = {Lovelace, Robin and Nowosad, Jakub and Muenchow, Jannes},
-  date = {2019},
-  publisher = {CRC Press},
-  url = {https://r.geocompx.org},
+  year = {2019},
+  publisher = {{CRC Press}},
   urldate = {2017-10-05},
   abstract = {Book on geographic data with R.},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
   isbn = {1-138-30451-4}
 }
 ```

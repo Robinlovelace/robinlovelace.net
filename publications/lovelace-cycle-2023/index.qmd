@@ -1,15 +1,15 @@
 ---
 title: "Cycle network policy, planning and investment transformed by the Propensity to Cycle Tool"
-description: "Robin Lovelace, M Birkin, Joseph Talbot, and Malcolm Morgan (2023). Cycle network policy, planning and investment transformed by the Propensity to Cycle Tool. *Research Excellence Framework*."
+description: "Robin Lovelace, M Birkin, Joseph Talbot, and Malcolm Morgan (2023). Cycle network policy, planning and investment transformed by the Propensity to Cycle Tool. *University of Leeds*."
 date: "2023-01-01"
 title-block-banner: false
 toc: false
 citation-key: "lovelace_cycle_2023"
 citation-type: "report"
 citation-type-label: "Report"
-venue: "Research Excellence Framework"
+venue: "University of Leeds"
 doi: ""
-publication-url: "https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1"
+publication-url: ""
 authors:
   - "Robin Lovelace"
   - "M Birkin"
@@ -19,10 +19,10 @@ abstract: "The Propensity to Cycle Tool (PCT) has revolutionised strategic cycle
 ---
 
 **Type:** Report
-**Venue:** Research Excellence Framework
+**Venue:** University of Leeds
 **Year:** 2023
 
-[URL](https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1) [BibTeX](entry.bib)
+[BibTeX](entry.bib)
 
 ## Abstract
 
@@ -30,19 +30,19 @@ The Propensity to Cycle Tool (PCT) has revolutionised strategic cycle planning i
 
 ## Citation
 
-Robin Lovelace, M Birkin, Joseph Talbot, and Malcolm Morgan (2023). Cycle network policy, planning and investment transformed by the Propensity to Cycle Tool. *Research Excellence Framework*.
+Robin Lovelace, M Birkin, Joseph Talbot, and Malcolm Morgan (2023). Cycle network policy, planning and investment transformed by the Propensity to Cycle Tool. *University of Leeds*.
 
 ## BibTeX
 
 ```bibtex
-@report{lovelace_cycle_2023,
-  type = {Impact Case Study},
+@techreport{lovelace_cycle_2023,
+  type = {Research {{Excellence Framework}}},
   title = {Cycle Network Policy, Planning and Investment Transformed by the {{Propensity}} to {{Cycle Tool}}},
   author = {Lovelace, Robin and Birkin, M and Talbot, Joseph and Morgan, Malcolm},
-  date = {2023},
-  institution = {Research Excellence Framework},
-  url = {https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1},
-  abstract = {The Propensity to Cycle Tool (PCT) has revolutionised strategic cycle planning in England and Wales. This evidence-based tool quantifies cycling potential at national, city and street scales, leading to the creation of joined-up networks available to millions of people. The PCT has been used by {$>$}35,000 transport planners, consultants, advocates and members of the public, directly influencing the design and construction of cost-effective cycle networks worth {$>$}GBP500,000,000. The tool informed the majority of UK local authority applications to the GBP250,000,000 government COVID-19 Emergency Active Travel Fund. Planners across Europe, USA, Australia and New Zealand have adopted the approach internationally.}
+  year = {2023},
+  institution = {{University of Leeds}},
+  abstract = {The Propensity to Cycle Tool (PCT) has revolutionised strategic cycle planning in England and Wales. This evidence-based tool quantifies cycling potential at national, city and street scales, leading to the creation of joined-up networks available to millions of people. The PCT has been used by {$>$}35,000 transport planners, consultants, advocates and members of the public, directly influencing the design and construction of cost-effective cycle networks worth {$>$}GBP500,000,000. The tool informed the majority of UK local authority applications to the GBP250,000,000 government COVID-19 Emergency Active Travel Fund. Planners across Europe, USA, Australia and New Zealand have adopted the approach internationally.},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
 }
 ```
 

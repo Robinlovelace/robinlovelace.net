@@ -1,0 +1,49 @@
+---
+title: "Fear"
+description: "Robin Lovelace (2010). Fear. *Now Then*."
+date: "2010-11-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_fear_2010"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Now Then"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+abstract: "Money, staffies, and the apocalypse"
+---
+
+**Type:** Journal Article
+**Venue:** Now Then
+**Year:** 2010
+
+[BibTeX](entry.bib)
+
+## Abstract
+
+Money, staffies, and the apocalypse
+
+## Citation
+
+Robin Lovelace (2010). Fear. *Now Then*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_fear_2010,
+  title = {Fear},
+  author = {Lovelace, Robin},
+  year = {2010},
+  month = nov,
+  journal = {Now Then},
+  pages = {22--23},
+  abstract = {Money, staffies, and the apocalypse},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -1,0 +1,41 @@
+---
+title: "Crowd sourced vs centralised data for transport planning: A case study of bicycle path data in the UK"
+description: "Robin Lovelace (2015). Crowd sourced vs centralised data for transport planning: A case study of bicycle path data in the UK. *GIS Research UK(GISRUK). Leeds. http://leeds. Gisruk. Org/abstracts/GISRUK2015_submission_71. pdf*."
+date: "2015-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_crowd_2015"
+citation-type: "paper-conference"
+citation-type-label: "Conference Paper"
+venue: "GIS Research UK(GISRUK). Leeds. http://leeds. Gisruk. Org/abstracts/GISRUK2015_submission_71. pdf"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Conference Paper
+**Venue:** GIS Research UK(GISRUK). Leeds. http://leeds. Gisruk. Org/abstracts/GISRUK2015_submission_71. pdf
+**Year:** 2015
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2015). Crowd sourced vs centralised data for transport planning: A case study of bicycle path data in the UK. *GIS Research UK(GISRUK). Leeds. http://leeds. Gisruk. Org/abstracts/GISRUK2015_submission_71. pdf*.
+
+## BibTeX
+
+```bibtex
+@inproceedings{lovelace_crowd_2015,
+  title = {Crowd Sourced vs Centralised Data for Transport Planning: A Case Study of Bicycle Path Data in the {{UK}}},
+  booktitle = {{{GIS Research UK}}({{GISRUK}}). {{Leeds}}. {{http://leeds.}} Gisruk. Org/Abstracts/{{GISRUK2015}}\_submission\_71. Pdf},
+  author = {Lovelace, Robin},
+  year = {2015},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

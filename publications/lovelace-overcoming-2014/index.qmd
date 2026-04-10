@@ -1,0 +1,46 @@
+---
+title: "Overcoming car dependence: Review of “The car dependent societya European perspective”"
+description: "Robin Lovelace (2014). Overcoming car dependence: Review of “The car dependent societya European perspective”. *Environment and Planning B-Planning and Design*."
+date: "2014-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_overcoming_2014"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Environment and Planning B-Planning and Design"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Environment and Planning B-Planning and Design
+**Year:** 2014
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2014). Overcoming car dependence: Review of “The car dependent societya European perspective”. *Environment and Planning B-Planning and Design*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_overcoming_2014,
+  title = {Overcoming Car Dependence: {{Review}} of ``{{The}} Car Dependent Society{\textendash}a {{European}} Perspective''},
+  author = {Lovelace, Robin},
+  year = {2014},
+  journal = {Environment and Planning B-Planning and Design},
+  volume = {41},
+  number = {5},
+  pages = {948--949},
+  issn = {0265-8135},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
+  keywords = {Book review}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

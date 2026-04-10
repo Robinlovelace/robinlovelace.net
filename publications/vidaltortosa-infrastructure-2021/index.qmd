@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Journal of Transport and Land Use"
 doi: "10.5198/jtlu.2021.1781"
-publication-url: "https://www.jtlu.org/index.php/jtlu/article/view/1781"
+publication-url: ""
 authors:
   - "Eugeni Vidal Tortosa"
   - "R. Lovelace"
@@ -21,7 +21,7 @@ authors:
 **Venue:** Journal of Transport and Land Use
 **Year:** 2021
 
-[DOI](https://doi.org/10.5198/jtlu.2021.1781) [Publisher Link](https://www.jtlu.org/index.php/jtlu/article/view/1781) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.5198/jtlu.2021.1781) [BibTeX](entry.bib)
 
 ## Citation
 
@@ -35,14 +35,14 @@ Eugeni Vidal Tortosa, R. Lovelace, E. Heinen, and R. P. Mann (2021). Infrastruct
   title = {Infrastructure Is Not Enough: Interactions between the Environment, Socioeconomic Disadvantage and Cycling Participation in {{England}}},
   shorttitle = {Infrastructure Is Not Enough},
   author = {Vidal Tortosa, Eugeni and Lovelace, R. and Heinen, E. and Mann, R. P.},
-  date = {2021},
-  journaltitle = {Journal of Transport and Land Use},
+  year = {2021},
+  journal = {Journal of Transport and Land Use},
   number = {1},
-  publisher = {University of Minnesota},
+  publisher = {{University of Minnesota}},
   issn = {1938-7849},
   doi = {10.5198/jtlu.2021.1781},
-  url = {https://www.jtlu.org/index.php/jtlu/article/view/1781},
   urldate = {2021-03-06},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
   langid = {english},
   keywords = {physical activity},
   file = {/home/robin/hd/od/career/phds/eugeni/paper1/resubmission1/Paper-1_final_version_120221-rl.docx;/home/robin/Zotero/storage/2V6CC82P/Tortosa et al. - 2021 - Infrastructure is not enough Interactions between.pdf;/home/robin/Zotero/storage/FGQGYYBX/Tortosa et al. - 2021 - Infrastructure is not enough Interactions between.pdf;/home/robin/Zotero/storage/5XGYGBCG/170217.html;/home/robin/Zotero/storage/JDAFHYHP/1781.html}

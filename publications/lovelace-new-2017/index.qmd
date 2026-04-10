@@ -1,0 +1,46 @@
+---
+title: "New tools of the trade? The potential and pitfalls of’Machine Learning’and’DAGs’ to model origin-destination data"
+description: "Robin Lovelace and Ilan Fridman-Rojas (2017). New tools of the trade? The potential and pitfalls of’Machine Learning’and’DAGs’ to model origin-destination data. *GeoComputation 2017*."
+date: "2017-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_new_2017"
+citation-type: "paper-conference"
+citation-type-label: "Conference Paper"
+venue: "GeoComputation 2017"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+  - "Ilan Fridman-Rojas"
+---
+
+**Type:** Conference Paper
+**Venue:** GeoComputation 2017
+**Year:** 2017
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace and Ilan Fridman-Rojas (2017). New tools of the trade? The potential and pitfalls of’Machine Learning’and’DAGs’ to model origin-destination data. *GeoComputation 2017*.
+
+## BibTeX
+
+```bibtex
+@inproceedings{lovelace_new_2017,
+  title = {New Tools of the Trade? {{The}} Potential and Pitfalls of'{{Machine Learning}}'and'{{DAGs}}' to Model Origin-Destination Data},
+  shorttitle = {New Tools of the Trade?},
+  booktitle = {{{GeoComputation}} 2017},
+  author = {Lovelace, Robin and {Fridman-Rojas}, Ilan},
+  editor = {Long, Rob},
+  year = {2017},
+  publisher = {{Centre for Computational Geography, University of Leeds}},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
+  file = {/home/robin/Zotero/storage/6EXFI7ZR/Lovelace et al. - 2017 - New tools of the trade The potential and pitfalls.pdf;/home/robin/Zotero/storage/HMFQBN8S/124286.html}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

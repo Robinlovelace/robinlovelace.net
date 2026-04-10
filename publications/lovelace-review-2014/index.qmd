@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Journal of Transport Geography"
 doi: "10.1016/j.jtrangeo.2014.05.002"
-publication-url: "http://linkinghub.elsevier.com/retrieve/pii/S096669231400088X"
+publication-url: ""
 authors:
   - "Robin Lovelace"
 ---
@@ -18,7 +18,7 @@ authors:
 **Venue:** Journal of Transport Geography
 **Year:** 2014
 
-[DOI](https://doi.org/10.1016/j.jtrangeo.2014.05.002) [Publisher Link](http://linkinghub.elsevier.com/retrieve/pii/S096669231400088X) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.1016/j.jtrangeo.2014.05.002) [BibTeX](entry.bib)
 
 ## Citation
 
@@ -28,14 +28,15 @@ Robin Lovelace (2014). Review: Sage Handbook of Transport Studies, Jean-Paul Rod
 
 ```bibtex
 @article{lovelace_review_2014,
-  title = {Review: {{Sage Handbook}} of {{Transport Studies}}, {{Jean-Paul Rodrigue}}, {{Theo Notteboom}}, {{Jon Shaw}} ({{Eds}}.). {{Sage}}, {{London}} (2013). £95, {{Hardback}}, {{ISBN}}: 978-1-84920-789-8},
+  title = {Review: {{Sage Handbook}} of {{Transport Studies}}, {{Jean-Paul Rodrigue}}, {{Theo Notteboom}}, {{Jon Shaw}} ({{Eds}}.). {{Sage}}, {{London}} (2013). {\textsterling}95, {{Hardback}}, {{ISBN}}: 978-1-84920-789-8},
   author = {Lovelace, Robin},
-  date = {2014-05},
-  journaltitle = {Journal of Transport Geography},
+  year = {2014},
+  month = may,
+  journal = {Journal of Transport Geography},
   pages = {2013--2014},
   issn = {09666923},
   doi = {10.1016/j.jtrangeo.2014.05.002},
-  url = {http://linkinghub.elsevier.com/retrieve/pii/S096669231400088X},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
   keywords = {Book review,Review},
   file = {/home/robin/Zotero/storage/7ARD2ADQ/Review-Sage-Handbook-transport-studies-RL-Final.pdf}
 }

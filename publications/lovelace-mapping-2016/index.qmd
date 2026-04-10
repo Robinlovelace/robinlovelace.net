@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Get Britain Cycling"
 doi: ""
-publication-url: "http://eprints.whiterose.ac.uk/100080/"
+publication-url: ""
 authors:
   - "Robin Lovelace"
 ---
@@ -18,7 +18,7 @@ authors:
 **Venue:** Get Britain Cycling
 **Year:** 2016
 
-[URL](http://eprints.whiterose.ac.uk/100080/) [BibTeX](entry.bib)
+[BibTeX](entry.bib)
 
 ## Citation
 
@@ -30,12 +30,12 @@ Robin Lovelace (2016). Mapping out the future of cycling. *Get Britain Cycling*.
 @article{lovelace_mapping_2016,
   title = {Mapping out the Future of Cycling},
   author = {Lovelace, Robin},
-  date = {2016},
-  journaltitle = {Get Britain Cycling},
+  year = {2016},
+  journal = {Get Britain Cycling},
   volume = {5},
   pages = {22--24},
-  url = {http://eprints.whiterose.ac.uk/100080/},
   urldate = {2016-06-08},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
   file = {/home/robin/Zotero/storage/84X46AAD/Get_Britain_Cycling_2016_PCT.pdf}
 }
 ```

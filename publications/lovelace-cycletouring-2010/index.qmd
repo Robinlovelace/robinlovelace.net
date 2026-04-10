@@ -1,0 +1,39 @@
+---
+title: "Cycle-touring: A vision of post-peak holidays?"
+description: "Robin Lovelace (2010). Cycle-touring: A vision of post-peak holidays?."
+date: "2010-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_cycletouring_2010"
+citation-type: ""
+citation-type-label: ""
+venue: ""
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** 
+**Year:** 2010
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2010). Cycle-touring: A vision of post-peak holidays?.
+
+## BibTeX
+
+```bibtex
+@misc{lovelace_cycletouring_2010,
+  title = {Cycle-Touring: A Vision of Post-Peak Holidays?},
+  author = {Lovelace, Robin},
+  year = {2010},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

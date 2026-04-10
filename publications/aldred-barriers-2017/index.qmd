@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Transportation Research Part A: Policy and Practice"
 doi: "10.1016/j.tra.2017.11.003"
-publication-url: "http://linkinghub.elsevier.com/retrieve/pii/S096585641730410X"
+publication-url: ""
 authors:
   - "Rachel Aldred"
   - "Tom Watson"
@@ -21,7 +21,7 @@ authors:
 **Venue:** Transportation Research Part A: Policy and Practice
 **Year:** 2017
 
-[DOI](https://doi.org/10.1016/j.tra.2017.11.003) [Publisher Link](http://linkinghub.elsevier.com/retrieve/pii/S096585641730410X) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.1016/j.tra.2017.11.003) [BibTeX](entry.bib)
 
 ## Citation
 
@@ -34,12 +34,13 @@ Rachel Aldred, Tom Watson, Robin Lovelace, and James Woodcock (2017). Barriers t
   title = {Barriers to Investing in Cycling: {{Stakeholder}} Views from {{England}}},
   shorttitle = {Barriers to Investing in Cycling},
   author = {Aldred, Rachel and Watson, Tom and Lovelace, Robin and Woodcock, James},
-  date = {2017-11},
-  journaltitle = {Transportation Research Part A: Policy and Practice},
+  year = {2017},
+  month = nov,
+  journal = {Transportation Research Part A: Policy and Practice},
   issn = {09658564},
   doi = {10.1016/j.tra.2017.11.003},
-  url = {http://linkinghub.elsevier.com/retrieve/pii/S096585641730410X},
   urldate = {2018-03-15},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
   langid = {english}
 }
 ```

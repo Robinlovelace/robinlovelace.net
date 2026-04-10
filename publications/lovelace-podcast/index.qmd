@@ -1,0 +1,48 @@
+---
+title: "Podcast: How can we provide evidence to support cycle infrastructure investment?"
+description: "Robin Lovelace and Adam Kirkup Podcast: How can we provide evidence to support cycle infrastructure investment?."
+date: ""
+title-block-banner: false
+toc: false
+citation-key: "lovelace_podcast_"
+citation-type: ""
+citation-type-label: ""
+venue: ""
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+  - "Adam Kirkup"
+abstract: "In this podcast, ICE’s Adam Kirkup interviews Dr. Robin Lovelace, University of Leeds, discussing the development of the Propensity to Cycle Toolkit (PCT), and how it can be used to prioritise investments and interventions which promote cycling."
+---
+
+**Type:** 
+
+[BibTeX](entry.bib)
+
+## Abstract
+
+In this podcast, ICE’s Adam Kirkup interviews Dr. Robin Lovelace, University of Leeds, discussing the development of the Propensity to Cycle Toolkit (PCT), and how it can be used to prioritise investments and interventions which promote cycling.
+
+## Citation
+
+Robin Lovelace and Adam Kirkup Podcast: How can we provide evidence to support cycle infrastructure investment?.
+
+## BibTeX
+
+```bibtex
+@misc{lovelace_podcast_,
+  title = {Podcast: {{How}} Can We Provide Evidence to Support Cycle Infrastructure Investment?},
+  shorttitle = {Podcast},
+  author = {Lovelace, Robin and Kirkup, Adam},
+  number = {12},
+  urldate = {2018-03-15},
+  abstract = {In this podcast, ICE's Adam Kirkup interviews~Dr. Robin Lovelace, University of Leeds, discussing the development of the Propensity to Cycle Toolkit (PCT), and how it can be used to prioritise investments and interventions which promote cycling.},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
+  langid = {english}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

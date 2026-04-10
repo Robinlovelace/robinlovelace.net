@@ -1,0 +1,45 @@
+---
+title: "Reproducible road safety research with R"
+description: "Robin Lovelace (2020). Reproducible road safety research with R. *Royal Automotive Club Foundation*."
+date: "2020-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_reproducible_2020"
+citation-type: "report"
+citation-type-label: "Report"
+venue: "Royal Automotive Club Foundation"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Report
+**Venue:** Royal Automotive Club Foundation
+**Year:** 2020
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2020). Reproducible road safety research with R. *Royal Automotive Club Foundation*.
+
+## BibTeX
+
+```bibtex
+@techreport{lovelace_reproducible_2020,
+  ids = {lovelace_reproducible_2020a},
+  title = {Reproducible Road Safety Research with {{R}}},
+  author = {Lovelace, Robin},
+  year = {2020},
+  pages = {102},
+  institution = {{Royal Automotive Club Foundation}},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
+  langid = {english},
+  file = {/home/robin/Zotero/storage/4F5XH3KS/Lovelace - Reproducible road safety research with R.pdf;/home/robin/Zotero/storage/56B6K334/Lovelace - Reproducible road safety research with R.pdf}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

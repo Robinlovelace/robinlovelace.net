@@ -1,0 +1,43 @@
+---
+title: "Sacred Economics"
+description: "Robin Lovelace (2013). Sacred Economics. *Now Then*."
+date: "2013-02-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_sacred_2013"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Now Then"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Now Then
+**Year:** 2013
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2013). Sacred Economics. *Now Then*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_sacred_2013,
+  title = {Sacred {{Economics}}},
+  author = {Lovelace, Robin},
+  year = {2013},
+  month = feb,
+  journal = {Now Then},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
+  keywords = {Book review,degrowth}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

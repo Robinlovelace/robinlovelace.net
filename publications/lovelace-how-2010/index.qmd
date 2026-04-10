@@ -1,0 +1,39 @@
+---
+title: "How to Set Up and Run a Bicycle Repair Company"
+description: "Robin Lovelace (2010). How to Set Up and Run a Bicycle Repair Company."
+date: "2010-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_how_2010"
+citation-type: ""
+citation-type-label: ""
+venue: ""
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** 
+**Year:** 2010
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2010). How to Set Up and Run a Bicycle Repair Company.
+
+## BibTeX
+
+```bibtex
+@misc{lovelace_how_2010,
+  title = {How to {{Set Up}} and {{Run}} a {{Bicycle Repair Company}}},
+  author = {Lovelace, Robin},
+  year = {2010},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

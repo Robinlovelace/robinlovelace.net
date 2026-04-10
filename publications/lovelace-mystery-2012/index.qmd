@@ -1,0 +1,42 @@
+---
+title: "The mystery of Sheffield’s steepest hill"
+description: "Robin Lovelace (2012). The mystery of Sheffield’s steepest hill. *Now Then*."
+date: "2012-02-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_mystery_2012"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Now Then"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Now Then
+**Year:** 2012
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2012). The mystery of Sheffield’s steepest hill. *Now Then*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_mystery_2012,
+  title = {The Mystery of {{Sheffield}}'s Steepest Hill},
+  author = {Lovelace, Robin},
+  year = {2012},
+  month = feb,
+  journal = {Now Then},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

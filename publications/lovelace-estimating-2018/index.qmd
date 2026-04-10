@@ -1,0 +1,44 @@
+---
+title: "Estimating cycling potential on route networks in Accra and Kathmandu"
+description: "R Lovelace, N Groot, M Adepeju, and M Padgham (2018). Estimating cycling potential on route networks in Accra and Kathmandu. *World Health Organization*."
+date: "2018-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_estimating_2018"
+citation-type: "report"
+citation-type-label: "Report"
+venue: "World Health Organization"
+doi: ""
+publication-url: ""
+authors:
+  - "R Lovelace"
+  - "N Groot"
+  - "M Adepeju"
+  - "M Padgham"
+---
+
+**Type:** Report
+**Venue:** World Health Organization
+**Year:** 2018
+
+[BibTeX](entry.bib)
+
+## Citation
+
+R Lovelace, N Groot, M Adepeju, and M Padgham (2018). Estimating cycling potential on route networks in Accra and Kathmandu. *World Health Organization*.
+
+## BibTeX
+
+```bibtex
+@techreport{lovelace_estimating_2018,
+  title = {Estimating Cycling Potential on Route Networks in {{Accra}} and {{Kathmandu}}},
+  author = {Lovelace, R and Groot, N and Adepeju, M and Padgham, M},
+  year = {2018},
+  institution = {{World Health Organization}},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

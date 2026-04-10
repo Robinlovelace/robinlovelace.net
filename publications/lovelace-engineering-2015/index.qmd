@@ -31,10 +31,10 @@ Robin Lovelace and Andy Mcloughlin (2015). Engineering in Development: Transport
 @book{lovelace_engineering_2015,
   title = {Engineering in {{Development}}: {{Transport}}},
   author = {Lovelace, Robin and Mcloughlin, Andy},
-  date = {2015},
-  publisher = {Engineers Without Borders UK},
-  location = {London},
-  pagetotal = {135}
+  year = {2015},
+  publisher = {{Engineers Without Borders UK}},
+  address = {{London}},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
 }
 ```
 

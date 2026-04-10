@@ -1,0 +1,43 @@
+---
+title: "Doctoral students who publish"
+description: "Robin Lovelace (2013). Doctoral students who publish. *Doctoral Times*."
+date: "2013-03-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_doctoral_2013"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Doctoral Times"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Doctoral Times
+**Year:** 2013
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2013). Doctoral students who publish. *Doctoral Times*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_doctoral_2013,
+  title = {Doctoral Students Who Publish},
+  author = {Lovelace, Robin},
+  year = {2013},
+  month = mar,
+  journal = {Doctoral Times},
+  pages = {6},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

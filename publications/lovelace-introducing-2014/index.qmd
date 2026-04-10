@@ -1,0 +1,43 @@
+---
+title: "Introducing spatial microsimulation with R: A practical"
+description: "Robin Lovelace (2014). Introducing spatial microsimulation with R: A practical. *National Centre for Research Methods*."
+date: "2014-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_introducing_2014"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "National Centre for Research Methods"
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** National Centre for Research Methods
+**Year:** 2014
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2014). Introducing spatial microsimulation with R: A practical. *National Centre for Research Methods*.
+
+## BibTeX
+
+```bibtex
+@article{lovelace_introducing_2014,
+  title = {Introducing Spatial Microsimulation with {{R}}: A Practical},
+  author = {Lovelace, Robin},
+  year = {2014},
+  journal = {National Centre for Research Methods},
+  volume = {08},
+  number = {14},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

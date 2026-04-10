@@ -5,20 +5,20 @@ date: "2008-09-01"
 title-block-banner: false
 toc: false
 citation-key: "lovelace_energy_2008"
-citation-type: "article-magazine"
-citation-type-label: "Magazine Article"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
 venue: "Nature"
 doi: ""
-publication-url: "http://dx.doi.org/10.1038/455461a"
+publication-url: ""
 authors:
   - "Robin Lovelace"
 ---
 
-**Type:** Magazine Article
+**Type:** Journal Article
 **Venue:** Nature
 **Year:** 2008
 
-[URL](http://dx.doi.org/10.1038/455461a) [BibTeX](entry.bib)
+[BibTeX](entry.bib)
 
 ## Citation
 
@@ -28,17 +28,17 @@ Robin Lovelace (2008). Energy: Efficiency gains alone won’t reduce emissions..
 
 ```bibtex
 @article{lovelace_energy_2008,
-  entrysubtype = {magazine},
   title = {Energy: Efficiency Gains Alone Won't Reduce Emissions.},
   shorttitle = {Nature},
   author = {Lovelace, Robin},
-  date = {2008-09},
-  journaltitle = {Nature},
+  year = {2008},
+  month = sep,
+  journal = {Nature},
   volume = {455},
   number = {7212},
   pages = {460},
   issn = {1476-4687},
-  url = {http://dx.doi.org/10.1038/455461a}
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
 }
 ```
 

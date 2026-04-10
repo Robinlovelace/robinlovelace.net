@@ -1,0 +1,39 @@
+---
+title: "Harnessing open street map data with R and QGIS"
+description: "Robin Lovelace (2014). Harnessing open street map data with R and QGIS."
+date: "2014-01-01"
+title-block-banner: false
+toc: false
+citation-key: "lovelace_harnessing_2014"
+citation-type: "report"
+citation-type-label: "Report"
+venue: ""
+doi: ""
+publication-url: ""
+authors:
+  - "Robin Lovelace"
+---
+
+**Type:** Report
+**Year:** 2014
+
+[BibTeX](entry.bib)
+
+## Citation
+
+Robin Lovelace (2014). Harnessing open street map data with R and QGIS.
+
+## BibTeX
+
+```bibtex
+@techreport{lovelace_harnessing_2014,
+  title = {Harnessing Open Street Map Data with {{R}} and {{QGIS}}},
+  author = {Lovelace, Robin},
+  year = {2014},
+  copyright = {CC0 1.0 Universal Public Domain Dedication}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

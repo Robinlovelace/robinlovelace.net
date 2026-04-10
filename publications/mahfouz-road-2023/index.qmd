@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Journal of Transport Geography"
 doi: "10.1016/j.jtrangeo.2023.103715"
-publication-url: "https://www.sciencedirect.com/science/article/pii/S0966692323001874"
+publication-url: ""
 authors:
   - "Hussein Mahfouz"
   - "Robin Lovelace"
@@ -21,7 +21,7 @@ abstract: "Understanding the motivators and deterrents to cycling is essential f
 **Venue:** Journal of Transport Geography
 **Year:** 2023
 
-[DOI](https://doi.org/10.1016/j.jtrangeo.2023.103715) [Publisher Link](https://www.sciencedirect.com/science/article/pii/S0966692323001874) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.1016/j.jtrangeo.2023.103715) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -37,16 +37,16 @@ Hussein Mahfouz, Robin Lovelace, and Elsa Arcaute (2023). A road segment priorit
 @article{mahfouz_road_2023,
   title = {A Road Segment Prioritization Approach for Cycling Infrastructure},
   author = {Mahfouz, Hussein and Lovelace, Robin and Arcaute, Elsa},
-  date = {2023-12-01},
-  journaltitle = {Journal of Transport Geography},
-  shortjournal = {Journal of Transport Geography},
+  year = {2023},
+  month = dec,
+  journal = {Journal of Transport Geography},
   volume = {113},
   pages = {103715},
   issn = {0966-6923},
   doi = {10.1016/j.jtrangeo.2023.103715},
-  url = {https://www.sciencedirect.com/science/article/pii/S0966692323001874},
   urldate = {2023-11-17},
-  abstract = {Understanding the motivators and deterrents to cycling is essential for creating infrastructure that gets more people to adopt cycling as a mode of transport. This paper demonstrates a new approach to support the prioritization of cycling infrastructure and cycling network design, accounting for cyclist preferences and the growing emphasis on ‘filtered permeability’ and ‘Low Traffic Neighborhood’ interventions internationally. The approach combines distance decay, route calculation, and network analysis methods to examine where future cycling demand is most likely to arise, how such demand could be accommodated within existing street networks, and how to ensure a fair distribution of investment. Although each of these methods has been applied to cycling infrastructure prioritization in previous research, this is the first time that they have been combined, creating an integrated road segment prioritization approach. The approach, which can be applied to other cities, is demonstrated in a case study of Manchester, resulting in cycling networks that balance directness against the need for safe and stress-free routes under different investment scenarios. A key benefit of the approach from a policy perspective is its ability to support egalitarian and cost-effective strategic cycle network planning.},
+  abstract = {Understanding the motivators and deterrents to cycling is essential for creating infrastructure that gets more people to adopt cycling as a mode of transport. This paper demonstrates a new approach to support the prioritization of cycling infrastructure and cycling network design, accounting for cyclist preferences and the growing emphasis on `filtered permeability' and `Low Traffic Neighborhood' interventions internationally. The approach combines distance decay, route calculation, and network analysis methods to examine where future cycling demand is most likely to arise, how such demand could be accommodated within existing street networks, and how to ensure a fair distribution of investment. Although each of these methods has been applied to cycling infrastructure prioritization in previous research, this is the first time that they have been combined, creating an integrated road segment prioritization approach. The approach, which can be applied to other cities, is demonstrated in a case study of Manchester, resulting in cycling networks that balance directness against the need for safe and stress-free routes under different investment scenarios. A key benefit of the approach from a policy perspective is its ability to support egalitarian and cost-effective strategic cycle network planning.},
+  copyright = {CC0 1.0 Universal Public Domain Dedication},
   keywords = {Cycling networks,Low-traffic neighborhoods,Routing,Transport equity},
   annotation = {0 citations (Crossref) [2023-11-17]},
   file = {/home/robin/Zotero/storage/IPFGXV4F/Mahfouz et al. - 2023 - A road segment prioritization approach for cycling.pdf;/home/robin/Zotero/storage/JHMA5IH2/S0966692323001874.html}
