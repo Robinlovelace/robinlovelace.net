@@ -3,6 +3,8 @@ name: Deploy Quarto Website
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: read
@@ -41,8 +43,9 @@ jobs:
           name: site-files
           path: _site/
 
-  deploy:
+  deploy-github-pages-repo:
     needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
@@ -75,3 +78,97 @@ jobs:
 
           git commit -m "Deploy from robinlovelace.net"
           git push -f "https://x-access-token:${GH_PUBLISH_TOKEN}@github.com/Robinlovelace/robinlovelace.github.io.git" master
+
+  deploy-netlify-main:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-files
+          path: site-files
+
+      - name: Check Netlify secrets
+        id: netlify_secrets
+        run: |
+          if [ -n "${{ secrets.NETLIFY_AUTH_TOKEN }}" ] && [ -n "${{ secrets.NETLIFY_SITE_ID }}" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Node.js
+        if: steps.netlify_secrets.outputs.configured == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Netlify CLI
+        if: steps.netlify_secrets.outputs.configured == 'true'
+        run: npm i -g netlify-cli
+
+      - name: Deploy main build to Netlify
+        if: steps.netlify_secrets.outputs.configured == 'true'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          netlify deploy \
+            --site "$NETLIFY_SITE_ID" \
+            --dir site-files \
+            --prod \
+            --message "main ${GITHUB_SHA}"
+
+      - name: Netlify setup missing
+        if: steps.netlify_secrets.outputs.configured != 'true'
+        run: |
+          echo "NETLIFY_AUTH_TOKEN and/or NETLIFY_SITE_ID not set; skipping Netlify main deploy."
+
+  deploy-netlify-preview:
+    needs: build
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-files
+          path: site-files
+
+      - name: Check Netlify secrets
+        id: netlify_secrets
+        run: |
+          if [ -n "${{ secrets.NETLIFY_AUTH_TOKEN }}" ] && [ -n "${{ secrets.NETLIFY_SITE_ID }}" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Node.js
+        if: steps.netlify_secrets.outputs.configured == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Netlify CLI
+        if: steps.netlify_secrets.outputs.configured == 'true'
+        run: npm i -g netlify-cli
+
+      - name: Deploy PR preview to Netlify
+        if: steps.netlify_secrets.outputs.configured == 'true'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          netlify deploy \
+            --site "$NETLIFY_SITE_ID" \
+            --dir site-files \
+            --alias "pr-${{ github.event.pull_request.number }}" \
+            --message "pr-${{ github.event.pull_request.number }} ${GITHUB_SHA}"
+
+      - name: Netlify setup missing
+        if: steps.netlify_secrets.outputs.configured != 'true'
+        run: |
+          echo "NETLIFY_AUTH_TOKEN and/or NETLIFY_SITE_ID not set; skipping Netlify preview deploy."
