@@ -13,6 +13,7 @@ website:
  
   navbar:
     background: light  # You can change the background color here
+    pinned: false
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
@@ -77,8 +78,10 @@ bibliography: references.bib  # Add references.bib to the root folder to enable 
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - cosmo
+      - brand
+      - styles.scss
     toc: true
     footnotes-hover: true
     code-copy: true

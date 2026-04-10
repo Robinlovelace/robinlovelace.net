@@ -2,75 +2,64 @@
 title: "Robin Lovelace"
 description-meta: "Professor of Transport Data Science at University of Leeds"
 image: "files/images/avatar.jpg"
+body-classes: landing-page
 page-navigation: false
 toc: false
-page-layout: full
-
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 70%
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:r.lovelace@leeds.ac.uk
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/robinlovelace
-      target: _blank
-    - icon: github
-      text: GitHub
-      href: https://github.com/robinlovelace
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com/c/RobinLovelace
-      target: _blank
-    - icon: mastodon
-      text: Mastodon
-      href: https://fosstodon.org/web/@robinlovelace
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.co.uk/citations?user=xDJHVCAAAAAJ&hl=en
-      target: _blank
+page-layout: custom
 
 listing:
-  - id: recent-posts
+  - id: recent-updates
     contents: 
       - posts
       - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-    page-size: 3
-    fields: [image, date, title, subtitle]
-    max-description-length: 100
-    sort: 
-      - "date desc"
+    type: table
+    max-items: 2
+    page-size: 2
+    fields: [date, title]
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
 ---
 
-:::{#hero-heading}
+:::{.landing-shell}
 
-I'm a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport)(ITS), where I undertake research, develop software and web applications, and teach data science for evidence-based transport planning.
+:::{.landing-profile .landing-panel}
+![](files/images/avatar.jpg){.landing-avatar}
 
-## Research Interests
+## Robin Lovelace {.landing-name}
 
-- **Geocomputation** - spatial data analysis and modeling
-- **Transport modelling** - active travel uptake and route modeling
-- **Reproducible research** - open source software and data-driven methods
-- **Decarbonising transport** - evidence-based planning for sustainable mobility
+<div class="landing-links">
+  <a class="btn btn-outline-secondary btn-sm" href="mailto:r.lovelace@leeds.ac.uk">Email</a>
+  <a class="btn btn-outline-secondary btn-sm" href="https://twitter.com/robinlovelace" target="_blank" rel="noopener">Twitter</a>
+  <a class="btn btn-outline-secondary btn-sm" href="https://github.com/robinlovelace" target="_blank" rel="noopener">GitHub</a>
+  <a class="btn btn-outline-secondary btn-sm" href="https://www.youtube.com/c/RobinLovelace" target="_blank" rel="noopener">YouTube</a>
+  <a class="btn btn-outline-secondary btn-sm" href="https://fosstodon.org/web/@robinlovelace" target="_blank" rel="noopener">Mastodon</a>
+  <a class="btn btn-outline-secondary btn-sm" href="https://scholar.google.co.uk/citations?user=xDJHVCAAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+</div>
+:::
 
-## Current Projects
+:::{.landing-main .landing-panel}
+I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport), where I build open tools and reproducible workflows for evidence-based transport planning.
 
-- **SaferActive** - Improving safety for active travel through data-driven approaches
-- **Propensity to Cycle Tool (PCT)** - Online tool for cycling potential modeling
-- **Transport Data Science** - Teaching module for Masters students
+[Current projects](projects.qmd){.btn .btn-primary .me-2} [Publications](publications.qmd){.btn .btn-outline-secondary}
 
-## Recent Work
+:::{.grid .landing-focus}
+:::{.g-col-12}
+### Research Focus
 
-I share lots of code for data science and reproducible research. Check out my [GitHub](https://github.com/robinlovelace/) for projects and the [posts](/posts.qmd) section for blog entries.
+- **Geocomputation** for transparent spatial analysis
+- **Transport modelling** for active travel and mode shift
+- **Reproducible research** with open-source methods
+:::
+:::
+:::
 
-If you'd like to get in touch, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).
+:::{.landing-updates .landing-panel}
+### Recent Updates
 
+:::{#recent-updates}
+:::
+
+I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](posts.qmd). If you would like to collaborate, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).
+:::
 :::

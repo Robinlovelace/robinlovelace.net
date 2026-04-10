@@ -1,0 +1,165 @@
+/*-- scss:defaults --*/
+$navbar-bg: #ffffff !default;
+$navbar-fg: #1f2937 !default;
+$navbar-hl: #1f6aa6 !default;
+$link-color: #1f6aa6 !default;
+$body-bg: #ffffff !default;
+$body-color: #19202d !default;
+$border-radius: 0.45rem !default;
+$card-border-radius: 0.55rem !default;
+$card-border-color: #d8deea !default;
+$content-padding-top: 0.75rem !default;
+
+/*-- scss:rules --*/
+/* Inline badges are used on publications pages. */
+span.__dimensions_badge_embed__,
+div.altmetric-embed {
+  display: inline-block;
+}
+
+body {
+  background: #ffffff;
+}
+
+#quarto-header .navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  letter-spacing: 0.01em;
+}
+
+.landing-page .quarto-title-block {
+  display: none;
+}
+
+.landing-shell {
+  max-width: 1180px;
+  margin: 0.45rem auto 0.35rem;
+  padding: 0 0.75rem 0.35rem;
+  display: grid;
+  grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+  grid-template-areas:
+    "profile main"
+    "profile updates";
+  gap: 0.6rem;
+  align-items: start;
+}
+
+.landing-panel {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.8rem;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+.landing-profile {
+  grid-area: profile;
+  text-align: center;
+  padding: 0.75rem 0.8rem;
+}
+
+.landing-avatar {
+  width: min(100%, 228px);
+  border-radius: 0.45rem;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
+  margin-bottom: 0.5rem;
+}
+
+.landing-name {
+  color: #111827;
+  font-size: clamp(1.8rem, 2vw, 2.2rem);
+  margin-bottom: 0.5rem;
+}
+
+.landing-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.38rem;
+}
+
+.landing-main {
+  grid-area: main;
+  padding: 0.7rem 0.9rem;
+}
+
+.landing-main > p:first-child {
+  font-size: clamp(1rem, 1vw, 1.12rem);
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+}
+
+.landing-main .btn {
+  margin-bottom: 0.45rem;
+}
+
+.landing-focus {
+  margin-top: 0.02rem;
+}
+
+.landing-focus h3 {
+  font-size: 0.96rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #2e3d59;
+  margin-bottom: 0.3rem;
+}
+
+.landing-focus ul {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.landing-updates {
+  grid-area: updates;
+  padding: 0.58rem 0.9rem 0.55rem;
+}
+
+.landing-updates h3 {
+  margin-bottom: 0.22rem;
+}
+
+#listing-recent-updates {
+  margin-top: 0.1rem;
+}
+
+#listing-recent-updates .table {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+#listing-recent-updates .listing-title {
+  font-weight: 600;
+}
+
+#listing-recent-updates td,
+#listing-recent-updates th {
+  padding-top: 0.24rem;
+  padding-bottom: 0.24rem;
+}
+
+.landing-updates > p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .landing-shell {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "profile"
+      "main"
+      "updates";
+    gap: 0.65rem;
+    padding: 0 0.65rem 0.5rem;
+  }
+
+  .landing-main,
+  .landing-profile,
+  .landing-updates {
+    padding: 0.85rem;
+  }
+}

@@ -1,0 +1,26 @@
+color:
+  palette:
+    slate-900: "#1f2937"
+    slate-700: "#475569"
+    steel-300: "#cbd5e1"
+    sky-500: "#2563eb"
+    sky-600: "#1d4ed8"
+    cloud-100: "#ffffff"
+    ink-900: "#19202d"
+  background: cloud-100
+  foreground: ink-900
+  primary: sky-600
+  secondary: slate-700
+  info: sky-500
+
+typography:
+  fonts:
+    - family: Source Sans 3
+      source: google
+    - family: IBM Plex Sans
+      source: google
+    - family: IBM Plex Mono
+      source: google
+  base: Source Sans 3
+  headings: IBM Plex Sans
+  monospace: IBM Plex Mono
