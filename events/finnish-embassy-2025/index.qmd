@@ -1,5 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "New tools for internationally-scalable future-proof transport planning"
 event: "Networking event on active, sustainable and green urban mobility at the Finnish Embassy"
@@ -30,7 +29,6 @@ slides: ""
 
 projects: []
 format: gfm
-authors:
-  - "Robin Lovelace"
+authors: ["Robin Lovelace"]
 ---
 This talk highlights scalable, open transport planning tools and opportunities to align with GREENTRAVEL, including reproducible research practices and international portability.

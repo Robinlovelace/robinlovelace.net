@@ -12,17 +12,14 @@ address:
 summary: "A talk at the colloquium following Eva Heinen's inaugural lecture at ETH Zürich."
 abstract: "Details to follow."
 
-# Talk start and end times.
 date: 2025-11-18T10:05:00+01:00
 date-end: 2025-11-18T10:40:00+01:00
 all_day: false
 
-# Schedule page publish date (NOT event date).
 publish-date: 2025-11-07T00:00:00Z
 
 tags: ["Transport", "Micromobility", "Active Travel"]
 
-# Is this a featured event? (true/false)
 featured: true
 
 url_code: ""
@@ -31,6 +28,5 @@ url_video: ""
 
 slides: ""
 projects: []
-authors:
-  - "Robin Lovelace"
+authors: ["Robin Lovelace"]
 ---

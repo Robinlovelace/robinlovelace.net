@@ -6,17 +6,14 @@ location: "Portcullis House, Westminster, London"
 summary: "An academic engagement event with the House of Commons Transport Committee to discuss research impact and policy scrutiny."
 abstract: "I will be attending this event to share insights on transport data science and its application to policy. Specifically, I will be discussing my work for Active Travel England on identifying 'critical issues'—locations that are particularly dangerous for walking, wheeling, and cycling. This work represents a shift from focusing solely on 'best practice' to systematically fixing what is broken. I will also be sharing my approach to estimating baseline walking, cycling, and car traffic at the segment level, currently being piloted in the West Midlands with the potential to scale nationally."
 
-# Talk start and end times.
 date: 2026-02-11T09:30:00Z
 date-end: 2026-02-11T13:30:00Z
 all_day: false
 
-# Schedule page publish date (NOT event date).
 publish-date: 2026-02-01T00:00:00Z
 
 tags: ["Transport Policy", "Academic Engagement", "Active Travel", "UK Parliament", "Data Science"]
 
-# Is this a featured event? (true/false)
 featured: true
 
 links:
@@ -30,8 +27,7 @@ url_video: ""
 
 slides: ""
 projects: []
-authors:
-  - "Robin Lovelace"
+authors: ["Robin Lovelace"]
 ---
 The Transport Committee is holding an academic engagement event to strengthen connections with the research community and discuss pertinent transport policy issues.
 

@@ -1,5 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Building Capacity for Data-Driven Urban Mobility"
 event: "ITF–Eurostat Conference on Promoting Data-Driven Decision-Making"
@@ -31,7 +30,6 @@ slides: ""
 
 projects: []
 format: gfm
-authors:
-  - "Robin Lovelace"
+authors: ["Robin Lovelace"]
 ---
 This keynote outlines practical steps to enable data-driven decision-making in transport using open and reproducible workflows, with examples from communities of practice and national-level data integration.

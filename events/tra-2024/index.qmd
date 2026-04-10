@@ -11,51 +11,26 @@ address:
   country: Ireland
 summary:
 abstract: "This talk describes the design, features and potential use of the Cycle Route Uptake and Scenario Estimation (CRUSE) Tool for Ireland, commissioned to support cycle network planning, safety interventions, business cases and project evaluation. The resulting web application is available at <https://cruse.bike/>, enabling planners, engineers, and other stakeholders to make more evidence-based decisions."
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
 date: 2024-04-17T18:30:00+01:00
 date-end: 2024-04-17T18:45:00+01:00
 all_day: false
 
-# Schedule page publish date (NOT event date).
 publish-date: 2022-05-21T07:43:56+01:00
 
 tags: []
 
-# Is this a featured event? (true/false)
 featured: true
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image: featured.png
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
 
-# Optional filename of your slides within your event's folder or a URL.
 url_slides: https://www.robinlovelace.net/presentations/tra-dublin-2024-cruse.html
 url_code: https://github.com/cruse-bike
 url_video:
 
-# Markdown Slides (optional).
-#   Associate this event with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
 slides: ""
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
 projects: []
-authors:
-  - "Robin Lovelace"
+authors: ["Robin Lovelace"]
 ---
 In this talk I present the outputs from the Cycle Route Uptake and Scenario Estimation (CRUSE) Tool for Ireland, a web application that enables planners, engineers, and other stakeholders to make more evidence-based decisions.
 See the the website at [cruse.bike](https://cruse.bike/).

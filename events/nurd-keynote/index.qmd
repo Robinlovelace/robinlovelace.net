@@ -2,8 +2,7 @@
 date: 2018-10-31
 title: 'Geocomputation with R: Empower yourself with geo data'
 slug: nurd-keynote
-authors:
-  - "Robin Lovelace"
+authors: ["Robin Lovelace"]
 ---
 ### Keynote lecture for the [ Northwest Universities R Day](https://twitter.com/hashtag/NWURday?src=hash), Manchester
 

@@ -1,5 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "10th Mobile Tartu Conference"
 event: "Mobile Tartu Conference"
@@ -31,8 +30,7 @@ slides: ""
 
 projects: []
 format: gfm
-authors:
-  - "Robin Lovelace"
+authors: ["Robin Lovelace"]
 ---
 We welcome you to join us at the 10th biennial Mobile Tartu Conference and PhD School on June 7/8‒10, 2026, to celebrate two decades of human mobility studies based on mobile phone data!
 
