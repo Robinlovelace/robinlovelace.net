@@ -1,7 +1,6 @@
 ---
-title: "UTSG 2025 abstract submission"
-subtitle: "UTSG 2025 abstract submission (max 300 words, deadline 2025-02-10)"
-format: gfm
+title: UTSG 2025 abstract submission
+subtitle: UTSG 2025 abstract submission (max 300 words, deadline 2025-02-10)
 ---
 
 ```{r}
@@ -78,7 +77,6 @@ Authors of accepted abstracts will have two options for submitting their researc
 Deadline: Monday 5th May 2025
 
 Full papers and extended abstracts will need to use the corresponding UTSG templates. Please also note that Smeed Prize entrants must submit a full paper to be eligible (see, criteria below). Templates and further information can be found on the UTSG website. -->
-
 
 <!-- Emphasis: integrating diverse datasets to support more evidence-based and data-driven decision-making in transport planning. -->
 

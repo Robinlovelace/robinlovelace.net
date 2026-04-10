@@ -1,38 +1,7 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "Building Capacity for Data-Driven Urban Mobility"
-event: "ITF–Eurostat Conference on Promoting Data-Driven Decision-Making"
-event-url: ""
-location: "Grand Hotel Sofia"
-address:
-  street: "1, General Gurko St"
-  city: "Sofia"
-  region: ""
-  postcode: ""
-  country: "Bulgaria"
-summary: "Keynote on building capacity for data-driven urban mobility through open data, tools, and reproducible methods."
-abstract: "A keynote exploring the challenges and opportunities of bridging the data-to-policy gap in urban mobility, with a focus on open standards, open-source tooling, and communities of practice to build sustainable analytical capacity."
-
+title: Building Capacity for Data-Driven Urban Mobility
+abstract: A keynote exploring the challenges and opportunities of bridging the data-to-policy gap in urban mobility, with a focus on open standards, open-source tooling, and communities of practice to build sustainable analytical capacity.
 date: 2025-11-04
-date-end: 2025-11-05
-all_day: true
-
-publish-date: 2025-11-03T16:08:41+00:00
-
-  - "Robin Lovelace"
-tags: []
-
-featured: false
-
-url_code: "https://github.com/robinlovelace/presentations"
-url_video: ""
-
-slides: ""
-
-projects: []
-format: gfm
-authors:
-  - "Robin Lovelace"
+author: ["Robin Lovelace"]
 ---
 This keynote outlines practical steps to enable data-driven decision-making in transport using open and reproducible workflows, with examples from communities of practice and national-level data integration.

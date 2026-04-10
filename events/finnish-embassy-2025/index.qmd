@@ -1,37 +1,7 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "New tools for internationally-scalable future-proof transport planning"
-event: "Networking event on active, sustainable and green urban mobility at the Finnish Embassy"
-event-url: ""
-location: "Embassy of Finland"
-address:
-  street: ""
-  city: "Sofia"
-  region: ""
-  postcode: ""
-  country: "Bulgaria"
-summary: "Talk on open, reproducible, and internationally portable transport planning tools, aligned with the GREENTRAVEL project."
-abstract: "An overview of open and future-proof transport planning methods, communities of practice, and case studies including NPT (Scotland), PCT (England/Wales) and international adaptations, with links to exposure-aware routing and multi-city analysis."
-
+title: New tools for internationally-scalable future-proof transport planning
+abstract: An overview of open and future-proof transport planning methods, communities of practice, and case studies including NPT (Scotland), PCT (England/Wales) and international adaptations, with links to exposure-aware routing and multi-city analysis.
 date: 2025-10-22
-all_day: true
-
-publish-date: 2025-11-03T16:08:41+00:00
-
-  - "Robin Lovelace"
-tags: []
-
-featured: false
-
-url_code: "https://github.com/robinlovelace/presentations"
-url_video: ""
-
-slides: ""
-
-projects: []
-format: gfm
-authors:
-  - "Robin Lovelace"
+author: ["Robin Lovelace"]
 ---
 This talk highlights scalable, open transport planning tools and opportunities to align with GREENTRAVEL, including reproducible research practices and international portability.
