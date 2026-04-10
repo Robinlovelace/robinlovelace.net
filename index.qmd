@@ -60,5 +60,7 @@ I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/tra
 :::
 
 I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](posts.qmd). If you would like to collaborate, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).
+
+Deployment check marker: 2026-04-10T11:07Z.
 :::
 :::
