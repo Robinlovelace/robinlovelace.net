@@ -1,33 +1,14 @@
 ---
-title: "Transport Committee Academic Engagement Event"
-event: "Transport Committee Academic Engagement Event"
-event-url: https://committees.parliament.uk/committee/153/transport-committee
-location: "Portcullis House, Westminster, London"
-summary: "An academic engagement event with the House of Commons Transport Committee to discuss research impact and policy scrutiny."
-abstract: "I will be attending this event to share insights on transport data science and its application to policy. Specifically, I will be discussing my work for Active Travel England on identifying 'critical issues'—locations that are particularly dangerous for walking, wheeling, and cycling. This work represents a shift from focusing solely on 'best practice' to systematically fixing what is broken. I will also be sharing my approach to estimating baseline walking, cycling, and car traffic at the segment level, currently being piloted in the West Midlands with the potential to scale nationally."
-
-date: 2026-02-11T09:30:00Z
-date-end: 2026-02-11T13:30:00Z
-all_day: false
-
-publish-date: 2026-02-01T00:00:00Z
-
-tags: ["Transport Policy", "Academic Engagement", "Active Travel", "UK Parliament", "Data Science"]
-
-featured: true
-
-links:
-- name: Transport Committee
-  url: https://committees.parliament.uk/committee/153/transport-committee
-
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-slides: ""
-projects: []
-authors: ["Robin Lovelace"]
+title: Transport Committee Academic Engagement Event
+abstract: I will be attending this event to share insights on transport data science and its application to policy. Specifically, I will be discussing my work for Active Travel England on identifying 'critical issues'—locations that are particularly dangerous for walking, wheeling, and cycling. This work represents a shift from focusing solely on 'best practice' to systematically fixing what is broken. I will also be sharing my approach to estimating baseline walking, cycling, and car traffic at the segment level, currently being piloted in the West Midlands with the potential to scale nationally.
+date: 2026-02-11 09:30:00+00:00
+tags:
+  - "Transport Policy"
+  - "Academic Engagement"
+  - "Active Travel"
+  - "UK Parliament"
+  - "Data Science"
+author: ["Robin Lovelace"]
 ---
 The Transport Committee is holding an academic engagement event to strengthen connections with the research community and discuss pertinent transport policy issues.
 

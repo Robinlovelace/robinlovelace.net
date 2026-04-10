@@ -1,38 +1,7 @@
 ---
-
-title: "Data Driven 2025"
-event:
-event-url: https://www.racfoundation.org/data-driven
-location:
-address:
-  street: 
-  city: London
-  region:
-  postcode: 
-  country: United Kingdom
-summary:
-abstract: ""
-
-date: 2025-05-01T09:00:00+01:00
-all_day: true
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: false
-
-image: featured.jpg
-
-url_slides: https://robinlovelace.github.io/datadriven25/slides.html
-url_code: https://github.com/robinlovelace/datadriven25
-url_pdf: https://github.com/Robinlovelace/datadriven25/releases/download/v0.0.1/datadriven25-slides-rl.pdf
-url_video:
-
-slides: ""
-
-projects: [NPT]
-authors: ["Robin Lovelace"]
+title: Data Driven 2025
+date: 2025-05-01 09:00:00+01:00
+author: ["Robin Lovelace"]
 ---
 Presentation based on work by me and colleagues on the Network Planning Tool for Scotland (NPT) project, funded by Transport Scotland and delivered in collaboration with Sustrans Scotland.
 

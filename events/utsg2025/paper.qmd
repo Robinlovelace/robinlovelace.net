@@ -1,7 +1,6 @@
 ---
-title: "UTSG 2025 abstract submission"
-subtitle: "UTSG 2025 abstract submission (max 300 words, deadline 2025-02-10)"
-format: gfm
+title: UTSG 2025 abstract submission
+subtitle: UTSG 2025 abstract submission (max 300 words, deadline 2025-02-10)
 ---
 
 ```{r}

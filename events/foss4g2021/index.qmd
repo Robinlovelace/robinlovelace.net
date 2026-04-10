@@ -1,42 +1,17 @@
 ---
-
 title: "Zonebuilders: cross-platform and language-agnostic tools for generating zoning systems for urban analysis and modelling"
-event: FOSS4G 2021
-event-url: https://2021.foss4g.org/
-location: Online
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract: ""
-
-date: 2021-10-01T16:00:00Z
-date-end: 2021-10-01T16:30:00Z
-all_day: false
-
-publish-date: 2021-01-05T17:48:39Z
-
-tags: [geocomputation, software, tools]
-
-featured: true
-
-image: featured.png
-links:
-- name: Follow
-  url: https://twitter.com/robinlovelace
-  icon_pack: fab
-  icon: twitter
-
-url_slides: https://zonebuilders.github.io/
-url_code: https://github.com/zonebuilders/
-url_pdf: https://callforpapers.2021.foss4g.org/foss4g2021/talk/JJZSLH/
-url_video: https://youtu.be/R5lQiBxaOpg
-
-slides: ""
-
-projects: [saferactive]
-authors: ["Robin Lovelace"]
+date: 2021-10-01 16:00:00+00:00
+tags:
+  - "geocomputation"
+  - "software"
+  - "tools"
+author: ["Robin Lovelace"]
 ---
+## Zonebuilders: cross-platform and language-agnostic tools for generating zoning systems for urban analysis and modelling
+
+**Event:** FOSS4G 2021
+
+**Location:** Online
+
+**Date:** 2021-10-01 16:00:00+00:00
+

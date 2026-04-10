@@ -1,36 +1,8 @@
 ---
-title:  "CRUSE to safe cycling in Ireland: an open source methodology to support active travel"
-event: TRA 2024
-event-url: https://traconference.eu/tra-2024-programme/
-location: Dublin, Ireland
-address:
-  street: RDS (Royal Dublin Society) Ballsbridge, Shelbourne Hall
-  city: Dublin
-  region: 
-  postcode: 
-  country: Ireland
-summary:
+title: "CRUSE to safe cycling in Ireland: an open source methodology to support active travel"
 abstract: "This talk describes the design, features and potential use of the Cycle Route Uptake and Scenario Estimation (CRUSE) Tool for Ireland, commissioned to support cycle network planning, safety interventions, business cases and project evaluation. The resulting web application is available at <https://cruse.bike/>, enabling planners, engineers, and other stakeholders to make more evidence-based decisions."
-date: 2024-04-17T18:30:00+01:00
-date-end: 2024-04-17T18:45:00+01:00
-all_day: false
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: true
-
-image: featured.png
-
-url_slides: https://www.robinlovelace.net/presentations/tra-dublin-2024-cruse.html
-url_code: https://github.com/cruse-bike
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+date: 2024-04-17 18:30:00+01:00
+author: ["Robin Lovelace"]
 ---
 In this talk I present the outputs from the Cycle Route Uptake and Scenario Estimation (CRUSE) Tool for Ireland, a web application that enables planners, engineers, and other stakeholders to make more evidence-based decisions.
 See the the website at [cruse.bike](https://cruse.bike/).

@@ -1,36 +1,7 @@
 ---
-
 title: "Data Science for Active Travel Planning: Streets, schemes and networks"
-event: NHS-R conference
-event-url: https://nhsrcommunity.com/
-location:
-address:
-  street: 
-  city: Birmingham
-  region: Edgbaston
-  postcode: 
-  country:
-summary:
-abstract: ""
-
-date: 2023-10-17T11:00:00+01:00
-date-end: 2023-10-17T12:00:00+01:00
-all_day: false
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: false
-
-url_slides: https://www.robinlovelace.net/
-url_code: https://github.com/Robinlovelace/presentations/
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+date: 2023-10-17 11:00:00+01:00
+author: ["Robin Lovelace"]
 ---
 This is the main annual event of the National Health Service's data science community.
 See details at [nhsrcommunity.com](https://nhsrcommunity.com/events/nhs-r-community-conference-2023-ticket-for-in-person-attendance-on-tuesday-17th-october-2023/).

@@ -1,37 +1,9 @@
 ---
-
-title: "Open source software and open data in transport research, planning and modelling"
-event:
-event-url: https://www.qmul.ac.uk/deri/
-location:
-address:
-  street: Digital Environment Research Institute (DERI), 67-75 New Road
-  city: London
-  region:
-  postcode: E1 1HH
-  country:
-summary:
-abstract: ""
-
-date: 2022-09-22T11:00:00+01:00
-date-end: 2022-09-22T12:00:00+01:00
-all_day: false
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: false
-
-image: featured.png
-
-url_slides: https://www.robinlovelace.net/presentations/qmul-2022.html
-url_code: https://github.com/Robinlovelace/presentations/
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+title: Open source software and open data in transport research, planning and modelling
+date: 2022-09-22 11:00:00+01:00
+author: ["Robin Lovelace"]
 ---
+## Open source software and open data in transport research, planning and modelling
+
+**Date:** 2022-09-22 11:00:00+01:00
+

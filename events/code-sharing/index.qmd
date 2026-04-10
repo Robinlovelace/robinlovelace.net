@@ -1,37 +1,12 @@
 ---
-
-title: "Creating and Sharing Code for Reproducible Research and Scalable Impact"
-event: Code sharing workshop
-event-url: https://www.adruk.org/
-location:
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary: Invited talk to Policy Fellows on how code sharing can increase impact
-abstract: ""
-date: 2022-01-21T10:00:00Z
-date-end: 2022-01-21T12:00:00Z
-all_day: false
-
-publish-date: 2022-01-19T22:11:59Z
-
-tags: []
-
-featured: true
-
-image: featured.png
-
-url_slides: https://www.robinlovelace.net/presentations/code-sharing.html
-
-url_code: https://github.com/Robinlovelace/presentations/blob/master/code-sharing.Rmd
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: [10ds]
-authors: ["Robin Lovelace"]
+title: Creating and Sharing Code for Reproducible Research and Scalable Impact
+date: 2022-01-21 10:00:00+00:00
+author: ["Robin Lovelace"]
 ---
+## Creating and Sharing Code for Reproducible Research and Scalable Impact
+
+**Event:** Code sharing workshop
+
+**Date:** 2022-01-21 10:00:00+00:00
+
+Invited talk to Policy Fellows on how code sharing can increase impact

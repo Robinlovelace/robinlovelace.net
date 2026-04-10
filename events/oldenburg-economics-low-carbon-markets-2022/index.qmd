@@ -1,39 +1,7 @@
 ---
-
 title: "Keynote: Geocomputation, reproducible research and open tools to inform the transition away from fossil fuels"
-event:
-event-url: https://sites.google.com/usp.br/lcmworkshop/home
-location: Oldenburg University, Germany
-address:
-  street:
-  city: Oldenburg
-  region: Lower Saxony
-  postcode:
-  country: Germany
-summary:
-abstract: ""
-
-date: 2023-09-04T09:00:00+01:00
-date-end: 2023-09-05T17:00:00+01:00
-all_day: true
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: true
-
-image: featured.png
-
-url_slides: https://www.robinlovelace.net/presentations/oldenburg-2023.html
-url_code: https://github.com/Robinlovelace/presentations/blob/master/oldenburg-2023.qmd
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+date: 2023-09-04 09:00:00+01:00
+author: ["Robin Lovelace"]
 ---
 The Economics of Low-Carbon Markets workshop, 4-5 September in Oldenburg (Germany), marks 10 years since the event was first held.
 The presentation is part of "Policy Session" on open compuational tools such as the Propensity to Cycle Tool that have informed policy.

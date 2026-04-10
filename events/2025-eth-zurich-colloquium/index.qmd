@@ -1,32 +1,19 @@
 ---
-title: "Modelling active travel with efficient, future-proof tools"
-event: "ETH Zürich Colloquium"
-event-url: ""
-location: "ETH Zürich, Campus Hoenggerberg"
-address:
-  street: ""
-  city: "Zürich"
-  region: ""
-  postcode: ""
-  country: "Switzerland"
-summary: "A talk at the colloquium following Eva Heinen's inaugural lecture at ETH Zürich."
-abstract: "Details to follow."
-
-date: 2025-11-18T10:05:00+01:00
-date-end: 2025-11-18T10:40:00+01:00
-all_day: false
-
-publish-date: 2025-11-07T00:00:00Z
-
-tags: ["Transport", "Micromobility", "Active Travel"]
-
-featured: true
-
-url_code: ""
-url_pdf: ""
-url_video: ""
-
-slides: ""
-projects: []
-authors: ["Robin Lovelace"]
+title: Modelling active travel with efficient, future-proof tools
+abstract: Details to follow.
+date: 2025-11-18 10:05:00+01:00
+tags:
+  - "Transport"
+  - "Micromobility"
+  - "Active Travel"
+author: ["Robin Lovelace"]
 ---
+## Modelling active travel with efficient, future-proof tools
+
+**Event:** ETH Zürich Colloquium
+
+**Location:** ETH Zürich, Campus Hoenggerberg
+
+**Date:** 2025-11-18 10:05:00+01:00
+
+A talk at the colloquium following Eva Heinen's inaugural lecture at ETH Zürich.

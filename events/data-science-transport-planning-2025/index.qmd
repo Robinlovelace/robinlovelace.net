@@ -1,44 +1,14 @@
 ---
-
 title: "Data Science for Transport Planning: 2 day course"
-event:
-event-url: https://itsleeds.github.io/tds/dstp.html
-location:
-address:
-  street:
-  city: Leeds
-  region: West Yorkshire
-  postcode:
-  country: United Kingdom
-summary: ""
-abstract: ""
-
-date: 2025-09-18T10:00:00+01:00
-date-end: 2025-09-19T16:00:00+01:00
-all_day: false
-
-publish-date: 2025-05-09T08:00:00+01:00
-
-tags: ["Data Science", "Transport Planning", "Course", "R", "Python", "Leeds"]
-
-featured: false
-
-links:
-- name: Event page
-  url: https://itsleeds.github.io/tds/dstp.html
-  icon_pack: fas
-  icon: link
-- name: Tickets
-
-url_slides:
-url_code:
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+date: 2025-09-18 10:00:00+01:00
+tags:
+  - "Data Science"
+  - "Transport Planning"
+  - "Course"
+  - "R"
+  - "Python"
+  - "Leeds"
+author: ["Robin Lovelace"]
 ---
 <!-- https://store.leeds.ac.uk/product-catalogue/environment/transport-studies/short-courses/0925dstp2-data-science-for-transport-planning -->
 ## Note: tickets are now on sale! Get yours at [store.leeds.ac.uk](https://store.leeds.ac.uk/product-catalogue/environment/transport-studies/short-courses/0925dstp2-data-science-for-transport-planning).

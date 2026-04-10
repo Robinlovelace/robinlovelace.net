@@ -1,41 +1,8 @@
 ---
-title: "New ways of working for a new generation of transport modellers"
-event: "Modelling World 2025"
-event-url: "https://www.modelling-world.com/conference-2025"
-location: "Manchester Conference Centre"
-address:
-  street: "Sackville Street"
-  city: "Manchester"
-  region: ""
-  postcode: "M1 3BB"
-  country: "UK"
-summary: "Leading a plenary session at Modelling World 2025 in Manchester, discussing the evolving practices, tools, skills, and mindsets for the next generation of transport modellers."
+title: New ways of working for a new generation of transport modellers
 abstract: "Closing plenary: New ways of working for a new generation of transport modellers"
-
-date: 2025-06-17T14:00:00+01:00
-date-end: 2025-06-18T18:30:00+01:00
-all_day: false
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-featured: true
-
-links:
-- name: Event page
-  url: https://www.modelling-world.com/conference-2025
-  icon_pack: fas
-  icon: link
-
-url_slides: ""
-url_code: ""
-url_video: ""
-
-slides: ""
-
-projects: []
-format: gfm
-authors: ["Robin Lovelace"]
+date: 2025-06-17 14:00:00+01:00
+author: ["Robin Lovelace"]
 ---
 I am looking forward to leading the closing plenary session at Modelling World 2025, which will be held from 17-18 June 2025 at the Manchester Conference Centre.
 

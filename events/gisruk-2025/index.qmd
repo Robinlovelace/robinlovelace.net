@@ -1,43 +1,18 @@
 ---
-
-title:  "Mapping, classifying, and integrating diverse street network datasets"
-event: GISRUK 2025
-event-url: https://gisruk.github.io/
-location: University of Bristol
-address:
-  street: Priory Road Complex (Room SS2D1)
-  city: Bristol
-  region: 
-  postcode: 
-  country: United Kingdom
-summary: "Presenting new methods and open source tools for active travel planning by mapping, classifying, and integrating diverse street network datasets at GISRUK 2025."
+title: Mapping, classifying, and integrating diverse street network datasets
 abstract: "At GISRUK 2025, I'll be presenting in the 'Shaping Cities III: Streets' session. My talk focuses on new methods and open-source tools developed for active travel planning. I will discuss techniques for mapping, classifying, and integrating diverse street network datasets to improve planning outcomes. This work aims to provide practical tools and approaches for researchers and practitioners working towards more sustainable and active transport systems."
-
-date: 2025-04-24T14:30:00+01:00 
-date-end: 2025-04-24T14:50:00+01:00 
-all_day: false
-
-publish-date: 2025-04-17T00:20:00+01:00 # Set publish date to now
-
-tags: ["GISRUK", "Street Networks", "Active Travel", "Open Source Tools", "Transport Planning", "Geocomputation", "R", "Python", "Bristol"]
-
-featured: false 
-
-links:
-- name: Conference Programme
-  url: https://gisruk.github.io/program/
-  icon_pack: fas
-  icon: calendar-alt
-
-url_slides: ""
-url_code: "https://github.com/Robinlovelace/" # Generic link, update if specific repo exists
-url_pdf: ""
-url_video: "https://youtu.be/6mimz_gN-V8?si=_N2KIoeO7SCrbSfO"
-
-slides: ""
-
-projects: ["geocomputation"] # Assuming related to geocomputation
-authors: ["Robin Lovelace"]
+date: 2025-04-24 14:30:00+01:00
+tags:
+  - "GISRUK"
+  - "Street Networks"
+  - "Active Travel"
+  - "Open Source Tools"
+  - "Transport Planning"
+  - "Geocomputation"
+  - "R"
+  - "Python"
+  - "Bristol"
+author: ["Robin Lovelace"]
 ---
 See a video from the talk below:
 

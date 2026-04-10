@@ -1,8 +1,7 @@
 ---
 date: 2018-09-06
 title: Severance, parallels and integration
-slug: cycling-and-society-plenary
-authors: ["Robin Lovelace"]
+author: ["Robin Lovelace"]
 ---
 ## Plenary lecture at the [Cycling & Society conference](http://www.cyclingandsociety.org/2018programme/), Bristol
 

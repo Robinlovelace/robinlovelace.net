@@ -1,56 +1,13 @@
 ---
-
-title: "Open Access Transport Models"
-event: UBDC research seminar
-event-url: https://www.ubdc.ac.uk/
-location: 
-address:
-  street:
-  city: Glasgow, UK
-  region:
-  postcode:
-  country:
-summary:  The talk explores the concepts, demonstrate some evolving new tools
-  and discuss future avenues of research and development.
-abstract: This talk will outline to key concepts and products that will
-  increasingly support evidence based transport planning and cost effective
-  investment of public funds in the 21st Century, open source tools and
-  open access models.
-  Building on two recently published papers on the concepts, in the journal
-  [Transport Policy in 2020](https://www.robinlovelace.net/publication/lovelace-open-2020/) and in the
-  [Journal of Geographical Systems in 2021](https://www.robinlovelace.net/publication/lovelace-open-2021/),
-  the talk will explore the concepts, demonstrate some evolving new tools
-  and discuss future avenues of research and development.
-  Open tools/models ranged in size from single-purpose
-  tools such as the QGIS plugin AwaP to sophisticated stand-alone multi-modal traffic
-  simulation software such as MATSim, SUMO and Veins. Building on their ability to
-  re-use the most effective components from other open source projects, developers
-  of open source transport planning tools can avoid `reinventing the wheel' and focus
-  on innovation, the 'gamified' [A/B Street](https://github.com/dabreegster/abstreet/#abstreetsimulation) 
-  software, based on OpenStreetMap, a case in point. 
-  The talk discusses how to realise the great potential of new approaches to
-  generate the strategic visions of change and evidence that are needed by transport
-  planners in the twenty-first century.
-
-date: 2021-02-16T15:00:00Z
-date-end: 2021-02-16T16:00:00Z
-all_day: false
-
-publish-date: 2021-02-01T14:17:36Z
-
-tags: []
-
-featured: true
-
-image: featured.png
-
-url_slides: https://www.robinlovelace.net/presentations/2021-02-16-open-access-transport-models.html#1
-url_code: https://github.com/Robinlovelace/presentations/blob/master/2021-02-16-open-access-transport-models.Rmd
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+title: Open Access Transport Models
+abstract: "This talk will outline to key concepts and products that will increasingly support evidence based transport planning and cost effective investment of public funds in the 21st Century, open source tools and open access models. Building on two recently published papers on the concepts, in the journal [Transport Policy in 2020](https://www.robinlovelace.net/publication/lovelace-open-2020/) and in the [Journal of Geographical Systems in 2021](https://www.robinlovelace.net/publication/lovelace-open-2021/), the talk will explore the concepts, demonstrate some evolving new tools and discuss future avenues of research and development. Open tools/models ranged in size from single-purpose tools such as the QGIS plugin AwaP to sophisticated stand-alone multi-modal traffic simulation software such as MATSim, SUMO and Veins. Building on their ability to re-use the most effective components from other open source projects, developers of open source transport planning tools can avoid `reinventing the wheel' and focus on innovation, the 'gamified' [A/B Street](https://github.com/dabreegster/abstreet/#abstreetsimulation) software, based on OpenStreetMap, a case in point. The talk discusses how to realise the great potential of new approaches to generate the strategic visions of change and evidence that are needed by transport planners in the twenty-first century."
+date: 2021-02-16 15:00:00+00:00
+author: ["Robin Lovelace"]
 ---
+## Open Access Transport Models
+
+**Event:** UBDC research seminar
+
+**Date:** 2021-02-16 15:00:00+00:00
+
+The talk explores the concepts, demonstrate some evolving new tools and discuss future avenues of research and development.

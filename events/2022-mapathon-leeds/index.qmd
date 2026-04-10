@@ -1,38 +1,7 @@
 ---
-title: "Active Travel Mapathon"
-event:
-event-url: https://www.qmul.ac.uk/deri/
-location:
-address:
-  street: Leeds Institute for Data Analytics
-  city: London
-  region:
-  postcode: LS2 9NL
-  country:
-summary:
-abstract: ""
-
-date: 2022-10-31T10:00:00+01:00
-date-end: 2022-10-31T15:00:00+01:00
-all_day: false
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: false
-
-image: featured.png
-
-url_slides: https://www.robinlovelace.net/presentations/qmul-2022.html
-url_code: https://github.com/Robinlovelace/presentations/
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+title: Active Travel Mapathon
+date: 2022-10-31 10:00:00+01:00
+author: ["Robin Lovelace"]
 ---
 For the first time an active travel mapathon is being organised in Leeds!
 

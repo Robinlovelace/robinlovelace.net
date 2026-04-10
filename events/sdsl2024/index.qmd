@@ -1,36 +1,9 @@
 ---
-
-title: "Spatial Data Sciences across the Languages (SDSL) 2024"
-event:
-event-url: https://spatial-data-science.github.io/2024/
-location:
-address:
-  street: 
-  city: Prague
-  region:
-  postcode: 
-  country: Czech Republic
-summary:
-abstract: ""
-
-date: 2024-09-18T09:00:00+01:00
-all_day: true
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: false
-
-image: featured.png
-
-url_slides: https://crosslanguage.robinlovelace.net/slides
-url_code: https://crosslanguage.robinlovelace.net/slides
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+title: Spatial Data Sciences across the Languages (SDSL) 2024
+date: 2024-09-18 09:00:00+01:00
+author: ["Robin Lovelace"]
 ---
+## Spatial Data Sciences across the Languages (SDSL) 2024
+
+**Date:** 2024-09-18 09:00:00+01:00
+

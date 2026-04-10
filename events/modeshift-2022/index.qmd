@@ -1,36 +1,10 @@
 ---
-
 title: "Keynote Speech: Safe routes to school: finding gaps in quiet networks to prioritise investment in active travel infrastructure"
-event: Modeshift Convention 2022
-event-url: https://modeshift.org.uk/event/modeshift-convention-2022/
-location:
-address:
-  street: Athena Conference Centre 
-  region:
-  postcode: LE1 1QD United 
-  country:
-summary:
-abstract: ""
-
-date: 2022-11-03T15:00:00+01:00
-date-end: 2022-11-03T16:00:00+01:00
-all_day: false
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: true
-
-image: featured.jpeg
-
-url_slides: https://mobile.twitter.com/robinlovelace/status/1588200212144787456
-url_code: https://github.com/Robinlovelace/presentations/
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+date: 2022-11-03 15:00:00+01:00
 ---
+
+## Keynote Speech: Safe routes to school: finding gaps in quiet networks to prioritise investment in active travel infrastructure
+
+**Event:** Modeshift Convention 2022
+
+**Date:** 2022-11-03 15:00:00+01:00

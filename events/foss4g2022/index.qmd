@@ -1,43 +1,17 @@
 ---
-
-title: "Jittering and routing options for converting origin-destination data into route networks
-"
-event: FOSS4G 2022
-event-url: https://2022.foss4g.org/
-location: Online
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract: ""
-
-date: 2022-08-26T08:00:00Z
-date-end: 2022-08-26T08:30:00Z
-all_day: false
-
-publish-date: 2021-01-05T17:48:39Z
-
-tags: [geocomputation, software, tools]
-
-featured: true
-
-image: featured.png
-links:
-- name: Follow
-  url: https://twitter.com/robinlovelace
-  icon_pack: fab
-  icon: twitter
-
-url_slides: https://www.robinlovelace.net/presentations/foss4g22.html
-url_code: https://github.com/Robinlovelace/foss4g22/
-url_pdf: https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLVIII-4-W1-2022/279/2022/isprs-archives-XLVIII-4-W1-2022-279-2022.pdf
-url_video: https://youtu.be/xHdynZQLz94
-
-slides: ""
-
-projects: [saferactive]
-authors: ["Robin Lovelace"]
+title: Jittering and routing options for converting origin-destination data into route networks
+date: 2022-08-26 08:00:00+00:00
+tags:
+  - "geocomputation"
+  - "software"
+  - "tools"
+author: ["Robin Lovelace"]
 ---
+## Jittering and routing options for converting origin-destination data into route networks 
+
+**Event:** FOSS4G 2022
+
+**Location:** Online
+
+**Date:** 2022-08-26 08:00:00+00:00
+

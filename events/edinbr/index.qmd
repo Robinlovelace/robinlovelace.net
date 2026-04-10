@@ -1,40 +1,17 @@
 ---
-
-title: "Open source software for decaRbonisation"
-event: EdinbR
-event-url: http://edinbr.org/
-location: Online
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract: ""
-
-date: 2021-11-15T17:30:00Z
-date-end: 2021-11-15T18:30:00Z
-all_day: false
-
-publish-date: 2021-01-05T17:48:39Z
-
-tags: [geocomputation, software, tools]
-
-featured: true
-
-image: featured.png
-links:
-- name: Follow
-  url: https://twitter.com/robinlovelace
-  icon_pack: fab
-  icon: twitter
-
-url_slides: https://www.robinlovelace.net/presentations/edinbr.html#1
-url_code: https://github.com/robinlovelace/slides
-
-slides: ""
-
-projects: [saferactive]
-authors: ["Robin Lovelace"]
+title: Open source software for decaRbonisation
+date: 2021-11-15 17:30:00+00:00
+tags:
+  - "geocomputation"
+  - "software"
+  - "tools"
+author: ["Robin Lovelace"]
 ---
+## Open source software for decaRbonisation
+
+**Event:** EdinbR
+
+**Location:** Online
+
+**Date:** 2021-11-15 17:30:00+00:00
+

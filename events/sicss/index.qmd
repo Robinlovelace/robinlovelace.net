@@ -1,36 +1,13 @@
 ---
-
 title: "Invited talk: Reproducible research to inform policy"
-event: Summer Institute in Computational Social Science
-event-url: https://sicss.io/2021/oxford/
-location: University of Oxford
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract: ""
-
-date: 2021-06-24T16:00:00Z
-end_date: 2021-06-24T18:00:00Z
-all_day: false
-
-publish-date: 2021-03-23T21:22:26Z
-
-tags: []
-
-featured: false
-
-url_slides:
-
-url_code:
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+date: 2021-06-24 16:00:00+00:00
+author: ["Robin Lovelace"]
 ---
+## Invited talk: Reproducible research to inform policy
+
+**Event:** Summer Institute in Computational Social Science
+
+**Location:** University of Oxford
+
+**Date:** 2021-06-24 16:00:00+00:00
+

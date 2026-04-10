@@ -1,37 +1,13 @@
 ---
-
 title: "Open Access Transport Models: from collaborative code to citizen science"
-event: 2021 TRB Annual Meeting
-event-url: http://www.trb.org/AnnualMeeting/AnnualMeeting.aspx
-location: Online
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract: ""
-
-date: 2021-01-21T20:30:00Z
-date-end: 2021-01-21T21:00:00Z
-all_day: false
-
-publish-date: 2021-01-05T17:48:39Z
-
-tags: []
-
-featured: true
-
-image: featured.jpeg
-
-url_slides: https://www.robinlovelace.net/presentations/2021-01-21-open-source-transport-tools.html
-url_code: https://github.com/Robinlovelace/presentations/blob/master/2021-01-21-open-source-transport-tools.Rmd
-url_pdf:
-url_video: https://youtu.be/mpqNW9ePVtw
-
-slides: ""
-
-projects: [saferactive]
-authors: ["Robin Lovelace"]
+date: 2021-01-21 20:30:00+00:00
+author: ["Robin Lovelace"]
 ---
+## Open Access Transport Models: from collaborative code to citizen science
+
+**Event:** 2021 TRB Annual Meeting
+
+**Location:** Online
+
+**Date:** 2021-01-21 20:30:00+00:00
+

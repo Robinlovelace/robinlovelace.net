@@ -1,30 +1,7 @@
 ---
-title: "Data-Driven Transport Planning Hackathon"
-subtitle: ""
-date: 2026-05-18T14:00:00+01:00
-date-end: 2026-05-18T17:00:00+01:00
-all_day: false
-event: "Data-Driven Transport Planning Hackathon"
-event-url: ""
-location: "Queen's University Belfast, David Keir Building (room TBD)"
-address:
-  street: ""
-  city: Belfast
-  region: ""
-  postcode: ""
-  country: United Kingdom
-summary: "The Transport Planning Society and Queen’s University Belfast are pleased to host the first-ever Data-Driven Transport Planning Hackathon in Northern Ireland! Hosted by Robin Lovelace, Professor of Transport Data Science at the University of Leeds and part of the team behind the new Propensity to Cycle Tool for Northern Ireland (PCTNI), this afternoon session is an open-ended challenge to develop data analysis, visualisation, or prototype tool ideas that help make transport planning more data-driven."
-abstract: ""
-projects: []
-tags: []
-categories: []
-url_pdf: ""
-url_code: ""
-url_dataset: ""
-url_project: ""
-url_slides: ""
-url_video: ""
-authors: ["Robin Lovelace"]
+title: Data-Driven Transport Planning Hackathon
+date: 2026-05-18 14:00:00+01:00
+author: ["Robin Lovelace"]
 ---
 Join us for an afternoon of collaborative problem-solving, exploring how data can improve transport planning. Whether you're a student, researcher, practitioner, or enthusiast, bring your ideas and laptop to develop innovative solutions using R, Python, JavaScript, or any tools you prefer.
 

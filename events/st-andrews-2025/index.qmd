@@ -1,38 +1,8 @@
 ---
-title:  "Seminar in St Andrews: Future-Proof Transport Planning"
-event: St Andrews Bell Edwards Geographic Data Institute (BEGIN) Seminar Series
-event-url: https://begin.wp.st-andrews.ac.uk/2025/04/30/begin-seminar-prof-robin-lovelace/
-location: University of St Andrews
-address:
-  street: Irvine Building, University of St Andrews, North Street
-  city: St Andrews
-  region: 
-  postcode: KY16 9AL
-  country: Scotland
-summary:
+title: "Seminar in St Andrews: Future-Proof Transport Planning"
 abstract: "Transport planning has always been a complex and multi-disciplinary enterprise requiring wide-ranging skills and methods. Like many fields of research exposed to the data revolution, it is also fast-moving, meaning that it's hard to know how to keep the work future-proof. This talk will explore the challenges and opportunities of future-proofing transport planning, focusing on the role of data science and open source software. It will draw my experience developing and deploying tools such as the Propensity to Cycle Tool for England and Wales (publicly available at [www.pct.bike](https://www.pct.bike/)), the Network Planning Tool for Scotland (publicly available at [www.npt.scot](https://www.npt.scot/)) and the Biclar tool for Portugal (publicly available at [biclar.tmlmobilidade.pt](https://biclar.tmlmobilidade.pt/). I will also outline some tools and techniques we have developed at the University of Leeds for working with origin-destination data"
-
-date: 2025-05-20T14:00:00+01:00
-date-end: 2025-05-20T15:00:00+01:00
-all_day: false
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: true
-
-image: featured.png
-
-url_slides: https://robinlovelace.github.io/future-proof-transport-planning/st-andrews#/title-slide
-url_code: https://github.com/Robinlovelace/future-proof-transport-planning
-url_video:
-
-slides: ""
-
-projects: []
-format: gfm
-authors: ["Robin Lovelace"]
+date: 2025-05-20 14:00:00+01:00
+author: ["Robin Lovelace"]
 ---
 ## Introduction
 

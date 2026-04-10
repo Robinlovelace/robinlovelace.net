@@ -1,34 +1,11 @@
 ---
-
 title: "Keynote: Reproducible Geocomputation for Policy-Relevant Research"
-event: Centre for Advanced Spatial Analyisis student conference
-event-url: https://www.ucl.ac.uk/bartlett/casa/
-location:
-address:
-  street: 90 Tottenham Court Rd, London 
-  region:
-  postcode: W1T 4TJ
-  country:
-summary:
-abstract: ""
-
-date: 2022-07-13T09:00:00+01:00
-date-end: 2022-07-13T10:00:00+01:00
-all_day: false
-
-publish-date: 2022-05-21T07:43:56+01:00
-
-tags: []
-
-featured: false
-
-url_slides: https://www.robinlovelace.net/presentations/casa-2022.html
-url_code: https://github.com/Robinlovelace/presentations/
-url_pdf:
-url_video:
-
-slides: ""
-
-projects: []
-authors: ["Robin Lovelace"]
+date: 2022-07-13 09:00:00+01:00
+author: ["Robin Lovelace"]
 ---
+## Keynote: Reproducible Geocomputation for Policy-Relevant Research
+
+**Event:** Centre for Advanced Spatial Analyisis student conference
+
+**Date:** 2022-07-13 09:00:00+01:00
+

@@ -1,45 +1,19 @@
 ---
-
 title: "AUM2026: Applied Urban Modelling Symposium and Pre-conference Seminar"
-event: Applied Urban Modelling (AUM) Symposium
-event-url: https://www.landecon.cam.ac.uk/news/aum2026
-location: Gonville & Caius College, Cambridge
-address:
-  street: Trinity Street
-  city: Cambridge
-  region: Cambridgeshire
-  postcode: CB2 1TA
-  country: United Kingdom
-summary: "Presenting research on modelling multi-modal traffic, casualties and risk at AUM2026 in Cambridge, including the pre-conference seminar on Modelling Active Mobility."
-abstract: "I'm presenting at the 2026 Applied Urban Modelling (AUM) symposium at the University of Cambridge."
-
-date: 2026-06-26T09:00:00+01:00
-date-end: 2026-07-01T17:00:00+01:00
-all_day: false
-
-publish-date: 2026-03-09T00:00:00+00:00
-
-tags: ["AUM2026", "Applied Urban Modelling", "Active Mobility", "Transport Planning", "Critical Safety Issues", "Walking", "Cycling", "Cambridge", "Data Science", "ATE"]
-
-featured: true
-
-links:
-- name: AUM2026 Website
-  url: https://www.landecon.cam.ac.uk/news/aum2026
-  icon_pack: fas
-  icon: external-link-alt
-- name: Register for AUM2026
-- name: Contact Organisers
-
-url_slides: ""
-url_code: "https://github.com/Robinlovelace/"
-url_pdf: ""
-url_video: ""
-
-slides: ""
-
-projects: ["geocomputation"]
-authors: ["Robin Lovelace"]
+abstract: I'm presenting at the 2026 Applied Urban Modelling (AUM) symposium at the University of Cambridge.
+date: 2026-06-26 09:00:00+01:00
+tags:
+  - "AUM2026"
+  - "Applied Urban Modelling"
+  - "Active Mobility"
+  - "Transport Planning"
+  - "Critical Safety Issues"
+  - "Walking"
+  - "Cycling"
+  - "Cambridge"
+  - "Data Science"
+  - "ATE"
+author: ["Robin Lovelace"]
 ---
 I'll be presenting on **Modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling**.
 
