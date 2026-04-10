@@ -3,8 +3,22 @@ title: "Publications"
 description-meta: "Publications, papers, and scholarly work"
 title-block-banner: false
 css: custom.css
-nocite: |
-  @*
+listing:
+  - id: publications-index
+    contents: publications/publications.yml
+    type: table
+    fields: [year, title, authors, venue, type]
+    field-links: [title]
+    field-display-names:
+      year: Year
+      title: Title
+      authors: Authors
+      venue: Venue
+      type: Type
+    sort: "year desc"
+    sort-ui: true
+    filter-ui: true
+    page-size: 25
 ---
 
 ## Selected Publications
@@ -26,11 +40,11 @@ Total citations as of April 2025:
 
 See [Google Scholar](https://scholar.google.com/citations?user=xDJHVCAAAAAJ&hl=en) for a full list.
 
-### Full Publications List
+### Searchable Publications Index
 
-The bibliography below is merged from the legacy website's publication records and the references available in this Quarto site.
+This table is generated from [`files/bibliography/my-citations-for-web.bib`](files/bibliography/my-citations-for-web.bib) and links to per-publication pages.
 
-::: {#refs}
+::: {#publications-index}
 :::
 
 <!--Include social share buttons-->
