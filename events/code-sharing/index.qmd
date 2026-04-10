@@ -12,8 +12,7 @@ address:
   postcode:
   country:
 summary: Invited talk to Policy Fellows on how code sharing can increase impact
-abstract: 
-
+abstract: ""
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: 2022-01-21T10:00:00Z
@@ -21,9 +20,9 @@ date-end: 2022-01-21T12:00:00Z
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2022-01-19T22:11:59Z
+publish-date: 2022-01-19T22:11:59Z
 
-authors: []
+  - "Robin Lovelace"
 tags: []
 
 # Is this a featured event? (true/false)
@@ -32,12 +31,7 @@ featured: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: "Slide from the presentation"
-  focal_point: ""
-  preview_only: false
-
-# Custom links (optional).
+image: featured.png
 #   Uncomment and edit lines below to show custom links.
 # links:
 # - name: Follow
@@ -65,4 +59,6 @@ slides: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: [10ds]
+authors:
+  - "Robin Lovelace"
 ---

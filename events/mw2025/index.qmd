@@ -19,9 +19,9 @@ date-end: 2025-06-18T18:30:00+01:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2022-05-21T07:43:56+01:00
+publish-date: 2022-05-21T07:43:56+01:00
 
-authors:
+  - "Robin Lovelace"
   - admin
 tags:
   - "transport modelling"
@@ -34,12 +34,6 @@ tags:
 featured: true
 
 # Featured image
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Custom links (optional).
 links:
 - name: Event page
   url: https://www.modelling-world.com/conference-2025
@@ -56,8 +50,9 @@ slides: ""
 
 projects: []
 format: gfm
+authors:
+  - "Robin Lovelace"
 ---
-
 I am looking forward to leading the closing plenary session at Modelling World 2025, which will be held from 17-18 June 2025 at the Manchester Conference Centre.
 
 

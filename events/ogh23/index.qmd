@@ -12,7 +12,7 @@ address:
   postcode: 
   country: Poland
 summary:
-abstract:
+abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -21,9 +21,9 @@ date-end: 2023-09-01T17:00:00+02:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2022-05-21T07:43:56+01:00
+publish-date: 2022-05-21T07:43:56+01:00
 
-authors: []
+  - "Robin Lovelace"
 tags: []
 
 # Is this a featured event? (true/false)
@@ -32,12 +32,7 @@ featured: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Custom links (optional).
+image: featured.png
 #   Uncomment and edit lines below to show custom links.
 # links:
 # - name: Follow
@@ -64,8 +59,9 @@ slides: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+authors:
+  - "Robin Lovelace"
 ---
-
 This workshop explores recent development in R's spatial data analysis ecosystem and exciting new developments in the field.
 
 I deliver a 2 part session on 'Tidy Geographic Data', and a session on handling large OpenStreetMap datasets with R, `osmium` and other open source command-line tools.

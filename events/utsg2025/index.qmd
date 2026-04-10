@@ -20,9 +20,9 @@ date-end: 2025-06-25T10:00:00+01:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2022-05-21T07:43:56+01:00
+publish-date: 2022-05-21T07:43:56+01:00
 
-authors:
+  - "Robin Lovelace"
   - admin
   - Zhao Wang
   - Hussein Mahfouz
@@ -41,12 +41,7 @@ featured: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Custom links (optional).
+image: featured.png
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Event page
@@ -68,8 +63,9 @@ slides: ""
 
 projects: []
 format: gfm
+authors:
+  - "Robin Lovelace"
 ---
-
 I presented an extended abstract at the 57th Universities Transport Studies Group (UTSG) Annual Conference, held at University College Dublin on 25th June 2025.
 The abstract is titled "Integrating diverse data sources to support future-proof transport modelling" and discusses the limitations of traditional transport models that rely on limited input datasets, leading to biases and blind-spots in model outputs.
 The presentation highlights a case study of the Network Planning Tool for Scotland (NPT), which integrates multiple datasets to support more evidence-based and data-driven transport strategies.

@@ -2,9 +2,11 @@
 date: 2020-04-23
 title: Seminar for the online Why R conference
 slug: why-r-2020
+
+  - "Robin Lovelace"
+authors:
+  - "Robin Lovelace"
 ---
-
-
 I was invited to co-present on the topic of *Recent changes in R spatial* at the Why R conference which, like many other events, has moved on-line.
 
 - Event link: [meetup.com](https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/events/269807574/)

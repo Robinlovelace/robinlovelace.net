@@ -17,19 +17,13 @@ abstract: "An overview of open and future-proof transport planning methods, comm
 date: 2025-10-22
 all_day: true
 
-publishDate: 2025-11-03T16:08:41+00:00
+publish-date: 2025-11-03T16:08:41+00:00
 
-authors: []
+  - "Robin Lovelace"
 tags: []
 
 featured: false
 
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-url_slides: "https://www.robinlovelace.net/presentations/finnish-embassy.html"
 url_code: "https://github.com/robinlovelace/presentations"
 url_video: ""
 
@@ -37,6 +31,7 @@ slides: ""
 
 projects: []
 format: gfm
+authors:
+  - "Robin Lovelace"
 ---
-
 This talk highlights scalable, open transport planning tools and opportunities to align with GREENTRAVEL, including reproducible research practices and international portability.

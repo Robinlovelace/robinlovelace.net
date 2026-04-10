@@ -21,21 +21,15 @@ date-end: 2026-07-01T17:00:00+01:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2026-03-09T00:00:00+00:00
+publish-date: 2026-03-09T00:00:00+00:00
 
-authors: ["admin"]
+  - "Robin Lovelace"
 tags: ["AUM2026", "Applied Urban Modelling", "Active Mobility", "Transport Planning", "Critical Safety Issues", "Walking", "Cycling", "Cambridge", "Data Science", "ATE"]
 
 # Is this a featured event? (true/false)
 featured: true
 
 # Featured image (add aum2026-featured.jpg/png to the folder if available)
-image:
-  caption: "Gonville and Caius College, Cambridge - Venue for AUM2026"
-  focal_point: "Smart"
-  preview_only: false
-
-# Custom links
 links:
 - name: AUM2026 Website
   url: https://www.landecon.cam.ac.uk/news/aum2026
@@ -61,8 +55,9 @@ slides: ""
 
 # Projects (optional).
 projects: ["geocomputation"]
+authors:
+  - "Robin Lovelace"
 ---
-
 I'll be presenting on **Modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling**.
 
 ## Abstract

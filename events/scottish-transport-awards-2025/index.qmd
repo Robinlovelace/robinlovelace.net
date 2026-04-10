@@ -19,9 +19,9 @@ date-end: 2025-06-19T22:30:00+01:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2022-05-21T07:43:56+01:00
+publish-date: 2022-05-21T07:43:56+01:00
 
-authors:
+  - "Robin Lovelace"
   - admin
 tags:
   - "Scottish Transport Awards"
@@ -34,12 +34,6 @@ tags:
 featured: true
 
 # Featured image
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Custom links (optional).
 links:
 - name: Event Website
   url: https://www.transporttimes.co.uk/awards.php/Scottish-Transport-Awards-3/
@@ -56,8 +50,9 @@ slides: ""
 
 projects: []
 format: gfm
+authors:
+  - "Robin Lovelace"
 ---
-
 I am thrilled to announce that the Network Planning Tool (NPT) project, which I lead, has been nominated for the 'Most Innovative Project of the Year' award at the 22nd Annual Scottish Transport Awards!
 
 I will be attending the awards ceremony on 19th June 2025 at the Glasgow Marriott Hotel. It's an honour for the NPT to be recognised among other significant achievements in Scottish transport.

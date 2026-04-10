@@ -18,19 +18,13 @@ date: 2026-06-08
 date-end: 2026-06-10
 all_day: true
 
-publishDate: 2025-11-11T12:00:00+00:00
+publish-date: 2025-11-11T12:00:00+00:00
 
-authors: []
+  - "Robin Lovelace"
 tags: []
 
 featured: false
 
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-url_slides: ""
 url_code: "https://github.com/tdscience/tartu26"
 url_video: ""
 
@@ -38,8 +32,9 @@ slides: ""
 
 projects: []
 format: gfm
+authors:
+  - "Robin Lovelace"
 ---
-
 We welcome you to join us at the 10th biennial Mobile Tartu Conference and PhD School on June 7/8‒10, 2026, to celebrate two decades of human mobility studies based on mobile phone data!
 
 The Mobile Tartu Conference focuses on human mobility studies for resilient, just, and sustainable societies, using primarily digital traces from mobile big data. At the Jubilee Conference, we reflect on the evolution of mobility studies over the past two decades and how this has influenced the need to consider mobility data justice in research and governance. Our confirmed keynote speakers include Prof. Kay W. Axhausen (ETH Zurich, Switzerland) and Prof. Mimi Sheller (Worcester Polytechnic Institute, USA).

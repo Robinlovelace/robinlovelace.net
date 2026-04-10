@@ -18,24 +18,20 @@ date-end: 2025-11-18T10:40:00+01:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2025-11-07T00:00:00Z
+publish-date: 2025-11-07T00:00:00Z
 
-authors: ["admin"]
+  - "Robin Lovelace"
 tags: ["Transport", "Micromobility", "Active Travel"]
 
 # Is this a featured event? (true/false)
 featured: true
 
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-url_slides: "https://www.robinlovelace.net/presentations/zurich25"
 url_code: ""
 url_pdf: ""
 url_video: ""
 
 slides: ""
 projects: []
+authors:
+  - "Robin Lovelace"
 ---

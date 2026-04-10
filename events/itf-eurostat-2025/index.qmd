@@ -18,19 +18,13 @@ date: 2025-11-04
 date-end: 2025-11-05
 all_day: true
 
-publishDate: 2025-11-03T16:08:41+00:00
+publish-date: 2025-11-03T16:08:41+00:00
 
-authors: []
+  - "Robin Lovelace"
 tags: []
 
 featured: false
 
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-url_slides: "https://www.robinlovelace.net/presentations/itf2025.html"
 url_code: "https://github.com/robinlovelace/presentations"
 url_video: ""
 
@@ -38,6 +32,7 @@ slides: ""
 
 projects: []
 format: gfm
+authors:
+  - "Robin Lovelace"
 ---
-
 This keynote outlines practical steps to enable data-driven decision-making in transport using open and reproducible workflows, with examples from communities of practice and national-level data integration.

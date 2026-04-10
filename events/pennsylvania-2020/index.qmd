@@ -2,9 +2,11 @@
 date: 2020-04-06
 title: Invited seminar at the University of Pennsylvania
 slug: pennsylvania-2020
+
+  - "Robin Lovelace"
+authors:
+  - "Robin Lovelace"
 ---
-
-
 In place of a planned [MUSA Masterclass](https://penniur.upenn.edu/events/musamasterclass-featuring-tyler-morgan-wall-3d-mapping-dataviz-in-r) talk in person, a remote lecture was scheduled via the wonders of new [digital technologies](https://twitter.com/robinlovelace/status/1239930988416897033), on transport data science.
 
 Although not as in-depth as the MUSA Masterclass talk, which has been postponed until April 2021 due to the Covid-19 Pandemic, this talk will give a high-level overview of some of the topics that I will talk about, based on a case study from Leeds, UK, the home of the Institute for Transport Studies.

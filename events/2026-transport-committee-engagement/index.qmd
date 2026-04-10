@@ -12,9 +12,9 @@ date-end: 2026-02-11T13:30:00Z
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2026-02-01T00:00:00Z
+publish-date: 2026-02-01T00:00:00Z
 
-authors: ["admin"]
+  - "Robin Lovelace"
 tags: ["Transport Policy", "Academic Engagement", "Active Travel", "UK Parliament", "Data Science"]
 
 # Is this a featured event? (true/false)
@@ -31,8 +31,9 @@ url_video: ""
 
 slides: ""
 projects: []
+authors:
+  - "Robin Lovelace"
 ---
-
 The Transport Committee is holding an academic engagement event to strengthen connections with the research community and discuss pertinent transport policy issues.
 
 The event aims to:
