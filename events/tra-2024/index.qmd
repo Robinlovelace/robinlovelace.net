@@ -20,7 +20,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2022-05-21T07:43:56+01:00
 
-  - "Robin Lovelace"
 tags: []
 
 # Is this a featured event? (true/false)
@@ -66,7 +65,6 @@ Time of the session:  5:45 PM - 6:45 PM on Wednesday, April 17, 2024
 See [the confpartners website](https://confpartners.eventsair.com/QuickEventWebsitePortal/tra-2024/conference-programme/Agenda/AgendaItemDetail?id=bad08628-45e1-badd-42b8-3a0f9efdcccd) for details.
 
 <!-- # Documentation: https://wowchemy.com/docs/managing-content/
-
 
 # Header image
 

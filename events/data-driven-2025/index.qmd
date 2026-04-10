@@ -23,7 +23,6 @@ all_day: true
 # Schedule page publish date (NOT event date).
 publish-date: 2022-05-21T07:43:56+01:00
 
-  - "Robin Lovelace"
 tags: []
 
 # Is this a featured event? (true/false)
@@ -63,6 +62,4 @@ authors:
   - "Robin Lovelace"
 ---
 Presentation based on work by me and colleagues on the Network Planning Tool for Scotland (NPT) project, funded by Transport Scotland and delivered in collaboration with Sustrans Scotland.
-
-
 

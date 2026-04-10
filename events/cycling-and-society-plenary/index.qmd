@@ -2,8 +2,6 @@
 date: 2018-09-06
 title: Severance, parallels and integration
 slug: cycling-and-society-plenary
-
-  - "Robin Lovelace"
 authors:
   - "Robin Lovelace"
 ---

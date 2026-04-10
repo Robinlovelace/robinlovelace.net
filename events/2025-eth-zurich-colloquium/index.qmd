@@ -20,7 +20,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2025-11-07T00:00:00Z
 
-  - "Robin Lovelace"
 tags: ["Transport", "Micromobility", "Active Travel"]
 
 # Is this a featured event? (true/false)

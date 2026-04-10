@@ -24,7 +24,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2025-04-17T00:20:00+01:00 # Set publish date to now
 
-  - "Robin Lovelace"
 tags: ["GISRUK", "Street Networks", "Active Travel", "Open Source Tools", "Transport Planning", "Geocomputation", "R", "Python", "Bristol"]
 
 # Is this a featured event? (true/false)

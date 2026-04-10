@@ -23,7 +23,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2026-03-09T00:00:00+00:00
 
-  - "Robin Lovelace"
 tags: ["AUM2026", "Applied Urban Modelling", "Active Mobility", "Transport Planning", "Critical Safety Issues", "Walking", "Cycling", "Cambridge", "Data Science", "ATE"]
 
 # Is this a featured event? (true/false)
@@ -64,8 +63,6 @@ I'll be presenting on **Modelling multi-modal traffic interactions, casualties, 
 
 This talk presents data-driven approaches for modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling, with the aim of informing government guidance on critical safety issues for walking, wheeling, and cycling. The presentation will cover: data engineering pipelines designed to ingest large volumes of pedestrian and cycle count data; the integration of casualty and traffic data to characterise risk; and open-source tools and reproducible methods used to build models capable of informing evidence-based policy and design guidance. The work draws on and extends existing transport modelling frameworks and speaks to the broader challenge of making active travel the natural choice for short trips in UK cities and towns.
 
-
-
 <!-- ## Event Details
 
 ### Pre-conference Seminar: Modelling Active Mobility
@@ -84,5 +81,4 @@ Registration covers symposium organisation, refreshments, and buffet lunches. Ac
 
 ### Contact
 [aum@landecon.cam.ac.uk](mailto:aum@landecon.cam.ac.uk) -->
-
 

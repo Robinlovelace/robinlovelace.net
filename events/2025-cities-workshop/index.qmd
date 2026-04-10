@@ -23,7 +23,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2025-08-01T00:00:00+01:00
 
-  - "Robin Lovelace"
 tags: ["Transport Planning", "Data Science", "Open Source", "Future-Proofing"]
 
 # # Is this a featured event? (true/false)

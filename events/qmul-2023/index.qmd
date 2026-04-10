@@ -23,7 +23,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2023-01-26T07:43:56+01:00
 
-  - "Robin Lovelace"
 tags: []
 
 # Is this a featured event? (true/false)

@@ -2,8 +2,6 @@
 date: 2017-05-02
 title: 'Seminar: invited talk at Geographic Data Science lab'
 slug: gds-seminar
-
-  - "Robin Lovelace"
 authors:
   - "Robin Lovelace"
 ---

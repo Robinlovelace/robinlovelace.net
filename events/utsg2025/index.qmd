@@ -22,17 +22,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2022-05-21T07:43:56+01:00
 
-  - "Robin Lovelace"
-  - admin
-  - Zhao Wang
-  - Hussein Mahfouz
-  - Juan Jose Fonseca Zamora
-  - Martin Lucas-Smith
-  - Dustin Carlino
-  - Angus Calder
-  - Congying Hu
-  - Michael Naysmith
-  - Matthew Davis
 tags: []
 
 # Is this a featured event? (true/false)
@@ -79,8 +68,6 @@ Just signed-up to the #UTSG2025 conference in Dublin, 25th-27th June. Looking fo
 ## Short version for x:
 
 Just signed-up to the #UTSG2025 conference in Dublin, 25th-27th June. Looking forward to presenting our work on transport data integration to calculate Level of Service on every road in Scotland. Thanks to colleagues, Transport Scotland + Sustrans. See you there! #NPT #geocompx
-
-
 
  -->
 

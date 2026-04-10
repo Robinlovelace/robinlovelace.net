@@ -28,8 +28,6 @@ url_project: ""
 url_slides: ""
 url_video: ""
 url_code: ""
-
-  - "Robin Lovelace"
 authors:
   - "Robin Lovelace"
 ---

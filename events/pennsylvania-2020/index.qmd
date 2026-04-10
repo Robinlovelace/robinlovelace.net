@@ -2,8 +2,6 @@
 date: 2020-04-06
 title: Invited seminar at the University of Pennsylvania
 slug: pennsylvania-2020
-
-  - "Robin Lovelace"
 authors:
   - "Robin Lovelace"
 ---

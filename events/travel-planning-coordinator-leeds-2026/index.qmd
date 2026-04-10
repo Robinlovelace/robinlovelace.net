@@ -21,14 +21,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2026-02-27T16:50:00+00:00
 
-  - "Robin Lovelace"
-  - admin
 tags:
-  - "travel planning"
-  - "Leeds"
-  - "networking"
-  - "sustainable transport"
-  - "Active Travel"
 
 # Is this a featured event? (true/false)
 featured: false

@@ -2,7 +2,6 @@
 abstract: This keynote puts cycling in the context of transport planning priorities.
 all_day: false
 
-  - "Robin Lovelace"
 date: 2016-06-10
 date-end: "2030-06-01T15:00:00Z"
 event: Hackney Cycling Conference

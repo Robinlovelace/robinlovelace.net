@@ -22,7 +22,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2025-05-09T08:00:00+01:00
 
-  - "Robin Lovelace"
 tags: ["Data Science", "Transport Planning", "Course", "R", "Python", "Leeds"]
 
 # Is this a featured event? (true/false)
@@ -67,8 +66,6 @@ authors:
 <!-- https://store.leeds.ac.uk/product-catalogue/environment/transport-studies/short-courses/0925dstp2-data-science-for-transport-planning -->
 ## Note: tickets are now on sale! Get yours at [store.leeds.ac.uk](https://store.leeds.ac.uk/product-catalogue/environment/transport-studies/short-courses/0925dstp2-data-science-for-transport-planning).
 
-
 Based on demand, I'm running a 2-day course with colleagues teaching modern data science skills for transport planning, focussed on transport planning practitioners and transport planning researchers looking to develop their skills for real-world applications. 
-
 
 Any questions welcome, looking forward to seeing you at the course!

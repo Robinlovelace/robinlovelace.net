@@ -2,8 +2,6 @@
 date: 2020-04-23
 title: Seminar for the online Why R conference
 slug: why-r-2020
-
-  - "Robin Lovelace"
 authors:
   - "Robin Lovelace"
 ---

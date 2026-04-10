@@ -2,8 +2,6 @@
 date: 2018-04-11
 title: 'Invited seminar: can geographic data save the world?'
 slug: geocompr-jena
-
-  - "Robin Lovelace"
 authors:
   - "Robin Lovelace"
 ---

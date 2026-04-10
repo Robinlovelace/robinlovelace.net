@@ -19,7 +19,6 @@ all_day: true
 
 publish-date: 2025-11-03T16:08:41+00:00
 
-  - "Robin Lovelace"
 tags: []
 
 featured: false

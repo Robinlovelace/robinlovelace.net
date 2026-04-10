@@ -24,7 +24,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2021-01-05T17:48:39Z
 
-  - "Robin Lovelace"
 tags: [geocomputation, software, tools]
 
 # Is this a featured event? (true/false)

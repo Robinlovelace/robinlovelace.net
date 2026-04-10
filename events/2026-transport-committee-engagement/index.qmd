@@ -14,7 +14,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2026-02-01T00:00:00Z
 
-  - "Robin Lovelace"
 tags: ["Transport Policy", "Academic Engagement", "Active Travel", "UK Parliament", "Data Science"]
 
 # Is this a featured event? (true/false)

@@ -23,7 +23,6 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publish-date: 2025-04-17T00:10:00+01:00
 
-  - "Robin Lovelace"
 tags: ["Inaugural Lecture", "Data Science", "Transport Planning", "Open Source", "R", "Python", "Geocomputation", "Leeds"]
 
 # Is this a featured event? (true/false)
