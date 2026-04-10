@@ -10,7 +10,7 @@ description: ""
 I have just updated my website stack and wanted to document what changed and why.
 The short version is that I looked at migration options from Wowchemy, moved the site to Quarto, and improved how project pages are published under robinlovelace.net.
 
-Looking back over recent commits in this repo, the practical work included switching to native GitHub Pages deploys, fixing event content and front matter, and consolidating the Quarto-based structure.
+Looking back over recent commits in this repo, the practical work included switching to GitHub Actions-based deploys to `robinlovelace.github.io`, fixing event content and front matter, and consolidating the Quarto-based structure.
 I also wanted to write this up because the ecosystem has shifted in a way that can be confusing if you have not looked recently.
 
 ## Looking at migration options: Wowchemy and HugoBlox
