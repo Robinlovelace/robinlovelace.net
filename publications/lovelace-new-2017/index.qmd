@@ -13,6 +13,7 @@ publication-url: ""
 authors:
   - "Robin Lovelace"
   - "Ilan Fridman-Rojas"
+abstract: "This article explores the application of machine learning and Directed Acyclic Graphs (DAGs) in the analysis of origin-destination data, discussing both the technical opportunities and the challenges of interpretability."
 ---
 
 **Type:** Conference Paper
@@ -20,6 +21,10 @@ authors:
 **Year:** 2017
 
 [BibTeX](entry.bib)
+
+## Abstract
+
+This article explores the application of machine learning and Directed Acyclic Graphs (DAGs) in the analysis of origin-destination data, discussing both the technical opportunities and the challenges of interpretability.
 
 ## Citation
 
@@ -29,15 +34,15 @@ Robin Lovelace and Ilan Fridman-Rojas (2017). New tools of the trade? The potent
 
 ```bibtex
 @inproceedings{lovelace_new_2017,
-  title = {New Tools of the Trade? {{The}} Potential and Pitfalls of'{{Machine Learning}}'and'{{DAGs}}' to Model Origin-Destination Data},
-  shorttitle = {New Tools of the Trade?},
-  booktitle = {{{GeoComputation}} 2017},
-  author = {Lovelace, Robin and {Fridman-Rojas}, Ilan},
-  editor = {Long, Rob},
-  year = {2017},
-  publisher = {{Centre for Computational Geography, University of Leeds}},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  file = {/home/robin/Zotero/storage/6EXFI7ZR/Lovelace et al. - 2017 - New tools of the trade The potential and pitfalls.pdf;/home/robin/Zotero/storage/HMFQBN8S/124286.html}
+	title = {New tools of the trade? {The} potential and pitfalls of’{Machine} {Learning}’and’{DAGs}’ to model origin-destination data},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	shorttitle = {New tools of the trade?},
+	abstract = {This article explores the application of machine learning and Directed Acyclic Graphs (DAGs) in the analysis of origin-destination data, discussing both the technical opportunities and the challenges of interpretability.},
+	booktitle = {{GeoComputation} 2017},
+	publisher = {Centre for Computational Geography, University of Leeds},
+	author = {Lovelace, Robin and Fridman-Rojas, Ilan},
+	editor = {Long, Rob},
+	year = {2017},
 }
 ```
 

@@ -9,17 +9,22 @@ citation-type: "paper-conference"
 citation-type-label: "Conference Paper"
 venue: "GISRUK"
 doi: ""
-publication-url: ""
+publication-url: "https://www122.lamp.le.ac.uk/download/GISRUK2018_Contribution_121.pdf"
 authors:
   - "Robin Lovelace"
   - "Malcolm Morgan"
+abstract: "This research employs geocomputational methods to investigate how new transport infrastructure projects affect levels of walking and cycling. It assesses whether such developments encourage or deter active travel modes."
 ---
 
 **Type:** Conference Paper
 **Venue:** GISRUK
 **Year:** 2018
 
-[BibTeX](entry.bib)
+[URL](https://www122.lamp.le.ac.uk/download/GISRUK2018_Contribution_121.pdf) [BibTeX](entry.bib)
+
+## Abstract
+
+This research employs geocomputational methods to investigate how new transport infrastructure projects affect levels of walking and cycling. It assesses whether such developments encourage or deter active travel modes.
 
 ## Citation
 
@@ -29,11 +34,13 @@ Robin Lovelace and Malcolm Morgan (2018). Using Geocomputation to explore the ac
 
 ```bibtex
 @inproceedings{lovelace_using_2018,
-  title = {Using {{Geocomputation}} to Explore the Active Travel Impacts of New Roads and Railways},
-  booktitle = {{{GISRUK}}},
-  author = {Lovelace, Robin and Morgan, Malcolm},
-  year = {2018},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Using {Geocomputation} to explore the active travel impacts of new roads and railways},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {https://www122.lamp.le.ac.uk/download/GISRUK2018_Contribution_121.pdf},
+	abstract = {This research employs geocomputational methods to investigate how new transport infrastructure projects affect levels of walking and cycling. It assesses whether such developments encourage or deter active travel modes.},
+	booktitle = {{GISRUK}},
+	author = {Lovelace, Robin and Morgan, Malcolm},
+	year = {2018},
 }
 ```
 

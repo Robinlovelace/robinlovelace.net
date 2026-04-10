@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Now Then"
 doi: ""
-publication-url: ""
+publication-url: "http://nowthenmagazine.com/issue-33/fear/ http://ubuntuone.com/p/1FBX/"
 authors:
   - "Robin Lovelace"
 abstract: "Money, staffies, and the apocalypse"
@@ -19,7 +19,7 @@ abstract: "Money, staffies, and the apocalypse"
 **Venue:** Now Then
 **Year:** 2010
 
-[BibTeX](entry.bib)
+[URL](http://nowthenmagazine.com/issue-33/fear/ http://ubuntuone.com/p/1FBX/) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -33,14 +33,15 @@ Robin Lovelace (2010). Fear. *Now Then*.
 
 ```bibtex
 @article{lovelace_fear_2010,
-  title = {Fear},
-  author = {Lovelace, Robin},
-  year = {2010},
-  month = nov,
-  journal = {Now Then},
-  pages = {22--23},
-  abstract = {Money, staffies, and the apocalypse},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Fear},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://nowthenmagazine.com/issue-33/fear/ http://ubuntuone.com/p/1FBX/},
+	abstract = {Money, staffies, and the apocalypse},
+	journal = {Now Then},
+	author = {Lovelace, Robin},
+	month = nov,
+	year = {2010},
+	pages = {22--23},
 }
 ```
 

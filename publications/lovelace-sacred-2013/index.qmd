@@ -9,16 +9,21 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Now Then"
 doi: ""
-publication-url: ""
+publication-url: "http://nowthenmagazine.com/issue-59/sacred-economics/"
 authors:
   - "Robin Lovelace"
+abstract: "This text provides a review or discussion of alternative economic systems and the transition to a more sustainable society. It explores concepts related to the role of economics in ecological and social well-being."
 ---
 
 **Type:** Journal Article
 **Venue:** Now Then
 **Year:** 2013
 
-[BibTeX](entry.bib)
+[URL](http://nowthenmagazine.com/issue-59/sacred-economics/) [BibTeX](entry.bib)
+
+## Abstract
+
+This text provides a review or discussion of alternative economic systems and the transition to a more sustainable society. It explores concepts related to the role of economics in ecological and social well-being.
 
 ## Citation
 
@@ -28,13 +33,15 @@ Robin Lovelace (2013). Sacred Economics. *Now Then*.
 
 ```bibtex
 @article{lovelace_sacred_2013,
-  title = {Sacred {{Economics}}},
-  author = {Lovelace, Robin},
-  year = {2013},
-  month = feb,
-  journal = {Now Then},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  keywords = {Book review,degrowth}
+	title = {Sacred {Economics}},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://nowthenmagazine.com/issue-59/sacred-economics/},
+	abstract = {This text provides a review or discussion of alternative economic systems and the transition to a more sustainable society. It explores concepts related to the role of economics in ecological and social well-being.},
+	journal = {Now Then},
+	author = {Lovelace, Robin},
+	month = feb,
+	year = {2013},
+	keywords = {Book review, degrowth},
 }
 ```
 

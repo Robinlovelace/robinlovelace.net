@@ -9,19 +9,24 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Journal of Transport and Land Use"
 doi: "10.5198/jtlu.2021.1781"
-publication-url: ""
+publication-url: "https://www.jtlu.org/index.php/jtlu/article/view/1781"
 authors:
   - "Eugeni Vidal Tortosa"
   - "R. Lovelace"
   - "E. Heinen"
   - "R. P. Mann"
+abstract: "Cycling can be particularly beneficial for socioeconomically disadvantaged populations. First, because it can allow them to access opportunities that by other modes they may not afford. Secondly, because it can increase their physical activity levels and, consequently, improve their health. We analyse the extent to which socioeconomic disadvantage impacts on cycling participation in England, for both leisure and utility cycling. Then, we explore the extent to which this impact could be explained by the environment in which disadvantaged populations live. The study population includes 167,178 individuals, residing in 2,931 areas, and 326 Local Authorities. Data on individual factors were drawn from the Active Lives Survey, and data on environmental factors from several sources. Descriptive statistics and multilevel logistic models were estimated. The likelihood of cycling is lower among people living in deprived areas than among people living in non-deprived areas. This difference is significant for leisure, but also for utility cycling when controlling for individual and environmental factors. The study also found that cycling infrastructure and greater levels of cyclability are higher in deprived areas than in non-deprived areas. This suggests that infrastructure and cyclability are not enough to increase cycling levels among disadvantaged populations. Further research on other barriers to cycling among disadvantaged populations is required."
 ---
 
 **Type:** Journal Article
 **Venue:** Journal of Transport and Land Use
 **Year:** 2021
 
-[DOI](https://doi.org/10.5198/jtlu.2021.1781) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.5198/jtlu.2021.1781) [Publisher Link](https://www.jtlu.org/index.php/jtlu/article/view/1781) [BibTeX](entry.bib)
+
+## Abstract
+
+Cycling can be particularly beneficial for socioeconomically disadvantaged populations. First, because it can allow them to access opportunities that by other modes they may not afford. Secondly, because it can increase their physical activity levels and, consequently, improve their health. We analyse the extent to which socioeconomic disadvantage impacts on cycling participation in England, for both leisure and utility cycling. Then, we explore the extent to which this impact could be explained by the environment in which disadvantaged populations live. The study population includes 167,178 individuals, residing in 2,931 areas, and 326 Local Authorities. Data on individual factors were drawn from the Active Lives Survey, and data on environmental factors from several sources. Descriptive statistics and multilevel logistic models were estimated. The likelihood of cycling is lower among people living in deprived areas than among people living in non-deprived areas. This difference is significant for leisure, but also for utility cycling when controlling for individual and environmental factors. The study also found that cycling infrastructure and greater levels of cyclability are higher in deprived areas than in non-deprived areas. This suggests that infrastructure and cyclability are not enough to increase cycling levels among disadvantaged populations. Further research on other barriers to cycling among disadvantaged populations is required.
 
 ## Citation
 
@@ -37,21 +42,22 @@ This work is foundational for the next generation of "socially inclusive" transp
 
 ```bibtex
 @article{vidaltortosa_infrastructure_2021,
-  ids = {tortosa_infrastructure_2021},
-  title = {Infrastructure Is Not Enough: Interactions between the Environment, Socioeconomic Disadvantage and Cycling Participation in {{England}}},
-  shorttitle = {Infrastructure Is Not Enough},
-  author = {Vidal Tortosa, Eugeni and Lovelace, R. and Heinen, E. and Mann, R. P.},
-  year = {2021},
-  journal = {Journal of Transport and Land Use},
-  number = {1},
-  publisher = {{University of Minnesota}},
-  issn = {1938-7849},
-  doi = {10.5198/jtlu.2021.1781},
-  urldate = {2021-03-06},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  langid = {english},
-  keywords = {physical activity},
-  file = {/home/robin/hd/od/career/phds/eugeni/paper1/resubmission1/Paper-1_final_version_120221-rl.docx;/home/robin/Zotero/storage/2V6CC82P/Tortosa et al. - 2021 - Infrastructure is not enough Interactions between.pdf;/home/robin/Zotero/storage/FGQGYYBX/Tortosa et al. - 2021 - Infrastructure is not enough Interactions between.pdf;/home/robin/Zotero/storage/5XGYGBCG/170217.html;/home/robin/Zotero/storage/JDAFHYHP/1781.html}
+	title = {Infrastructure is not enough: interactions between the environment, socioeconomic disadvantage and cycling participation in {England}},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	issn = {1938-7849},
+	shorttitle = {Infrastructure is not enough},
+	url = {https://www.jtlu.org/index.php/jtlu/article/view/1781},
+	doi = {10.5198/jtlu.2021.1781},
+	abstract = {Cycling can be particularly beneficial for socioeconomically disadvantaged populations. First, because it can allow them to access opportunities that by other modes they may not afford. Secondly, because it can increase their physical activity levels and, consequently, improve their health. We analyse the extent to which socioeconomic disadvantage impacts on cycling participation in England, for both leisure and utility cycling. Then, we explore the extent to which this impact could be explained by the environment in which disadvantaged populations live. The study population includes 167,178 individuals, residing in 2,931 areas, and 326 Local Authorities. Data on individual factors were drawn from the Active Lives Survey, and data on environmental factors from several sources. Descriptive statistics and multilevel logistic models were estimated. The likelihood of cycling is lower among people living in deprived areas than among people living in non-deprived areas. This difference is significant for leisure, but also for utility cycling when controlling for individual and environmental factors. The study also found that cycling infrastructure and greater levels of cyclability are higher in deprived areas than in non-deprived areas. This suggests that infrastructure and cyclability are not enough to increase cycling levels among disadvantaged populations. Further research on other barriers to cycling among disadvantaged populations is required.},
+	language = {en},
+	urldate = {2021-03-06},
+	journal = {Journal of Transport and Land Use},
+	publisher = {University of Minnesota},
+	author = {Vidal Tortosa, Eugeni and Lovelace, R. and Heinen, E. and Mann, R. P.},
+	year = {2021},
+	note = {tex.ids= tortosa\_infrastructure\_2021
+number: 1},
+	keywords = {physical activity},
 }
 ```
 

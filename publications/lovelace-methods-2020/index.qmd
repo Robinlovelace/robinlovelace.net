@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Transport Findings"
 doi: "10.32866/001c.13421"
-publication-url: ""
+publication-url: "https://transportfindings.org/article/13421-methods-to-prioritise-pop-up-active-transport-infrastructure"
 authors:
   - "Robin Lovelace"
   - "Joseph Talbot"
@@ -22,7 +22,7 @@ abstract: "In the context of reduced public transport capacity in the wake of th
 **Venue:** Transport Findings
 **Year:** 2020
 
-[DOI](https://doi.org/10.32866/001c.13421) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.32866/001c.13421) [Publisher Link](https://transportfindings.org/article/13421-methods-to-prioritise-pop-up-active-transport-infrastructure) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -36,20 +36,20 @@ Robin Lovelace, Joseph Talbot, Malcolm Morgan, and Martin Lucas-Smith (2020). Me
 
 ```bibtex
 @article{lovelace_methods_2020,
-  ids = {Lovelace2020Methods},
-  title = {Methods to {{Prioritise Pop-up Active Transport Infrastructure}}},
-  author = {Lovelace, Robin and Talbot, Joseph and Morgan, Malcolm and {Lucas-Smith}, Martin},
-  year = {2020},
-  month = jul,
-  journal = {Transport Findings},
-  pages = {13421},
-  publisher = {{Network Design Lab}},
-  doi = {10.32866/001c.13421},
-  urldate = {2020-07-08},
-  abstract = {In the context of reduced public transport capacity in the wake of the COVID-19 pandemic, governments are scrambling to enable walking and cycling while adhering to physical distancing guidelines. Many pop-up options exist. Of these, road space reallocation represents a `quick win' for cities with `spare space' along continuous road sections that have high latent cycling potential. We developed methods to condense the complexity of city networks down to the most promising roads for road space reallocation schemes. The resulting Rapid Cycleway Prioritisation Tool has been deployed for all cities in England to help prioritise emergency funds for new cycleways nationwide. The methods and concepts could be used to support investment in pop-up infrastructure in cities worldwide.},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  langid = {english},
-  file = {/home/robin/Zotero/storage/LUTQ95M3/Lovelace et al. - 2020 - Methods to Prioritise Pop-up Active Transport Infr.pdf;/home/robin/Zotero/storage/PQ9Y4INZ/13421-methods-to-prioritise-pop-up-active-transport-infrastructure.html}
+	title = {Methods to {Prioritise} {Pop}-up {Active} {Transport} {Infrastructure}},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {https://transportfindings.org/article/13421-methods-to-prioritise-pop-up-active-transport-infrastructure},
+	doi = {10.32866/001c.13421},
+	abstract = {In the context of reduced public transport capacity in the wake of the COVID-19 pandemic, governments are scrambling to enable walking and cycling while adhering to physical distancing guidelines. Many pop-up options exist. Of these, road space reallocation represents a ‘quick win’ for cities with ‘spare space’ along continuous road sections that have high latent cycling potential. We developed methods to condense the complexity of city networks down to the most promising roads for road space reallocation schemes. The resulting Rapid Cycleway Prioritisation Tool has been deployed for all cities in England to help prioritise emergency funds for new cycleways nationwide. The methods and concepts could be used to support investment in pop-up infrastructure in cities worldwide.},
+	language = {en},
+	urldate = {2020-07-08},
+	journal = {Transport Findings},
+	publisher = {Network Design Lab},
+	author = {Lovelace, Robin and Talbot, Joseph and Morgan, Malcolm and Lucas-Smith, Martin},
+	month = jul,
+	year = {2020},
+	note = {tex.ids= Lovelace2020Methods},
+	pages = {13421},
 }
 ```
 

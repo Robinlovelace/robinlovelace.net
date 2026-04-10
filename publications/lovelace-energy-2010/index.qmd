@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Now Then"
 doi: ""
-publication-url: ""
+publication-url: "http://nowthenmagazine.com/wp-content/themes/nowthen/backissues/nt27_jun10.pdf"
 authors:
   - "Robin Lovelace"
 abstract: "Sustainability in Sheffield and beyond"
@@ -19,7 +19,7 @@ abstract: "Sustainability in Sheffield and beyond"
 **Venue:** Now Then
 **Year:** 2010
 
-[BibTeX](entry.bib)
+[URL](http://nowthenmagazine.com/wp-content/themes/nowthen/backissues/nt27_jun10.pdf) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -33,15 +33,16 @@ Robin Lovelace (2010). Energy futures. *Now Then*.
 
 ```bibtex
 @article{lovelace_energy_2010,
-  title = {Energy Futures},
-  author = {Lovelace, Robin},
-  year = {2010},
-  month = jun,
-  journal = {Now Then},
-  number = {November 2009},
-  pages = {16--17},
-  abstract = {Sustainability in Sheffield and beyond},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Energy futures},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://nowthenmagazine.com/wp-content/themes/nowthen/backissues/nt27_jun10.pdf},
+	abstract = {Sustainability in Sheffield and beyond},
+	number = {November 2009},
+	journal = {Now Then},
+	author = {Lovelace, Robin},
+	month = jun,
+	year = {2010},
+	pages = {16--17},
 }
 ```
 

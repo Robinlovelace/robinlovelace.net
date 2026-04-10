@@ -1,6 +1,6 @@
 ---
-title: "Overcoming car dependence: Review of “The car dependent societya European perspective”"
-description: "Robin Lovelace (2014). Overcoming car dependence: Review of “The car dependent societya European perspective”. *Environment and Planning B-Planning and Design*."
+title: "Overcoming car dependence: Review of “The car dependent society–a European perspective”"
+description: "Robin Lovelace (2014). Overcoming car dependence: Review of “The car dependent society–a European perspective”. *Environment and Planning B-Planning and Design*."
 date: "2014-01-01"
 title-block-banner: false
 toc: false
@@ -12,6 +12,7 @@ doi: ""
 publication-url: ""
 authors:
   - "Robin Lovelace"
+abstract: "This book review summarizes and critiques a volume on car dependence in Europe. It discusses the structural and cultural factors that sustain automobile-oriented lifestyles and explores strategies for modal shift."
 ---
 
 **Type:** Journal Article
@@ -20,24 +21,29 @@ authors:
 
 [BibTeX](entry.bib)
 
+## Abstract
+
+This book review summarizes and critiques a volume on car dependence in Europe. It discusses the structural and cultural factors that sustain automobile-oriented lifestyles and explores strategies for modal shift.
+
 ## Citation
 
-Robin Lovelace (2014). Overcoming car dependence: Review of “The car dependent societya European perspective”. *Environment and Planning B-Planning and Design*.
+Robin Lovelace (2014). Overcoming car dependence: Review of “The car dependent society–a European perspective”. *Environment and Planning B-Planning and Design*.
 
 ## BibTeX
 
 ```bibtex
 @article{lovelace_overcoming_2014,
-  title = {Overcoming Car Dependence: {{Review}} of ``{{The}} Car Dependent Society{\textendash}a {{European}} Perspective''},
-  author = {Lovelace, Robin},
-  year = {2014},
-  journal = {Environment and Planning B-Planning and Design},
-  volume = {41},
-  number = {5},
-  pages = {948--949},
-  issn = {0265-8135},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  keywords = {Book review}
+	title = {Overcoming car dependence: {Review} of “{The} car dependent society–a {European} perspective”},
+	volume = {41},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	issn = {0265-8135},
+	abstract = {This book review summarizes and critiques a volume on car dependence in Europe. It discusses the structural and cultural factors that sustain automobile-oriented lifestyles and explores strategies for modal shift.},
+	number = {5},
+	journal = {Environment and Planning B-Planning and Design},
+	author = {Lovelace, Robin},
+	year = {2014},
+	keywords = {Book review},
+	pages = {948--949},
 }
 ```
 

@@ -9,16 +9,21 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Now Then"
 doi: ""
-publication-url: ""
+publication-url: "http://nowthenmagazine.com/issue-57/on-yer-bike/"
 authors:
   - "Robin Lovelace"
+abstract: "The Cases in Marketing provides a bridge between course textbooks and key real-world examples. The On Yer Bike! case study summarizes and examines the scenario and includes supporting commentary from Paul Baines, Chris Fill, Sara Rosengren, and Paolo Antonetti."
 ---
 
 **Type:** Journal Article
 **Venue:** Now Then
 **Year:** 2012
 
-[BibTeX](entry.bib)
+[URL](http://nowthenmagazine.com/issue-57/on-yer-bike/) [BibTeX](entry.bib)
+
+## Abstract
+
+The Cases in Marketing provides a bridge between course textbooks and key real-world examples. The On Yer Bike! case study summarizes and examines the scenario and includes supporting commentary from Paul Baines, Chris Fill, Sara Rosengren, and Paolo Antonetti.
 
 ## Citation
 
@@ -28,14 +33,16 @@ Robin Lovelace (2012). On Yer Bike: Joining the sustainable transport revolution
 
 ```bibtex
 @article{lovelace_yer_2012,
-  title = {On {{Yer Bike}}: {{Joining}} the Sustainable Transport Revolution},
-  author = {Lovelace, Robin},
-  year = {2012},
-  month = dec,
-  journal = {Now Then},
-  pages = {23--24},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  keywords = {bicycle}
+	title = {On {Yer} {Bike}: {Joining} the sustainable transport revolution},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://nowthenmagazine.com/issue-57/on-yer-bike/},
+	abstract = {The Cases in Marketing provides a bridge between course textbooks and key real-world examples. The On Yer Bike! case study summarizes and examines the scenario and includes supporting commentary from Paul Baines, Chris Fill, Sara Rosengren, and Paolo Antonetti.},
+	journal = {Now Then},
+	author = {Lovelace, Robin},
+	month = dec,
+	year = {2012},
+	keywords = {bicycle},
+	pages = {23--24},
 }
 ```
 

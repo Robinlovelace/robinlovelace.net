@@ -9,17 +9,22 @@ citation-type: "chapter"
 citation-type-label: "Book Chapter"
 venue: "Geocomputation"
 doi: ""
-publication-url: ""
+publication-url: "https://github.com/geocomPP/sdv"
 authors:
   - "James Cheshire"
   - "Robin Lovelace"
+abstract: "This guide demonstrates techniques for creating effective and informative spatial visualizations using the R programming language. It covers a range of mapping methods and graphic packages for geographic data analysis."
 ---
 
 **Type:** Book Chapter
 **Venue:** Geocomputation
 **Year:** 2015
 
-[BibTeX](entry.bib)
+[URL](https://github.com/geocomPP/sdv) [BibTeX](entry.bib)
+
+## Abstract
+
+This guide demonstrates techniques for creating effective and informative spatial visualizations using the R programming language. It covers a range of mapping methods and graphic packages for geographic data analysis.
 
 ## Citation
 
@@ -29,14 +34,16 @@ James Cheshire and Robin Lovelace (2015). Spatial data visualisation with R. *Ge
 
 ```bibtex
 @incollection{cheshire_spatial_2015,
-  title = {Spatial Data Visualisation with {{R}}},
-  booktitle = {Geocomputation},
-  author = {Cheshire, James and Lovelace, Robin},
-  editor = {Brunsdon, Chris and Singleton, Alex},
-  year = {2015},
-  pages = {1--14},
-  publisher = {{SAGE Publications}},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Spatial data visualisation with {R}},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {https://github.com/geocomPP/sdv},
+	abstract = {This guide demonstrates techniques for creating effective and informative spatial visualizations using the R programming language. It covers a range of mapping methods and graphic packages for geographic data analysis.},
+	booktitle = {Geocomputation},
+	publisher = {SAGE Publications},
+	author = {Cheshire, James and Lovelace, Robin},
+	editor = {Brunsdon, Chris and Singleton, Alex},
+	year = {2015},
+	pages = {1--14},
 }
 ```
 

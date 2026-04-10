@@ -12,6 +12,7 @@ doi: ""
 publication-url: ""
 authors:
   - "Robin Lovelace"
+abstract: "This book review discusses a seminal work on urban travel forecasting, tracing the evolution of transport modeling techniques and their implications for long-term urban planning and policy."
 ---
 
 **Type:** Journal Article
@@ -19,6 +20,10 @@ authors:
 **Year:** 2017
 
 [BibTeX](entry.bib)
+
+## Abstract
+
+This book review discusses a seminal work on urban travel forecasting, tracing the evolution of transport modeling techniques and their implications for long-term urban planning and policy.
 
 ## Citation
 
@@ -28,16 +33,16 @@ Robin Lovelace (2017). David Boyce and Huw Williams, Forecasting urban travel: P
 
 ```bibtex
 @article{lovelace_david_2017,
-  title = {David {{Boyce}} and {{Huw Williams}}, {{Forecasting}} Urban Travel: {{Past}}, Present and Future},
-  author = {Lovelace, Robin},
-  year = {2017},
-  journal = {Environment and Planning B: Planning and Design},
-  volume = {44},
-  number = {1},
-  pages = {184--186},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  keywords = {Book review},
-  file = {/home/robin/Zotero/storage/XQNXRS3B/urban-travel-rl.pdf}
+	title = {David {Boyce} and {Huw} {Williams}, {Forecasting} urban travel: {Past}, present and future},
+	volume = {44},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	abstract = {This book review discusses a seminal work on urban travel forecasting, tracing the evolution of transport modeling techniques and their implications for long-term urban planning and policy.},
+	number = {1},
+	journal = {Environment and Planning B: Planning and Design},
+	author = {Lovelace, Robin},
+	year = {2017},
+	keywords = {Book review},
+	pages = {184--186},
 }
 ```
 

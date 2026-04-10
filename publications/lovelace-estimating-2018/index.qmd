@@ -15,6 +15,7 @@ authors:
   - "N Groot"
   - "M Adepeju"
   - "M Padgham"
+abstract: "This research applies transport modeling techniques to evaluate the potential for cycling in Accra, Ghana, and Kathmandu, Nepal. It analyzes route networks to identify opportunities for active travel interventions in rapidly developing urban areas."
 ---
 
 **Type:** Report
@@ -22,6 +23,10 @@ authors:
 **Year:** 2018
 
 [BibTeX](entry.bib)
+
+## Abstract
+
+This research applies transport modeling techniques to evaluate the potential for cycling in Accra, Ghana, and Kathmandu, Nepal. It analyzes route networks to identify opportunities for active travel interventions in rapidly developing urban areas.
 
 ## Citation
 
@@ -31,11 +36,13 @@ R Lovelace, N Groot, M Adepeju, and M Padgham (2018). Estimating cycling potenti
 
 ```bibtex
 @techreport{lovelace_estimating_2018,
-  title = {Estimating Cycling Potential on Route Networks in {{Accra}} and {{Kathmandu}}},
-  author = {Lovelace, R and Groot, N and Adepeju, M and Padgham, M},
-  year = {2018},
-  institution = {{World Health Organization}},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	type = {Report},
+	title = {Estimating cycling potential on route networks in {Accra} and {Kathmandu}},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	abstract = {This research applies transport modeling techniques to evaluate the potential for cycling in Accra, Ghana, and Kathmandu, Nepal. It analyzes route networks to identify opportunities for active travel interventions in rapidly developing urban areas.},
+	institution = {World Health Organization},
+	author = {Lovelace, R and Groot, N and Adepeju, M and Padgham, M},
+	year = {2018},
 }
 ```
 

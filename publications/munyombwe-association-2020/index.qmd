@@ -9,7 +9,7 @@ citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "European Journal of Preventive Cardiology"
 doi: "10.1177/2047487319876228"
-publication-url: ""
+publication-url: "https://doi.org/10.1177/2047487319876228"
 authors:
   - "Theresa Munyombwe"
   - "Robin Lovelace"
@@ -30,7 +30,7 @@ abstract: "BackgroundThere is a paucity of population-based geospatial data abou
 **Venue:** European Journal of Preventive Cardiology
 **Year:** 2020
 
-[DOI](https://doi.org/10.1177/2047487319876228) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.1177/2047487319876228) [URL](https://doi.org/10.1177/2047487319876228) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -44,23 +44,23 @@ Theresa Munyombwe, Robin Lovelace, Mark Green, Paul Norman, Sarah Walpole, Marlo
 
 ```bibtex
 @article{munyombwe_association_2020,
-  title = {Association of Prevalence of Active Transport to Work and Incidence of Myocardial Infarction: {{A}} Nationwide Ecological Study},
-  shorttitle = {Association of Prevalence of Active Transport to Work and Incidence of Myocardial Infarction},
-  author = {Munyombwe, Theresa and Lovelace, Robin and Green, Mark and Norman, Paul and Walpole, Sarah and Hall, Marlous and Timmis, Adam and Batin, Phil and Brownlee, Alistair and Brownlee, Jonathan and Oliver, Ged and Gale, Chris P},
-  year = {2020},
-  month = may,
-  journal = {European Journal of Preventive Cardiology},
-  volume = {27},
-  number = {8},
-  pages = {822--829},
-  publisher = {{SAGE Publications Ltd STM}},
-  issn = {2047-4873},
-  doi = {10.1177/2047487319876228},
-  urldate = {2020-07-09},
-  abstract = {BackgroundThere is a paucity of population-based geospatial data about the association between active transport and myocardial infarction. We investigated the association between active transport to work and incidence of myocardial infarction.DesignThis ecological study of 325 local authorities in England included 43,077,039 employed individuals aged 25?74 years (UK Census, 2011), and 117,521 individuals with myocardial infarction (Myocardial Ischaemia National Audit Project, 2011?2013).MethodsBayesian negative binomial regression models were used to investigate the association of active transport to work and incidence of myocardial infarction adjusting for local levels of deprivation, obesity, smoking, diabetes and physical activity.ResultsIn 2011, the prevalence of active transportation to work for people in employment in England aged 25?74 years was 11.4\% (4,531,182 active transporters; 8.6\% walking and 2.8\% cycling). Active transport in 2011 was associated with a reduced incidence of myocardial infarction in 2012 amongst men cycling to work (incidence rate ratio (95\% credible interval) 0.983 (0.967?0.999); and women walking to work (0.983 (0.967?0.999)) after full adjustments. However, the prevalence of active transport for men and women was not significantly associated with the combined incidence of myocardial infarction between 2011?2013 after adjusting for physical activity, smoking and diabetes.ConclusionsIn England, the prevalence of active transportation was associated with a reduced incidence of myocardial infarction for women walking and men cycling to work in corresponding local geographic areas. The overall association of active transport with myocardial infarction was, however, explained by local area levels of smoking, diabetes and physical activity.},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  langid = {english},
-  file = {/home/robin/Zotero/storage/KM9U3NZN/Munyombwe et al. - 2020 - Association of prevalence of active transport to w.pdf}
+	title = {Association of prevalence of active transport to work and incidence of myocardial infarction: {A} nationwide ecological study},
+	volume = {27},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	issn = {2047-4873},
+	shorttitle = {Association of prevalence of active transport to work and incidence of myocardial infarction},
+	url = {https://doi.org/10.1177/2047487319876228},
+	doi = {10.1177/2047487319876228},
+	abstract = {BackgroundThere is a paucity of population-based geospatial data about the association between active transport and myocardial infarction. We investigated the association between active transport to work and incidence of myocardial infarction.DesignThis ecological study of 325 local authorities in England included 43,077,039 employed individuals aged 25?74 years (UK Census, 2011), and 117,521 individuals with myocardial infarction (Myocardial Ischaemia National Audit Project, 2011?2013).MethodsBayesian negative binomial regression models were used to investigate the association of active transport to work and incidence of myocardial infarction adjusting for local levels of deprivation, obesity, smoking, diabetes and physical activity.ResultsIn 2011, the prevalence of active transportation to work for people in employment in England aged 25?74 years was 11.4\% (4,531,182 active transporters; 8.6\% walking and 2.8\% cycling). Active transport in 2011 was associated with a reduced incidence of myocardial infarction in 2012 amongst men cycling to work (incidence rate ratio (95\% credible interval) 0.983 (0.967?0.999); and women walking to work (0.983 (0.967?0.999)) after full adjustments. However, the prevalence of active transport for men and women was not significantly associated with the combined incidence of myocardial infarction between 2011?2013 after adjusting for physical activity, smoking and diabetes.ConclusionsIn England, the prevalence of active transportation was associated with a reduced incidence of myocardial infarction for women walking and men cycling to work in corresponding local geographic areas. The overall association of active transport with myocardial infarction was, however, explained by local area levels of smoking, diabetes and physical activity.},
+	language = {en},
+	number = {8},
+	urldate = {2020-07-09},
+	journal = {European Journal of Preventive Cardiology},
+	publisher = {SAGE Publications Ltd STM},
+	author = {Munyombwe, Theresa and Lovelace, Robin and Green, Mark and Norman, Paul and Walpole, Sarah and Hall, Marlous and Timmis, Adam and Batin, Phil and Brownlee, Alistair and Brownlee, Jonathan and Oliver, Ged and Gale, Chris P},
+	month = may,
+	year = {2020},
+	pages = {822--829},
 }
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: "Hint of proper funding for cycling, but we must fight for it with evidence"
-description: "Robin Lovelace (2014). Hint of proper funding for cycling, but we must fight for it with evidence."
+title: "Hint of proper funding for cycling, but we must fight for it – with evidence"
+description: "Robin Lovelace (2014). Hint of proper funding for cycling, but we must fight for it – with evidence."
 date: "2014-10-01"
 title-block-banner: false
 toc: false
@@ -9,7 +9,7 @@ citation-type: ""
 citation-type-label: ""
 venue: ""
 doi: ""
-publication-url: ""
+publication-url: "http://theconversation.com/hint-of-proper-funding-for-cycling-but-we-must-fight-for-it-with-evidence-33152 https://theconversation.com/hint-of-proper-funding-for-cycling-but-we-must-fight-for-it-with-evidence-33152"
 authors:
   - "Robin Lovelace"
 abstract: "The parliamentary debate on cycling was a wake-up call to the government on cycling. The coalition government has been floundering, with a botched timeline for release of their Walking and Cycling Delivery\\ldots"
@@ -18,7 +18,7 @@ abstract: "The parliamentary debate on cycling was a wake-up call to the governm
 **Type:** 
 **Year:** 2014
 
-[BibTeX](entry.bib)
+[URL](http://theconversation.com/hint-of-proper-funding-for-cycling-but-we-must-fight-for-it-with-evidence-33152 https://theconversation.com/hint-of-proper-funding-for-cycling-but-we-must-fight-for-it-with-evidence-33152) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -26,18 +26,19 @@ The parliamentary debate on cycling was a wake-up call to the government on cycl
 
 ## Citation
 
-Robin Lovelace (2014). Hint of proper funding for cycling, but we must fight for it with evidence.
+Robin Lovelace (2014). Hint of proper funding for cycling, but we must fight for it – with evidence.
 
 ## BibTeX
 
 ```bibtex
 @misc{lovelace_hint_2014,
-  title = {Hint of Proper Funding for Cycling, but We Must Fight for It {\textendash} with Evidence},
-  author = {Lovelace, Robin},
-  year = {2014},
-  month = oct,
-  abstract = {The parliamentary debate on cycling was a wake-up call to the government on cycling. The coalition government has been floundering, with a botched timeline for release of their Walking and Cycling Delivery{\textbackslash}ldots},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {Hint of proper funding for cycling, but we must fight for it – with evidence},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://theconversation.com/hint-of-proper-funding-for-cycling-but-we-must-fight-for-it-with-evidence-33152 https://theconversation.com/hint-of-proper-funding-for-cycling-but-we-must-fight-for-it-with-evidence-33152},
+	abstract = {The parliamentary debate on cycling was a wake-up call to the government on cycling. The coalition government has been floundering, with a botched timeline for release of their Walking and Cycling Delivery{\textbackslash}ldots},
+	author = {Lovelace, Robin},
+	month = oct,
+	year = {2014},
 }
 ```
 

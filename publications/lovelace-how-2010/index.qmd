@@ -9,15 +9,20 @@ citation-type: ""
 citation-type-label: ""
 venue: ""
 doi: ""
-publication-url: ""
+publication-url: "http://campfire.theoildrum.com/node/5976"
 authors:
   - "Robin Lovelace"
+abstract: "This guide provides practical advice and business considerations for establishing a bicycle maintenance and repair enterprise. It covers operational aspects of small businesses supporting active travel infrastructure."
 ---
 
 **Type:** 
 **Year:** 2010
 
-[BibTeX](entry.bib)
+[URL](http://campfire.theoildrum.com/node/5976) [BibTeX](entry.bib)
+
+## Abstract
+
+This guide provides practical advice and business considerations for establishing a bicycle maintenance and repair enterprise. It covers operational aspects of small businesses supporting active travel infrastructure.
 
 ## Citation
 
@@ -27,10 +32,12 @@ Robin Lovelace (2010). How to Set Up and Run a Bicycle Repair Company.
 
 ```bibtex
 @misc{lovelace_how_2010,
-  title = {How to {{Set Up}} and {{Run}} a {{Bicycle Repair Company}}},
-  author = {Lovelace, Robin},
-  year = {2010},
-  copyright = {CC0 1.0 Universal Public Domain Dedication}
+	title = {How to {Set} {Up} and {Run} a {Bicycle} {Repair} {Company}},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	url = {http://campfire.theoildrum.com/node/5976},
+	abstract = {This guide provides practical advice and business considerations for establishing a bicycle maintenance and repair enterprise. It covers operational aspects of small businesses supporting active travel infrastructure.},
+	author = {Lovelace, Robin},
+	year = {2010},
 }
 ```
 

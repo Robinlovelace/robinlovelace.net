@@ -1,6 +1,6 @@
 ---
 title: "Assessing the energy implications of replacing car trips with bicycle trips in Sheffield, UK"
-description: "Robin Lovelace, S. B. M. B M Beck, M. Watson, and A. Wild (2011). Assessing the energy implications of replacing car trips with bicycle trips in Sheffield, UK. *Energy Policy*. https://doi.org/10.1016/j.enpol.2011.01.051"
+description: "Robin Lovelace, S. B. M. B M Beck, M. Watson, and A. Wild (2011). Assessing the energy implications of replacing car trips with bicycle trips in Sheffield, UK. *Energy Policy*. https://doi.org/https://doi.org/10.1016/j.enpol.2011.01.051"
 date: "2011-02-01"
 title-block-banner: false
 toc: false
@@ -8,42 +8,48 @@ citation-key: "lovelace_assessing_2011"
 citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Energy Policy"
-doi: "10.1016/j.enpol.2011.01.051"
-publication-url: ""
+doi: "https://doi.org/10.1016/j.enpol.2011.01.051"
+publication-url: "http://linkinghub.elsevier.com/retrieve/pii/S0301421511000620"
 authors:
   - "Robin Lovelace"
   - "S. B. M. B M Beck"
   - "M. Watson"
   - "A. Wild"
+abstract: "This paper quantifies potential energy savings and emission reductions from shifting urban commutes from cars to bicycles in Sheffield. It utilizes local travel data to model various modal shift scenarios and their environmental impacts."
 ---
 
 **Type:** Journal Article
 **Venue:** Energy Policy
 **Year:** 2011
 
-[DOI](https://doi.org/10.1016/j.enpol.2011.01.051) [BibTeX](entry.bib)
+[DOI](https://doi.org/https://doi.org/10.1016/j.enpol.2011.01.051) [Publisher Link](http://linkinghub.elsevier.com/retrieve/pii/S0301421511000620) [BibTeX](entry.bib)
+
+## Abstract
+
+This paper quantifies potential energy savings and emission reductions from shifting urban commutes from cars to bicycles in Sheffield. It utilizes local travel data to model various modal shift scenarios and their environmental impacts.
 
 ## Citation
 
-Robin Lovelace, S. B. M. B M Beck, M. Watson, and A. Wild (2011). Assessing the energy implications of replacing car trips with bicycle trips in Sheffield, UK. *Energy Policy*. https://doi.org/10.1016/j.enpol.2011.01.051
+Robin Lovelace, S. B. M. B M Beck, M. Watson, and A. Wild (2011). Assessing the energy implications of replacing car trips with bicycle trips in Sheffield, UK. *Energy Policy*. https://doi.org/https://doi.org/10.1016/j.enpol.2011.01.051
 
 ## BibTeX
 
 ```bibtex
 @article{lovelace_assessing_2011,
-  title = {Assessing the Energy Implications of Replacing Car Trips with Bicycle Trips in {{Sheffield}}, {{UK}}},
-  author = {Lovelace, Robin and Beck, S.B.M. B M and Watson, M. and Wild, A.},
-  year = {2011},
-  month = feb,
-  journal = {Energy Policy},
-  volume = {39},
-  number = {4},
-  pages = {2075--2087},
-  issn = {03014215},
-  doi = {10.1016/j.enpol.2011.01.051},
-  copyright = {CC0 1.0 Universal Public Domain Dedication},
-  keywords = {Modal shift,Replacement ratio},
-  file = {/home/robin/Zotero/storage/L2I4EZTU/1-s2.0-S0301421511000620-main.pdf}
+	title = {Assessing the energy implications of replacing car trips with bicycle trips in {Sheffield}, {UK}},
+	volume = {39},
+	copyright = {CC0 1.0 Universal Public Domain Dedication},
+	issn = {03014215},
+	url = {http://linkinghub.elsevier.com/retrieve/pii/S0301421511000620},
+	doi = {https://doi.org/10.1016/j.enpol.2011.01.051},
+	abstract = {This paper quantifies potential energy savings and emission reductions from shifting urban commutes from cars to bicycles in Sheffield. It utilizes local travel data to model various modal shift scenarios and their environmental impacts.},
+	number = {4},
+	journal = {Energy Policy},
+	author = {Lovelace, Robin and Beck, S.B.M. B M and Watson, M. and Wild, A.},
+	month = feb,
+	year = {2011},
+	keywords = {Modal shift, Replacement ratio},
+	pages = {2075--2087},
 }
 ```
 
