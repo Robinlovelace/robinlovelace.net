@@ -8,7 +8,7 @@ author-meta: "Robin Lovelace"
 
 website:
   title: "Robin Lovelace"
-  image: "https://quarto.org/quarto.png"
+  image: "files/images/avatar.jpg"
   description: "Personal website of Robin Lovelace"
  
   navbar:

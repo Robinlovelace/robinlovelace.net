@@ -1,7 +1,7 @@
 ---
 title: "Robin Lovelace"
 description-meta: "Professor of Transport Data Science at University of Leeds"
-image: "files/profiles/profile1.png"
+image: "files/images/avatar.jpg"
 page-navigation: false
 toc: false
 page-layout: full
