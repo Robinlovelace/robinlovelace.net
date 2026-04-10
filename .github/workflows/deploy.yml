@@ -28,8 +28,9 @@ jobs:
         run: quarto render
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
+          name: site-files
           path: _site/
 
   deploy:
@@ -41,12 +42,12 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: github-pages
+          name: site-files
 
       - name: Deploy to robinlovelace.github.io
         run: |
           echo "Downloaded files:"
-          ls -la
+          ls -R
           mkdir -p /tmp/deploy
           cp -r . /tmp/deploy/
           cd /tmp/deploy
