@@ -6,5 +6,3 @@ This output, co-authored by an international team including staff from the Spani
 **Potential for Double Weighting:** No.  
 **Author rating:** Likely 3* for technical innovation and reproducibility.
 
-**Author Contribution:**  
-Lovelace and Vidal-Tortosa conceptualized the package framework and its application to transport planning. Kotov led the software engineering, backend optimization (DuckDB integration), and documentation. All authors collaborated on the literature review of 36 existing studies to identify the gaps the package addresses.
