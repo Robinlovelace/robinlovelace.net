@@ -1,13 +1,13 @@
 ---
 title: "OSM for sustainable transport planning"
-description: "Greta Timaite, James Hulse, and Robin Lovelace (2022). OSM for sustainable transport planning. *Roceedings of the Academic Track at State of the Map 2022*. https://doi.org/10.5281/zenodo.7004509"
+description: "Greta Timaite, James Hulse, and Robin Lovelace (2022). OSM for sustainable transport planning. *Proceedings of the Academic Track at State of the Map 2022*. https://doi.org/10.5281/zenodo.7004509"
 date: "2022-08-01"
 title-block-banner: false
 toc: false
 citation-key: "timaite_osm_2022"
 citation-type: "paper-conference"
 citation-type-label: "Conference Paper"
-venue: "Roceedings of the Academic Track at State of the Map 2022"
+venue: "Proceedings of the Academic Track at State of the Map 2022"
 doi: "10.5281/zenodo.7004509"
 publication-url: "https://zenodo.org/record/7004509"
 authors:
@@ -18,7 +18,7 @@ abstract: "Timaite, G., Hulse, J., & Lovelace, R. (2022). OSM for sustainable tr
 ---
 
 **Type:** Conference Paper
-**Venue:** Roceedings of the Academic Track at State of the Map 2022
+**Venue:** Proceedings of the Academic Track at State of the Map 2022
 **Year:** 2022
 
 [DOI](https://doi.org/10.5281/zenodo.7004509) [Publisher Link](https://zenodo.org/record/7004509) [BibTeX](entry.bib)
@@ -29,7 +29,7 @@ Timaite, G., Hulse, J., & Lovelace, R. (2022). OSM for sustainable transport pla
 
 ## Citation
 
-Greta Timaite, James Hulse, and Robin Lovelace (2022). OSM for sustainable transport planning. *Roceedings of the Academic Track at State of the Map 2022*. https://doi.org/10.5281/zenodo.7004509
+Greta Timaite, James Hulse, and Robin Lovelace (2022). OSM for sustainable transport planning. *Proceedings of the Academic Track at State of the Map 2022*. https://doi.org/10.5281/zenodo.7004509
 
 ## BibTeX
 
