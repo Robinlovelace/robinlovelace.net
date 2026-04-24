@@ -189,7 +189,7 @@ jobs:
               "" \
               "---" \
               "_This preview updates automatically on every push to this PR._" \
-              | gh pr comment "$pr_num" --body-file -
+              | gh pr comment "$pr_num" --repo "${{ github.repository }}" --body-file -
           else
             echo "Could not extract deploy URL from Netlify output"
           fi
