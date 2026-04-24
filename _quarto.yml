@@ -23,23 +23,23 @@ website:
       - text: About
         menu:
           - text: News
-            href: posts.qmd#category=news
+            href: posts/
           - text: Events
-            href: events.qmd      
+            href: events/      
           - text: Contact
-            href: contact.qmd             
+            href: contact/             
       - text: Research
         menu:
           - text: Publications
-            href: publications.qmd
+            href: publications/
           - text: Projects
-            href: projects.qmd                                
+            href: projects/                                
       - text: Teaching
-        href: teaching.qmd
+        href: teaching/
       - text: People
-        href: people.qmd
+        href: people/
       - text: Software
-        href: software.qmd
+        href: software/
 
     right: 
       - icon: github

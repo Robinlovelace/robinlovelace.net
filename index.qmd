@@ -40,7 +40,7 @@ listing:
 :::{.landing-main .landing-panel}
 I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport), where I build open tools and reproducible workflows for evidence-based transport planning.
 
-[Current projects](projects.qmd){.btn .btn-primary .me-2} [Publications](publications.qmd){.btn .btn-outline-secondary}
+[Current projects](/projects/){.btn .btn-primary .me-2} [Publications](/publications/){.btn .btn-outline-secondary}
 
 :::{.grid .landing-focus}
 :::{.g-col-12}
@@ -59,7 +59,7 @@ I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/tra
 :::{#upcoming-events}
 :::
 
-I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](posts.qmd). If you would like to collaborate, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).
+I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](/posts/). If you would like to collaborate, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).
 
 
 :::

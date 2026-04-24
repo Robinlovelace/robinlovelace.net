@@ -5,7 +5,7 @@ title-block-banner: false
 css: custom.css
 listing:
   - id: publications-index
-    contents: publications/publications.yml
+    contents: ./publications.yml
     type: table
     fields: [year, title, authors, venue, type]
     field-links: [title]
