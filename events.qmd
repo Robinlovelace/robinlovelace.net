@@ -13,7 +13,6 @@ listing:
   contents: 
       - events
 #page-layout: full
-draft-mode: unlinked
 page-navigation: false
 title-block-banner: false
 ---

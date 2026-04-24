@@ -38,6 +38,8 @@ website:
         href: teaching.qmd
       - text: People
         href: people.qmd
+      - text: Software
+        href: software.qmd
 
     right: 
       - icon: github
@@ -66,10 +68,10 @@ website:
   
   reader-mode: true
 
-  draft-mode: unlinked
+  draft-mode: visible
   
-  repo-url: https://github.com/Robinlovelace/robinlovelace.github.io
-
+  repo-url: https://robinlovelace.net
+  
   open-graph: true
   
   twitter-card: true 
@@ -93,6 +95,6 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/robinlovelace\.net\/'
+    link-external-filter: '^(?:http:|https:)\/robinlovelace\.net\/'
     include-in-header: "files/includes/_academic.qmd"
 
