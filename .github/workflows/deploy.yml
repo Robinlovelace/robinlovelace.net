@@ -182,13 +182,14 @@ jobs:
           if [ -n "$deploy_url" ]; then
             echo "Deploy URL: $deploy_url"
             pr_num="${{ github.event.pull_request.number }}"
-            gh pr comment "$pr_num" \
-              --body "## Netlify Preview
-
-✅ $deploy_url
-
----
-_This preview updates automatically on every push to this PR._"
+            printf '%s\n' \
+              "## Netlify Preview" \
+              "" \
+              "Preview: $deploy_url" \
+              "" \
+              "---" \
+              "_This preview updates automatically on every push to this PR._" \
+              | gh pr comment "$pr_num" --body-file -
           else
             echo "Could not extract deploy URL from Netlify output"
           fi
