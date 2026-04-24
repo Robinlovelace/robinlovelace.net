@@ -77,7 +77,6 @@ website:
   twitter-card: true 
 
   site-url: "https://robinlovelace.net"
-
 bibliography: references.bib  # Add references.bib to the root folder to enable the bibliography function
 
 format:

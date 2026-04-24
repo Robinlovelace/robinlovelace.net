@@ -4,4 +4,13 @@ title: Page Unplugged
 
 The page you requested cannot be found (perhaps it was unplugged).
 
-You may want to try searching to find the page's new plug.
+You may want to try searching to find the page's new plug, or try one of these pages:
+
+- [Home](/)
+- [Posts](/posts.html)
+- [Events](/events.html)
+- [Publications](/publications.html)
+- [Software](/software.html)
+- [Teaching](/teaching.html)
+- [People](/people.html)
+- [Contact](/contact.html)
