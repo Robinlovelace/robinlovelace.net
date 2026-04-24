@@ -158,15 +158,40 @@ jobs:
 
       - name: Deploy PR preview to Netlify
         if: steps.netlify_secrets.outputs.configured == 'true'
+        id: netlify-preview
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          netlify deploy \
+          # Use --json for machine-readable output so we can extract the deploy URL
+          json_output=$(netlify deploy \
             --site "$NETLIFY_SITE_ID" \
             --dir site-files \
             --alias "pr-${{ github.event.pull_request.number }}" \
-            --message "pr-${{ github.event.pull_request.number }} ${GITHUB_SHA}"
+            --message "pr-${{ github.event.pull_request.number }} ${GITHUB_SHA}" \
+            --json 2>&1)
+          echo "deploy_result=$json_output" >> "$GITHUB_OUTPUT"
+          echo "$json_output"
+
+      - name: Post preview URL as PR comment
+        if: steps.netlify_secrets.outputs.configured == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          deploy_url=$(echo '${{ steps.netlify-preview.outputs.deploy_result }}' | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('deploy_url',''))" 2>/dev/null)
+          if [ -n "$deploy_url" ]; then
+            echo "Deploy URL: $deploy_url"
+            pr_num="${{ github.event.pull_request.number }}"
+            gh pr comment "$pr_num" \
+              --body "## Netlify Preview
+
+✅ $deploy_url
+
+---
+_This preview updates automatically on every push to this PR._"
+          else
+            echo "Could not extract deploy URL from Netlify output"
+          fi
 
       - name: Netlify setup missing
         if: steps.netlify_secrets.outputs.configured != 'true'
