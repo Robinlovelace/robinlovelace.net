@@ -1,4 +1,5 @@
 ---
+categories: [upcoming]
 title: Data-Driven Transport Planning Hackathon
 date: 2026-05-18 14:00:00+01:00
 author:

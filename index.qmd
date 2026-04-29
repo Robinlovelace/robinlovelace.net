@@ -10,12 +10,14 @@ page-layout: custom
 listing:
   - id: upcoming-events
     contents: 
-      - events/**/index.qmd
+      - events/*/index.qmd
     type: table
-    max-items: 2
-    page-size: 2
+    max-items: 3
+    page-size: 3
     fields: [date, title]
-    sort: "date desc"
+    include:
+      categories: [upcoming]
+    sort: "date asc"
     sort-ui: false
     filter-ui: false
 ---

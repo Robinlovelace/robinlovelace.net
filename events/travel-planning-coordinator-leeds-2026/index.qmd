@@ -1,4 +1,5 @@
 ---
+categories: [upcoming]
 title: Travel Planning Co-ordinator Event Leeds
 abstract: A free one-off in-person event in Leeds for anyone working to implement travel plans. The event provides an opportunity to network with others involved in the same work and learn about local sustainable transport initiatives including Betterpoints, Beryl Bikes, Northern Rail, Residential MCard, Enterprise Car Club, and public transport ticketing. Organized by the Leeds City Council Travel Planning team.
 date: 2026-05-06 10:00:00+01:00
