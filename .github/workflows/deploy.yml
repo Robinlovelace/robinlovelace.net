@@ -130,6 +130,9 @@ jobs:
     needs: build
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -163,22 +166,22 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          # Use --json for machine-readable output so we can extract the deploy URL
           json_output=$(netlify deploy \
             --site "$NETLIFY_SITE_ID" \
             --dir site-files \
             --alias "pr-${{ github.event.pull_request.number }}" \
             --message "pr-${{ github.event.pull_request.number }} ${GITHUB_SHA}" \
             --json 2>&1)
-          echo "deploy_result=$json_output" >> "$GITHUB_OUTPUT"
           echo "$json_output"
+          deploy_url=$(echo "$json_output" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('deploy_url',''))" 2>/dev/null || true)
+          echo "deploy_url=$deploy_url" >> "$GITHUB_OUTPUT"
 
       - name: Post preview URL as PR comment
         if: steps.netlify_secrets.outputs.configured == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          deploy_url=$(echo '${{ steps.netlify-preview.outputs.deploy_result }}' | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('deploy_url',''))" 2>/dev/null)
+          deploy_url="${{ steps.netlify-preview.outputs.deploy_url }}"
           if [ -n "$deploy_url" ]; then
             echo "Deploy URL: $deploy_url"
             pr_num="${{ github.event.pull_request.number }}"
@@ -189,7 +192,7 @@ jobs:
               "" \
               "---" \
               "_This preview updates automatically on every push to this PR._" \
-              | gh pr comment "$pr_num" --body-file -
+              | gh pr comment "$pr_num" --repo "${{ github.repository }}" --body-file -
           else
             echo "Could not extract deploy URL from Netlify output"
           fi
