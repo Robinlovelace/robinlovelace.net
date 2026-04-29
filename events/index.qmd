@@ -11,7 +11,7 @@ listing:
   filter-ui: true
   feed: true
   contents: 
-      - events
+      - .
 #page-layout: full
 page-navigation: false
 title-block-banner: false

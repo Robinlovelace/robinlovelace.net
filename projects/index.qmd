@@ -21,8 +21,7 @@ listing:
 #  sort-ui: true
 #  filter-ui: true
   contents: 
-#    - projects/ 
-    - projects.yml 
+    - ../projects.yml 
 ---
 
 

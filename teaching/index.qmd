@@ -28,7 +28,7 @@ I supervise PhD and Masters students on topics related to:
 - Geocomputation and spatial data analysis
 - Reproducible research methods
 
-Current and past students can be found on the [people](/people.qmd) page.
+Current and past students can be found on the [people](/people/) page.
 
 ---
 

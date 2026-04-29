@@ -12,7 +12,7 @@ listing:
   grid-columns: 3
   image-height: 200px
   contents: 
-    - /people/pi.yml
+    - ./pi.yml
 
 page-navigation: false
 title-block-banner: false
