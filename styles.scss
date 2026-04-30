@@ -27,6 +27,8 @@ body {
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(229, 231, 235, 0.5);
   transition: all 0.3s ease;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 .navbar-brand,
@@ -41,15 +43,20 @@ body {
 
 .landing-shell {
   max-width: 1180px;
-  margin: 2rem auto 1rem;
+  margin: 0.2rem auto 0;
   padding: 0 1.5rem;
   display: grid;
   grid-template-columns: minmax(280px, 320px) minmax(0, 1fr);
   grid-template-areas:
     "profile main"
     "profile updates";
-  gap: 2rem;
+  gap: 0.5rem 2rem;
   align-items: start;
+}
+
+.nav-footer {
+  padding: 0.5rem 0 !important;
+  margin-top: 0 !important;
 }
 
 .landing-panel {
@@ -68,55 +75,58 @@ body {
 .landing-profile {
   grid-area: profile;
   text-align: center;
-  padding: 0.75rem 0.8rem;
+  padding: 0.5rem;
 }
 
 .landing-avatar {
-  width: min(100%, 228px);
+  width: min(100%, 160px);
   border-radius: 0.45rem;
   border: 1px solid #d1d5db;
   box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .landing-name {
   color: #111827;
-  font-size: clamp(1.8rem, 2vw, 2.2rem);
-  margin-bottom: 0.5rem;
+  font-size: clamp(1.4rem, 1.5vw, 1.8rem);
+  margin-bottom: 0.2rem;
+  font-weight: 600;
 }
 
 .landing-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.38rem;
+  gap: 0.25rem;
 }
 
 .landing-main {
   grid-area: main;
-  padding: 0.7rem 0.9rem;
+  padding: 0.5rem 0.8rem;
 }
 
 .landing-main > p:first-child {
-  font-size: clamp(1rem, 1vw, 1.12rem);
-  line-height: 1.3;
-  margin-bottom: 0.5rem;
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
 }
 
 .landing-main .btn {
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.2rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
 }
 
 .landing-focus {
-  margin-top: 0.02rem;
+  margin-top: 0;
 }
 
 .landing-focus h3 {
-  font-size: 0.96rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #2e3d59;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 .landing-focus ul {
@@ -126,20 +136,21 @@ body {
 
 .landing-updates {
   grid-area: updates;
-  padding: 0.58rem 0.9rem 0.55rem;
+  padding: 0.4rem 0.8rem;
 }
 
 .landing-updates h3 {
-  margin-bottom: 0.22rem;
+  margin-bottom: 0.1rem;
+  font-size: 1.1rem;
 }
 
 #listing-recent-updates {
-  margin-top: 0.1rem;
+  margin-top: 0;
 }
 
 #listing-recent-updates .table {
-  margin-bottom: 0.3rem;
-  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+  font-size: 0.8rem;
 }
 
 #listing-recent-updates .listing-title {
@@ -148,12 +159,13 @@ body {
 
 #listing-recent-updates td,
 #listing-recent-updates th {
-  padding-top: 0.24rem;
-  padding-bottom: 0.24rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
 }
 
 .landing-updates > p:last-child {
   margin-bottom: 0;
+  font-size: 0.85rem;
 }
 
 @media (max-width: 992px) {
