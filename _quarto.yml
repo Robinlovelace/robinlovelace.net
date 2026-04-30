@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  pre-render: scripts/generate_upcoming_events.py
   resources:
     - _redirects
 

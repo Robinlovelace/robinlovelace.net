@@ -1,4 +1,5 @@
 ---
+categories: [upcoming]
 title: 10th Mobile Tartu Conference
 abstract: The Mobile Tartu Conference focuses on human mobility studies for resilient, just, and sustainable societies, using primarily digital traces from mobile big data. At the Jubilee Conference, we reflect on the evolution of mobility studies over the past two decades and how this has influenced the need to consider mobility data justice in research and governance. Our confirmed keynote speakers include Prof. Kay W. Axhausen (ETH Zurich, Switzerland) and Prof. Mimi Sheller (Worcester Polytechnic Institute, USA).
 date: 2026-06-08

@@ -1,11 +1,20 @@
 ---
+categories: [upcoming]
 title: Data-Driven Transport Planning Hackathon
 date: 2026-05-18 14:00:00+01:00
 author:
   - "Robin Lovelace"
 ---
-Join us for an afternoon of collaborative problem-solving, exploring how data can improve transport planning. Whether you're a student, researcher, practitioner, or enthusiast, bring your ideas and laptop to develop innovative solutions using R, Python, JavaScript, or any tools you prefer.
 
-Datasets from the Propensity to Cycle Tool for Northern Ireland (PCTNI) will be provided, but projects are not limited to cycling themes.
+Welcome to the **Data-Driven Transport Planning Hackathon**!
 
-Refreshments will be provided. Just bring yourself and your laptop!
+**Date:** Monday 18th May 2026  
+**Time:** 14:00 – 17:00  
+**Location:** David Keir Building, Room 0G.533, University of Leeds  
+
+Hosted by Robin Lovelace (University of Leeds, PCTNI team), this afternoon challenge invites you to create data‑driven tools, visualisations, or analyses for transport planning. Use any tools or language; work individually or in teams.
+
+🔗 **Hackathon resources:** https://pctni.github.io/hack/  
+📝 **Sign‑up:** https://docs.google.com/forms/d/1CfpigdYH3gLYhoaKraBhDYpmKS1PKefxarIFjp9loME/viewform?edit_requested=true
+
+Refreshments provided. Bring yourself and your laptop!
