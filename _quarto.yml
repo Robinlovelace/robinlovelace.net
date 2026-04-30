@@ -31,10 +31,10 @@ website:
         href: events/
       - text: Publications
         href: publications/
-      - text: Teaching
-        href: teaching/
-      - text: People
-        href: people/
+#      - text: Teaching
+#        href: teaching/
+#      - text: People
+#        href: people/
       - text: Contact
         href: contact/
 
