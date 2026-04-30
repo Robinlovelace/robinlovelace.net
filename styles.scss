@@ -18,17 +18,21 @@ div.altmetric-embed {
 }
 
 body {
-  background: #ffffff;
+  background: #f8fafc;
 }
 
 #quarto-header .navbar {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+  transition: all 0.3s ease;
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
   letter-spacing: 0.01em;
+  font-weight: 500;
 }
 
 .landing-page .quarto-title-block {
@@ -37,22 +41,28 @@ body {
 
 .landing-shell {
   max-width: 1180px;
-  margin: 0.45rem auto 0.35rem;
-  padding: 0 0.75rem 0.35rem;
+  margin: 2rem auto 1rem;
+  padding: 0 1.5rem;
   display: grid;
-  grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+  grid-template-columns: minmax(280px, 320px) minmax(0, 1fr);
   grid-template-areas:
     "profile main"
     "profile updates";
-  gap: 0.6rem;
+  gap: 2rem;
   align-items: start;
 }
 
 .landing-panel {
   background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.8rem;
-  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(229, 231, 235, 0.5);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.landing-panel:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 35px rgba(15, 23, 42, 0.08);
 }
 
 .landing-profile {
