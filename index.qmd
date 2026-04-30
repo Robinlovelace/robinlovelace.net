@@ -11,8 +11,8 @@ listing:
   - id: upcoming-events
     contents: upcoming-events.yml
     type: table
-    max-items: 2
-    page-size: 2
+    max-items: 3
+    page-size: 3
     fields: [date, title]
     sort: "date asc"
     sort-ui: false
