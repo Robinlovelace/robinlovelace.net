@@ -41,15 +41,7 @@ I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/tra
 
 [Current projects](/projects/){.btn .btn-primary .me-2} [Publications](/publications/){.btn .btn-outline-secondary}
 
-:::{.grid .landing-focus}
-:::{.g-col-12}
-### Research Focus
 
-- **Geocomputation** for transparent spatial analysis
-- **Transport modelling** for active travel and mode shift
-- **Reproducible research** with open-source methods
-:::
-:::
 :::
 
 :::{.landing-updates .landing-panel}
