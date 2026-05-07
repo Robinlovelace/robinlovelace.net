@@ -18,29 +18,25 @@ website:
     background: light  # You can change the background color here
     pinned: false
 
-    left:   # You can comment out all navigation items here if you just like to keep the index page only
-#      - text: Home
-#        href: index.qmd
-      - text: About
-        menu:
-          - text: News
-            href: posts/
-          - text: Events
-            href: events/      
-          - text: Contact
-            href: contact/             
-      - text: Research
-        menu:
-          - text: Publications
-            href: publications/
-          - text: Projects
-            href: projects/                                
-      - text: Teaching
-        href: teaching/
-      - text: People
-        href: people/
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Posts
+        href: posts/
       - text: Software
         href: software/
+      - text: Projects
+        href: projects/
+      - text: Events
+        href: events/
+      - text: Publications
+        href: publications/
+#      - text: Teaching
+#        href: teaching/
+#      - text: People
+#        href: people/
+      - text: Contact
+        href: contact/
 
     right: 
       - icon: github
