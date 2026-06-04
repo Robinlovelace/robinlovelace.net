@@ -1,0 +1,15 @@
+---
+title: "ITF Conference on Transport Data, Statistics and Modelling in Ukraine"
+abstract: "Participating in the ITF/OECD final conference on transport data and modelling in Ukraine — keynote presentation and contributions to interactive workshop exercises on open data analysis and transport modelling."
+date: 2026-06-12
+author:
+  - "Robin Lovelace"
+---
+
+I participated remotely in the ITF/OECD final conference on transport data, statistics and modelling in Ukraine, held in a hybrid format with participants gathered in Kyiv.
+
+The workshop programme included interactive exercises on open data analysis (using OpenStreetMap and WorldPop data in Python via Colab), case studies from Ukrainian cities, and keynote presentations on building a community of transport statistics and modelling practitioners.
+
+My keynote — *Building a Community of Transport Statistics and Modelling Practitioners in Ukraine* — drew on experiences with open data, open source tools, and reproducible workflows in transport planning, with case studies from the UK, Spain and elsewhere.
+
+**Slides and materials:** [github.com/Robinlovelace/itf-workshop](https://github.com/Robinlovelace/itf-workshop)
