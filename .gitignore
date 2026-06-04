@@ -1,5 +1,7 @@
 /.quarto/
 _site/
 upcoming-events.yml
-
 **/*.quarto_ipynb
+
+# Local Netlify folder
+.netlify
