@@ -10,12 +10,12 @@ date: 2026-06-07
 date-end: 2026-06-08
 author:
   - "Robin Lovelace"
-image: images/route-networks.png
+image: https://tdscience.github.io/tartu26/images/paste-5.png
 ---
 
 I'm heading to Tartu for the [10th Mobile Tartu Conference](https://mobiletartu.ut.ee/) (June 7–10), where I'm co-leading a hands-on workshop at the PhD School.
 
-![](images/route-networks.png)
+![](https://tdscience.github.io/tartu26/images/paste-5.png)
 
 ## Workshop: Data Science for Transport Planning
 
