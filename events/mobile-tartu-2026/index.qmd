@@ -1,23 +1,51 @@
 ---
 categories: [upcoming]
 title: 10th Mobile Tartu Conference
-abstract: The Mobile Tartu Conference focuses on human mobility studies for resilient, just, and sustainable societies, using primarily digital traces from mobile big data. At the Jubilee Conference, we reflect on the evolution of mobility studies over the past two decades and how this has influenced the need to consider mobility data justice in research and governance. Our confirmed keynote speakers include Prof. Kay W. Axhausen (ETH Zurich, Switzerland) and Prof. Mimi Sheller (Worcester Polytechnic Institute, USA).
-date: 2026-06-08
+abstract: |-
+  I'm heading to the 10th Mobile Tartu Conference (June 7–10, 2026) to co-lead a
+  workshop on transport data science with Juan Fonseca-Zamora. Join our session on
+  origin-destination and route network analysis using the spanishoddata R package
+  and OpenStreetMap.
+date: 2026-06-07
+date-end: 2026-06-08
 author:
   - "Robin Lovelace"
+image: images/route-networks.png
 ---
-We welcome you to join us at the 10th biennial Mobile Tartu Conference and PhD School on June 7/8‒10, 2026, to celebrate two decades of human mobility studies based on mobile phone data!
 
-The Mobile Tartu Conference focuses on human mobility studies for resilient, just, and sustainable societies, using primarily digital traces from mobile big data. At the Jubilee Conference, we reflect on the evolution of mobility studies over the past two decades and how this has influenced the need to consider mobility data justice in research and governance. Our confirmed keynote speakers include Prof. Kay W. Axhausen (ETH Zurich, Switzerland) and Prof. Mimi Sheller (Worcester Polytechnic Institute, USA).
+I'm heading to Tartu for the [10th Mobile Tartu Conference](https://mobiletartu.ut.ee/) (June 7–10), where I'm co-leading a hands-on workshop at the PhD School.
 
-The special themes of the jubilee Mobile Tartu 2026 include:
+![](images/route-networks.png)
 
-*   Activity space studies informing just and sustainable societies
-*   Multilocal living and cross-border interactions in digital transition
-*   Mobility data justice in research and governance
+## Workshop: Data Science for Transport Planning
 
-The conference also features panel discussions, paper sessions (including NECTAR and Cycle4Climate sessions), and a rich social programme with vibrant discussions on the conceptual, methodological, and empirical dimensions of measuring human mobility using mobile big data.
+I'm co-leading this workshop with **Juan P. Fonseca-Zamora** (PhD Candidate, University of Leeds). We'll work through the full pipeline — from origin-destination data to route network datasets — using open data and open tools.
 
-In collaboration with the EIT Urban Mobility Doctoral Training Network and the Estonian Doctoral School, the conference also includes a PhD School, comprising lectures and hands-on workshops on mobile big data applications for understanding human mobility. The workshops are led by Andres Sevtsuk (MIT), Robin Lovelace (University of Leeds), Francisco Rowe (University of Liverpool), and Anto Aasa (University of Tartu).
+**Schedule:**
 
-Abstract submission deadline: 16 January 2026
+- **Day 1 — Sunday, June 7, 14:00–18:00:** Finding and importing data with {spanishoddata}, origin-destination analysis, group work
+- **Day 2 — Monday, June 8, 09:00–12:30:** Routing and route networks, advanced topics, followed by lunch and workshop wrap-up
+
+**What you'll learn:**
+
+- Access and work with large-scale open OD data using the `spanishoddata` R package
+- Analyse spatio-temporal flow patterns
+- Build route networks from OD data using OpenStreetMap
+- Reproducible workflows with Quarto and GitHub Codespaces
+
+All materials are open-source and available online:
+
+- **Workshop homepage:** [tdscience.github.io/tartu26/](https://tdscience.github.io/tartu26/)
+- **Code & materials:** [github.com/tdscience/tartu26](https://github.com/tdscience/tartu26)
+- **Prerequisites & setup:** [tdscience.github.io/tartu26/prerequisites.html](https://tdscience.github.io/tartu26/prerequisites.html)
+- **Slides:** [tdscience.github.io/tartu26/slides.html](https://tdscience.github.io/tartu26/slides.html)
+
+The quickest way to get started is via GitHub Codespaces — just click the badge on the workshop homepage.
+
+## About the Conference
+
+The Mobile Tartu Conference focuses on human mobility studies for resilient, just, and sustainable societies, using primarily digital traces from mobile big data. At this Jubilee Conference, we reflect on the evolution of mobility studies over the past two decades and how this has influenced the need to consider mobility data justice in research and governance. Keynotes include Prof. Kay W. Axhausen (ETH Zurich) and Prof. Mimi Sheller (Worcester Polytechnic Institute).
+
+Alongside my workshop, the PhD School programme also includes sessions led by Andres Sevtsuk (MIT), Francisco Rowe (University of Liverpool), and Anto Aasa (University of Tartu).
+
+Hope to see you in Tartu!
