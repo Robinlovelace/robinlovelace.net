@@ -39,4 +39,4 @@ Two interactive exercises run in **Google Colab** — no local installation requ
 - **Workshop website:** [robinlovelace.net/itfworkshop/](https://robinlovelace.net/itfworkshop/)
 - **GitHub repository:** [github.com/Robinlovelace/itfworkshop](https://github.com/Robinlovelace/itfworkshop)
 - **Original source:** [github.com/ncaros/ukraine-workshop](https://github.com/ncaros/ukraine-workshop)
-- **Slides and materials:** [github.com/Robinlovelace/itf-workshop](https://github.com/Robinlovelace/itf-workshop)
+
