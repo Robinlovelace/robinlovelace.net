@@ -2,14 +2,41 @@
 title: "ITF Conference on Transport Data, Statistics and Modelling in Ukraine"
 abstract: "Participating in the ITF/OECD final conference on transport data and modelling in Ukraine — keynote presentation and contributions to interactive workshop exercises on open data analysis and transport modelling."
 date: 2026-06-12
+tags:
+  - "ITF"
+  - "Ukraine"
+  - "Transport Data"
+  - "Transport Modelling"
+  - "OpenStreetMap"
+  - "Open Data"
+  - "Python"
+  - "Google Colab"
 author:
+  - "Nick Caros"
   - "Robin Lovelace"
 ---
 
-I participated remotely in the ITF/OECD final conference on transport data, statistics and modelling in Ukraine, held in a hybrid format with participants gathered in Kyiv.
+I participated remotely in the ITF/OECD final conference on transport data, statistics and modelling in Ukraine, held in a hybrid format.
 
 The workshop programme included interactive exercises on open data analysis (using OpenStreetMap and WorldPop data in Python via Colab), case studies from Ukrainian cities, and keynote presentations on building a community of transport statistics and modelling practitioners.
 
 My keynote — *Building a Community of Transport Statistics and Modelling Practitioners in Ukraine* — drew on experiences with open data, open source tools, and reproducible workflows in transport planning, with case studies from the UK, Spain and elsewhere.
 
-**Slides and materials:** [github.com/Robinlovelace/itf-workshop](https://github.com/Robinlovelace/itf-workshop)
+👉 [View keynote slides](https://robinlovelace.net/itfworkshop/slides.html)
+
+## Interactive exercises
+
+Two interactive exercises run in **Google Colab** — no local installation required.
+
+- **Exercise 1 — Infrastructure Coverage Analysis:** Map a city's transport network, estimate infrastructure availability per person and identify underserved areas using OpenStreetMap and WorldPop population data.
+  👉 [Open in Google Colab](https://colab.research.google.com/github/Robinlovelace/itfworkshop/blob/main/ITF_Workshop_Exercise_1.ipynb)
+
+- **Exercise 2 — Demand Estimation and Traffic Assignment:** Build an origin-destination demand matrix using a gravity model, assign estimated trips to the road network, and develop evidence-based policy recommendations.
+  👉 [Open in Google Colab](https://colab.research.google.com/github/Robinlovelace/itfworkshop/blob/main/ITF_Workshop_Exercise_2.ipynb)
+
+## Materials
+
+- **Workshop website:** [robinlovelace.net/itfworkshop/](https://robinlovelace.net/itfworkshop/)
+- **GitHub repository:** [github.com/Robinlovelace/itfworkshop](https://github.com/Robinlovelace/itfworkshop)
+- **Original source:** [github.com/ncaros/ukraine-workshop](https://github.com/ncaros/ukraine-workshop)
+
