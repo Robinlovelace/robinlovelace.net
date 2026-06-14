@@ -1,4 +1,10 @@
 /*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+
+$font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-monospace: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$headings-font-family: "Montserrat", sans-serif !default;
+
 $navbar-bg: #ffffff !default;
 $navbar-fg: #1f2937 !default;
 $navbar-hl: #4f46e5 !default;
@@ -35,6 +41,13 @@ body {
 .navbar-nav .nav-link {
   letter-spacing: 0.01em;
   font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #2e3d59;
 }
 
 .landing-page .quarto-title-block {
@@ -80,17 +93,18 @@ body {
 
 .landing-avatar {
   width: min(100%, 160px);
-  border-radius: 0.45rem;
-  border: 1px solid #d1d5db;
+  border-radius: 50% !important;
+  border: 3px solid #eee;
   box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .landing-name {
   color: #111827;
   font-size: clamp(1.4rem, 1.5vw, 1.8rem);
   margin-bottom: 0.2rem;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 .landing-links {
@@ -203,51 +217,92 @@ body {
     border-color: #475569 !important;
   }
   
-  /* Timeline/list item text colors for dark mode */
   .timeline-list li {
     color: #cbd5e1 !important;
   }
 }
 
-/* Custom Nav Pills for Biography Tabs */
+/* Underline Tabs for Biography (Wowchemy style) */
 .nav-pills {
-  gap: 0.25rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .nav-pills .nav-link {
   color: #4b5563;
   font-weight: 500;
-  border-radius: 0.5rem;
-  padding: 0.35rem 0.75rem;
-  font-size: 0.9rem;
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
   transition: all 0.2s ease;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
 }
 
 .nav-pills .nav-link:hover {
   color: #4f46e5;
-  background-color: rgba(79, 70, 229, 0.05);
-  border-color: rgba(79, 70, 229, 0.1);
+  background-color: transparent;
+  border-bottom-color: rgba(79, 70, 229, 0.3);
 }
 
 .nav-pills .nav-link.active {
-  background-color: #4f46e5 !important;
-  color: #ffffff !important;
+  background-color: transparent !important;
+  color: #4f46e5 !important;
+  border-bottom: 2px solid #4f46e5 !important;
 }
 
 .quarto-dark {
+  .nav-pills {
+    border-bottom-color: #374151;
+  }
   .nav-pills .nav-link {
     color: #9ca3af;
   }
   .nav-pills .nav-link:hover {
-    color: #818cf8; /* indigo-400 */
-    background-color: rgba(99, 102, 241, 0.1);
-    border-color: rgba(99, 102, 241, 0.2);
+    color: #818cf8;
+    border-bottom-color: rgba(99, 102, 241, 0.4);
   }
   .nav-pills .nav-link.active {
-    background-color: #6366f1 !important;
-    color: #ffffff !important;
+    background-color: transparent !important;
+    color: #818cf8 !important;
+    border-bottom-color: #818cf8 !important;
+  }
+}
+
+/* Category Badges (Wowchemy style: outline pills) */
+.category {
+  text-transform: uppercase;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  border: 1px solid #d1d5db !important;
+  background: transparent !important;
+  color: #4b5563 !important;
+  border-radius: 4px !important;
+  padding: 0.2rem 0.6rem !important;
+  margin-right: 0.5rem;
+  transition: all 0.15s ease-in-out;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.category:hover {
+  background: #4f46e5 !important;
+  color: white !important;
+  border-color: #4f46e5 !important;
+  text-decoration: none;
+}
+
+.quarto-dark {
+  .category {
+    border-color: #4b5563 !important;
+    color: #cbd5e1 !important;
+  }
+  .category:hover {
+    background: #6366f1 !important;
+    color: white !important;
+    border-color: #6366f1 !important;
   }
 }
 
