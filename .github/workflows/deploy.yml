@@ -34,6 +34,9 @@ jobs:
       - name: Render Quarto
         run: quarto render
 
+      - name: Generate HTML Redirects
+        run: python3 scripts/generate_html_redirects.py
+
       - name: Ensure CNAME
         run: cp CNAME _site/CNAME
 
