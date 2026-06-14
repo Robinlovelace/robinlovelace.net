@@ -82,15 +82,9 @@ bibliography: references.bib  # Add references.bib to the root folder to enable 
 format:
   html:
     theme:
-      light:
-        - cosmo
-        - brand
-        - styles.scss
-      dark:
-        - darkly
-        - brand
-        - styles.scss
-    respect-user-color-scheme: true
+      - cosmo
+      - brand
+      - styles.scss
     toc: true
     footnotes-hover: true
     code-copy: true
