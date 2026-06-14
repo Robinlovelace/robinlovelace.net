@@ -244,62 +244,6 @@ body {
   }
 }
 
-/* Dark Mode styling for Landing Page Panels */
-.quarto-dark {
-  --rl-bg: #0f1d33;
-  --rl-surface: #162740;
-  --rl-surface-muted: #1c3353;
-  --rl-border: #2b4668;
-  --rl-text: #e6eef8;
-  --rl-text-muted: #b3c6df;
-  --rl-primary: #69a7ee;
-  --rl-primary-hover: #90bdf1;
-  --rl-shadow: rgba(0, 0, 0, 0.45);
-
-  background:
-    radial-gradient(circle at 12% -8%, rgba(92, 154, 234, 0.2), transparent 34%),
-    linear-gradient(180deg, #0d1a2e 0%, var(--rl-bg) 62%);
-
-  #quarto-header .navbar {
-    background: color-mix(in srgb, #0f2138 82%, transparent);
-    border-bottom: 1px solid color-mix(in srgb, var(--rl-border) 80%, transparent);
-  }
-
-  .nav-footer {
-    background: color-mix(in srgb, #0e1f35 88%, transparent);
-    border-top: 1px solid color-mix(in srgb, var(--rl-border) 70%, transparent);
-  }
-
-  .btn-outline-secondary {
-    border-color: color-mix(in srgb, var(--rl-border) 85%, #d9e5f4 15%);
-    color: var(--rl-text-muted);
-  }
-
-  .landing-panel {
-    background: var(--rl-surface);
-    border-color: color-mix(in srgb, var(--rl-border) 88%, transparent);
-    box-shadow: 0 10px 25px color-mix(in srgb, var(--rl-shadow) 75%, transparent);
-  }
-
-  .landing-name {
-    color: var(--rl-text);
-  }
-
-  .landing-main,
-  .landing-updates {
-    color: var(--rl-text);
-  }
-
-  .landing-avatar {
-    border-color: var(--rl-border);
-  }
-
-  /* Timeline/list item text colors for dark mode */
-  .timeline-list li {
-    color: var(--rl-text);
-  }
-}
-
 /* Custom Nav Pills for Biography Tabs */
 .nav-pills {
   gap: 0.25rem;
@@ -326,24 +270,6 @@ body {
   background-color: var(--rl-primary);
   border-color: var(--rl-primary);
   color: #ffffff;
-}
-
-.quarto-dark {
-  .nav-pills .nav-link {
-    color: var(--rl-text-muted);
-  }
-
-  .nav-pills .nav-link:hover {
-    color: var(--rl-primary);
-    background-color: color-mix(in srgb, var(--rl-primary) 12%, transparent);
-    border-color: color-mix(in srgb, var(--rl-primary) 25%, transparent);
-  }
-
-  .nav-pills .nav-link.active {
-    background-color: var(--rl-primary);
-    border-color: var(--rl-primary);
-    color: #0f1d33;
-  }
 }
 
 /* Interests Badge Custom Styles */
