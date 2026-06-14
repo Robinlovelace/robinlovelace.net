@@ -34,6 +34,10 @@ If you achieve this milestone, congratulations! You are now ready to start updat
 - Install [Quarto](https://quarto.org/docs/get-started/)
 - Learn the basics from the [official Quarto documentation](https://quarto.org/docs/websites/)
 
+## 🔗 Legacy Redirects
+
+Since the site is hosted on GitHub Pages (which natively ignores Netlify's `_redirects` file), we run a custom script [`scripts/generate_html_redirects.py`](file:///home/robin/github/robinlovelace/robinlovelace.net/scripts/generate_html_redirects.py) in the deployment pipeline. This script parses the `_redirects` rules and generates static HTML redirect stubs containing `<meta http-equiv="refresh" ...>` tags inside the built `_site/` directory.
+
 ## 📚 More Examples & Tips
 
 - [Quarto Academic Site Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html)
