@@ -1,8 +1,8 @@
 /*-- scss:defaults --*/
 $navbar-bg: #ffffff !default;
 $navbar-fg: #1f2937 !default;
-$navbar-hl: #1f6aa6 !default;
-$link-color: #1f6aa6 !default;
+$navbar-hl: #4f46e5 !default;
+$link-color: #4f46e5 !default;
 $body-bg: #ffffff !default;
 $body-color: #19202d !default;
 $border-radius: 0.45rem !default;
@@ -184,4 +184,83 @@ body {
   .landing-updates {
     padding: 0.85rem;
   }
+}
+
+/* Dark Mode styling for Landing Page Panels */
+.quarto-dark {
+  .landing-panel {
+    background: #1e293b !important; /* slate-800 */
+    border-color: rgba(71, 85, 105, 0.4) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+  }
+  .landing-name {
+    color: #f1f5f9 !important;
+  }
+  .landing-main, .landing-updates {
+    color: #cbd5e1 !important; /* slate-300 */
+  }
+  .landing-avatar {
+    border-color: #475569 !important;
+  }
+  
+  /* Timeline/list item text colors for dark mode */
+  .timeline-list li {
+    color: #cbd5e1 !important;
+  }
+}
+
+/* Custom Nav Pills for Biography Tabs */
+.nav-pills {
+  gap: 0.25rem;
+}
+
+.nav-pills .nav-link {
+  color: #4b5563;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.nav-pills .nav-link:hover {
+  color: #4f46e5;
+  background-color: rgba(79, 70, 229, 0.05);
+  border-color: rgba(79, 70, 229, 0.1);
+}
+
+.nav-pills .nav-link.active {
+  background-color: #4f46e5 !important;
+  color: #ffffff !important;
+}
+
+.quarto-dark {
+  .nav-pills .nav-link {
+    color: #9ca3af;
+  }
+  .nav-pills .nav-link:hover {
+    color: #818cf8; /* indigo-400 */
+    background-color: rgba(99, 102, 241, 0.1);
+    border-color: rgba(99, 102, 241, 0.2);
+  }
+  .nav-pills .nav-link.active {
+    background-color: #6366f1 !important;
+    color: #ffffff !important;
+  }
+}
+
+/* Interests Badge Custom Styles */
+.interest-badge {
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.35rem 0.7rem;
+  border-radius: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.interest-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.08);
 }
