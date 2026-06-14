@@ -4,7 +4,10 @@ subtitle: "Posts about papers, events, news, and more"
 description-meta: "Posts about papers, events, news, and more"
 listing: 
   sort: "date desc"
-  type: default
+  type: grid
+  grid-columns: 3
+  image-height: 180px
+  fields: [image, date, title, description, categories, reading-time]
   page-size: 100
   categories: true
   sort-ui: true
