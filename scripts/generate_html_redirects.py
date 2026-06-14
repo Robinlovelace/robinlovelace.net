@@ -25,9 +25,69 @@ def main():
             if len(parts) >= 2:
                 src, dst = parts[0], parts[1]
                 
-                # Skip wildcard or splat rules (like * or :splat)
+                # Check for wildcard directory redirects
+                # e.g., src: /event/*, dst: /events/:splat
+                if src.endswith("/*") and dst.endswith("/:splat"):
+                    src_prefix = src[:-2].strip("/") # e.g. "event"
+                    dst_prefix = dst[:-7].strip("/") # e.g. "events"
+                    
+                    dst_dir = os.path.join(site_dir, dst_prefix)
+                    if os.path.exists(dst_dir) and os.path.isdir(dst_dir):
+                        # 1. Redirect the root prefix itself (e.g. /event -> /events/)
+                        root_src_dir = os.path.join(site_dir, src_prefix)
+                        os.makedirs(root_src_dir, exist_ok=True)
+                        root_src_file = os.path.join(root_src_dir, "index.html")
+                        try:
+                            with open(root_src_file, "w", encoding="utf-8") as out:
+                                out.write(f'''<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0; url=/{dst_prefix}/">
+  <link rel="canonical" href="/{dst_prefix}/">
+</head>
+<body>
+  <p>Redirecting to <a href="/{dst_prefix}/">/{dst_prefix}/</a>...</p>
+</body>
+</html>
+''')
+                            count += 1
+                        except Exception as e:
+                            print(f"Line {line_num}: Failed to write root redirect at '{root_src_file}': {e}")
+
+                        # 2. Redirect all subdirectories inside dst_dir (e.g. events/slug/ -> event/slug/)
+                        for item in os.listdir(dst_dir):
+                            item_path = os.path.join(dst_dir, item)
+                            if os.path.isdir(item_path):
+                                target_dir = os.path.join(site_dir, src_prefix, item)
+                                os.makedirs(target_dir, exist_ok=True)
+                                target_file = os.path.join(target_dir, "index.html")
+                                dst_url = f"/{dst_prefix}/{item}/"
+                                
+                                try:
+                                    with open(target_file, "w", encoding="utf-8") as out:
+                                        out.write(f'''<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0; url={dst_url}">
+  <link rel="canonical" href="{dst_url}">
+</head>
+<body>
+  <p>Redirecting to <a href="{dst_url}">{dst_url}</a>...</p>
+</body>
+</html>
+''')
+                                    count += 1
+                                except Exception as e:
+                                    print(f"Line {line_num}: Failed to write wildcard redirect at '{target_file}': {e}")
+                    continue
+
+                # Skip any other wildcard/splat rules
                 if "*" in src or ":" in src:
-                    print(f"Line {line_num}: Skipping wildcard redirect '{src} -> {dst}'")
+                    print(f"Line {line_num}: Skipping non-standard wildcard redirect '{src} -> {dst}'")
                     continue
 
                 src_clean = src.strip("/")
