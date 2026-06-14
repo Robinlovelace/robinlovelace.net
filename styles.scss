@@ -1,13 +1,13 @@
 /*-- scss:defaults --*/
-$navbar-bg: #ffffff !default;
-$navbar-fg: #1f2937 !default;
-$navbar-hl: #4f46e5 !default;
-$link-color: #4f46e5 !default;
-$body-bg: #ffffff !default;
-$body-color: #19202d !default;
+$navbar-bg: #f7fbff !default;
+$navbar-fg: #142a45 !default;
+$navbar-hl: #1565c0 !default;
+$link-color: #1565c0 !default;
+$body-bg: #f4f7fb !default;
+$body-color: #17263b !default;
 $border-radius: 0.45rem !default;
 $card-border-radius: 0.55rem !default;
-$card-border-color: #d8deea !default;
+$card-border-color: #cfdae8 !default;
 $content-padding-top: 0.75rem !default;
 
 /*-- scss:rules --*/
@@ -17,15 +17,30 @@ div.altmetric-embed {
   display: inline-block;
 }
 
+:root {
+  --rl-bg: #f4f7fb;
+  --rl-surface: #ffffff;
+  --rl-surface-muted: #eef3f9;
+  --rl-border: #cfdae8;
+  --rl-text: #17263b;
+  --rl-text-muted: #4d5e74;
+  --rl-primary: #1565c0;
+  --rl-primary-hover: #11539e;
+  --rl-shadow: rgba(12, 34, 58, 0.1);
+}
+
 body {
-  background: #f8fafc;
+  background:
+    radial-gradient(circle at 18% -10%, rgba(21, 101, 192, 0.08), transparent 36%),
+    linear-gradient(180deg, #f8fbff 0%, var(--rl-bg) 60%);
+  color: var(--rl-text);
 }
 
 #quarto-header .navbar {
-  background: rgba(255, 255, 255, 0.85);
+  background: color-mix(in srgb, var(--rl-surface) 84%, transparent);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+  border-bottom: 1px solid color-mix(in srgb, var(--rl-border) 75%, transparent);
   transition: all 0.3s ease;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
@@ -35,6 +50,33 @@ body {
 .navbar-nav .nav-link {
   letter-spacing: 0.01em;
   font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--rl-primary);
+}
+
+.btn-primary {
+  background-color: var(--rl-primary);
+  border-color: var(--rl-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--rl-primary-hover);
+  border-color: var(--rl-primary-hover);
+}
+
+.btn-outline-secondary {
+  border-color: color-mix(in srgb, var(--rl-border) 85%, #20344f 15%);
+  color: var(--rl-text-muted);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  border-color: var(--rl-primary);
+  color: var(--rl-primary);
 }
 
 .landing-page .quarto-title-block {
@@ -60,16 +102,16 @@ body {
 }
 
 .landing-panel {
-  background: #ffffff;
-  border: 1px solid rgba(229, 231, 235, 0.5);
+  background: var(--rl-surface);
+  border: 1px solid color-mix(in srgb, var(--rl-border) 78%, transparent);
   border-radius: 1rem;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+  box-shadow: 0 10px 25px color-mix(in srgb, var(--rl-shadow) 55%, transparent);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .landing-panel:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 35px rgba(15, 23, 42, 0.08);
+  transform: translateY(-2px);
+  box-shadow: 0 18px 30px color-mix(in srgb, var(--rl-shadow) 80%, transparent);
 }
 
 .landing-profile {
@@ -81,13 +123,13 @@ body {
 .landing-avatar {
   width: min(100%, 160px);
   border-radius: 0.45rem;
-  border: 1px solid #d1d5db;
-  box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
+  border: 1px solid var(--rl-border);
+  box-shadow: 0 10px 22px color-mix(in srgb, var(--rl-shadow) 60%, transparent);
   margin-bottom: 0.25rem;
 }
 
 .landing-name {
-  color: #111827;
+  color: var(--rl-text);
   font-size: clamp(1.4rem, 1.5vw, 1.8rem);
   margin-bottom: 0.2rem;
   font-weight: 600;
@@ -125,7 +167,7 @@ body {
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: #2e3d59;
+  color: var(--rl-text-muted);
   margin-bottom: 0.2rem;
 }
 
@@ -144,23 +186,39 @@ body {
   font-size: 1.1rem;
 }
 
-#listing-recent-updates {
+#listing-recent-updates,
+#listing-upcoming-events {
   margin-top: 0;
 }
 
-#listing-recent-updates .table {
+#listing-recent-updates .table,
+#listing-upcoming-events .table {
   margin-bottom: 0.1rem;
   font-size: 0.8rem;
 }
 
-#listing-recent-updates .listing-title {
+#listing-recent-updates .listing-title,
+#listing-upcoming-events .listing-title {
   font-weight: 600;
 }
 
 #listing-recent-updates td,
-#listing-recent-updates th {
+#listing-recent-updates th,
+#listing-upcoming-events td,
+#listing-upcoming-events th {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
+}
+
+.table {
+  --bs-table-hover-bg: color-mix(in srgb, var(--rl-surface-muted) 68%, transparent);
+  border-color: color-mix(in srgb, var(--rl-border) 70%, transparent);
+}
+
+.table thead th {
+  color: var(--rl-text-muted);
+  font-weight: 600;
+  border-bottom-width: 1px;
 }
 
 .landing-updates > p:last-child {
@@ -188,24 +246,57 @@ body {
 
 /* Dark Mode styling for Landing Page Panels */
 .quarto-dark {
+  --rl-bg: #0f1d33;
+  --rl-surface: #162740;
+  --rl-surface-muted: #1c3353;
+  --rl-border: #2b4668;
+  --rl-text: #e6eef8;
+  --rl-text-muted: #b3c6df;
+  --rl-primary: #69a7ee;
+  --rl-primary-hover: #90bdf1;
+  --rl-shadow: rgba(0, 0, 0, 0.45);
+
+  background:
+    radial-gradient(circle at 12% -8%, rgba(92, 154, 234, 0.2), transparent 34%),
+    linear-gradient(180deg, #0d1a2e 0%, var(--rl-bg) 62%);
+
+  #quarto-header .navbar {
+    background: color-mix(in srgb, #0f2138 82%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--rl-border) 80%, transparent);
+  }
+
+  .nav-footer {
+    background: color-mix(in srgb, #0e1f35 88%, transparent);
+    border-top: 1px solid color-mix(in srgb, var(--rl-border) 70%, transparent);
+  }
+
+  .btn-outline-secondary {
+    border-color: color-mix(in srgb, var(--rl-border) 85%, #d9e5f4 15%);
+    color: var(--rl-text-muted);
+  }
+
   .landing-panel {
-    background: #1e293b !important; /* slate-800 */
-    border-color: rgba(71, 85, 105, 0.4) !important;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+    background: var(--rl-surface);
+    border-color: color-mix(in srgb, var(--rl-border) 88%, transparent);
+    box-shadow: 0 10px 25px color-mix(in srgb, var(--rl-shadow) 75%, transparent);
   }
+
   .landing-name {
-    color: #f1f5f9 !important;
+    color: var(--rl-text);
   }
-  .landing-main, .landing-updates {
-    color: #cbd5e1 !important; /* slate-300 */
+
+  .landing-main,
+  .landing-updates {
+    color: var(--rl-text);
   }
+
   .landing-avatar {
-    border-color: #475569 !important;
+    border-color: var(--rl-border);
   }
-  
+
   /* Timeline/list item text colors for dark mode */
   .timeline-list li {
-    color: #cbd5e1 !important;
+    color: var(--rl-text);
   }
 }
 
@@ -215,7 +306,7 @@ body {
 }
 
 .nav-pills .nav-link {
-  color: #4b5563;
+  color: var(--rl-text-muted);
   font-weight: 500;
   border-radius: 0.5rem;
   padding: 0.35rem 0.75rem;
@@ -226,28 +317,32 @@ body {
 }
 
 .nav-pills .nav-link:hover {
-  color: #4f46e5;
-  background-color: rgba(79, 70, 229, 0.05);
-  border-color: rgba(79, 70, 229, 0.1);
+  color: var(--rl-primary);
+  background-color: color-mix(in srgb, var(--rl-primary) 10%, transparent);
+  border-color: color-mix(in srgb, var(--rl-primary) 24%, transparent);
 }
 
 .nav-pills .nav-link.active {
-  background-color: #4f46e5 !important;
-  color: #ffffff !important;
+  background-color: var(--rl-primary);
+  border-color: var(--rl-primary);
+  color: #ffffff;
 }
 
 .quarto-dark {
   .nav-pills .nav-link {
-    color: #9ca3af;
+    color: var(--rl-text-muted);
   }
+
   .nav-pills .nav-link:hover {
-    color: #818cf8; /* indigo-400 */
-    background-color: rgba(99, 102, 241, 0.1);
-    border-color: rgba(99, 102, 241, 0.2);
+    color: var(--rl-primary);
+    background-color: color-mix(in srgb, var(--rl-primary) 12%, transparent);
+    border-color: color-mix(in srgb, var(--rl-primary) 25%, transparent);
   }
+
   .nav-pills .nav-link.active {
-    background-color: #6366f1 !important;
-    color: #ffffff !important;
+    background-color: var(--rl-primary);
+    border-color: var(--rl-primary);
+    color: #0f1d33;
   }
 }
 
@@ -262,5 +357,15 @@ body {
 
 .interest-badge:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.08);
+  box-shadow: 0 4px 6px color-mix(in srgb, var(--rl-primary) 20%, transparent);
+}
+
+.nav-footer {
+  border-top: 1px solid color-mix(in srgb, var(--rl-border) 65%, transparent);
+  background: color-mix(in srgb, var(--rl-surface) 82%, transparent);
+}
+
+:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--rl-primary) 75%, white 25%);
+  outline-offset: 2px;
 }
