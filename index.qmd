@@ -38,6 +38,7 @@ listing:
 
 :::{.landing-main .landing-panel}
 
+```{=html}
 <ul class="nav nav-pills mb-3" id="bio-tabs" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="bio-tab" data-bs-toggle="tab" data-bs-target="#bio-pane" type="button" role="tab" aria-controls="bio-pane" aria-selected="true">Biography</button>
@@ -52,18 +53,14 @@ listing:
     <button class="nav-link" id="interests-tab" data-bs-toggle="tab" data-bs-target="#interests-pane" type="button" role="tab" aria-controls="interests-pane" aria-selected="false">Interests</button>
   </li>
 </ul>
-
 <div class="tab-content" id="bio-tabs-content">
   <div class="tab-pane fade show active" id="bio-pane" role="tabpanel" aria-labelledby="bio-tab" tabindex="0">
-    <p>I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport), where I build open tools and reproducible workflows for evidence-based transport planning.</p>
-    
-    <p>I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](/posts/). If you would like to collaborate, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).</p>
-    
+    <p>I am a <a href="https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace">Professor of Transport Data Science</a> at the <a href="https://www.leeds.ac.uk/">University of Leeds</a> <a href="https://environment.leeds.ac.uk/transport">Institute for Transport Studies</a>, where I build open tools and reproducible workflows for evidence-based transport planning.</p>
+    <p>I share code, methods, and writing on <a href="https://github.com/robinlovelace">GitHub</a> and in the <a href="./posts/">posts section</a>. If you would like to collaborate, feel free to <a href="mailto:r.lovelace@leeds.ac.uk">email me</a>.</p>
     <div class="mt-3">
-      [Current projects](/projects/){.btn .btn-primary .me-2} [Publications](/publications/){.btn .btn-outline-secondary}
+      <a href="./projects/" class="btn btn-primary me-2">Current projects</a> <a href="./publications/" class="btn btn-outline-secondary">Publications</a>
     </div>
   </div>
-  
   <div class="tab-pane fade" id="experience-pane" role="tabpanel" aria-labelledby="experience-tab" tabindex="0">
     <ul class="timeline-list list-unstyled ps-1 pt-2">
       <li class="mb-3">
@@ -100,7 +97,6 @@ listing:
       </li>
     </ul>
   </div>
-  
   <div class="tab-pane fade" id="education-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
     <ul class="timeline-list list-unstyled ps-1 pt-2">
       <li class="mb-3">
@@ -127,7 +123,6 @@ listing:
       </li>
     </ul>
   </div>
-  
   <div class="tab-pane fade" id="interests-pane" role="tabpanel" aria-labelledby="interests-tab" tabindex="0">
     <p class="pt-1 small text-muted">Primary research fields and software development interests:</p>
     <div class="d-flex flex-wrap gap-2 pt-1">
@@ -141,6 +136,7 @@ listing:
     </div>
   </div>
 </div>
+```
 
 :::
 
