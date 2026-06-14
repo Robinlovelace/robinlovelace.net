@@ -32,6 +32,7 @@ Incidentally, for a taster, this is how the post looks on the platform (surprisi
 
 Even the founder of Twitter, Jack Dorsey, signalled his regret about the direction of travel of the platform that he pioneered:
 
+```{=html}
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">
 
@@ -43,10 +44,11 @@ I apologize for that.
 
 </p>
 
-— jack ((**jack?**)) <a href="https://twitter.com/jack/status/1588913276980633600?ref_src=twsrc%5Etfw">November 5, 2022</a>
+— @jack <a href="https://twitter.com/jack/status/1588913276980633600?ref_src=twsrc%5Etfw">November 5, 2022</a>
 
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 
 These statements and associated events create two broad reasons to explore alternatives for people like me who like to share my views and engage in open and hopefully civil communications:
 
@@ -62,7 +64,7 @@ It has more than 30k stars on GitHub: much loved by users and developers alike.
 <img src="https://img.shields.io/github/stars/mastodon/mastodon?style=social" alt="GitHub Repo stars"/>
 
 Furthermore, [\#Mastodon](https://twitter.com/search?q=%23Mastodon&src=typeahead_click) is trending on Twitter itself, signalling a group dynamic element.
-Many of the people I rate and follow on Twitter are already on Mastodon, including [@underdarkGIS](https://fosstodon.org/@underdarkGIS), [@djnavarro](https://fosstodon.org/@djnavarro) and [@UrbanDemog](https://toot.community/@UrbanDemog).
+Many of the people I rate and follow on Twitter are already on Mastodon, including [\@underdarkGIS](https://fosstodon.org/@underdarkGIS), [\@djnavarro](https://fosstodon.org/@djnavarro) and [\@UrbanDemog](https://toot.community/@UrbanDemog).
 
 Fun theory on this: Elon Musk is genuinely committed to creating a more open world.
 But his approach to achieving it is not to “‘Open Source’ Twitter’s Algorithms” as stated in a [Bloomberg article](https://www.bloomberg.com/news/articles/2022-04-28/why-musk-wants-to-open-source-twitter-s-algorithms-quicktake?leadSource=uverify%20wall) earlier this year, but to deliberately sabotage proprietary platforms so that open source alternatives flourish.
@@ -146,6 +148,7 @@ The two versions of the message below show that Masterdon toots are very similar
 
 vs..
 
+```{=html}
 <blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">
 
@@ -156,10 +159,11 @@ Hope so, more soon!
 
 </p>
 
-— Robin Lovelace ((**robinlovelace?**)) <a href="https://twitter.com/robinlovelace/status/1589010753633325062?ref_src=twsrc%5Etfw">November 5, 2022</a>
+— @robinlovelace <a href="https://twitter.com/robinlovelace/status/1589010753633325062?ref_src=twsrc%5Etfw">November 5, 2022</a>
 
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 
 Even if Twitter does become the MySpace of the 2020s, it is unlikely to happen over night.
 And the platform has many great people, despite some of the recent changes outlined above.
