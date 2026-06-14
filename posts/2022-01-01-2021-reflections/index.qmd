@@ -22,7 +22,9 @@ One of the most rewarding papers, however, was on that I authored solo.
 In it, I review 25 open source tools for geographic analysis in transport planning and discuss the future potential of open source software for guiding effective policy interventions.
 The paper has received some attention online, as can be seen in the Tweet below, and not just from the academic research community: experienced transport modeller Tom Van Vuren, for example, picked-up on the paper and we hope to take the conversation about uptake of open and transparent software for transport modelling forward in 2022.
 
+```{=html}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Stoked to announce that the new <a href="https://twitter.com/hashtag/openaccess?src=hash&amp;ref_src=twsrc%5Etfw">#openaccess</a> paper &quot;Open source tools for geographic analysis in transport planning&quot; has just been published 🎉<br><br>Paper: <a href="https://t.co/kZy2kkyjDy">https://t.co/kZy2kkyjDy</a><br>Code: <a href="https://t.co/yOFtKbBbYc">https://t.co/yOFtKbBbYc</a><br>My first ever solo-authored paper! <a href="https://t.co/3fHSbP0UTG">pic.twitter.com/3fHSbP0UTG</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1351477455203299328?ref_src=twsrc%5Etfw">January 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+```
 
 I also hope to do more research that is policy relevant, leading to the next topic in my reflections on the year just gone by.
 
@@ -30,7 +32,9 @@ I also hope to do more research that is policy relevant, leading to the next top
 
 An exciting new project started for me in 2021, as I was awarded an 18 month '10DS Fellowship' to help central government make better use data science to support evidence-based decision-making.
 
+```{=html}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Really excited about this: for the next ~18 months I will be working with the <a href="https://twitter.com/10DowningStreet?ref_src=twsrc%5Etfw">@10DowningStreet</a> Data Science team, <a href="https://twitter.com/DataSciCampus?ref_src=twsrc%5Etfw">@DataSciCampus</a>, <a href="https://twitter.com/ESRC?ref_src=twsrc%5Etfw">@ESRC</a> and others on the new 10DS Fellowship. Looking forward to working with Federico, Alex and everyone on data science in government 🚀 <a href="https://t.co/h7skJ0rbwA">https://t.co/h7skJ0rbwA</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1461294156626726914?ref_src=twsrc%5Etfw">November 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+```
 
 The responses replying to that tweet from acquaintances working in related fields, plus emails from colleagues at the University of Leeds, provide a strong motivation to work hard to move things forward.
 New methods and datasets have great potential to be harnessed to help tackle entrenched challenges in the 21^st^ century.
@@ -46,7 +50,9 @@ I hope to document lessons learned from the experience in articles for the organ
 In addition to research published in academic papers, I have also worked hard on software development and teaching materials.
 I was amazed and slightly humbled to hear that `stplanr`, an R package I developed to support strategical cycle network planning in the UK, had been used in research into access to potentially life-saving TB clinics in Malawi.
 
+```{=html}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When a tool first built for one purpose (cycle network planning in Europe) gets used for something totally different (calculating distance to tuberculosis clinics in Africa) 🚀<br><br>Paper: <a href="https://t.co/8gaRigYXVK">https://t.co/8gaRigYXVK</a><br>Package: <a href="https://t.co/t8UC0JGjNg">https://t.co/t8UC0JGjNg</a><a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> package {stplanr} in action! <a href="https://t.co/JqBgv7CE9r">pic.twitter.com/JqBgv7CE9r</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1436253002525028362?ref_src=twsrc%5Etfw">September 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+```
 
 What better motivation could there be for developing open source software for reproducible data analysis and policy interventions?
 
@@ -58,14 +64,18 @@ In this case the project is the popular book Geocomputation with R which, alongs
 Jakub, Jannes and I have signed a contract to work on a second edition and we've made good progress, as shown below (one new year's resolution: publish the 2nd edition!).
 
 
+```{=html}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🏗️ Geocomputation with R update 🏗️ we&#39;ve recently updated key parts of Chapter 7 on the key topic of coordinate reference systems (CRSs). Updated figure below, plus lots more in the chapter, shows importance of understanding them! <a href="https://t.co/pffHqeF8YT">https://t.co/pffHqeF8YT</a> <a href="https://twitter.com/hashtag/Rstats?src=hash&amp;ref_src=twsrc%5Etfw">#Rstats</a> <a href="https://twitter.com/hashtag/rspatial?src=hash&amp;ref_src=twsrc%5Etfw">#rspatial</a> <a href="https://t.co/DVgHU5lvn1">pic.twitter.com/DVgHU5lvn1</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1476620093601812482?ref_src=twsrc%5Etfw">December 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+```
 
 ## Becoming a father
 
 The most important event in the year for me was becoming a dad.
 
 
+```{=html}
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Big personal news: <a href="https://twitter.com/katylvlace?ref_src=twsrc%5Etfw">@katylvlace</a> and I have had a baby, welcome to the world Kit 🎉 Focussed on nappies and supporting the family for the next while 💚💚💚 Parenthood is amazing, makes me more committed to research for a sustainable future 🌱 Looking forward to it all! <a href="https://t.co/sJJZNZZV04">pic.twitter.com/sJJZNZZV04</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1448594909376696322?ref_src=twsrc%5Etfw">October 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+```
 
 It has been a life-changing experience: being responsible for another (little and very cute) person has certainly shifted my perspective on the world, made me prioritise my time more carefully, and made it harder to plan.
 

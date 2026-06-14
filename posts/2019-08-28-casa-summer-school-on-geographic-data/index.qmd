@@ -20,7 +20,14 @@ A very summary of the content is shown below.
 blogdown::shortcode_html("tweet", "1166628966410719232")
 ```
 
-{{< tweet "1166628966410719232" >}}
+```{=html}
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">
+    <a href="https://twitter.com/robinlovelace/status/1166628966410719232">Link to Tweet</a>
+  </p>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 
 For more on the CASA summer school itself, see here.
 
