@@ -1,4 +1,9 @@
 /*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family: "Outfit", sans-serif !default;
+
 $navbar-bg: #ffffff !default;
 $navbar-fg: #1f2937 !default;
 $navbar-hl: #4f46e5 !default;
@@ -33,8 +38,16 @@ body {
 
 .navbar-brand,
 .navbar-nav .nav-link {
-  letter-spacing: 0.01em;
+  letter-spacing: -0.01em;
   font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #0f172a;
 }
 
 .landing-page .quarto-title-block {
@@ -80,17 +93,19 @@ body {
 
 .landing-avatar {
   width: min(100%, 160px);
-  border-radius: 0.45rem;
-  border: 1px solid #d1d5db;
+  border-radius: 50% !important;
+  border: 3px solid #eee;
   box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .landing-name {
   color: #111827;
   font-size: clamp(1.4rem, 1.5vw, 1.8rem);
   margin-bottom: 0.2rem;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: -0.02em;
 }
 
 .landing-links {
@@ -188,6 +203,9 @@ body {
 
 /* Dark Mode styling for Landing Page Panels */
 .quarto-dark {
+  h1, h2, h3, h4, h5, h6 {
+    color: #f8fafc !important;
+  }
   .landing-panel {
     background: #1e293b !important; /* slate-800 */
     border-color: rgba(71, 85, 105, 0.4) !important;
@@ -203,22 +221,17 @@ body {
     border-color: #475569 !important;
   }
   
-  /* Timeline/list item text colors for dark mode */
   .timeline-list li {
     color: #cbd5e1 !important;
   }
 }
 
-/* Custom Nav Pills for Biography Tabs */
-.nav-pills {
-  gap: 0.25rem;
-}
-
+/* Biography Tabs - Modern Tech style */
 .nav-pills .nav-link {
-  color: #4b5563;
+  color: #64748b;
   font-weight: 500;
-  border-radius: 0.5rem;
-  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  padding: 0.35rem 1rem;
   font-size: 0.9rem;
   transition: all 0.2s ease;
   background-color: transparent;
@@ -234,20 +247,93 @@ body {
 .nav-pills .nav-link.active {
   background-color: #4f46e5 !important;
   color: #ffffff !important;
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.15);
 }
 
 .quarto-dark {
   .nav-pills .nav-link {
-    color: #9ca3af;
+    color: #94a3b8;
   }
   .nav-pills .nav-link:hover {
-    color: #818cf8; /* indigo-400 */
+    color: #818cf8;
     background-color: rgba(99, 102, 241, 0.1);
     border-color: rgba(99, 102, 241, 0.2);
   }
   .nav-pills .nav-link.active {
     background-color: #6366f1 !important;
     color: #ffffff !important;
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.2);
+  }
+}
+
+/* Category Badges - Filled Tech Pills */
+.category {
+  background: rgba(79, 70, 229, 0.07) !important;
+  color: #4f46e5 !important;
+  border: none !important;
+  border-radius: 9999px !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em;
+  padding: 0.25rem 0.75rem !important;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+  display: inline-block;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.category:hover {
+  background: #4f46e5 !important;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.quarto-dark {
+  .category {
+    background: rgba(99, 102, 241, 0.15) !important;
+    color: #a5b4fc !important;
+  }
+  .category:hover {
+    background: #6366f1 !important;
+    color: #ffffff !important;
+  }
+}
+
+/* Grid Cards with Hover lift and shadows */
+.quarto-grid-item {
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03), 0 2px 4px -1px rgba(0, 0, 0, 0.02) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 20px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.04) !important;
+  border-color: rgba(79, 70, 229, 0.2) !important;
+}
+
+.quarto-grid-item .card-body {
+  padding: 1.25rem !important;
+}
+
+.quarto-grid-item .card-img-top {
+  border-top-left-radius: 11px !important;
+  border-top-right-radius: 11px !important;
+}
+
+.quarto-dark {
+  .quarto-grid-item {
+    background: #1e293b !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2) !important;
+  }
+  .quarto-grid-item:hover {
+    border-color: rgba(99, 102, 241, 0.4) !important;
+    box-shadow: 0 12px 20px -3px rgba(0, 0, 0, 0.4) !important;
   }
 }
 
