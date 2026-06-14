@@ -1,0 +1,61 @@
+---
+title: "stats19 v4.0.0: 45 Years of UK Road Crash Data, Unified"
+date: '2026-03-17'
+categories: [R, transport, road-safety]
+tags: [stats19, open-data, ropensci, road-safety]
+description: "A release that unifies 45 years of UK road crash data into a single, consistent interface"
+---
+
+The stats19 R package has been updated to version 4.0.0. The main change is a unified column schema that lets you work with 45 years of UK road crash data (1979 to 2024) without running into mismatched column names.
+
+
+
+## Unified schema
+
+Older data files have columns like `carriageway_hazards_historic` while newer ones use `carriageway_hazards`. v4.0.0 detects these variants, merges them into the modern names, and drops the redundant columns.
+
+```r
+library(stats19)
+crashes = get_stats19(year = 1979:2024, type = "crashes")
+```
+
+## Parsing fixes
+
+`read_stats19()` now builds a custom parser from the CSV header, which removes the warnings about unmatched columns that appeared in previous versions. We also fixed a bug where 2024 latitude and longitude values were truncated to integers.
+
+## Missing values
+
+Codes like `-1`, "Code deprecated", and "Data missing or out of range" are now standardised to `NA` during formatting, so `is.na()` works consistently.
+
+## Performance
+
+The package now uses readr Edition 2 by default, which supports multi-threaded parsing. Loading large files is noticeably faster.
+
+## New functions
+
+- `match_tag()` joins government TAG cost estimates (RAS4001) to collision data
+- `clean_make()`, `clean_model()`, and `clean_make_model()` standardise the 2,400+ raw strings in the vehicle dataset
+
+## Multi-year downloads
+
+Year ranges now download bulk historic files once and filter efficiently. The 1979 file is also handled correctly (it used to be returned as a catch-all for any older year).
+
+## Feedback wanted
+
+We plan to submit to CRAN soon. Please install, test, and report any issues:
+
+```r
+pak::pak("ropensci/stats19")
+```
+
+Issues: [github.com/ropensci/stats19/issues](https://github.com/ropensci/stats19/issues)
+
+## Acknowledgements
+
+Contributions from David Ranzolin and Adam Sparks (rOpenSci review), Malcolm Morgan, Layik Hama, and Blaise Kelly. Funding from the RAC Foundation.
+
+## Links
+
+- [GitHub](https://github.com/ropensci/stats19)
+- [Documentation](https://docs.ropensci.org/stats19/)
+- [Changelog](https://github.com/ropensci/stats19/blob/main/NEWS.md)

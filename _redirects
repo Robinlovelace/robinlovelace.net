@@ -1,5 +1,19 @@
 /event/* /events/:splat 301
 /publication/* /publications/:splat 301
+/post/* /posts/:splat 301
+
+# Direct /post/* redirects (old Hugo root paths -> new Quarto date-based paths)
+/post/copenhagenize/ /posts/2025-04-03-copenhagenize/ 301
+/post/2024-retrospective/ /posts/2025-01-03-2024-retrospective/ 301
+/post/professorship/ /posts/2024-07-23-professorship/ 301
+/post/tartu2024/ /posts/2024-06-15-tartu2024/ 301
+/post/mastodon/ /posts/2022-11-05-mastodon/ 301
+/post/new-year-reflections/ /posts/2023-12-31-new-year-reflections/ 301
+/post/stats19-v4/ /posts/2026-03-17-stats19-v4/ 301
+/post/open-access-events/ /posts/2021-12-03-open-access-events/ 301
+/post/cycleways-se-leeds/ /posts/2021-04-11-cycleways-in-south-and-east-leeds-a-photoblog/ 301
+/post/2021-reflections/ /posts/2022-01-01-2021-reflections/ 301
+/post/2022-reflections/ /posts/2022-12-30-2022-reflections/ 301
 
 # Sample migration compatibility redirects (old-site -> new-site)
 /old-site/post/copenhagenize/ /posts/2025-04-03-copenhagenize/ 301

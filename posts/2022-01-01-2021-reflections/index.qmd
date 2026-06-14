@@ -1,23 +1,93 @@
 ---
-title: "Reflections on 2021"
-date: 2022-01-01
-categories: [news]
+title: "Reflections on 2021 🎇"
+date: '2022-01-01'
+categories: [life]
 tags: [fatherhood, optimism]
-description: "Thoughts on the year gone by and the years ahead"
+description: "Thoughts the year gone by and the years ahead"
 ---
 
-It's been another crazy year for many people with lifestyles still disrupted by COVID. But it's been an amazing year for me and my family.
+It's been another crazy year for many people with lifestyles still disrupted by COVID, huge advances, setbacks and challenges faced collectively by people worldwide.
 
-## Highlights
+It has been an amazing year for me and my family.
+Before the hectic rush (and sometimes grind) of daily working life returns, I wanted to put together a few thoughts on things that happened in 2021 and hopes for 2022 and beyond.
 
-- **First solo-authored paper**: Published "Open source tools for geographic analysis in transport planning" in the Journal of Geographical Systems
-- **10DS Fellowship**: Awarded an 18 month fellowship to work with the No. 10 Data Science team
-- **Became a dad**: The most rewarding event of my life!
+Long story short, it involved various academic and practical accomplishments plus the most rewarding event of my life so far, becoming a dad (skip to the end for more on that)!
 
-## Academic output
+## First solo authored paper
 
-5 peer-reviewed papers in 2021, including solo-authored work on open source transport planning tools.
+Collaborating with others is one of the most rewarding parts of academic research.
+I have published over two dozen papers with many people over the years, and 5 fully peer reviewed papers in 2021, which can be seen on [my website](https://www.robinlovelace.net/publication/) and [here](https://scholar.google.com/citations?hl=en&user=xDJHVCAAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate).
 
-## Looking ahead to 2022
+One of the most rewarding papers, however, was on that I authored solo.
+In it, I review 25 open source tools for geographic analysis in transport planning and discuss the future potential of open source software for guiding effective policy interventions.
+The paper has received some attention online, as can be seen in the Tweet below, and not just from the academic research community: experienced transport modeller Tom Van Vuren, for example, picked-up on the paper and we hope to take the conversation about uptake of open and transparent software for transport modelling forward in 2022.
 
-More policy-relevant research, continuing the 10DS fellowship work, and enjoying fatherhood!
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Stoked to announce that the new <a href="https://twitter.com/hashtag/openaccess?src=hash&amp;ref_src=twsrc%5Etfw">#openaccess</a> paper &quot;Open source tools for geographic analysis in transport planning&quot; has just been published 🎉<br><br>Paper: <a href="https://t.co/kZy2kkyjDy">https://t.co/kZy2kkyjDy</a><br>Code: <a href="https://t.co/yOFtKbBbYc">https://t.co/yOFtKbBbYc</a><br>My first ever solo-authored paper! <a href="https://t.co/3fHSbP0UTG">pic.twitter.com/3fHSbP0UTG</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1351477455203299328?ref_src=twsrc%5Etfw">January 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+I also hope to do more research that is policy relevant, leading to the next topic in my reflections on the year just gone by.
+
+## New fellowship: placement in the No. 10 Data Science team (10DS)
+
+An exciting new project started for me in 2021, as I was awarded an 18 month '10DS Fellowship' to help central government make better use data science to support evidence-based decision-making.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Really excited about this: for the next ~18 months I will be working with the <a href="https://twitter.com/10DowningStreet?ref_src=twsrc%5Etfw">@10DowningStreet</a> Data Science team, <a href="https://twitter.com/DataSciCampus?ref_src=twsrc%5Etfw">@DataSciCampus</a>, <a href="https://twitter.com/ESRC?ref_src=twsrc%5Etfw">@ESRC</a> and others on the new 10DS Fellowship. Looking forward to working with Federico, Alex and everyone on data science in government 🚀 <a href="https://t.co/h7skJ0rbwA">https://t.co/h7skJ0rbwA</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1461294156626726914?ref_src=twsrc%5Etfw">November 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+The responses replying to that tweet from acquaintances working in related fields, plus emails from colleagues at the University of Leeds, provide a strong motivation to work hard to move things forward.
+New methods and datasets have great potential to be harnessed to help tackle entrenched challenges in the 21^st^ century.
+I hope my background and skills will enable me to make a positive difference.
+
+Watch this space for projects that I end up working on as part of this fellowship (that can be published after clearance from No. 10).
+The placement phase of the fellowship starts in January, and it looks like there will be many exciting opportunities for high impact research.
+I hope to document lessons learned from the experience in articles for the organisations supporting the fellowship: the ESRC, ADR UK, the Alan Turing Institute (where I was also awarded a fellowship in 2021) and the ONS's Data Science Campus.
+
+## Software development
+
+
+In addition to research published in academic papers, I have also worked hard on software development and teaching materials.
+I was amazed and slightly humbled to hear that `stplanr`, an R package I developed to support strategical cycle network planning in the UK, had been used in research into access to potentially life-saving TB clinics in Malawi.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When a tool first built for one purpose (cycle network planning in Europe) gets used for something totally different (calculating distance to tuberculosis clinics in Africa) 🚀<br><br>Paper: <a href="https://t.co/8gaRigYXVK">https://t.co/8gaRigYXVK</a><br>Package: <a href="https://t.co/t8UC0JGjNg">https://t.co/t8UC0JGjNg</a><a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> package {stplanr} in action! <a href="https://t.co/JqBgv7CE9r">pic.twitter.com/JqBgv7CE9r</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1436253002525028362?ref_src=twsrc%5Etfw">September 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+What better motivation could there be for developing open source software for reproducible data analysis and policy interventions?
+
+## Geocomputation with R Second Edition
+
+Perhaps less exciting than starting new projects is 'finishing' existing ones.
+In this case the project is the popular book Geocomputation with R which, alongside other open source teaching materials of the type published on [bookdown.org](https://bookdown.org/), helps reduce financial barriers to accessing textbooks by providing teaching content that anyone can read.
+
+Jakub, Jannes and I have signed a contract to work on a second edition and we've made good progress, as shown below (one new year's resolution: publish the 2nd edition!).
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🏗️ Geocomputation with R update 🏗️ we&#39;ve recently updated key parts of Chapter 7 on the key topic of coordinate reference systems (CRSs). Updated figure below, plus lots more in the chapter, shows importance of understanding them! <a href="https://t.co/pffHqeF8YT">https://t.co/pffHqeF8YT</a> <a href="https://twitter.com/hashtag/Rstats?src=hash&amp;ref_src=twsrc%5Etfw">#Rstats</a> <a href="https://twitter.com/hashtag/rspatial?src=hash&amp;ref_src=twsrc%5Etfw">#rspatial</a> <a href="https://t.co/DVgHU5lvn1">pic.twitter.com/DVgHU5lvn1</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1476620093601812482?ref_src=twsrc%5Etfw">December 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+## Becoming a father
+
+The most important event in the year for me was becoming a dad.
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Big personal news: <a href="https://twitter.com/katylvlace?ref_src=twsrc%5Etfw">@katylvlace</a> and I have had a baby, welcome to the world Kit 🎉 Focussed on nappies and supporting the family for the next while 💚💚💚 Parenthood is amazing, makes me more committed to research for a sustainable future 🌱 Looking forward to it all! <a href="https://t.co/sJJZNZZV04">pic.twitter.com/sJJZNZZV04</a></p>&mdash; Robin Lovelace (@robinlovelace) <a href="https://twitter.com/robinlovelace/status/1448594909376696322?ref_src=twsrc%5Etfw">October 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+It has been a life-changing experience: being responsible for another (little and very cute) person has certainly shifted my perspective on the world, made me prioritise my time more carefully, and made it harder to plan.
+
+My wife Katy and I have worked closely as a team and, despite talk of the '[baby bomb](https://www.goodreads.com/en/book/show/54670274-baby-bomb)' impacting our relationship, little Kit has brought us closer together ♥
+
+Despite inevitable challenges, it's been the most rewarding thing we've done so far, and we're only 3 months in!
+Having a little one around encourages long-term thinking, and Kit has strengthened my commitment to research supporting a more sustainable world.
+
+## Just look up ☄
+
+Having a baby around on New Year's Eve, plus the fact that we start the new year in the midst of a pandemic, led to scaled-back plans to celebrate the arrival of 2022.
+To celebrate, Katy and I watched Don't Look Up, a sci-film satirising so-far sluggish policy responses to threats identified thanks to scientific research, such as climate change.
+
+Having heard great things about it from friends talking about it and seeing positive and provoking comments on social media, with the hashtag [#DontLookUp☄](https://twitter.com/hashtag/DontLookUp), we decided to watch it as part of our NYE celebrations.
+The film contains the humorous yet inspiring song below by Ariana Grande.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wFeZ2EOc8KY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Never thought I would hear these lyrics in a catchy pop song in 2021:
+
+> Get your head out of your ass, listen to the goddam qualified scientists
+
+So I'm prepared for anything in the coming year.
+Optimistic that with hard work, our collective intelligence, empathy, and desire to collaborate on solving tricky problems will prevail.
+Bring on 2022!
