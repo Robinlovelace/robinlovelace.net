@@ -1,20 +1,190 @@
 ---
 title: "Six great things about UseR! 2019"
-date: 2019-07-13
-categories: [event]
-tags: [R, conference, toulouse]
-description: "Highlights from UseR! 2019 conference in Toulouse"
+date: '2019-07-13'
+categories: [r, conferences]
+tags: [toulouse, conference]
 ---
 
-UseR! is the most popular annual meeting for R enthusiasts. UseR! 2019 was held in Toulouse, France.
+UseR! is the highest profile and, I believe, most popular annual meeting for R enthusiasts, known affectionately as ‘UseRs’ for the purposes of the event.
+For those who have been living under a stone for the past decade ;) R is an open source statistical programming language that has seen explosive growth since ‘data science’ became a buzzword.
+Although I’ve been using R for around a decade, and heavily for around five years, [UseR! 2019](http://user2019.r-project.org/) was the first UseR! I attended.
+I went with some preconceptions: I thought it would be like previous R events that I had attended, including the European R Users Meeting (ERUM) and SatRdays, but bigger.
+That was true, but it was bigger and better, exceeding my expectations in many ways.
 
-## Key highlights
+![](https://user2019.r-project.org/static/img/useR2019.png)
 
-1. **Community**: Huge, friendly community of R users
-2. **Tutorials**: Excellent workshops on topics from Shiny to tidyverse
-3. **Keynotes**: Inspiring talks from RStudio and academia
-4. **Networking**: Met people from diverse backgrounds
-5. **Packages**: Saw the latest developments in R packages
-6. **Location**: Toulouse was a great host city
+Despite only seeing part of it (I missed the tutorials on the Tuesday and the latter part of the final day on Friday), I learned many things from it.
+Inspired by the ‘useR aftRglow’, I wrote some of these down on the train journey back home.
+The result is this article.
 
-It was my first UseR! conference and definitely won't be the last.
+The [organising committee of User! 2019](http://user2019.r-project.org/organization/) (hats off to you for an amazing event) has lessons for anyone thinking of putting on a successful event for research, software development, or anything aiming to encourage a friendly symposium vibe.
+Here are the top six things that made User! 2019 great from my perspective.
+
+# 1. Diverse formats
+
+Sometimes going to events, and especially academic conferences (mentioning no names `*cough*` take note organisers of [AAAG](https://annualmeeting.aag.org/)/[RGS-IBG](https://www.rgs.org/research/annual-international-conference/) and other events with many presentation sessions), can feel undergoing [death by PowerPoint](https://www.bbc.co.uk/news/technology-35038429).
+A very slow, boring death.
+
+UseR! was different.
+Aside from the fact that many of presenters wouldn’t *be seen dead* in front of PowerPoint slides, preferring instead more reproducible and flexible formats enabled by packages such as [`xaringan`](https://slides.yihui.name/xaringan/) and `ioslides`, the diversity of formats and quality of the talks kept me on my toes in every session I attended.
+
+The organisers had clearly given some thought to tackle this issue.
+Instead of having only a couple of talk types (e.g. 15 minute presentation, 1 hour keynote) a range of formats were supported, including:
+
+- Morning/afternoon tutorials, which took place on the Tuesday, allowing people to learn in depth about new methods/packages/approaches.
+- A ‘tidyverse development’ day, which apparently involved physically taking issues and working on them in parallel, with a gong struck for every Pull Request accepted (this makes me wonder if the same technique can be used in other software ecosystems).
+- Poster sessions, perhaps not an innovative thing in its own right, but at UseR! the poster showing session was preceded by Lightning Talks of ~1 minute each, so participants could identify which posters they would most like to visit.
+- Lightning talk sessions, where participants had 5 minutes to convey the core message of their research.
+  These sessions were organised in themes and I chaired ‘Applications and Methods’ session, which contained some fascinating work.
+
+There were still plenty of standard presentation sessions, but even in those sessions, the diversity kept things engaging.
+Colin Gillespie went into stand-up comedy mode to deliver a vital message: that simple changes can improve the security of computer systems using R.
+[Mine Çetinkaya-Rundel](https://en.wikipedia.org/wiki/Mine_%C3%87etinkaya-Rundel) used the metaphor of cooking to highlight the importance of digital learning environments for effective classrooms: would you rather cook in a unfinished kitchen or a complete one?
+Use of a stable, in browser interface, as shown in the [Data Science in a Box](https://twitter.com/minebocek/status/1148904275550121984) project, can overcome the barrier of software installation to research, with clear implications for organisations: get a working instance of RStudio Server.
+
+Even the Keynotes were diverse, as can be seen from the [UseR website](http://user2019.r-project.org/program/).
+There wasn’t just one central ‘keynote speaker’ at the event but 6, half of whom were women, and with representatives from commercial, academic and [non-profit](http://user2019.r-project.org/program/#julien) organsiations.
+The diversity of topics they covered was also impressive.
+They ranged from Bettina Grün’s highly technical yet accessible keynote on new models and packages for clustering data to Joe Cheng’s talk on [shinymeta](https://github.com/rstudio/shinymeta).
+It was roller coaster ride to the publication of this just open-sourced package, which enables shiny apps to generate scripts underlying the dynamic results.
+This could enable step change in the level of reproducibility of interactive web applications (vested interest: I’m the lead developer of the large shiny application, the [Propensity to Cycle Tool](http://www.pct.bike/) that would benefit from being more reproducible).
+
+All of the keynote speeches are available on YouTube, as disseminated in the Tweet below:
+
+{{% tweet "1150115187430760448" %}}
+
+# 2. Worldwide dissemination
+
+Not everyone has the time, energy or money to go to UseR!.
+Some ‘[no fly pioneers](https://www.theguardian.com/travel/2019/may/22/could-you-give-up-flying-meet-the-no-plane-pioneers)’ have given up flying to support global efforts to tackle the climate crisis.
+I was very impressed to see acknowledgement of the conference’s climate impacts, with a form used to help calculate its carbon impact.
+
+Whatever the reason, it is certain that the contents of UseR! will be of great interest to many more people than the ~2000 people who attended in person.
+By recording and (eventually) releasing the videos of the talk, a much larger audience, into the millions, can be reached, as highlighted on the [website](http://user2019.r-project.org/):
+
+> All talks will be recorded and all keynote sessions will be live streamed. Everything will be made available on <a href="https://www.youtube.com/channel/UC_R5smHVXRYGhZYDJsnXTwg" target="_blank">R Consortium YouTube channel</a>. Thanks to R Consortium for supporting that initiative.
+
+Also, UseRs are excellent communicators, as can be seen from a quick glance at the buzzing [\#UseR2019 hashtag](https://twitter.com/hashtag/user2019?lang=en-gb), three of which are shown below.
+
+{{% tweet "1149790615963615232" %}}
+{{% tweet "1149651592884285441" %}}
+
+The increasing proportion of content now available online, nearing 100% notwithstanding socials, raises the prospect of making future conferences more environmentally sustainable by encouraging remote participation.
+This could model the 2019 [Stay Grounded conference in Barcelona](https://stay-grounded.org/conference/), which was a “flight free conference”.
+I discussed the idea of having a single host location with Martin Maechler on the train journey home.
+This could involve the local organisers and people living nearby attending in person, and then allowing others to attend remotely via live streaming, perhaps in national ‘conference hubs’.
+
+# 3. Relaxed atmosphere
+
+Another great thing about UseR! 2019 was less objective but equally important: the social atmosphere.
+The most reason why it had such a good vibe, I guess, was the attendees: in my experience R users, and people involved in the open source community in general, tend to friendly, humble and team-orientated.
+Of course, this is how conferences should be.
+Many are, but I couldn’t help notice a contrast between the humility of the ‘big names’ in the R community and the sense of self importance that some high profile academics have in some disciplines.
+
+UseRs seem to have a great sense of humour and don’t take themselves too seriously, which contributed to a friendly, inviting and non-hierarchical atmosphere.
+This friendliness is self organising, but is also built into the constitution of UseR! in its [Code of Conduct](http://user2019.r-project.org/coc/).
+Take note future conference organisers: it’s easy to add a CoC and +s of doing so could be great.
+
+The final reason for the relaxed atmosphere I noticed was more objective: all the equipment worked well, session chairs were well briefed on what they needed to and when, there were floating mics to allow clear questions from the audience, and the rooms were large enough such that at no point did I feel crammed into a session.
+Furthermore, the arrangement and audio system of the rooms made it feel easy to change session, in case there were two talks in parallel sessions you really wanted to see.
+Again, hats off to the organisers: it was VERY well organised.
+
+# 4. The host city of Toulouse
+
+I liked the host city but, due to recent University of Leeds regulations blocking AirBnB, I had to change accommodation plans at late notice.
+This involved a ~3km trek out to the West of the city.
+Instead of spending 2 hours each day walking there and back, I decided to hire a bike.
+To my surprise, the system just worked: I typed in some details in the nearest bike hire station I could find and had my own wheels for the week (which looked like those in the photo below).
+All for the bargain price of €5 for the week!
+
+![](https://images.ladepeche.fr/api/v1/images/view/5c34e8ca8fe56f09063e1f8f/large/image.jpg)<!-- -->
+
+<!-- <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BtvyxGfIf9L/" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BtvyxGfIf9L/" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BtvyxGfIf9L/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Commencez la semaine avec VélÔToulouse pour faciliter vos trajets ! 😎 🚲 #velotoulouse #toulousemaville #bikelife #toulouse Belle semaine à tous ☀️ Thank you @viktoriia_naumi for your picture 🙂</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/velotoulouse31000/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> VélÔToulouse Officiel</a> (@velotoulouse31000) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-02-11T15:36:54+00:00">Feb 11, 2019 at 7:36am PST</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script> -->
+
+I managed to find time to go running on two of the mornings, making me realise how car-dominated Toulouse, like many other cities, is.
+The car dominated nature of the city is shown in the images below, which show my running route that dodged giant roads, and a photo of one of the main roads, which was not particularly friendly to people walking and cycling to say the least!
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/97888609@N02/48247285282/in/photostream/" title="Screenshot_2019-07-10-06-53-00-088_net.osmand.plus"><img src="https://live.staticflickr.com/65535/48247285282_21b35c313b_c.jpg" width="400" height="800" alt="Screenshot_2019-07-10-06-53-00-088_net.osmand.plus"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/97888609@N02/48247197386/in/photostream/" title="IMG_20190710_063516"><img src="https://live.staticflickr.com/65535/48247197386_391eb748b5_c.jpg" width="800" height="600" alt="IMG_20190710_063516"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+Despite the car traffic, the cycleways in Toulouse were great.
+I recommend anyone visiting a city for a few days to get a bike, a great way to see the city close up, and get from A to B efficiently, avoiding traffic congestion and with the freedom to get off the beaten (road) track.
+For fun, I recorded some of my routes in Toulouse and uploaded them to OSM, the free and open access community made global mapping database (which I fully endorse over Google Maps ;), allowing reproducible code to show my everyday trip to the conference and back (not evaluated).
+
+``` r
+download.file("https://www.openstreetmap.org/trace/3046619/data", "track1.gpx")
+sf::st_layers("track1.gpx")
+track = sf::read_sf("track1.gpx", layer = "tracks")
+mapview::mapview(track)
+```
+
+Doing this route each day was a great way to clear my head and prepare for my talk on Wednesday morning.
+
+# 5. UseR! 2019 socials
+
+I’ve often heard that the most valuable parts of conferences take place outside the formal sessions and there were ample opportunities for this to happen at UseR! 2019, with plentiful coffee breaks (and plentiful coffee!) and a range of fringe events and social events on a spectrum from the official Gala Dinner to spontaneous social trips to explore the night life in Toulouse.
+The Gala Dinner was frankly amazing: it’s not everyday that you get to explore and inter nation space station and listen to Flamenco music in the same evening (the photos and video below prove it is possible)!
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/97888609@N02/48256753957/in/photostream/" title="PANO_20190710_203925.jpg"><img src="https://live.staticflickr.com/65535/48256753957_e76846ea55_c.jpg" width="800" height="356" alt="PANO_20190710_203925.jpg"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/97888609@N02/48256682626/in/album-72157709543796761/" title="IMG_20190710_201757"><img src="https://live.staticflickr.com/65535/48256682626_35e1995fdb_c.jpg" width="800" height="600" alt="IMG_20190710_201757"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/97888609@N02/48256686546/in/photostream/" title="VID_20190710_202540"><img src="https://live.staticflickr.com/31337/48256686546_9048fc1278_h.jpg" width="1600" height="900" alt="VID_20190710_202540"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+# 6. Meeting collaborators and online acquaintances
+
+The event was a great opportunity to catch up with R collaborators.
+Jakub Nowosad and I did some important thinking on our [*Geocomputation with R*](https://geocompr.robinlovelace.net/) open source book ([see the slides from Jakub’s talk here](https://geocompr.github.io/user_19/presentation/#1)), and a photo taken just before the talk below.
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/97888609@N02/48272563561/" title="IMG_20190712_110533"><img src="https://live.staticflickr.com/65535/48272563561_d2e9a5654b_c.jpg" width="800" height="600" alt="IMG_20190712_110533"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+I finally managed to persuade Colin Gillespie that we need to update our open source book [*Efficient R Programming*](https://csgillespie.github.io/efficientR/).
+Watch this space…
+
+I met many people whose work I’ve seen online but never had the pleasure of meeting in person, including Timothée Giraud (author of [osrm](https://github.com/rCarto/osrm) and many other excellent geo\* packages), Enrico Spinielli (who is pushing the boundaries of 3d trajectory analysis in R with packages such as [trjjj](https://github.com/euctrl-pru/trrrj)) and Angela Li (who is pushing [\#rspatial](https://twitter.com/hashtag/rspatial) to new levels on the other side of the Atlantic).
+
+And of course there was much serendipity.
+I had the honour of meeting many of my R heroes, who were all fun and friendly, demonstrating that it is possible to be high flying while humble.
+On the train back I sat next R Core Team member Martin Meachler, and learned about the messages emitted every time packages such as `stplanr`, which depend on packages that use `R.oo`, are loaded:
+
+``` r
+library(stplanr)
+```
+
+We got on so well we decided to walk through part of Paris where we both had to change trains as shown below:
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/97888609@N02/48272643002/in/photostream/" title="IMG_20190712_171219"><img src="https://live.staticflickr.com/65535/48272643002_bda5773a2a_c.jpg" width="800" height="600" alt="IMG_20190712_171219"></a>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+# My talk
+
+My talk was part of a session entitled ‘Movement & transport’, that contained the following talks:
+
+| Session              | Speaker                | Title                                               | link                                                                               |
+|:---------------------|:-----------------------|:----------------------------------------------------|:-----------------------------------------------------------------------------------|
+| Movement & transport | Rocio Joo              | Navigating through the R packages for movement      | http://www.user2019.fr/static/pres/t258615.pdf                                     |
+| Movement & transport | Mohammad Mehdi Moradi  | Classes, methods and data analysis for trajectories | http://www.user2019.fr/static/pres/t251784.pdf                                     |
+| Movement & transport | Christine Thomas-Agnan | Modelling spatial flows with R                      | http://www.user2019.fr/static/pres/t256726.pdf                                     |
+| Movement & transport | Robin Lovelace         | R for Transport Planning                            | https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html |
+
+I won’t go into the details of my talk because you can see the [slides for yourself at the URL](https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html#1).
+However, it raised many questions and makes me wonder if it’s worth creating an ‘r-transport’ type organisation.
+Another question, that I didn’t get to answer, is where should reproducible transport questions go, now that my attempts to create a ‘Transport Planning’ StackExchange site seemed to have failed, as shown in the slide below : ( Any ideas on that, welcome : )
+
+<iframe src="https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html#28" width="672" height="400px" data-external="1">
+</iframe>
+
+# Conclusion
+
+<!-- The only negative part of the conference for me was that it felt too short. -->
+<!-- That's partly my own fault for  attend fewer conference but give them 100%, rather than attending many and feeling pressed for time. -->
+<!-- "Quality over quantity" should be guiding principle of conference attendance I've decided. -->
+
+Overall, UseR! 2019 was a fun, enlightening and inspiring event, and I hope to attend future UseRs, in person or remotely.
+I wish more conferences were like this.
+This small write up is designed as a reminder to my future self, and anyone else reading, to remember how good conferences *can be*.
+The example set by this outstanding conference provides some pointers in that direction.
