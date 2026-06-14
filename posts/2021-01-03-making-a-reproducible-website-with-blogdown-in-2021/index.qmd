@@ -1,15 +1,16 @@
 ---
 title: "Making a reproducible website with blogdown in 2021"
-date: 2021-01-03
-categories: [news]
-tags: [R, blogdown]
-description: "How I set up this site using Hugo and R"
+date: '2021-01-03'
+categories: [R]
 ---
 
-For people interested in how I set this site up, see the changes tracked on GitHub to transition to the new site: https://github.com/rbind/robinlovelace/pull/5
+## Making websites with Hugo and R
 
-This site was built using blogdown and Hugo. The key benefits are:
-- Fully reproducible
-- Version controlled
-- Free hosting on Netlify/GitHub Pages
-- R Markdown support
+For people interested in how I set this site, see the changes tracked on GitHub to transition to the new site here: https://github.com/rbind/robinlovelace/pull/5
+
+Useful things I found along the way:
+
+```bash
+pip3 install -U academic
+academic import --bibtex assets/bibs/my-publications.bib
+```
