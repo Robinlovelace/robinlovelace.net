@@ -1,6 +1,9 @@
 ---
 title: "Mobile Tartu 2024"
 date: '2024-06-15'
+aliases:
+  - /post/tartu2024/
+  - /old-site/post/tartu2024/
 ---
 
 <!-- Mobile Tartu Conference 2024
