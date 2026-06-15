@@ -4,7 +4,9 @@ project:
   render:
     - "**/*.qmd"
     - "!old-site/**"
-  pre-render: scripts/generate_upcoming_events.py
+  pre-render:
+    - scripts/generate_upcoming_events.py
+    - python scripts/generate_publications_yml.py
   resources:
     - _redirects
 
