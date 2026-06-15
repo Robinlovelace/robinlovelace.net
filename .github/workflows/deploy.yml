@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pages"
@@ -46,6 +48,11 @@ jobs:
           name: site-files
           path: _site/
 
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
   deploy-github-pages-repo:
     needs: build
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -81,6 +88,17 @@ jobs:
 
           git commit -m "Deploy from robinlovelace.net"
           git push -f "https://x-access-token:${GH_PUBLISH_TOKEN}@github.com/Robinlovelace/robinlovelace.github.io.git" master
+
+  deploy-pages:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
 
   deploy-netlify-main:
     needs: build
