@@ -115,7 +115,7 @@ def bib_to_yml_entry(entry):
         "key": eid,
         "path": f"/publications/{slug}/",
         "title": title,
-        "date": fields.get("year", f"{year}-01-01"),
+        "date": f"{year:04d}-01-01" if year else "",
         "year": year,
         "type": TYPE_MAP.get(bib_type, "Journal Article"),
         "venue": venue,
