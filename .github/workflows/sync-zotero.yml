@@ -1,0 +1,43 @@
+name: Sync Publications from Zotero
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'  # Monthly on the 1st at 06:00 UTC (offset from citations run)
+  workflow_dispatch:
+
+# Don't run concurrent syncs
+concurrency:
+  group: zotero-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sync BibTeX from Zotero
+        id: zotero
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_USER_ID: ${{ secrets.ZOTERO_USER_ID }}
+        run: python scripts/sync_zotero.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add files/bibliography/my-citations-for-web.bib
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync publications from Zotero [skip ci]"
+            git push
+          fi
