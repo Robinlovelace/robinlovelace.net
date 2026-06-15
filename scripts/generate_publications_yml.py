@@ -1,32 +1,22 @@
 #!/usr/bin/env python3
 """
 Generate publications.yml from my-citations-for-web.bib (canonical source).
-Falls back to individual publication page frontmatter for entries not in the .bib.
+Falls back to individual publication page frontmatter for entries not in .bib.
 
-Usage:
-    python scripts/generate_publications_yml.py
-    python scripts/generate_publications_yml.py --force   # always regenerate
+No external dependencies — uses Python stdlib only.
 """
 
 import os
 import sys
-import yaml
 import re
-import glob
+import json
 from pathlib import Path
-
-try:
-    import bibtexparser
-except ImportError:
-    print("bibtexparser not installed. Install with: pip install bibtexparser")
-    sys.exit(1)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 BIB_PATH = PROJECT_ROOT / "files" / "bibliography" / "my-citations-for-web.bib"
 YML_PATH = PROJECT_ROOT / "publications" / "publications.yml"
 PUBS_DIR = PROJECT_ROOT / "publications"
 
-# Map of BibTeX entry types to publication types
 TYPE_MAP = {
     "article": "Journal Article",
     "inproceedings": "Conference Paper",
@@ -38,77 +28,160 @@ TYPE_MAP = {
     "misc": "Miscellaneous",
 }
 
-# Fields to copy directly from bib to yaml (with same name)
-DIRECT_FIELDS = ["doi", "url", "year", "abstract"]
 
-# Known individual page directories (to detect missing-from-bib entries)
-def get_existing_dirs():
-    dirs = set()
-    for entry in PUBS_DIR.iterdir():
-        if entry.is_dir() and (entry / "index.qmd").exists() and entry.name != "QA-PUBLICATIONS-2024-12-08":
-            dirs.add(entry.name)
-    return dirs
+# ── Minimal BibTeX parser (stdlib only) ──────────────────────────
 
-def slug_to_key(slug):
-    """Convert a path slug to a YAML key."""
-    return slug.replace("-", "_")
+def parse_bibtex(text):
+    """Parse BibTeX text. Returns list of dicts with keys: type, id, fields."""
+    entries = []
+    # Match @type{key,  ...  }
+    pattern = re.compile(
+        r"@(\w+)\s*\{\s*([^,]+)\s*,"  # @type{key,
+        r"((?:.|\n)*?)\}\s*",         # content...
+        re.MULTILINE
+    )
+    for m in pattern.finditer(text):
+        entry_type = m.group(1).lower()
+        entry_id = m.group(2).strip()
+        body = m.group(3)
+        fields = _parse_bib_fields(body)
+        entries.append({"type": entry_type, "id": entry_id, "fields": fields})
+    return entries
 
-def parse_bib_entry(entry):
-    """Convert a bibtexparser entry dict to a YAML publication entry."""
-    eid = entry.get("ID", "")
+
+def _parse_bib_fields(body):
+    """Parse bib field key = {value} pairs from body text."""
+    fields = {}
+    # Match:  key = {value}  or  key = "value"
+    pattern = re.compile(
+        r"(\w+)\s*=\s*"         # key =
+        r"(\{)"                 # opening brace
+        r"((?:.|\n)*?)"         # value (non-greedy)
+        r"\}"                   # closing brace
+        r"\s*,?\s*",
+        re.MULTILINE
+    )
+    for m in pattern.finditer(body):
+        key = m.group(1).lower()
+        val = m.group(3).strip()
+        # Unescape braces
+        val = val.replace("\\{", "{").replace("\\}", "}")
+        fields[key] = val
+    return fields
+
+
+def clean_bib_string(s):
+    """Remove curly braces from a bibtex string value."""
+    return s.replace("{", "").replace("}", "")
+
+
+def format_authors(author_raw):
+    """Convert 'Last, First and Last2, First2' to 'First Last, First2 Last2'."""
+    if not author_raw:
+        return ""
+    authors = []
+    for part in re.split(r"\s+and\s+", author_raw.strip()):
+        part = part.strip()
+        if "," in part:
+            bits = [p.strip() for p in part.split(",", 1)]
+            authors.append(f"{bits[1]} {bits[0]}")
+        else:
+            authors.append(part)
+    return ", ".join(authors)
+
+
+def bib_to_yml_entry(entry):
+    """Convert a parsed bib entry dict to a YAML publication entry dict."""
+    eid = entry["id"]
     slug = eid.replace("_", "-")
+    fields = entry["fields"]
 
-    key = eid  # Use bibtex key directly
-    title = entry.get("title", "").replace("{", "").replace("}", "")
-    year = int(entry.get("year", 0)) if entry.get("year") else 0
-    bib_type = entry.get("ENTRYTYPE", "misc").lower()
-    
-    # Clean author string
-    author_raw = entry.get("author", "")
-    authors = "; ".join(a for a in re.split(r"\s+and\s+", author_raw) if a) if author_raw else ""
-    if authors:
-        # Convert "Last, First and Last2, First2" to "First Last, First2 Last2"
-        formatted_authors = []
-        for a in re.split(r"\s+and\s+", author_raw):
-            parts = [p.strip() for p in a.split(",")]
-            if len(parts) >= 2:
-                formatted_authors.append(f"{parts[1]} {parts[0]}")
-            else:
-                formatted_authors.append(parts[0])
-        authors = ", ".join(formatted_authors)
+    title = clean_bib_string(fields.get("title", ""))
+    year_str = fields.get("year", "0")
+    year = int(year_str) if year_str.isdigit() else 0
+    bib_type = entry["type"]
 
-    # Build entry
-    entry_yml = {
-        "key": key,
+    authors = format_authors(fields.get("author", ""))
+
+    venue = fields.get("journal",
+                       fields.get("booktitle",
+                                   fields.get("publisher",
+                                               fields.get("school", ""))))
+    doi = fields.get("doi", "")
+    url = fields.get("url", "")
+    abstract = fields.get("abstract", "")
+
+    return {
+        "key": eid,
         "path": f"/publications/{slug}/",
         "title": title,
-        "date": entry.get("year", f"{year}-01-01"),
+        "date": fields.get("year", f"{year}-01-01"),
         "year": year,
         "type": TYPE_MAP.get(bib_type, "Journal Article"),
-        "venue": entry.get("journal", entry.get("booktitle", entry.get("publisher", ""))),
-        "doi": entry.get("doi", ""),
-        "url": entry.get("url", ""),
+        "venue": venue,
+        "doi": doi,
+        "url": url,
         "authors": authors,
-        "abstract": entry.get("abstract", ""),
+        "abstract": abstract,
+        "_slug": slug,
     }
-    return entry_yml, slug
+
+
+# ── Individual page frontmatter parser ──────────────────────────
+
+def parse_frontmatter(text):
+    """Simple YAML-like frontmatter parser. Returns dict or None."""
+    m = re.match(r"^---\n(.*?)\n(?:---|\.\.\.)", text, re.DOTALL)
+    if not m:
+        return None
+    raw = m.group(1)
+    result = {}
+    # Simple key: value parser (handles lists with - items)
+    lines = raw.split("\n")
+    current_key = None
+    current_list = None
+    for line in lines:
+        list_match = re.match(r"^\s+-\s+(.+)$", line)
+        kv_match = re.match(r"^(\w[\w-]*)\s*:\s*(.*)$", line)
+        if kv_match:
+            current_key = kv_match.group(1)
+            val = kv_match.group(2).strip()
+            if val.startswith('"') and val.endswith('"'):
+                val = val[1:-1]
+            elif val.startswith("'") and val.endswith("'"):
+                val = val[1:-1]
+            # Check if value is a list (actually starts with [)
+            if val == "" or val == "[]":
+                result[current_key] = val
+                current_list = None
+            elif val.startswith("["):
+                # Inline list
+                result[current_key] = val
+                current_list = None
+            else:
+                result[current_key] = val
+                current_list = None
+        elif list_match and current_key:
+            if current_key not in result or not isinstance(result.get(current_key), list):
+                result[current_key] = []
+            val = list_match.group(1).strip()
+            if val.startswith('"') and val.endswith('"'):
+                val = val[1:-1]
+            result[current_key].append(val)
+    return result
 
 
 def parse_individual_page(slug):
-    """Extract frontmatter from an individual publication page."""
+    """Extract frontmatter from an individual publication page. Returns dict or None."""
     qmd_path = PUBS_DIR / slug / "index.qmd"
     if not qmd_path.exists():
         return None
-    
-    content = qmd_path.read_text()
-    m = re.match(r"^---\n(.*?)\n---", content, re.DOTALL)
-    if not m:
-        return None
-    
-    fm = yaml.safe_load(m.group(1))
+
+    content = qmd_path.read_text(encoding="utf-8")
+    fm = parse_frontmatter(content)
     if not fm:
         return None
-    
+
     title = fm.get("title", "")
     date_str = str(fm.get("date", ""))
     year = int(date_str[:4]) if date_str and len(date_str) >= 4 else 0
@@ -117,11 +190,13 @@ def parse_individual_page(slug):
     pub_url = fm.get("publication-url", fm.get("url", ""))
     ctype = fm.get("citation-type-label", "")
     authors_list = fm.get("authors", [])
-    authors_str = ", ".join(authors_list) if authors_list else ""
+    if isinstance(authors_list, str):
+        authors_list = [a.strip() for a in authors_list.split(",") if a.strip()]
+    authors_str = ", ".join(authors_list) if isinstance(authors_list, list) else authors_list
     abstract = fm.get("abstract", fm.get("description", ""))
-    
+
     return {
-        "key": slug_to_key(slug),
+        "key": slug.replace("-", "_"),
         "path": f"/publications/{slug}/",
         "title": title,
         "date": date_str,
@@ -135,9 +210,65 @@ def parse_individual_page(slug):
     }
 
 
+# ── Manual YAML writer (stdlib only) ────────────────────────────
+
+def yaml_value(val, indent=0):
+    """Format a single YAML value."""
+    prefix = "  " * indent
+    if val is None or val == "":
+        return '""'
+    if isinstance(val, bool):
+        return "true" if val else "false"
+    if isinstance(val, int):
+        return str(val)
+    # String — quote if it contains special chars
+    s = str(val)
+    if any(ch in s for ch in (':', '#', '{', '}', '[', ']', ',', '&', '*', '?', '|', '-', '<', '>', '=', '!', '%', '@', '`')):
+        escaped = s.replace("\\", "\\\\").replace('"', '\\"')
+        return f'"{escaped}"'
+    if s == "" or s.startswith(" ") or s.endswith(" "):
+        escaped = s.replace("\\", "\\\\").replace('"', '\\"')
+        return f'"{escaped}"'
+    return s
+
+
+def write_yaml(entries, path):
+    """Write a list of dicts as YAML to path."""
+    lines = []
+    for entry in entries:
+        lines.append("- key: " + yaml_value(entry.get("key", "")))
+        for field in ["path", "title", "date", "year", "type", "venue", "doi", "url", "authors", "abstract"]:
+            val = entry.get(field, "")
+            # Skip empty abstract to keep file tidy
+            if field == "abstract" and not val:
+                continue
+            if field == "year":
+                lines.append(f"  {field}: {yaml_value(val, 2)}")
+            else:
+                # Check if value needs quoting
+                formatted = yaml_value(val)
+                if formatted.startswith('"') or formatted == "true" or formatted == "false":
+                    lines.append(f"  {field}: {formatted}")
+                else:
+                    lines.append(f"  {field}: {formatted}")
+        lines.append("")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+# ── Main ────────────────────────────────────────────────────────
+
+def get_existing_dirs():
+    """Get set of publication directory slugs."""
+    dirs = set()
+    for entry in PUBS_DIR.iterdir():
+        if entry.is_dir() and (entry / "index.qmd").exists() and "QA-PUBLICATIONS" not in entry.name:
+            dirs.add(entry.name)
+    return dirs
+
+
 def main():
     force = "--force" in sys.argv
-    
+
     # Check if regeneration is needed
     if not force and YML_PATH.exists():
         bib_mtime = os.path.getmtime(BIB_PATH)
@@ -145,53 +276,48 @@ def main():
         if yml_mtime > bib_mtime:
             print("publications.yml is newer than .bib file. Skipping (use --force to override).")
             return
-    
-    # Load BibTeX
+
+    # Load and parse BibTeX
     if not BIB_PATH.exists():
         print(f"Bib file not found: {BIB_PATH}")
         sys.exit(1)
-    
-    with open(BIB_PATH) as f:
-        bib = bibtexparser.loads(f.read())
-    
-    # Map existing directory slugs (normalized for comparison)
-    existing_dirs = get_existing_dirs()
-    existing_dirs_norm = {re.sub(r'[-_]', '', d): d for d in existing_dirs}
-    
-    # Track which bib entries map to existing directories
-    entries = []
-    
-    # Process each bib entry
-    for entry in bib.entries:
-        entry_yml, slug = parse_bib_entry(entry)
-        entries.append(entry_yml)
-    
-    # Find individual page directories not in bib (normalized comparison)
-    bib_slugs_norm = set()
-    for e in bib.entries:
-        s = e.get("ID", "").replace("_", "-")
-        bib_slugs_norm.add(re.sub(r'[-_]', '', s))
 
-    missing_slugs_norm = set(existing_dirs_norm.keys()) - bib_slugs_norm
-    missing_slugs = {existing_dirs_norm[k] for k in missing_slugs_norm}
+    bib_text = BIB_PATH.read_text(encoding="utf-8")
+    bib_entries = parse_bibtex(bib_text)
+
+    # Build normalized lookup
+    existing_dirs = get_existing_dirs()
+    existing_dirs_norm = {re.sub(r'[-_]', "", d): d for d in existing_dirs}
+
+    # Convert bib entries
+    entries = []
+    bib_slugs_norm = set()
+    for entry in bib_entries:
+        yml_entry = bib_to_yml_entry(entry)
+        entries.append(yml_entry)
+        bib_slugs_norm.add(re.sub(r'[-_]', "", yml_entry["_slug"]))
+
+    # Merge entries from individual pages not in bib
+    missing_norm = set(existing_dirs_norm.keys()) - bib_slugs_norm
+    missing_slugs = {existing_dirs_norm[k] for k in missing_norm}
     if missing_slugs:
-        print(f"Found {len(missing_slugs)} publication directories not in .bib (merging from page frontmatter):")
+        print(f"Found {len(missing_slugs)} publication directories not in .bib (merging):")
         for slug in sorted(missing_slugs):
-            fm_entry = parse_individual_page(slug)
-            if fm_entry:
-                entries.append(fm_entry)
-                print(f"  {slug}: {fm_entry['title'][:60]}")
+            fm = parse_individual_page(slug)
+            if fm:
+                entries.append(fm)
+                print(f"  {slug}: {fm['title'][:60]}")
             else:
                 print(f"  {slug}: (could not parse frontmatter)")
-    
-    # Sort by year descending, then title
+
+    # Sort: year desc, then title asc
     entries.sort(key=lambda e: (-e["year"], e["title"]))
-    
+
     # Write YAML
-    with open(YML_PATH, "w") as f:
-        yaml.dump(entries, f, default_flow_style=False, allow_unicode=True, width=120, sort_keys=False)
-    
-    print(f"\nGenerated publications.yml with {len(entries)} entries ({len(bib.entries)} from .bib + {len(missing_slugs)} from page frontmatter)")
+    write_yaml(entries, YML_PATH)
+
+    print(f"\nGenerated publications.yml with {len(entries)} entries "
+          f"({len(bib_entries)} from .bib + {len(missing_slugs)} from page frontmatter)")
 
 
 if __name__ == "__main__":
