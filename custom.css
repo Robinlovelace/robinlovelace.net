@@ -1,4 +1,10 @@
-/*Inline block for altmetric badges, will keep the badges in the same line*/
+/* Inline block for altmetric badges, keeps badges on the same line */
 span.__dimensions_badge_embed__, div.altmetric-embed {
   display: inline-block;
+}
+
+/* Give the footer some horizontal breathing room */
+.nav-footer {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }

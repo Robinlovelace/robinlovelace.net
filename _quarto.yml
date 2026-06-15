@@ -18,7 +18,6 @@ website:
   description: "Personal website of Robin Lovelace"
  
   navbar:
-    background: light  # You can change the background color here
     pinned: false
 
     left:
@@ -81,10 +80,7 @@ bibliography: references.bib  # Add references.bib to the root folder to enable 
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-      - styles.scss
+    theme: slate
     toc: true
     footnotes-hover: true
     code-copy: true
@@ -95,5 +91,5 @@ format:
     link-external-newwindow: true
     email-obfuscation: javascript
     link-external-filter: '^(?:http:|https:)\/robinlovelace\.net\/'
-    include-in-header: "files/includes/_academic.qmd"
+    css: custom.css
 
