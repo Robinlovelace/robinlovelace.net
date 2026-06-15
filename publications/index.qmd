@@ -30,9 +30,9 @@ Total citations as of April 2025:
 
 ### Key Papers
 
-**Lovelace, R.** (2024). Open source tools for transport planning. *Journal of Transport Geography*.
+**Lovelace, R.** (2021). Open source tools for geographic analysis in transport planning. *Journal of Geographical Systems*.
 
-**Lovelace, R.**, Goodman, A., Aldred, R., Berkoff, N., Abbas, A., & Woodcock, J.** (2017). The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning. *Environmental Planning B*.
+**Lovelace, R.**, Goodman, A., Aldred, R., Berkoff, N., Abbas, A., & Woodcock, J. (2017). The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning. *Environment and Planning B*.
 
 **Lovelace, R.**, & Dumont, S. (2016). Spatial Microsimulation with R. *CRC Press*.
 
