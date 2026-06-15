@@ -1,0 +1,15 @@
+{
+	"name": "Robin Lovelace website (Python + R + Quarto)",
+	"image": "ghcr.io/geocompx/pythonr",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"quarto.quarto",
+				"reditorsupport.r",
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"GitHub.copilot-chat"
+			]
+		}
+	}
+}
