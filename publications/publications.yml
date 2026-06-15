@@ -9,6 +9,10 @@
   url: "https://www.sciencedirect.com/science/article/pii/S0966692326000037"
   authors: "Zhao Wang, Hang Hu, Hussein Mahfouz, Juan Pablo Fonseca-Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Matthew Davis, Joseph Talbot, Robin Lovelace"
   abstract: "Zhao Wang, Hang Hu, Hussein Mahfouz, Juan Pablo Fonseca-Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Matthew Davis, Joseph Talbot, and Robin Lovelace (2026). Corenet: A flexible framework for generating and prioritising core cycle network designs. *Journal of Transport Geography*. https://doi.org/10.1016/j.jtrangeo.2026.104549"
+  citations:
+    openalex: 0
+    last_updated: "2026-06-15"
+
 
 - key: vidal_tortosa_outdoor_lighting_2026
   path: "/publications/vidal-tortosa-outdoor-lighting-2026/"
@@ -21,6 +25,10 @@
   url: "https://www.sciencedirect.com/science/article/pii/S2214140525002440"
   authors: "Eugeni Vidal-Tortosa, Eva Heinen, Jim Uttley, Demet Yesiltepe, Steve Fotios, Robin Lovelace"
   abstract: "Eugeni Vidal-Tortosa, Eva Heinen, Jim Uttley, Demet Yesiltepe, Steve Fotios, and Robin Lovelace (2026). Outdoor lighting and active travel: A high-resolution analysis using satellite imagery and strava data in glasgow. *Journal of Transport & Health*. https://doi.org/10.1016/j.jth.2025.102224"
+  citations:
+    openalex: 0
+    last_updated: "2026-06-15"
+
 
 - key: kotov_spanishoddata_2026
   path: "/publications/kotov-spanishoddata-2026/"
@@ -33,6 +41,10 @@
   url: "https://doi.org/10.1177/23998083251415040"
   authors: "Egor Kotov, Eugeni Vidal-Tortosa, Oliva G. Cantú-Ros, Javier Burrieza-Galán, Ricardo Herranz, Tania Gullón Muñoz-Repiso, Robin Lovelace"
   abstract: "We present spanishoddata, an R package that enables fast and efficient access to Spain’s open, high-resolution origin-destination human mobility datasets, derived from anonymised mobile-phone records and released by the Ministry of Transport and Sustainable Mobility. The package directly addresses challenges of data accessibility, reproducibility, and efficient processing identified in prior studies. spanishoddata automates retrieval from the official source, performs file and schema validation, and converts the data to efficient, analysis-ready formats (DuckDB and Parquet) that enable multi-month and multi-year analysis on consumer-grade hardware. The interface handles complexities associated with these datasets, enabling a wide range of people – from data science beginners to experienced practitioners with domain expertise – to start using the data with just a few lines of code. We demonstrate the utility of the package with example applications in urban transport planning, such as assessing cycling potential or understanding mobility patterns by activity type. By simplifying data access and promoting reproducible workflows, spanishoddata lowers the barrier to entry for researchers, policymakers, transport planners or anyone seeking to leverage mobility datasets."
+  citations:
+    openalex: 1
+    last_updated: "2026-06-15"
+
 
 - key: mahfouz_drt_operating_2025
   path: "/publications/mahfouz-drt-operating-2025/"
@@ -45,6 +57,10 @@
   url: "https://www.sciencedirect.com/science/article/pii/S2667091725000378"
   authors: "Hussein Mahfouz, Malcolm Morgan, Eva Heinen, Robin Lovelace"
   abstract: "Hussein Mahfouz, Malcolm Morgan, Eva Heinen, and Robin Lovelace (2025). Delineating potential DRT operating areas: An origin–destination clustering approach. *Journal of Urban Mobility*. https://doi.org/10.1016/j.urbmob.2025.100135"
+  citations:
+    openalex: 4
+    last_updated: "2026-06-15"
+
 
 - key: mahfouz_flowcluster_2025
   path: "/publications/mahfouz-flowcluster-2025/"
@@ -81,6 +97,10 @@
   url: "https://doi.org/10.1007/s12061-025-09703-0"
   authors: "Sebnem Er, Álvaro Briz-Redón, Sulaiman Salau, Robin Lovelace"
   abstract: "Sebnem Er, Álvaro Briz-Redón, Sulaiman Salau, and Robin Lovelace (2025). Modelling of traffic collisions at road intersections in cape town, south africa: A bayesian spatio-temporal approach. *Applied Spatial Analysis and Policy*. https://doi.org/10.1007/s12061-025-09703-0"
+  citations:
+    openalex: 0
+    last_updated: "2026-06-15"
+
 
 - key: felix_reproducible_2025
   path: "/publications/felix-reproducible-2025/"
@@ -93,6 +113,10 @@
   url: "https://www.sciencedirect.com/science/article/pii/S0198971524001595"
   authors: "Rosa Félix, Filipe Moura, Robin Lovelace"
   abstract: "A high proportion of car trips can be replaced by a combination of public transit and cycling for the first-and-last mile. This paper estimates the potential for cycling combined with public transit as a substitute for car trips in the Lisbon metropolitan area and assesses its socio-environmental impacts using open data and open source tools. A decision support tool that facilitates the design and development of a metropolitan cycling network was developed (biclaR). The social and environmental impacts were assessed using Health World Organization tools. The impacts of shifting car trips to public transport were also estimated and monetized. The results show that 10 % of all trips could be made by cycling in combination with public transport. Shifting to cycling for the shorter first and last mile stages can reduce annual CO2eq emissions from 3000 to 7500 tons/day, while for the public transport leg, the transfer from car avoids of up to 20,500 tons of CO2eq emissions per year. The estimated socio-environmental benefits are of €125 million to €325 million over 10 years. This evidence can support policymakers to prioritize interventions that reduce the reliance on private motor vehicles."
+  citations:
+    openalex: 9
+    last_updated: "2026-06-15"
+
 
 - key: deakin_route_network_2025
   path: "/publications/deakin-route-network-2025/"
@@ -105,6 +129,10 @@
   url: "https://doi.org/10.1177/23998083251387986"
   authors: "Will Deakin, Zhao Wang, Josiah Parry, Robin Lovelace"
   abstract: "Will Deakin, Zhao Wang, Josiah Parry, and Robin Lovelace (2025). Route network simplification for transport planning. *Environment and Planning B: Urban Analytics and City Science*. https://doi.org/10.1177/23998083251387986"
+  citations:
+    openalex: 1
+    last_updated: "2026-06-15"
+
 
 - key: tait_build_2024
   path: "/publications/tait-build-2024/"
@@ -117,6 +145,10 @@
   url: "https://www.sciencedirect.com/science/article/pii/S2214140524000045"
   authors: "Caroline Tait, Roger Beecham, Robin Lovelace, Stuart Barber"
   abstract: "Contraflow cycling on one-way streets is a safe, low cost intervention that can improve the cycling experience. The evidence of its impact on cycling participation is patchy and limited. In this paper, we use crowd-sourced data to assess the impact of introducing contraflow cycling on cycling volumes and qualitatively assess factors that are associated with impact of such infrastructure. We matched roads where contraflow cycling was introduced in London in 2018/2019 with monthly Strava Metro cycling count data before and after the intervention. We generated expected counts adjusted for changes in Strava trips, users and seasonality by examining global change in Strava counts during the study period. We used national cycle infrastructure design guidance and Google Street View to qualitatively assess the contraflow infrastructure. Twenty-eight one-way streets and fourteen two-way streets (converted to one-way streets) introduced contraflow cycling. Illegal contraflow cycling was popular on some streets pre-introduction. Three streets experienced significant increases in mean contraflow trips (260, 630 and 1750 percent) and people after introduction that were much higher than expected. Many other streets had higher counts post-intervention. Count increases were less apparent for the former two-way roads. Qualitative assessment demonstrated that local context such as connectivity, physical infrastructure and external factors (e.g. construction) were important in determining whether the intervention increased contraflow cycling. We found that contraflow cycling introduction can increase cycling participation but that local factors are important in determining volumes. Large-scale adoption of such infrastructure could significantly improve cycle routes and networks. Legislative change to make all one-way streets contraflow by default would facilitate such implementation. Further work could utilise other data sources to assess the representativeness of the Strava Metro data and confirm these findings with a more comprehensive analysis that explore multiple factors including local factors and weather conditions."
+  citations:
+    openalex: 1
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_cycle_2024
   path: "/publications/lovelace-cycle-2024/"
@@ -129,6 +161,10 @@
   url: "https://doi.org/10.1186/s12544-024-00668-8"
   authors: "Robin Lovelace, Joey Talbot, Eugeni Vidal-Tortosa, Hussein Mahfouz, Elaine Brick, Peter Wright, Gary O’Toole, Dan Brennan, Suzanne Meade"
   abstract: "This paper describes an approach for developing strategic cycle network planning tools. Based on our experience developing and deploying the Cycle Route Uptake and Scenario Estimation (CRUSE) Tool for Ireland, we outline the underlying methods, including disaggregation of origin–destination data with the open source “odjitter” software, incorporation of additional trip purposes, routing, scenario generation, and development of an intuitive user interface that is tested and used by practitioners. Commissioned by the national infrastructure agency Transport Infrastructure Ireland, CRUSE provides estimates of current and potential future cycling levels under “snapshot” scenarios to inform investment decisions. The publicly available results at https://cruse.bike/enable planners, engineers, and other stakeholders to make more evidence-based decisions. CRUSE goes beyond previous work by: modeling networks at high spatial resolution; simulating multiple trip purposes (social, shopping, personal utility, recreational, and cycle touring), supplementing official origin–destination datasets on travel for work and education; and providing estimates of “quietness” (a proxy for cyclist comfort and route preference) at the route segment level. Three network types—“Fastest”, “Balanced”, and “Quietest”—help plan both arterial and residential cycle networks. Workshops with stakeholders were used to inform the development of the tool. Feedback shows that the tool has a wide range of uses and is already being used in practice to inform urban, inter-urban, and rural cycle network designs. The approach is flexible and open source, allowing the underlying ideas and code to be adapted, supporting more evidence-based and effective cycling policies and interventions internationally."
+  citations:
+    openalex: 5
+    last_updated: "2026-06-15"
+
 
 - key: botta_packaging_2024
   path: "/publications/botta-packaging-2024/"
@@ -141,6 +177,10 @@
   url: "https://doi.org/10.1177/23998083241267331"
   authors: "Federico Botta, Robin Lovelace, Laura Gilbert, Arthur Turrell"
   abstract: "The effective and ethical use of data to inform decision-making offers huge value to the public sector, especially when delivered by transparent, reproducible, and robust data processing workflows. One way that governments are unlocking this value is through making their data publicly available, allowing more people and organisations to derive insights. However, open data is not enough in many cases: publicly available datasets need to be accessible in an analysis-ready form from popular data science tools, such as R and Python, for them to realise their full potential. This paper explores ways to maximise the impact of open data with reference to a case study of packaging code to facilitate reproducible analysis. We present the jtstats project, which consists of a main Python package, and a smaller R version, for importing, processing, and visualising large and complex datasets representing journey times, for many transport modes and trip purposes at multiple geographic levels, released by the UK Department for Transport (DfT). jtstats shows how domain specific packages can enable reproducible research within the public sector and beyond, saving duplicated effort and reducing the risks of errors from repeated analyses. We hope that the jtstats project inspires others, particularly those in the public sector, to add value to their data sets by making them more accessible."
+  citations:
+    openalex: 1
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_reproducible_2024
   path: "/publications/lovelace-reproducible-2024/"
@@ -165,6 +205,10 @@
   url: "https://osf.io/cgjmr"
   authors: "Graham Farrell, Robin Lovelace, Steve O’Hern"
   abstract: "Graham Farrell, Robin Lovelace, and Steve O’Hern (2024). Road user video evidence of road traffic offences: Preliminary analysis of operation snap data and suggestions for a research agenda. https://doi.org/10.31235/osf.io/cgjmr"
+  citations:
+    openalex: 0
+    last_updated: "2026-06-15"
+
 
 - key: rowe_spatial_2024
   path: "/publications/rowe-spatial-2024/"
@@ -189,6 +233,10 @@
   url: ""
   authors: "Hussein Mahfouz, Robin Lovelace, Elsa Arcaute"
   abstract: "Understanding the motivators and deterrents to cycling is essential for creating infrastructure that gets more people to adopt cycling as a mode of transport. This paper demonstrates a new approach to support the prioritization of cycling infrastructure and cycling network design, accounting for cyclist preferences and the growing emphasis on “filtered permeability” and “Low Traffic Neighborhood” interventions internationally. The approach combines distance decay, route calculation, and network analysis methods to examine where future cycling demand is most likely to arise, how such demand could be accommodated within existing street networks, and how to ensure a fair distribution of investment. Although each of these methods has been applied to cycling infrastructure prioritization in previous research, this is the first time that they have been combined, creating an integrated road segment prioritization approach. The approach, which can be applied to other cities, is demonstrated in a case study of Manchester, resulting in cycling networks that balance directness against the need for safe and stress-free routes under different investment scenarios. A key benefit of the approach from a policy perspective is its ability to support egalitarian and cost-effective strategic cycle network planning."
+  citations:
+    openalex: 13
+    last_updated: "2026-06-15"
+
 
 - key: tait_contraflows_2023
   path: "/publications/tait-contraflows-2023/"
@@ -201,6 +249,10 @@
   url: "https://doi.org/10.1016/j.aap.2022.106895"
   authors: "Caroline Tait, Roger Beecham, Robin Lovelace, Stuart Barber"
   abstract: "Contraflow cycling on one-way streets is a low cost intervention that research shows can improve the cycling experience and increase participation. Evidence from several studies suggest that cyclists on contraflows have a lower crash risk. However, implementing contraflow cycling is often controversial, including in the United Kingdom (UK). In this paper we examine whether contraflow cycling on one-way streets alters crash or casualty rates for pedal cyclists. Focusing on inner London boroughs between 1998 and 2019, we identified 508 road segments where contraflow cycling was introduced on one-way streets. We identified road traffic crashes occurring within 10 m of these segments and labelled them as pre-contraflow, contraflow or contraflow removed crashes. We calculated rates using the number of crashes or casualties divided by the time exposed and generated 95 \\% confidence intervals using bootstrap resampling. We adjusted the rates for changes in cordon cycling volume and injury severity reporting. There were 1498 crashes involving pedal cyclists: 788 pre-contraflow, 703 contraflow and 7 following contraflow removal. There was no change in adjusted overall pedal cyclist crash or casualty rates when contraflow cycling was introduced. Proximity to a junction doubled the crash rate. The crash rate when pedal cyclists were travelling contraflow was the same as those travelling with flow. We have found no evidence that introducing contraflow cycling increases the crash or casualty rate for pedal cyclists. It is possible that such rates may indeed fall when contraflow cycling is introduced if more accurate spatio-temporal cycling volume data was available. We recommend all one-way streets are evaluated for contraflow cycling but encourage judicious junction design and recommend UK legislative change for mandatory-two-way cycling on one-way streets unless exceptional circumstances exist."
+  citations:
+    openalex: 11
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_cycle_2023
   path: "/publications/lovelace-cycle-2023/"
@@ -249,6 +301,10 @@
   url: ""
   authors: "Eugeni Vidal-Tortosa, Robin Lovelace"
   abstract: "Many studies have explored the impact of macro and meso attributes of the built environment such as population density, land use, proximity to services, and cycle infrastructure on cycling. Less attention has been paid to micro attributes of the built environment. This paper reviews the academic literature on the relationship between road lighting and cycling, and identifies gaps to provide direction to future work. It also reviews policy guidelines on lighting and cycling infrastructure. Findings from the review of academic research show a clear positive effect of road lighting on cycling. The effect seems stronger among potential and less experienced cyclists. This suggests that investment in road lighting may be a cost-effective intervention to increase cycling and make it more inclusive. More empirical work is needed, including on the impact that lighting may have on different types of cyclists and cycling, the optimal lighting for cyclists, the cost-effectiveness of lighting interventions, and in developing countries and countries at extreme latitudes. There is also a need for research with higher geographic and temporal resolution, “before/after” approaches to explore changes over time, and accounting for other factors associated with cycling. Findings from the review of policy guidelines reveal that lighting in cycling infrastructure is increasingly being considered, not only for the safety of cyclists, but also to make utility cycling more appealing and accessible at night."
+  citations:
+    openalex: 15
+    last_updated: "2026-06-15"
+
 
 - key: ito_where_2023
   path: "/publications/ito-where-2023/"
@@ -261,6 +317,10 @@
   url: ""
   authors: "Yuhei Ito, Malcolm Morgan, Robin Lovelace"
   abstract: "A lack of cycle parking is a known barrier to promoting the uptake of cycling in urban areas. Unlike cars that can be parked on the roadside with little additional infrastructure, bikes usually require dedicated parking facilities. The existing research and guidance on where cycle parking should be provided primarily focuses on key destinations such as train stations or schools. Thus, there is a gap in knowledge about the amount of general-purpose cycle parking required and how it should be distributed across a city. This paper presents a novel method for analysing and prioritising the spatial distribution of cycle parking. The method draws on established portfolio management techniques but applies them in a spatial context. Using the case study of London, we demonstrate that it is possible to identify areas that have a deficit of cycle parking as well as locations that have the most significant potential for increasing cycling uptake by providing additional cycle parking."
+  citations:
+    openalex: 5
+    last_updated: "2026-06-15"
+
 
 - key: beecham_framework_2022
   path: "/publications/beecham-framework-2022/"
@@ -273,6 +333,10 @@
   url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12338"
   authors: "Roger Beecham, Robin Lovelace"
   abstract: "Road safety research is a data-rich field with large social impacts. Like in medical research, the ambition is to build knowledge around risk factors that can save lives. Unlike medical research, road safety research generates empirical findings from messy observational datasets. Records of road crashes contain numerous intersecting categorical variables, dominating patterns that are complicated by confounding and, when conditioning on data to make inferences net of this, observed effects that are subject to uncertainty due to diminishing sample sizes. We demonstrate how visual data analysis approaches can inject rigor into exploratory analysis of such datasets. A framework is presented whereby graphics are used to expose, model and evaluate spatial patterns in observational data, as well as protect against false discovery. Evidence for the framework is presented through an applied data analysis of national crash patterns recorded in STATS19, the main source of road crash information in Great Britain. Our framework moves beyond typical depictions of exploratory data analysis and transfers to complex data analysis decision spaces characteristic of modern geographical analysis."
+  citations:
+    openalex: 4
+    last_updated: "2026-06-15"
+
 
 - key: abstreet_2022
   path: "/publications/abstreet-2022/"
@@ -297,6 +361,10 @@
   url: "https://journals.open.tudelft.nl/ejtir/article/view/6015"
   authors: "Joseph Talbot, Martin Lucas-Smith, Andrew Speakman, Megan Streb, Simon Nuttall, Dustin Carlino, Patrick Johansson, Nathanael Sheehan, Nikée Groot, Robin Lovelace"
   abstract: "The location of new housing developments, and the provision of safe space for walking and cycling to key destinations around them, have major and long lasting impacts on travel behaviour, health, and environmental outcomes. Transit Oriented Development (TOD) is a well-recognised concept in urban planning, but systematic evidence is often lacking on the likely ‘active travel performance’ of new developments, making it hard for the planning process to support sustainable transport objectives. This paper articulates the concept of ‘Active Travel Oriented Development’ (ATOD) and describes methods for operationalising it. We demonstrate the use of a set of simple metrics to assess the active travel performance of new and proposed development sites. ATOD has the benefits of building on the established concept of TOD and being easy to assess. We conclude that ATOD, and tools for measuring it, are needed to ensure that transport and development policies work in harmony."
+  citations:
+    openalex: 0
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_assessing_2022
   path: "/publications/lovelace-assessing-2022/"
@@ -309,6 +377,10 @@
   url: "https://zenodo.org/record/6410196"
   authors: "Robin Lovelace, Rosa Félix, Dustin Carlin, Roger Beecham"
   abstract: "Origin-destination (OD) datasets are widely available but transport interventions require network level data. OD-‘desire line’-route-‘route network’ conversion techniques are typically based on lines between zone centroids. This approach fails to show the diffuse nature of travel patterns. This paper presents ‘jittering’ methods to overcome these limitations and seeks to assess them. We find that jittered OD datasets result in a closer fit between observed and estimated flow in a reproducible case study using open data in Edinburgh. We conclude that jittering can add value to OD but work is needed to parameteterise them in the context of route network generation techniques"
+  citations:
+    openalex: 2
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_clockboard_2022
   path: "/publications/lovelace-clockboard-2022/"
@@ -352,6 +424,10 @@ Results
 Each CID record contains the infrastructure survey date, spatial location, infrastructure-specific variables and accompanying photographs. Traffic calming assets are numerous and distributed throughout London. Cyclist signals, crossings, Advanced Stop Lanes and cycle lanes and tracks are less numerous and more commonly seen in inner rather than outer London. Normalisation by area and population did not change these spatial patterns. Six percent of on-road cycle lane length is physically segregated from vehicles. Estimated compliance with UK design standards was notably higher for inner London boroughs with 66\\% exceeding mean compliance compared to just 24\\% of outer London boroughs.
 Conclusions
 In this first systematic description and analysis of the CID we have demonstrated its potential to quantitively and qualitatively compare infrastructure and a method to estimate compliance against design standards. We found that cycling infrastructure is not distributed equally across London and may not be of the quality that provides safe space for cycling. Such datasets are critical assets to evaluate infrastructure and guide health and transport policies."
+  citations:
+    openalex: 15
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_jittering_2022b
   path: "/publications/lovelace-jittering-2022b/"
@@ -364,6 +440,10 @@ In this first systematic description and analysis of the CID we have demonstrate
   url: "https://findingspress.org/article/33873-jittering-a-computationally-efficient-method-for-generating-realistic-route-networks-from-origin-destination-data"
   authors: "Robin Lovelace, Rosa Félix, Dustin Carlino"
   abstract: "Origin-destination (OD) datasets are often represented as ‘desire lines’ between zone centroids. This paper presents a ‘jittering’ approach to pre-processing and conversion of OD data into geographic desire lines that (1) samples unique origin and destination locations for each OD pair, and (2) splits ‘large’ OD pairs into ‘sub-OD’ pairs. Reproducible findings, based on the open source \\_odjitter\\_ Rust crate, show that route networks generated from jittered desire lines are more geographically diffuse than route networks generated by ‘unjittered’ data. We conclude that the approach is a computationally efficient and flexible way to simulate transport patterns, particularly relevant for modelling active modes. Further work is needed to validate the approach and to find optimal settings for sampling and disaggregation."
+  citations:
+    openalex: 11
+    last_updated: "2026-06-15"
+
 
 - key: gilardi_multivariate_2022a
   path: "/publications/gilardi-multivariate-2022a/"
@@ -376,6 +456,10 @@ In this first systematic description and analysis of the CID we have demonstrate
   url: "https://onlinelibrary.wiley.com/doi/abs/10.1111/rssa.12823"
   authors: "Andrea Gilardi, Jorge Mateu, Riccardo Borgoni, Robin Lovelace"
   abstract: "Road traffic casualties represent a hidden global epidemic, demanding evidence-based interventions. This paper demonstrates a network lattice approach for identifying road segments of particular concern, based on a case study of a major city (Leeds, UK), in which 5862 crashes of different severities were recorded over an 8-year period (2011–2018). We consider a family of Bayesian hierarchical models that include spatially structured and unstructured random effects to capture the dependencies between the severity levels. Results highlight roads that are more prone to collisions, relative to estimated traffic volumes, in the north-west and south of city centre. We analyse the modifiable areal unit problem (MAUP), proposing a novel procedure to investigate the presence of MAUP on a network lattice. We conclude that our methods enable a reliable estimation of road safety levels to help identify ‘hotspots’ on the road network and to inform effective local interventions."
+  citations:
+    openalex: 17
+    last_updated: "2026-06-15"
+
 
 - key: timaite_osm_2022
   path: "/publications/timaite-osm-2022/"
@@ -388,6 +472,10 @@ In this first systematic description and analysis of the CID we have demonstrate
   url: "https://zenodo.org/record/7004509"
   authors: "Greta Timaite, James Hulse, Robin Lovelace"
   abstract: "Timaite, G., Hulse, J., \\& Lovelace, R. (2022). OSM for sustainable transport planning. In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., \\& Juhász, L. (Eds.). Proceedings of the Academic Track at State of the Map 2022, Florence, Italy, 19-21 August 2022. Available at https://zenodo.org/communities/sotm-22"
+  citations:
+    openalex: 0
+    last_updated: "2026-06-15"
+
 
 - key: "mason-jones_severe_2022"
   path: "/publications/mason-jones-severe-2022/"
@@ -400,6 +488,10 @@ In this first systematic description and analysis of the CID we have demonstrate
   url: "https://doi.org/10.1007/s11524-022-00617-7"
   authors: "Amanda J. Mason-Jones, Stephen Turrell, Gerardo Zavala Gomez, Caroline Tait, Robin Lovelace"
   abstract: "Pedal cycling is advocated for increasing physical activity and promoting health and wellbeing. However, whilst some countries have achieved zero cyclist deaths on their roads, this is not the case for Great Britain (GB). A retrospective cross-sectional analysis was conducted of STATS19 cyclist crash data, a dataset of all police-reported traffic crashes in GB. Information about crash location, casualty, driver and vehicles involved were included as predictors of casualty severity (fatal or severe vs. slight). Sixteen thousand one hundred seventy pedal cycle crashes were reported during 2018. Severe or fatal cyclist crash injury was associated with increasing age of the cyclist (35–39 years, OR 1.38, 95\\% CI 1.11 to 1.73; 55–59 years, OR 1.73, 95\\% CI 1.35 to 2.2; 70 years and over, OR 2.87, 95\\% CI 2.12 to 3.87), higher road speed limits (50 MPH OR 2.10, 95\\% CI 1.43 to 3.07; 70 MPH OR 4.12, 95\\% CI 2.12 to 8.03), the involvement of goods vehicles (OR 2.08, 95\\% CI 1.30 to 3.33) and the months of May and June (OR 1.34 to 1.36, 95\\% CI 1.06 to 1.73). Urban planning that includes physical separation of pedal cyclists from other road users, raising awareness around the risks from goods vehicles and reducing road speed should be the urgent focus of interventions to increase the benefits and safety of cycling."
+  citations:
+    openalex: 7
+    last_updated: "2026-06-15"
+
 
 - key: pritchard_sykkelpotensial_2022
   path: "/publications/pritchard-sykkelpotensial-2022/"
@@ -437,6 +529,10 @@ In this first systematic description and analysis of the CID we have demonstrate
   authors: "Joseph Talbot, Martin Lucas-Smith, Andrew Speakman, Megan Streb, Simon Nuttall, Dustin Carlino, Patrick Johansson, Nathanael Sheehan, Nikée Groot, Robin Lovelace"
   abstract: "The location of new housing developments, and the provision of safe space for walking and cycling to key destinations around them, have major and long lasting impacts on travel behaviour, health, and environmental outcomes. Transit Oriented Development (TOD) is a well-recognised concept in urban planning, but systemic evidence is often lacking on the likely ‘active travel performance’ of new developments, making it hard for the planning process to support sustainable transport objectives. This paper articulates the concept of
 ‘Active Travel Oriented Development’ (ATOD) and describes methods for operationalising it. We demonstrate the use of a set of simple metrics to assess the active travel performance of new and proposed development sites. ATOD has the benefits of building on the established concept of TOD and being easy to assess. We conclude that ATOD, and tools for measuring it, are needed to ensure that transport and development policies work in harmony."
+  citations:
+    openalex: 2
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_clockboard_2021
   path: "/publications/lovelace-clockboard-2021/"
@@ -449,6 +545,10 @@ In this first systematic description and analysis of the CID we have demonstrate
   url: "https://osf.io/vncgw/"
   authors: "Robin Lovelace, Martijn Tennekes, Dustin Carlino"
   abstract: "Zones are the building blocks of urban analysis. Fields ranging from demographics to transport planning routinely use zones — spatially contiguous areal units that break-up continuous space into discrete chunks — as the foundation for diverse analysis techniques. Key methods such as origin-destination analysis and choropleth mapping rely on zones with appropriate sizes, shapes and coverage. However, existing zoning systems are sub-optimal in many urban analysis contexts, for three main reasons: 1) available administrative zoning systems are often based on somewhat arbitrary factors; 2) evidence-based zoning systems are often highly variable in size and shape, reducing their utility for inter-city comparison; and 3) official zoning systems are non-existent, not publicly available, or are too coarse, hindering urban analysis in many places, especially in low income nations. To tackle these three key issues we developed a flexible, open and scalable solution: the ClockBoard zoning system. ClockBoard consists of 12 segments divided by concentric rings of increasing distance, creating a consistent visual frame of reference for cities that is reminiscent of a clock and a dartboard. This paper outlines the design, potential uses and merits of the ClockBoard zoning system and discusses future avenues for research and development of new zoning systems based on the experience."
+  citations:
+    openalex: 3
+    last_updated: "2026-06-15"
+
 
 - key: vidaltortosa_cycling_2021
   path: "/publications/vidaltortosa-cycling-2021/"
@@ -461,6 +561,10 @@ In this first systematic description and analysis of the CID we have demonstrate
   url: "https://www.sciencedirect.com/science/article/pii/S0965856421002019"
   authors: "Eugeni Vidal Tortosa, Robin Lovelace, Eva Heinen, Richard P. Mann"
   abstract: "One of the main challenges for policymakers aiming to promote cycling in car-oriented transport systems is how to increase social diversity among its users. The under-representation of certain groups makes it difficult to normalise cycling and distribute its benefits throughout society. Many studies have explored cycling levels in relation to age and gender, and to a lesser extent disability and ethnicity. Less attention has been paid to bicycle use related to income and other socioeconomic factors associated with disadvantage. This study aims to better understand the relationship between income and other factors of socioeconomic disadvantage and cycling behaviour. We analysed data from the English National Travel Survey to estimate the likelihood of cycling participation (if individuals cycle at all), cycling frequency (‘how often’ they cycle), and cycling distance (‘how far’ they cycle) using regression models. We found that people in lower-income households cycle less for transport, particularly for commuting, than people in higher-income households. However, no income inequalities were found for leisure cycling. In addition, low-income leisure cyclists were found to cycle more often, but higher-income leisure cyclists further. Our findings may have important policy implications. Favouring a broader focus on non-commuting cycling and subsidising cycle access and maintenance could help to diversify cycling."
+  citations:
+    openalex: 25
+    last_updated: "2026-06-15"
+
 
 - key: woodcock_health_2021a
   path: "/publications/woodcock-health-2021a/"
@@ -480,6 +584,10 @@ Results
 While cycle commuting in England and Wales is demographically skewed towards men and white people, women and people from ethnic minorities have greater cycling potential based on route distance and hilliness. Benefits from cycling uptake are distributed differently again. For example, while increasing female cycling mode share is good for equity, each additional female cyclist generates a smaller average health and carbon benefit than a male cyclist. This is based on women's lower baseline mortality risk, shorter commute travel distances, and lower propensity to commute by car than men.
 Conclusion
 We have demonstrated a new approach to modelling that allows for more sophisticated and nuanced assessment of cycling uptake and subsequent benefits, under different scenarios. Health and carbon are increasingly incorporated into appraisal of active travel schemes, valuing important outcomes. However, especially with better representation of demographic factors, this can act as a barrier to equity goals."
+  citations:
+    openalex: 23
+    last_updated: "2026-06-15"
+
 
 - key: vidaltortosa_infrastructure_2021
   path: "/publications/vidaltortosa-infrastructure-2021/"
@@ -492,6 +600,10 @@ We have demonstrated a new approach to modelling that allows for more sophistica
   url: "https://www.jtlu.org/index.php/jtlu/article/view/1781"
   authors: "Eugeni Vidal Tortosa, R. Lovelace, E. Heinen, R. P. Mann"
   abstract: "Cycling can be particularly beneficial for socioeconomically disadvantaged populations. First, because it can allow them to access opportunities that by other modes they may not afford. Secondly, because it can increase their physical activity levels and, consequently, improve their health. We analyse the extent to which socioeconomic disadvantage impacts on cycling participation in England, for both leisure and utility cycling. Then, we explore the extent to which this impact could be explained by the environment in which disadvantaged populations live. The study population includes 167,178 individuals, residing in 2,931 areas, and 326 Local Authorities. Data on individual factors were drawn from the Active Lives Survey, and data on environmental factors from several sources. Descriptive statistics and multilevel logistic models were estimated. The likelihood of cycling is lower among people living in deprived areas than among people living in non-deprived areas. This difference is significant for leisure, but also for utility cycling when controlling for individual and environmental factors. The study also found that cycling infrastructure and greater levels of cyclability are higher in deprived areas than in non-deprived areas. This suggests that infrastructure and cyclability are not enough to increase cycling levels among disadvantaged populations. Further research on other barriers to cycling among disadvantaged populations is required."
+  citations:
+    openalex: 19
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_open_2021
   path: "/publications/lovelace-open-2021/"
@@ -504,6 +616,10 @@ We have demonstrated a new approach to modelling that allows for more sophistica
   url: ""
   authors: Robin Lovelace
   abstract: "Geographic analysis has long supported transport plans that are appropriate to local contexts. Many incumbent “tools of the trade” are proprietary and were developed to support growth in motor traffic, limiting their utility for transport planners who have been tasked with twenty-first century objectives such as enabling citizen participation, reducing pollution, and increasing levels of physical activity by getting more people walking and cycling. Geographic techniquessuch as route analysis, network editing, localised impact assessment and interactive map visualisationhave great potential to support modern transport planning priorities. The aim of this paper is to explore emerging open source tools for geographic analysis in transport planning, with reference to the literature and a review of open source tools that are already being used. A key finding is that a growing number of options exist, challenging the current landscape of proprietary tools. These can be classified as command-line interface, graphical user interface or web-based user interface tools and by the framework in which they were implemented, with numerous tools released as R, Python and JavaScript packages, and QGIS plugins. The review found a diverse and rapidly evolving “ecosystem” tools, with 25 tools that were designed for geographic analysis to support transport planning outlined in terms of their popularity and functionality based on online documentation. They ranged in size from single-purpose tools such as the QGIS plugin AwaP to sophisticated stand-alone multi-modal traffic simulation software such as MATSim, SUMO and Veins. Building on their ability to re-use the most effective components from other open source projects, developers of open source transport planning tools can avoid “reinventing the wheel” and focus on innovation, the “gamified” A/B Street https://github.com/dabreegster/abstreet/#abstreetsimulation software, based on OpenStreetMap, a case in point. The paper, the source code of which can be found at https://github.com/robinlovelace/open-gat, concludes that, although many of the tools reviewed are still evolving and further research is needed to understand their relative strengths and barriers to uptake, open source tools for geographic analysis in transport planning already hold great potential to help generate the strategic visions of change and evidence that is needed by transport planners in the twenty-first century."
+  citations:
+    openalex: 77
+    last_updated: "2026-06-15"
+
 
 - key: vidaltortosa_socioeconomic_2021
   path: "/publications/vidaltortosa-socioeconomic-2021/"
@@ -523,6 +639,10 @@ Results
 We found that the higher the level of residential deprivation, the higher the slight and serious cycling injury risk. The fatal cycling injury risk was also higher in individuals from the most deprived areas. Inequalities were particularly large for children, with slight and serious rates three times higher for children from the most deprived areas than for children from the least deprived areas. We also found that the linear trend lines of the slight and serious injury rates between 2014 and 2019 declined in the least deprived quintiles but not in the most deprived quintiles, which suggests that inequalities in slight and serious cycling injuries may have grown over the last years.
 Conclusion
 This study found that people from deprived areas are at higher risk of cycling injury for all types of severity; that children from deprived areas are most at risk; and that these inequalities may have recently increased."
+  citations:
+    openalex: 6
+    last_updated: "2026-06-15"
+
 
 - key: munyombwe_association_2020
   path: "/publications/munyombwe-association-2020/"
@@ -535,6 +655,10 @@ This study found that people from deprived areas are at higher risk of cycling i
   url: "https://doi.org/10.1177/2047487319876228"
   authors: "Theresa Munyombwe, Robin Lovelace, Mark Green, Paul Norman, Sarah Walpole, Marlous Hall, Adam Timmis, Phil Batin, Alistair Brownlee, Jonathan Brownlee, Ged Oliver, Chris P Gale"
   abstract: "BackgroundThere is a paucity of population-based geospatial data about the association between active transport and myocardial infarction. We investigated the association between active transport to work and incidence of myocardial infarction.DesignThis ecological study of 325 local authorities in England included 43,077,039 employed individuals aged 25?74 years (UK Census, 2011), and 117,521 individuals with myocardial infarction (Myocardial Ischaemia National Audit Project, 2011?2013).MethodsBayesian negative binomial regression models were used to investigate the association of active transport to work and incidence of myocardial infarction adjusting for local levels of deprivation, obesity, smoking, diabetes and physical activity.ResultsIn 2011, the prevalence of active transportation to work for people in employment in England aged 25?74 years was 11.4\\% (4,531,182 active transporters; 8.6\\% walking and 2.8\\% cycling). Active transport in 2011 was associated with a reduced incidence of myocardial infarction in 2012 amongst men cycling to work (incidence rate ratio (95\\% credible interval) 0.983 (0.967?0.999); and women walking to work (0.983 (0.967?0.999)) after full adjustments. However, the prevalence of active transport for men and women was not significantly associated with the combined incidence of myocardial infarction between 2011?2013 after adjusting for physical activity, smoking and diabetes.ConclusionsIn England, the prevalence of active transportation was associated with a reduced incidence of myocardial infarction for women walking and men cycling to work in corresponding local geographic areas. The overall association of active transport with myocardial infarction was, however, explained by local area levels of smoking, diabetes and physical activity."
+  citations:
+    openalex: 9
+    last_updated: "2026-06-15"
+
 
 - key: reis_different_2020
   path: "/publications/reis-different-2020/"
@@ -547,6 +671,10 @@ This study found that people from deprived areas are at higher risk of cycling i
   url: "https://doi.org/10.1080/15568318.2020.1836693"
   authors: "Rafael A. dos Reis, Susan Grant-Muller, Robin Lovelace, Frances Hodgson"
   abstract: "The development and delivery of ICT-based persuasive strategies for the adoption of more environmental-friendly modes of transport is an emerging strategy to help tackle the problem of excessive use of individual Conventionally Fueled Vehicles (CFVs). The efficiency of this approach, like other information-based schemes, can benefit from the knowledge of which groups of individuals are more responsive to these types of interventions. The goal of this study is to examine the level of acceptability of persuasive schemes delivered using smartphone applications across different population segments. A cross-sectional survey was applied to 920 university students in Curitiba, a roughly 2-million inhabitant Brazilian city. The questionnaire was developed considering two groups of indicators: individual determinants of travel behavior, which were extracted from theories of social psychology (i.e. the Theory of Planned Behavior, the Norm-Activation Model and others), as well as stated intentions and attitudes toward a range of eleven different persuasive strategies (money or voucher rewards, points and rankings, social media sharing, etc.). Groups with different psychographic profiles were extracted from the sample using cluster and discriminant analyses. The acceptability of persuasive strategies were compared between segments. Results show a higher individual preference toward financial rewards and a relatively lower acceptability of social media tools. The acceptance level of groups that display higher control over the use of non-motorized forms of transport is higher than groups that are more psychologically predisposed to CFVs."
+  citations:
+    openalex: 26
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_london_2020
   path: "/publications/lovelace-london-2020/"
@@ -571,6 +699,10 @@ This study found that people from deprived areas are at higher risk of cycling i
   url: "https://transportfindings.org/article/13421-methods-to-prioritise-pop-up-active-transport-infrastructure"
   authors: "Robin Lovelace, Joseph Talbot, Malcolm Morgan, Martin Lucas-Smith"
   abstract: "In the context of reduced public transport capacity in the wake of the COVID-19 pandemic, governments are scrambling to enable walking and cycling while adhering to physical distancing guidelines. Many pop-up options exist. Of these, road space reallocation represents a ‘quick win’ for cities with ‘spare space’ along continuous road sections that have high latent cycling potential. We developed methods to condense the complexity of city networks down to the most promising roads for road space reallocation schemes. The resulting Rapid Cycleway Prioritisation Tool has been deployed for all cities in England to help prioritise emergency funds for new cycleways nationwide. The methods and concepts could be used to support investment in pop-up infrastructure in cities worldwide."
+  citations:
+    openalex: 25
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_open_2020
   path: "/publications/lovelace-open-2020/"
@@ -583,6 +715,10 @@ This study found that people from deprived areas are at higher risk of cycling i
   url: "http://www.sciencedirect.com/science/article/pii/S0967070X19302781"
   authors: "Robin Lovelace, John Parkin, Tom Cohen"
   abstract: "A large and growing body of evidence suggests fundamental changes are needed in transport systems, to tackle issues such as air pollution, physical inactivity and climate change. Transport models can play a major role in tackling these issues through the transport planning process, but they have historically been focussed on motorised modes (especially cars) and available only to professional transport planners working within the existing paradigm. Building on the principles of open access software, first developed in the context of geographic information systems, this paper develops and discusses the concept of open access transport models, which we define as models that are both developed using open source software and are available to be used by the public without the need for specialist training or the purchase of software licences. We explore the future potential of open access transport models to support the transition away from fossil fuels in the transport sector. We do this with reference to the literature on the use of tools in the planning process, and by exploring an example that is already in use: the ‘Propensity to Cycle Tool’. We conclude that open access transport models can be a leverage point in the planning process due to their ability to provide robust, transparent and actionable evidence that is available to a range of stakeholders, not just professional transport planners. Open access transport models represent a disruptive technology deserving further research and development, by planners, researchers and citizen scientists, including open source software developers and advocacy groups but, in order to fulfil their potential, they will require both financial and policy support from government bodies."
+  citations:
+    openalex: 52
+    last_updated: "2026-06-15"
+
 
 - key: pettit_open_2020
   path: "/publications/pettit-open-2020/"
@@ -619,6 +755,10 @@ This study found that people from deprived areas are at higher risk of cycling i
   url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233105"
   authors: "Jim Uttley, Steve Fotios, Robin Lovelace"
   abstract: "Cycling has a range of benefits as is recognised by national and international policies aiming to increase cycling rates. Darkness acts as a barrier to people cycling, with fewer people cycling after-dark when seasonal and time-of-day factors are accounted for. This paper explores whether road lighting can reduce the negative impact of darkness on cycling rates. Changes in cycling rates between daylight and after-dark were quantified for 48 locations in Birmingham, United Kingdom, by calculating an odds ratio. These odds ratios were compared against two measures of road lighting at each location: 1) Density of road lighting lanterns; 2) Relative brightness as estimated from night-time aerial images. Locations with no road lighting showed a significantly greater reduction in cycling after-dark compared with locations that had some lighting. A nonlinear relationship was found between relative brightness at a location at night and the reduction in cyclists after-dark. Small initial increases in brightness resulted in large reductions in the difference between cyclist numbers in daylight and after-dark, but this effect reached a plateau as brightness increased. These results suggest only a minimal amount of lighting can promote cycling after-dark, making it an attractive mode of transport year-round."
+  citations:
+    openalex: 29
+    last_updated: "2026-06-15"
+
 
 - key: gilardi_street_2020
   path: "/publications/gilardi-street-2020/"
@@ -644,6 +784,10 @@ This study found that people from deprived areas are at higher risk of cycling i
   url: "https://doi.org/10.1177/2399808320942779"
   authors: "Malcolm Morgan, Robin Lovelace"
   abstract: Travel behavior modeling is fundamental to sustainable transport planning. This paper presents nationally scalable methods for interactive and online visualisation of transport behaviour at the road network level.
+  citations:
+    openalex: 9
+    last_updated: "2026-06-15"
+
 
 - key: goodman_assessing_2019
   path: "/publications/goodman-assessing-2019/"
@@ -663,6 +807,10 @@ Results
 Among those travelling less than 15km, the current percentage of children cycling to school in England is 2.7\\%. Our model of cycling potential highlights areas and routes with particularly high cycling potential, to help prioritize investment in safe routes to school. The scenarios show the scale of transformation possible in school travel patterns: 'Going Dutch' would see over two-thirds of these children cycle to school, approaching the level observed in The Netherlands, higher than the 27\\% cycle mode share in an equivalent 'Go Dutch' scenario for cycling to work, implying that the potential uptake of cycling for travel to school could be even higher, as a percentage of trips, than the potential for cycling to work.
 Conclusions
 This paper highlights the very high potential of school trips to be cycled and suggest it should be a priority target for health-conscious transport policy. To our knowledge, this is the first time that a national database on school travel at the level has been analysed from a 'safe routes to school' perspective at high geographical resolution, down to the route network level. The methods could be deployed in other settings where travel to school data is available at the OD level to inform investments in safe routes to school, where they are most needed."
+  citations:
+    openalex: 0
+    last_updated: "2026-06-15"
+
 
 - key: roxburgh_characterising_2019
   path: "/publications/roxburgh-characterising-2019/"
@@ -675,6 +823,10 @@ This paper highlights the very high potential of school trips to be cycled and s
   url: "http://www.sciencedirect.com/science/article/pii/S0959378018305776"
   authors: "Nicholas Roxburgh, Dabo Guan, Kong Joo Shin, William Rand, Shunsuke Managi, Robin Lovelace, Jing Meng"
   abstract: "When extreme weather events occur, people often turn to social media platforms to share information, opinions and experiences. One of the topics commonly discussed is the role climate change may or may not have played in influencing an event. Here, we examine Twitter posts that mentioned climate change in the context of three high-magnitude extreme weather events – Hurricane Irene, Hurricane Sandy and Snowstorm Jonas – in order to assess how the framing of the topic and the attention paid to it can vary between events. We also examine the role that contextual factors can play in shaping climate change coverage on the platform. We find that criticism of climate change denial dominated during Irene, while political and ideological struggle frames dominated during Sandy. Discourse during Jonas was, in contrast, more divided between posts about the scientific links between climate change and the events, and posts contesting climate science in general. The focus on political and ideological struggle frames during Sandy reflects the event’s occurrence at a time when the Occupy movement was active and the 2012 US Presidential Election was nearing. These factors, we suggest, could also contribute to climate change being a more prominent discussion point during Sandy than during Irene or Jonas. The Jonas frames, meanwhile, hint at lesser public understanding of how climate change may influence cold weather events when compared with tropical storms. Overall, our findings demonstrate how event characteristics and short-term socio-political context can play a critical role in determining the lenses through which climate change is viewed."
+  citations:
+    openalex: 90
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_geocomputation_2019
   path: "/publications/lovelace-geocomputation-2019/"
@@ -699,6 +851,10 @@ This paper highlights the very high potential of school trips to be cycled and s
   url: "https://joss.theoj.org/papers/10.21105/joss.01926"
   authors: "Malcolm Morgan, Marcus Young, Robin Lovelace, Layik Hama"
   abstract: "Morgan et al., (2019). OpenTripPlanner for R. Journal of Open Source Software, 4(44), 1926, https://doi.org/10.21105/joss.01926"
+  citations:
+    openalex: 47
+    last_updated: "2026-06-15"
+
 
 - key: goodman_scenarios_2019
   path: "/publications/goodman-scenarios-2019/"
@@ -718,6 +874,10 @@ Results
 In 2011, 1.8\\% of children cycled to school (1.0\\% in primary school, 2.7\\% in secondary school). If Dutch levels of cycling were reached, under the Go Dutch scenario, this would rise to 41.0\\%, a 22-fold increase. This is larger than the 6-fold increase in Go Dutch for adult commuting. This would increase total physical activity among pupils by 57\\%, and reduce transport-related carbon emissions by 81 kilotonnes/year. These impacts would be substantially larger in secondary schools than primary schools (a 96\\% vs. 9\\% increase in physical activity, respectively).
 Conclusion
 Cycling to school is uncommon in England compared with other Northern European countries. Trip distances and hilliness alone cannot explain the difference, suggesting substantial unmet potential. We show that policies resulting in substantial uptake of cycling to school would have important health and environmental benefits. At the level of road networks, the results can inform local investment in safe routes to school to help realise these potential benefits."
+  citations:
+    openalex: 48
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_stats19_2019
   path: "/publications/lovelace-stats19-2019/"
@@ -730,6 +890,10 @@ Cycling to school is uncommon in England compared with other Northern European c
   url: "http://doi.org/10.21105/joss.01181"
   authors: "Robin Lovelace, Malcolm Morgan, Layik Hama, Mark Padgham"
   abstract: "This paper introduces the 'stats19' R package, designed to facilitate the acquisition and processing of official road traffic casualty data from Great Britain. It describes the package's functionality for road safety research."
+  citations:
+    openalex: 23
+    last_updated: "2026-06-15"
+
 
 - key: woodcock_development_2018
   path: "/publications/woodcock-development-2018/"
@@ -742,6 +906,10 @@ Cycling to school is uncommon in England compared with other Northern European c
   url: "http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002622"
   authors: "James Woodcock, Ali Abbas, Alvaro Ullrich, Marko Tainio, Robin Lovelace, Thiago H. Sá, Kate Westgate, Anna Goodman"
   abstract: "Background A modal shift to cycling has the potential to reduce greenhouse gas emissions and provide health co-benefits. Methods, models, and tools are needed to estimate the potential for cycling uptake and communicate to policy makers the range of impacts this would have. Methods and findings The Impacts of Cycling Tool (ICT) is an open source model with a web interface for visualising travel patterns and comparing the impacts of different scenarios of cycling uptake. It is currently applied to England. The ICT allows users to visualise individual and trip-level data from the English National Travel Survey (NTS), 2004–2014 sample, 132,000 adults. It models scenarios in which there is an increase in the proportion of the population who cycle regularly, using a distance-based propensity approach to model which trips would be cycled. From this, the model estimates likely impact on travel patterns, health, and greenhouse gas emissions. Estimates of nonoccupational physical activity are generated by fusing the NTS with the English Active People Survey (APS, 2013–2014, 559,515 adults) to create a synthetic population. Under ‘equity’ scenarios, we investigate what would happen if cycling levels increased equally among all age and gender categories, as opposed to in proportion to the profile of current cyclists. Under electric assist bike (pedelecs or ‘e-bike’) scenarios, the probability of cycling longer trips increases, based on the e-bike data from the Netherlands, 2013–2014 Dutch Travel Survey (50,868 adults).Outcomes are presented across domains including transport (trip duration and trips by mode), health (physical activity levels, years of life lost), and car transport–related CO2 emissions. Results can be visualised for the whole population and various subpopulations (region, age, gender, and ethnicity). The tool is available at www.pct.bike/ict. If the proportion of the English population who cycle regularly increased from 4.8\\% to 25\\%, then there would be notable reductions in car miles and passenger related CO2 emissions (2.2\\%) and health benefits (2.1\\% reduction in years of life lost due to premature mortality). If the new cyclists had access to e-bikes, then mortality reductions would be similar, while the reduction in car miles and CO2 emissions would be larger (2.7\\%). If take-up of cycling occurred equally by gender and age (under 80 years), then health benefits would be marginally greater (2.2\\%) but reduction in CO2 slightly smaller (1.8\\%). The study is limited by the quality and comparability of the input data (including reliance on self-report behaviours). As with all modelling studies, many assumptions are required and potentially important pathways excluded (e.g. injury, air pollution, and noise pollution). Conclusion This study demonstrates a generalisable approach for using travel survey data to model scenarios of cycling uptake that can be applied to a wide range of settings. The use of individual-level data allows investigation of a wide range of outcomes, and variation across subgroups. Future work should investigate the sensitivity of results to assumptions and omissions, and if this varies across setting."
+  citations:
+    openalex: 50
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_estimating_2018
   path: "/publications/lovelace-estimating-2018/"
@@ -773,6 +941,10 @@ Results
 Preliminary results show a clear infrastructure signal in the noise surrounding mode choice but other factors seem to be at play. Further research over the coming months will seek to improve the model and our resulting ability to forecast uptake at the local level from specific interventions.
 Conclusions
 Newly available data, combined with emerging high performance and open source statistical software, mean that large natural experiments on the impact of new infrastructure on mode choice can now be performed at the national level using geographically detailed data at the origin-destination level. This has the potential to make the prioritisation of new infrastructure much more evidence-based and holds the promise of allowing a-priori benefit-cost estimates to be automated to support transport planners to enable a rapid transition away from fossil fuels and towards healthy travel patterns across the world, in urban and rural areas alike."
+  citations:
+    openalex: 1
+    last_updated: "2026-06-15"
+
 
 - key: morton_fuel_2018a
   path: "/publications/morton-fuel-2018a/"
@@ -785,6 +957,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://www.sciencedirect.com/science/article/pii/S1361920918303468"
   authors: "Craig Morton, Robin Lovelace, Ian Philips, Jillian Anable"
   abstract: "Car fleets across much of Europe have undergone a process of dieselisation over the past 20 years. Understanding the factors driving this process is therefore important for sustainable transport policy, with implications for how governments steer their national car fleets towards ultra-low emission vehicles in the future. At a general level, this paper contributes to this wider body of work which aims to understand the factors which led to the transition from petrol to diesel. Specifically, the paper investigates whether the availability of relatively cheap diesel fuel in the Republic of Ireland affected the rate of diesel car ownership in Northern Ireland. A geographic approach is used, which involves generating spatial variables measuring nearness to the Republic of Ireland and comparing these with the proportion of the local car stock that is fuelled by diesel. A series of spatial regression models are specified to determine if this association between nearness to the Republic and diesel ownership persists after accounting for the effect of socioeconomic, travel, and household characteristics. The results support the hypothesis that the availability of cheaper fuel in the Republic of Ireland is not only generating fuel-tourism, but is also affecting the structure of the car fleet registered in Northern Ireland. The findings are relevant beyond the case study and imply that the structure of a country’s car fleet is not only dependent on domestic policies, but is also affected by the policies of neighbouring countries."
+  citations:
+    openalex: 6
+    last_updated: "2026-06-15"
+
 
 - key: moreno_monroy_public_2018
   path: "/publications/moreno-monroy-public-2018/"
@@ -797,6 +973,10 @@ Newly available data, combined with emerging high performance and open source st
   url: ""
   authors: "Ana I. Moreno-Monroy, Robin Lovelace, Frederico R. Ramos"
   abstract: "In many large Latin American urban areas such as the São Paulo Metropolitan Region (SPMR), growing social and economic inequalities are embedded through high spatial inequality in the provision of state schools and affordable public transport to these schools. This paper sheds light on the transport-education inequality nexus with reference to school accessibility by public transport in the SPMR. To assess school accessibility, we develop an accessibility index which combines information on the spatial distribution of adolescents, the location of existing schools, and the public transport provision serving the school catchment area into a single measure. The index is used to measure school accessibility locally across 633 areas within the SPMR. We use the index to simulate the impact of a policy aiming at increasing the centralisation of public secondary education provision, and find that it negatively affects public transport accessibility for students with the lowest levels of accessibility. These results illustrate how existing inequalities can be amplified by variable accessibility to schools across income groups and geographical space. The research suggests that educational inequality impacts of school agglomeration policies should be considered before centralisation takes place."
+  citations:
+    openalex: 95
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_using_2018
   path: "/publications/lovelace-using-2018/"
@@ -833,6 +1013,10 @@ Newly available data, combined with emerging high performance and open source st
   url: ""
   authors: "Rachel Aldred, Tom Watson, Robin Lovelace, James Woodcock"
   abstract: "Rachel Aldred, Tom Watson, Robin Lovelace, and James Woodcock (2017). Barriers to investing in cycling: Stakeholder views from England. *Transportation Research Part A: Policy and Practice*. https://doi.org/10.1016/j.tra.2017.11.003"
+  citations:
+    openalex: 81
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_david_2017
   path: "/publications/lovelace-david-2017/"
@@ -857,6 +1041,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://www.sciencedirect.com/science/article/pii/S0967070X1730080X"
   authors: "Craig Morton, Robin Lovelace, Jillian Anable"
   abstract: "The London Congestion Charge (LCC) is a transport policy with a precise spatial footprint. As such, its impact on the transport system can be expected to vary over space, providing an opportunity to explore the geographical reach of local transport interventions. This paper assesses whether the exemption of Hybrid Electric Vehicles (HEVs) from the LCC affected the registration rate of these vehicles in Greater London and the surrounding areas. The analysis uses official data on the number of HEVs registered across the local authorities of the United Kingdom. This dataset is assessed using [1] exploratory spatial analysis to determine the degree of spatial variation in HEV registrations, [2] area classifications to consider if HEV registrations diminish as nearness to the LCC recedes, and [3] spatial regression models to evaluate the association between distance to the LCC and HEV registrations, controlling for other area characteristics (i.e. socioeconomic, household, and transport system variables). The results clearly show that nearness to the LCC is positively associated with HEV registrations, implying that this form of transport policy is effective at promoting the adoption of low emission vehicles."
+  citations:
+    openalex: 73
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_new_2017a
   path: "/publications/lovelace-new-2017a/"
@@ -893,6 +1081,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://jasss.soc.surrey.ac.uk/20/4/14.html"
   authors: "Andrew Smith, Robin Lovelace, Mark Birkin"
   abstract: "Established methods for synthesising a population from geographically aggregated data are robust and well understood. However, most rely on the potentially detrimental process of integerisation if a whole individual population is required, e.g. for use in agent-based modelling (ABM). This paper describes and investigates the use of quasirandom sequences to sample populations from known marginal constraints whilst preserving those marginal distributions. We call this technique Quasirandom Integer Without-replacement Sampling (QIWS) and show that the statistical properties of quasirandomly sampled populations to be superior to those of pseudorandomly sampled ones in that they tend to yield entropies much closer to populations generated using the entropy-maximising iterative proportional fitting (IPF) algorithm. The implementation is extremely efficient, easily outperforming common IPF implementations. It is freely available as an open source R package called humanleague. Finally, we suggest how the current limitations of the implementation can be overcome, providing a direction for future work."
+  citations:
+    openalex: 16
+    last_updated: "2026-06-15"
+
 
 - key: "moreno-monroy_public_2017"
   path: "/publications/moreno-monroy-public-2017/"
@@ -905,6 +1097,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://www.sciencedirect.com/science/article/pii/S0966692316303453"
   authors: "Ana I. Moreno-Monroy, Robin Lovelace, Frederico R. Ramos"
   abstract: "In many large Latin American urban areas such as the São Paulo Metropolitan Region (SPMR), growing social and economic inequalities are embedded through high spatial inequality in the provision of state schools and affordable public transport to these schools. This paper sheds light on the transport-education inequality nexus with reference to school accessibility by public transport in the SPMR. To assess school accessibility, we develop an accessibility index which combines information on the spatial distribution of adolescents, the location of existing schools, and the public transport provision serving the school catchment area into a single measure. The index is used to measure school accessibility locally across 633 areas within the SPMR. We use the index to simulate the impact of a policy aiming at increasing the centralisation of public secondary education provision, and find that it negatively affects public transport accessibility for students with the lowest levels of accessibility. These results illustrate how existing inequalities can be amplified by variable accessibility to schools across income groups and geographical space. The research suggests that educational inequality impacts of school agglomeration policies should be considered before centralisation takes place."
+  citations:
+    openalex: 95
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_propensity_2017
   path: "/publications/lovelace-propensity-2017/"
@@ -917,6 +1113,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "https://doi.org/10.5198/jtlu.2016.862"
   authors: "Robin Lovelace, Anna Goodman, Rachel Aldred, Nikolai Berkoff, Ali Abbas, James Woodcock"
   abstract: "Getting people cycling is an increasingly common objective in transport planning institutions worldwide. A growing evidence base indicates that high quality infrastructure can boost local cycling rates. Yet for infrastructure and other cycling measures to be effective, it is important to intervene in the right places, such as along ‘desire lines’ of high latent demand. This creates the need for tools and methods to help answer the question ‘where to build?’. Following a brief review of the policy and research context related to this question, this paper describes the design, features and potential applications of such a tool. The Propensity to Cycle Tool (PCT) is an online, interactive planning support system that was initially developed to explore and map cycling potential across England (see www.pct.bike). Based on origin-destination data it models cycling levels at area, desire line, route and route network levels, for current levels of cycling, and for scenario-based ‘cycling futures.’ Four scenarios are presented, including ‘Go Dutch’ and ‘Ebikes,’ which explore what would happen if English people had the same propensity to cycle as Dutch people and the potential impact of electric cycles on cycling uptake. The cost effectiveness of investment depends not only on the number of additional trips cycled, but on wider impacts such as health and carbon benefits. The PCT reports these at area, desire line, and route level for each scenario. The PCT is open source, facilitating the creation of scenarios and deployment in new contexts. We conclude that the PCT illustrates the potential of online tools to inform transport decisions and raises the wider issue of how models should be used in transport planning."
+  citations:
+    openalex: 101
+    last_updated: "2026-06-15"
+
 
 - key: padgham_osmdata_2017
   path: "/publications/padgham-osmdata-2017/"
@@ -929,6 +1129,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "https://doi.org/10.21105/joss.00305"
   authors: "Mark Padgham, Robin Lovelace, Maëlle Salmon, Bob Rudis"
   abstract: "osmdata imports OpenStreetMap (OSM) data into R as either Simple Features or R Spatial objects, respectively able to be processed with the R packages sf and sp. OSM data are extracted from the Overpass API and processed with very fast C++ routines for return to R. The package enables simple Overpass queries to be constructed without the user necessarily understanding the syntax of the Overpass query language, while retaining the ability to handle arbitrarily complex queries. Functions are also provided to enable recursive searching between different kinds of OSM data (for example, to find all lines which intersect a given point). The package is faster than current alternatives for importing OSM data into R and is the only one compatible with sf."
+  citations:
+    openalex: 136
+    last_updated: "2026-06-15"
+
 
 - key: wilson_path_2016
   path: "/publications/wilson-path-2016/"
@@ -941,6 +1145,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "https://link.springer.com/article/10.1007/s12061-016-9201-7"
   authors: "Tom Wilson, Robin Lovelace, Andrew J. Evans"
   abstract: "Large and unofficial data sets, for instance those gathered from social media, are increasingly being used in geographical research and explored as decision support tools for policy development. Social media data have the potential to provide new insight into phenomena about which there is little information from conventional sources. Within this context, this paper explores the potential of social media data to evaluate the aesthetic management of landscape. Specifically, this project utilises the perceptions of visitors to the Pennine Way National Trail, which passes through land managed under the Environmental Stewardship Scheme (ESS). The method analyses sentiment in trail users’ public Twitter messages (tweets) with the aim of assessing the extent to which the ESS maintains landscape character within the trail corridor. The method demonstrates the importance of filtering social media data to convert it into useful information. After filtering, the results are based on 161 messages directly related to the trail. Although small, this sample illustrates the potential for social media to be used as a cheap and increasingly abundant source of information. We suggest that social media data in this context should be seen as a resource that can complement, rather than replace, conventional data sources such as questionnaires and interviews. Furthermore, we provide guidance on how social media could be effectively used by conservation bodies, such as Natural England, which are charged with the management of areas of environmental value worldwide."
+  citations:
+    openalex: 8
+    last_updated: "2026-06-15"
+
 
 - key: uttley_cycling_2016
   path: "/publications/uttley-cycling-2016/"
@@ -953,6 +1161,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://www.sciencedirect.com/science/article/pii/S2213624X16300013"
   authors: "J. Uttley, R. Lovelace"
   abstract: "Cycling has a range of health, environmental and economic benefits compared with motorised forms of transport. There is a need to encourage more cycling, yet previous evaluations of cycling promotion schemes have been inconclusive about what works. A case study of a cycling promotion scheme at the University of Sheffield – the Cycle Challenge – is used in this paper to examine commuting behaviour and long-term behavioural shifts towards cycling in response to outside intervention at the organisational level. The Cycle Challenge was designed to encourage more people at the University to cycle through inter-departmental competition. Cycling behaviour was recorded before the Cycle Challenge and two years after the scheme’s completion. It was found that seventy five percent of participants who were not already regular cyclists reported increased cycling, yet the overall impact of this shift was limited because the majority of participants already cycled regularly. This failure to attract new cyclists suggests recruiting non-cyclists should be a priority in future schemes. Moreover, our study has methodological implications. Current strategies for evaluating the positive impact of cycle initiatives may overestimate the savings by neglecting the tendency of people to resume routine behaviour in the long run. Studies evaluating modal shift should therefore include provision for monitoring long-term behavioural change to provide input into estimated economic, environmental or health metrics of success."
+  citations:
+    openalex: 28
+    last_updated: "2026-06-15"
+
 
 - key: gillespie_efficient_2016
   path: "/publications/gillespie-efficient-2016/"
@@ -977,6 +1189,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://onlinelibrary.wiley.com/doi/10.1111/gean.12081/abstract"
   authors: "Robin Lovelace, Mark Birkin, Philip Cross, Martin Clarke"
   abstract: "There has been much excitement among quantitative geographers about newly available data sets, characterized by high volume, velocity, and variety. This phenomenon is often labeled as “Big Data” and has contributed to methodological and empirical advances, particularly in the areas of visualization and analysis of social networks. However, a fourth v—veracity (or lack thereof)—has been conspicuously lacking from the literature. This article sets out to test the potential for verifying large data sets. It does this by cross-comparing three unrelated estimates of retail flows—human movements from home locations to shopping centers—derived from the following geo-coded sources: (1) a major mobile telephone service provider; (2) a commercial consumer survey; and (3) geotagged Twitter messages. Three spatial interaction models also provided estimates of flow: constrained and unconstrained versions of the “gravity model” and the recently developed “radiation model.” We found positive relationships between all data-based and theoretical sources of estimated retail flows. Based on the analysis, the mobile telephone data fitted the modeled flows and consumer survey data closely, while flows obtained directly from the Twitter data diverged from other sources. The research highlights the importance of verification in flow data derived from new sources and demonstrates methods for achieving this."
+  citations:
+    openalex: 72
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_mapping_2016
   path: "/publications/lovelace-mapping-2016/"
@@ -1013,6 +1229,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://eprints.whiterose.ac.uk/83930/"
   authors: "Robin Lovelace, Hannah Roberts, Ian Kellar"
   abstract: "Abstract Factors associated with cycle safety, including international differences in injury and mortality rates, protective equipment and bicycle training, have been subject to increasing academic interest. Environmental variables associated with cycle safety have also been scrutinised, but few studies have focussed on geographical factors at the local level. This paper addresses this research gap by analysing a geo-referenced dataset of road traffic incidents, taken from the UK’s STATS19 dataset (2005–2012). We investigate incidents involving cyclists within West Yorkshire. This is an interesting case study area as it has an historically low cycling rate but very ambitions cycling plans following investment from the Department of Transport. West Yorkshire is found to be an unusually risky area for cyclists, with an estimated 53 deaths and 1372 serious injuries per billion kilometres cycled, based on census commuting statistics. This is roughly double the national average. This riskiness varies spatially and temporally, broadly in line with expectations from the previous literature. An unexpected result was that cycling seems to be disproportionately risky for young people in West Yorkshire compared with young people nationally. The case study raises the issue of potential negative health impacts of promoting cycling amongst vulnerable groups in dangerous areas. We conclude by highlighting opportunities for increasing cycling uptake via measures designed primarily to improve safety. The analysis underlying this research is reproducible, based on code stored at github.com/Robinlovelace/bikeR ."
+  citations:
+    openalex: 27
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_crowd_2015
   path: "/publications/lovelace-crowd-2015/"
@@ -1157,6 +1377,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://linkinghub.elsevier.com/retrieve/pii/S096669231400088X"
   authors: Robin Lovelace
   abstract: "This book review provides a critical assessment of the \"Sage Handbook of Transport Studies.\" It evaluates the volume's contribution to the fields of transport geography, policy research, and urban planning."
+  citations:
+    openalex: 1
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_energy_2014
   path: "/publications/lovelace-energy-2014/"
@@ -1193,6 +1417,10 @@ Newly available data, combined with emerging high performance and open source st
   url: "http://dx.doi.org/10.1016/j.jtrangeo.2013.07.008"
   authors: "Robin Lovelace, Dimitris Ballas, Matt Watson"
   abstract: "This paper develops a spatial microsimulation framework to analyze commuting behavior across multiple geographic scales. It demonstrates how synthesized individual-level data can be used to inform regional transport planning."
+  citations:
+    openalex: 65
+    last_updated: "2026-06-15"
+
 
 - key: lovelace_doctoral_2013
   path: "/publications/lovelace-doctoral-2013/"

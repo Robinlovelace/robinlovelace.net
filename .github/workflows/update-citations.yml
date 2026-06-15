@@ -1,0 +1,46 @@
+name: Update Citation Counts
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # Monthly on the 1st at midnight UTC
+  push:
+    branches: [main]
+    paths:
+      - 'publications/publications.yml'
+  workflow_dispatch:
+
+# Skip if a run is already in progress
+concurrency:
+  group: citations
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    # On push: only run if commit message contains "[citations]"
+    # On schedule / workflow_dispatch: always run
+    if: github.event_name != 'push' || contains(github.event.head_commit.message, '[citations]')
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Update citations from OpenAlex
+        run: python scripts/update_citations.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publications/publications.yml
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update citation counts from OpenAlex [skip ci]"
+            git push
+          fi
