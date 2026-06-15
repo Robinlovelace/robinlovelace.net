@@ -1,7 +1,7 @@
 ---
 title: "Robin Lovelace"
 description-meta: "Professor of Transport Data Science at University of Leeds"
-image: "files/images/avatar.jpg"
+image: "files/images/avatar.png"
 page-navigation: false
 toc: false
 about:
@@ -32,7 +32,9 @@ about:
 
 ### {{< animate fadeInDown "Welcome!" >}}
 
-I am a 🚲 [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport), where I build open tools 💻 and reproducible workflows 🌍 for evidence-based transport planning.
+I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport). 🚶🚴🚲🚗🚌🚆
+
+I work with teams to help them build open tools 💻 and internationally deployed reproducible workflows and web applications 🌍 for evidence-based transport planning. 🚀
 
 I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](/posts/). If you would like to collaborate, feel free to [get in touch](mailto:r.lovelace@leeds.ac.uk)! ✉️
 
