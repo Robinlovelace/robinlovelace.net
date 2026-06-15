@@ -2,7 +2,6 @@
 title: "Publications"
 description-meta: "Publications, papers, and scholarly work"
 title-block-banner: false
-css: custom.css
 listing:
   - id: publications-index
     contents: ./publications.yml
@@ -21,34 +20,9 @@ listing:
     page-size: 25
 ---
 
-## Selected Publications
-
-Total citations as of April 2025:
-
-- [Google Scholar](https://scholar.google.com/citations?user=xDJHVCAAAAAJ&hl=en): 10,000+ citations
-- [ORCID](https://orcid.org/0000-0001-5678-5255): 0000-0001-5678-5255
-
-### Key Books
-
-**Lovelace, R.**, & Dumont, M. (2016). Spatial Microsimulation with R. *CRC Press*.
-
-### Key Papers
-
-**Lovelace, R.** (2021). Open source tools for geographic analysis in transport planning. *Journal of Geographical Systems*.
-
-**Lovelace, R.**, Goodman, A., Aldred, R., Berkoff, N., Abbas, A., & Woodcock, J. (2017). The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning. *Environment and Planning B*.
-
-### Recent Publications
-
-See [Google Scholar](https://scholar.google.com/citations?user=xDJHVCAAAAAJ&hl=en) for a full list.
-
-### Searchable Publications Index
-
-This table is generated from [`files/bibliography/my-citations-for-web.bib`](files/bibliography/my-citations-for-web.bib) and links to per-publication pages.
+{{< ai google-scholar size="lg" >}} [Google Scholar](https://scholar.google.com/citations?user=xDJHVCAAAAAJ&hl=en) · {{< ai orcid size="lg" >}} [ORCID](https://orcid.org/0000-0001-5678-5255)
 
 ::: {#publications-index}
 :::
-
-<!--Include social share buttons-->
 
 {{< include /files/includes/_socialshare.qmd >}}
