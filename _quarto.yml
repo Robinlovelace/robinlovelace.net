@@ -81,6 +81,9 @@ bibliography: references.bib  # Add references.bib to the root folder to enable 
 format:
   html:
     theme: [cosmo, brand]
+    filters:
+      - lightbox
+    lightbox: auto
     toc: true
     footnotes-hover: true
     code-copy: true
