@@ -30,6 +30,8 @@ about:
       href: https://orcid.org/0000-0001-5678-5255
 ---
 
+### {{< animate fadeInDown "Welcome!" >}}
+
 I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport). 🚶🚴🚲🚗🚌🚆
 
 I work with teams to help them build open tools 💻 and internationally deployed reproducible workflows and web applications 🌍 for evidence-based transport planning. 🚀
