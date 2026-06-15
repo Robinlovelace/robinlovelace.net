@@ -4,7 +4,7 @@ span.__dimensions_badge_embed__, div.altmetric-embed {
 }
 
 /* Give the footer some horizontal breathing room */
-.nav-footer {
+footer.footer .nav-footer {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
