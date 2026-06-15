@@ -32,41 +32,102 @@ TYPE_MAP = {
 # ── Minimal BibTeX parser (stdlib only) ──────────────────────────
 
 def parse_bibtex(text):
-    """Parse BibTeX text. Returns list of dicts with keys: type, id, fields."""
+    """Parse BibTeX text. Returns list of dicts with keys: type, id, fields.
+
+    Uses a brace-depth counter to correctly handle nested braces inside field
+    values (e.g. ``title = {stats19 {A} package}``).
+    """
     entries = []
-    # Match @type{key,  ...  }
-    pattern = re.compile(
-        r"@(\w+)\s*\{\s*([^,]+)\s*,"  # @type{key,
-        r"((?:.|\n)*?)\}\s*",         # content...
-        re.MULTILINE
-    )
-    for m in pattern.finditer(text):
-        entry_type = m.group(1).lower()
-        entry_id = m.group(2).strip()
-        body = m.group(3)
-        fields = _parse_bib_fields(body)
+    # Locate @type{ or @type( entry openings
+    header_pat = re.compile(r"@(\w+)\s*\{", re.MULTILINE)
+    for hm in header_pat.finditer(text):
+        entry_type = hm.group(1).lower()
+        if entry_type == "comment":
+            continue
+        # Scan from the opening brace using depth tracking
+        i = hm.end() - 1  # position of the opening '{'
+        depth = 0
+        j = i
+        while j < len(text):
+            ch = text[j]
+            if ch == "\\":
+                j += 2
+                continue
+            if ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+                if depth == 0:
+                    break
+            j += 1
+        body = text[i + 1:j]  # content between the outer braces
+        # Extract entry key (everything before the first comma)
+        comma_pos = body.find(",")
+        if comma_pos == -1:
+            continue
+        entry_id = body[:comma_pos].strip()
+        fields = _parse_bib_fields(body[comma_pos + 1:])
         entries.append({"type": entry_type, "id": entry_id, "fields": fields})
     return entries
 
 
 def _parse_bib_fields(body):
-    """Parse bib field key = {value} pairs from body text."""
+    """Parse bib field key = {value} pairs from body text.
+
+    Uses a brace-depth counter rather than a regex so that nested braces
+    (e.g. ``title = {stats19 {A} package}``) are handled correctly.
+    """
     fields = {}
-    # Match:  key = {value}  or  key = "value"
-    pattern = re.compile(
-        r"(\w+)\s*=\s*"         # key =
-        r"(\{)"                 # opening brace
-        r"((?:.|\n)*?)"         # value (non-greedy)
-        r"\}"                   # closing brace
-        r"\s*,?\s*",
-        re.MULTILINE
-    )
-    for m in pattern.finditer(body):
-        key = m.group(1).lower()
-        val = m.group(3).strip()
+    key_pat = re.compile(r"\s*(\w+)\s*=\s*", re.MULTILINE)
+    i = 0
+    while i < len(body):
+        km = key_pat.match(body, i)
+        if not km:
+            break
+        key = km.group(1).lower()
+        i = km.end()
+        if i >= len(body):
+            break
+        if body[i] == "{":
+            # Brace-depth parser: collect chars until the matching closing brace
+            depth = 0
+            start = i + 1
+            j = i
+            while j < len(body):
+                ch = body[j]
+                if ch == "\\" :
+                    j += 2  # skip escaped character
+                    continue
+                if ch == "{":
+                    depth += 1
+                elif ch == "}":
+                    depth -= 1
+                    if depth == 0:
+                        break
+                j += 1
+            val = body[start:j].strip()
+            i = j + 1
+        elif body[i] == '"':
+            # Quoted value
+            j = i + 1
+            while j < len(body) and body[j] != '"':
+                if body[j] == "\\":
+                    j += 2
+                    continue
+                j += 1
+            val = body[i + 1:j].strip()
+            i = j + 1
+        else:
+            # Bare value (number or macro): read until comma or newline
+            m = re.match(r"([^\s,]+)", body[i:])
+            val = m.group(1) if m else ""
+            i += len(val)
+
         # Unescape braces
         val = val.replace("\\{", "{").replace("\\}", "}")
         fields[key] = val
+        # Skip trailing comma/whitespace
+        i = len(re.match(r"[,\s]*", body[i:]).group()) + i if i < len(body) else i
     return fields
 
 
