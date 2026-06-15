@@ -95,7 +95,7 @@ def _parse_bib_fields(body):
             j = i
             while j < len(body):
                 ch = body[j]
-                if ch == "\\" :
+                if ch == "\\":
                     j += 2  # skip escaped character
                     continue
                 if ch == "{":
