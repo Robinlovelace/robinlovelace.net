@@ -2,6 +2,15 @@
 import os
 import sys
 
+# Force stdout/stderr to use UTF-8 encoding on Windows to prevent Quarto/Deno preview issues
+try:
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    if hasattr(sys.stderr, 'reconfigure'):
+        sys.stderr.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 def main():
     redirects_file = "_redirects"
     site_dir = "_site"
@@ -134,4 +143,9 @@ def main():
     print(f"Successfully generated {count} static HTML redirect stubs under {site_dir}/")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"Warning: Failed to generate HTML redirects due to an error: {e}", file=sys.stderr)
+        print("Quarto build will proceed.", file=sys.stderr)
+        sys.exit(0)

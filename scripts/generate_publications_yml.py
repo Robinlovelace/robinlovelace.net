@@ -12,6 +12,15 @@ import re
 import json
 from pathlib import Path
 
+# Force stdout/stderr to use UTF-8 encoding on Windows to prevent Quarto/Deno preview issues
+try:
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    if hasattr(sys.stderr, 'reconfigure'):
+        sys.stderr.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 BIB_PATH = PROJECT_ROOT / "files" / "bibliography" / "my-citations-for-web.bib"
 YML_PATH = PROJECT_ROOT / "publications" / "publications.yml"
@@ -404,4 +413,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"Warning: Failed to generate publications.yml due to an error: {e}", file=sys.stderr)
+        print("Quarto build will proceed using the existing publications.yml.", file=sys.stderr)
+        sys.exit(0)

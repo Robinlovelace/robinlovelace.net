@@ -1,6 +1,20 @@
 import os
-import yaml
+import sys
 from datetime import datetime, timezone
+
+# Force stdout/stderr to use UTF-8 encoding on Windows to prevent Quarto/Deno preview issues
+try:
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    if hasattr(sys.stderr, 'reconfigure'):
+        sys.stderr.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
+try:
+    import yaml
+except ImportError:
+    yaml = None
 
 def get_event_data(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -36,6 +50,11 @@ def get_event_data(file_path):
     return None
 
 def main():
+    if yaml is None:
+        print("Warning: 'pyyaml' module not found. Run 'pip install pyyaml' to enable upcoming events auto-generation.", file=sys.stderr)
+        print("Quarto build will proceed using the existing upcoming-events.yml.", file=sys.stderr)
+        return
+
     events = []
     events_dir = 'events'
     for root, dirs, files in os.walk(events_dir):
@@ -72,4 +91,9 @@ def main():
     print(f"Generated upcoming-events.yml with {len(output)} events.")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"Warning: Failed to generate upcoming-events.yml due to an error: {e}", file=sys.stderr)
+        print("Quarto build will proceed using the existing upcoming-events.yml.", file=sys.stderr)
+        sys.exit(0)
