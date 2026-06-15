@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# Maximum file size in bytes (1 MB = 1048576 bytes)
+MAX_SIZE=1048576
+
+# Redirect output to stderr
+exec 1>&2
+
+# Get list of staged files (excluding deleted ones)
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=d)
+
+EXIT_STATUS=0
+
+for file in $STAGED_FILES; do
+    # Get the size of the staged content in the Git index
+    size=$(git cat-file -s ":$file" 2>/dev/null || echo 0)
+    
+    if [ "$size" -gt "$MAX_SIZE" ]; then
+        size_mb=$(echo "$size" | awk '{printf "%.2f", $1/1024/1024}')
+        echo "Error: File '$file' is too large ($size_mb MB). Max allowed size is 1.00 MB."
+        EXIT_STATUS=1
+    fi
+done
+
+if [ $EXIT_STATUS -ne 0 ]; then
+    echo "Commit aborted. Please optimize/compress large files before committing."
+    echo "Note: You can bypass this check using: git commit --no-verify"
+fi
+
+exit $EXIT_STATUS
