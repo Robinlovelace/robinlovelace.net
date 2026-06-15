@@ -93,7 +93,7 @@ def format_authors(author_raw):
 def bib_to_yml_entry(entry):
     """Convert a parsed bib entry dict to a YAML publication entry dict."""
     eid = entry["id"]
-    slug = eid.replace("_", "-")
+    slug = eid.strip("_-").replace("_", "-")
     fields = entry["fields"]
 
     title = clean_bib_string(fields.get("title", ""))
