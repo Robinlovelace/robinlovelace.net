@@ -151,8 +151,11 @@ def parse_frontmatter(text):
             elif val.startswith("'") and val.endswith("'"):
                 val = val[1:-1]
             # Check if value is a list (actually starts with [)
-            if val == "" or val == "[]":
-                result[current_key] = val
+            if val == "":
+                result[current_key] = ""
+                current_list = None
+            elif val == "[]":
+                result[current_key] = []
                 current_list = None
             elif val.startswith("["):
                 # Inline list
