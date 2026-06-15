@@ -10,3 +10,17 @@ title-block-banner: false
 # Draft support
 # See https://quarto.org/docs/prerelease/1.5/website-drafts.html
 draft-mode: unlinked
+
+# Giscus comments powered by GitHub Discussions
+comments:
+  giscus:
+    repo: Robinlovelace/robinlovelace.net
+    repo-id: MDEwOlJlcG9zaXRvcnk4OTg2MzAyMw==
+    mapping: pathname
+    category: Announcements
+    category-id: DIC_kwDOBVszb84C_L-t
+    reactions-enabled: true
+    input-position: bottom
+    lang: en
+    theme: preferred_color_scheme
+    loading: lazy
