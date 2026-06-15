@@ -1,5 +1,5 @@
 ---
-title: "Website update: Quarto migration, HugoBlox links, and GitHub Pages at the apex domain"
+title: "Migration to Quarto"
 date: 2026-04-10
 categories: []
 tags: [quarto, website, github-pages, wowchemy, hugoblox]
@@ -7,13 +7,13 @@ subtitle: "A practical migration and deployment update"
 description: ""
 ---
 
-I have just updated my website stack and wanted to document what changed and why.
-The short version is that I looked at migration options from Wowchemy, moved the site to Quarto, and improved how project pages are published under robinlovelace.net.
+Following in the footsteps of reproducible research rolemodels including [Nicola Rennie](https://nrennie.rbind.io/blog/hugo-quarto-website/), [Andrew Heiss](https://www.andrewheiss.com/uses/) and [Jakub Nowosad](https://jakubnowosad.com/), I've finally migrated my website to Quarto!
 
-Looking back over recent commits in this repo, the practical work included switching to native GitHub Pages deploys, fixing event content and front matter, and consolidating the Quarto-based structure.
-I also wanted to write this up because the ecosystem has shifted in a way that can be confusing if you have not looked recently.
+Some brief notes on the process follow, it's worth it but there are some gotchas and things to consider.
 
-## Looking at migration options: Wowchemy and HugoBlox
+![](hero.png)
+
+## Why migrate? Wowchemy and HugoBlox closed ecosystems
 
 I explored options including migrating from Wowchemy to [HugoBlox](https://github.com/HugoBlox).
 If you search for Wowchemy on GitHub today, there are no public repositories under [github.com/wowchemy](https://github.com/wowchemy).
@@ -21,12 +21,11 @@ The project activity has moved under the HugoBlox organisation: [github.com/Hugo
 
 So one path was to stay in the Hugo ecosystem and migrate templates and content there.
 The other path was to simplify and move to Quarto for content-first publishing and easier long-term maintenance.
+
 I went with Quarto.
+Despite its cons of being slower to generate html (quarto preview can take minutes for large sites, something the team is working on in the currently-experimental [quarto-dev/q2](https://github.com/quarto-dev/q2) repository) and being less flexible in some ways than Hugo, Quarto is unbeatable for scientific and reproducible content.
 
 ## Converting content
-
-A key tool in this process was [academic-file-converter](https://github.com/lore-labs/academic-file-converter).
-It did an excellent job of converting legacy Academic/Wowchemy-style content into formats that are much easier to work with in a modern Quarto workflow.
 
 For anyone sitting on years of posts, events, and publication metadata, this is the kind of utility that turns a risky migration into a manageable one.
 
@@ -54,20 +53,13 @@ For example:
 
 The old GitHub-hosted URL now redirects, so links continue to work while the canonical home is on robinlovelace.net.
 
-## Questions for next improvements
+## Next steps
 
-I would appreciate feedback on what to prioritise next. A few specific questions:
+I'm still looking into how to better automate things.
+I've set-up GitHub Actions to create Netlify previews on each pull request, and am looking to set-up a regular workflow to run every month or so to update citations.
+Overall, I suggest keeping it fairly simple, with themes and extensions that are well-supported and maintained.
 
-1. Which area should I improve first: publications pages, project pages, or events/talks pages?
-2. Do you prefer a minimal homepage or one with more featured content blocks?
-3. Should I invest in a Quarto extension specifically for publication handling to get closer to the HugoBlox experience?
-4. Are there old URLs (besides `/rs5c/`) that should get explicit redirect checks?
+I've also found that nothing quite beats the out-of-the-box Publications page in HugoBlox for managing publications, so I'm looking into ways to automate the creation of a similar page in Quarto.
 
-## Links
-
-- Site source code: <https://github.com/robinlovelace/robinlovelace.net>
-- HugoBlox organisation: <https://github.com/HugoBlox>
-- Wowchemy org page: <https://github.com/wowchemy>
-- academic-file-converter: <https://github.com/lore-labs/academic-file-converter>
-- Academicons extension post: <https://rmflight.github.io/posts/2022-12-03-using-academicons-in-your-quarto-blog/>
-- Academicons project: <https://jpswalsh.github.io/academicons/>
+Check out the source code of my newly updated website if interested in any case and feel free to reach out, e.g. using the newly set-up [Giscus](https://giscus.app/) comments system on this site.
+Hoping this new set-up will encourage me to blog more. Watch this space!
