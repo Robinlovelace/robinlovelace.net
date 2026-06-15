@@ -2,10 +2,31 @@
 title: "Robin Lovelace"
 description-meta: "Professor of Transport Data Science at University of Leeds"
 image: "files/images/avatar.jpg"
-body-classes: landing-page
 page-navigation: false
 toc: false
-page-layout: custom
+about:
+  template: jolla
+  image-shape: rounded
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:r.lovelace@leeds.ac.uk
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/robinlovelace
+    - icon: github
+      text: GitHub
+      href: https://github.com/robinlovelace
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/c/RobinLovelace
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/web/@robinlovelace
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.co.uk/citations?user=xDJHVCAAAAAJ&hl=en
 
 listing:
   - id: upcoming-events
@@ -19,87 +40,25 @@ listing:
     filter-ui: false
 ---
 
-:::{.landing-shell}
+I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport), where I build open tools and reproducible workflows for evidence-based transport planning.
 
-:::{.landing-profile .landing-panel}
-![](files/images/avatar.jpg){.landing-avatar}
-
-## Robin Lovelace {.landing-name}
-
-<div class="landing-links">
-  <a class="btn btn-outline-secondary btn-sm" href="mailto:r.lovelace@leeds.ac.uk">Email</a>
-  <a class="btn btn-outline-secondary btn-sm" href="https://twitter.com/robinlovelace" target="_blank" rel="noopener">Twitter</a>
-  <a class="btn btn-outline-secondary btn-sm" href="https://github.com/robinlovelace" target="_blank" rel="noopener">GitHub</a>
-  <a class="btn btn-outline-secondary btn-sm" href="https://www.youtube.com/c/RobinLovelace" target="_blank" rel="noopener">YouTube</a>
-  <a class="btn btn-outline-secondary btn-sm" href="https://fosstodon.org/web/@robinlovelace" target="_blank" rel="noopener">Mastodon</a>
-  <a class="btn btn-outline-secondary btn-sm" href="https://scholar.google.co.uk/citations?user=xDJHVCAAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-</div>
-:::
-
-:::{.landing-main .landing-panel}
-
-:::{.panel-tabset}
-
-## Biography
-
-I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace){target="_blank" rel="noopener"} at the [University of Leeds](https://www.leeds.ac.uk/){target="_blank" rel="noopener"} [Institute for Transport Studies](https://environment.leeds.ac.uk/transport){target="_blank" rel="noopener"}, where I build open tools and reproducible workflows for evidence-based transport planning.
-
-I share code, methods, and writing on [GitHub](https://github.com/robinlovelace){target="_blank" rel="noopener"} and in the [posts section](/posts/). If you would like to collaborate, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).
+I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](/posts/). If you would like to collaborate, feel free to [email me](mailto:r.lovelace@leeds.ac.uk).
 
 [Current projects](/projects/){.btn .btn-primary .me-2}
-[Publications](/publications/){.btn .btn-outline-secondary}
+[Publications](/publications/){.btn .btn-outline-light}
 
-## Experience
-
-- **Associate Professor** (2019 - Present)  
-  [University of Leeds](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace){target="_blank" rel="noopener"} (Leeds, UK)  
-  Teaching and researching transport data science. Lead developer of the TDS MSc module.
-
-- **Principal Investigator** (2019 - Present)  
-  [SaferActive](https://saferactive.org){target="_blank" rel="noopener"} (UK)  
-  Responsibilities include project management, data analysis, and active travel safety modelling.
-
-- **Lead Developer** (2015 - Present)  
-  [Propensity to Cycle Tool (PCT)](https://www.pct.bike/){target="_blank" rel="noopener"} (UK)  
-  Leading development of the R code, spatial model pipelines, and interactive web mapping dashboard.
-
-- **Principal Investigator** (2017 - 2018)  
-  [Cycling Infrastructure Prioritisation Tool (CyIPT)](https://cyipt.bike){target="_blank" rel="noopener"} (UK)  
-  Managed project pipelines, spatial data analytics, and cycle infrastructure planning models.
-
-## Education
-
-- **PhD in Transport and Energy** (2013)  
-  University of Sheffield (Sheffield, UK)  
-  Research focused on spatial microsimulation, energy futures, and transportation analysis.
-
-- **MSc in Environmental Science & Management** (2009)  
-  University of York (York, UK)
-
-- **BSc in Environmental Geography** (2008)  
-  University of Bristol (Bristol, UK)
-
-## Interests
-
-Primary research fields and software development interests:
-
-[Geocomputation]{.interest-badge .badge .bg-primary-subtle .text-primary .border .border-primary-subtle}
-[Transport Modelling]{.interest-badge .badge .bg-success-subtle .text-success .border .border-success-subtle}
-[Active Travel Uptake]{.interest-badge .badge .bg-info-subtle .text-info .border .border-info-subtle}
-[Reproducible Data Analysis]{.interest-badge .badge .bg-warning-subtle .text-warning .border .border-warning-subtle}
-[Decarbonising Transport Systems]{.interest-badge .badge .bg-danger-subtle .text-danger .border .border-danger-subtle}
-[Open Source Software]{.interest-badge .badge .bg-primary-subtle .text-primary .border .border-primary-subtle}
-[Spatial Data Science]{.interest-badge .badge .bg-secondary-subtle .text-secondary .border .border-secondary-subtle}
-
-:::
-
-:::
-
-:::{.landing-updates .landing-panel}
-### Upcoming and Recent Talks and Events
+## Upcoming Events
 
 :::{#upcoming-events}
 :::
 
-:::
-:::
+## Research Interests
+
+- Geocomputation
+- Transport modelling
+- Active travel uptake
+- Reproducible data analysis
+- Decarbonising transport systems
+- Open source software
+- Spatial data science
+
