@@ -5,9 +5,9 @@ image: "files/images/avatar.jpg"
 page-navigation: false
 toc: false
 about:
-  template: jolla
+  template: trestles
   image-shape: rounded
-  image-width: 12em
+  image-width: 15em
   links:
     - icon: envelope
       text: Email
