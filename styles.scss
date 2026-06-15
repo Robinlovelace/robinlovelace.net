@@ -1,0 +1,266 @@
+/*-- scss:defaults --*/
+$navbar-bg: #ffffff !default;
+$navbar-fg: #1f2937 !default;
+$navbar-hl: #4f46e5 !default;
+$link-color: #4f46e5 !default;
+$body-bg: #ffffff !default;
+$body-color: #19202d !default;
+$border-radius: 0.45rem !default;
+$card-border-radius: 0.55rem !default;
+$card-border-color: #d8deea !default;
+$content-padding-top: 0.75rem !default;
+
+/*-- scss:rules --*/
+/* Inline badges are used on publications pages. */
+span.__dimensions_badge_embed__,
+div.altmetric-embed {
+  display: inline-block;
+}
+
+body {
+  background: #f8fafc;
+}
+
+#quarto-header .navbar {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+  transition: all 0.3s ease;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+
+.landing-page .quarto-title-block {
+  display: none;
+}
+
+.landing-shell {
+  max-width: 1180px;
+  margin: 0.2rem auto 0;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: minmax(280px, 320px) minmax(0, 1fr);
+  grid-template-areas:
+    "profile main"
+    "profile updates";
+  gap: 0.5rem 2rem;
+  align-items: start;
+}
+
+.nav-footer {
+  padding: 0.5rem 0 !important;
+  margin-top: 0 !important;
+}
+
+.landing-panel {
+  background: #ffffff;
+  border: 1px solid rgba(229, 231, 235, 0.5);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.landing-panel:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 35px rgba(15, 23, 42, 0.08);
+}
+
+.landing-profile {
+  grid-area: profile;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.landing-avatar {
+  width: min(100%, 160px);
+  border-radius: 0.45rem;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
+  margin-bottom: 0.25rem;
+}
+
+.landing-name {
+  color: #111827;
+  font-size: clamp(1.4rem, 1.5vw, 1.8rem);
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+
+.landing-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.landing-main {
+  grid-area: main;
+  padding: 0.5rem 0.8rem;
+}
+
+.landing-main > p:first-child {
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+
+.landing-main .btn {
+  margin-bottom: 0.2rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+}
+
+.landing-focus {
+  margin-top: 0;
+}
+
+.landing-focus h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #2e3d59;
+  margin-bottom: 0.2rem;
+}
+
+.landing-focus ul {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.landing-updates {
+  grid-area: updates;
+  padding: 0.4rem 0.8rem;
+}
+
+.landing-updates h3 {
+  margin-bottom: 0.1rem;
+  font-size: 1.1rem;
+}
+
+#listing-recent-updates {
+  margin-top: 0;
+}
+
+#listing-recent-updates .table {
+  margin-bottom: 0.1rem;
+  font-size: 0.8rem;
+}
+
+#listing-recent-updates .listing-title {
+  font-weight: 600;
+}
+
+#listing-recent-updates td,
+#listing-recent-updates th {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.landing-updates > p:last-child {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 992px) {
+  .landing-shell {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "profile"
+      "main"
+      "updates";
+    gap: 0.65rem;
+    padding: 0 0.65rem 0.5rem;
+  }
+
+  .landing-main,
+  .landing-profile,
+  .landing-updates {
+    padding: 0.85rem;
+  }
+}
+
+/* Dark Mode styling for Landing Page Panels */
+.quarto-dark {
+  .landing-panel {
+    background: #1e293b !important; /* slate-800 */
+    border-color: rgba(71, 85, 105, 0.4) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+  }
+  .landing-name {
+    color: #f1f5f9 !important;
+  }
+  .landing-main, .landing-updates {
+    color: #cbd5e1 !important; /* slate-300 */
+  }
+  .landing-avatar {
+    border-color: #475569 !important;
+  }
+  
+  /* Timeline/list item text colors for dark mode */
+  .timeline-list li {
+    color: #cbd5e1 !important;
+  }
+}
+
+/* Custom Nav Pills for Biography Tabs */
+.nav-pills {
+  gap: 0.25rem;
+}
+
+.nav-pills .nav-link {
+  color: #4b5563;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.nav-pills .nav-link:hover {
+  color: #4f46e5;
+  background-color: rgba(79, 70, 229, 0.05);
+  border-color: rgba(79, 70, 229, 0.1);
+}
+
+.nav-pills .nav-link.active {
+  background-color: #4f46e5 !important;
+  color: #ffffff !important;
+}
+
+.quarto-dark {
+  .nav-pills .nav-link {
+    color: #9ca3af;
+  }
+  .nav-pills .nav-link:hover {
+    color: #818cf8; /* indigo-400 */
+    background-color: rgba(99, 102, 241, 0.1);
+    border-color: rgba(99, 102, 241, 0.2);
+  }
+  .nav-pills .nav-link.active {
+    background-color: #6366f1 !important;
+    color: #ffffff !important;
+  }
+}
+
+/* Interests Badge Custom Styles */
+.interest-badge {
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.35rem 0.7rem;
+  border-radius: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.interest-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.08);
+}
