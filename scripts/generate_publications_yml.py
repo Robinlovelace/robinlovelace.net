@@ -28,6 +28,20 @@ TYPE_MAP = {
     "misc": "Miscellaneous",
 }
 
+# Maps CSL/Quarto citation-type values to human-readable labels.
+# Used as a fallback when citation-type-label is absent from page frontmatter.
+CITATION_TYPE_LABEL_MAP = {
+    "book": "Book",
+    "book-chapter": "Book Chapter",
+    "chapter": "Book Chapter",
+    "paper-conference": "Conference Paper",
+    "article-journal": "Journal Article",
+    "article": "Journal Article",
+    "report": "Report",
+    "thesis": "PhD Thesis",
+    "manuscript": "Miscellaneous",
+}
+
 
 # ── Minimal BibTeX parser (stdlib only) ──────────────────────────
 
@@ -252,7 +266,10 @@ def parse_individual_page(slug):
     venue = fm.get("venue", "")
     doi = fm.get("doi", "")
     pub_url = fm.get("publication-url", fm.get("url", ""))
-    ctype = fm.get("citation-type-label", "")
+    ctype_label = fm.get("citation-type-label", "")
+    if not ctype_label:
+        ctype_raw = fm.get("citation-type", "").lower()
+        ctype_label = CITATION_TYPE_LABEL_MAP.get(ctype_raw, "Journal Article")
     authors_list = fm.get("authors", [])
     if isinstance(authors_list, str):
         authors_list = [a.strip() for a in authors_list.split(",") if a.strip()]
@@ -265,7 +282,7 @@ def parse_individual_page(slug):
         "title": title,
         "date": date_str,
         "year": year,
-        "type": ctype or "Journal Article",
+        "type": ctype_label,
         "venue": venue,
         "doi": doi,
         "url": pub_url,
