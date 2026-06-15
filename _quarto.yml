@@ -80,7 +80,7 @@ bibliography: references.bib  # Add references.bib to the root folder to enable 
 
 format:
   html:
-    theme: slate
+    theme: [cosmo, brand]
     toc: true
     footnotes-hover: true
     code-copy: true
