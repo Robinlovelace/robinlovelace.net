@@ -270,11 +270,13 @@ def main():
     force = "--force" in sys.argv
 
     # Check if regeneration is needed
-    if not force and YML_PATH.exists():
-        bib_mtime = os.path.getmtime(BIB_PATH)
-        yml_mtime = os.path.getmtime(YML_PATH)
-        if yml_mtime > bib_mtime:
-            print("publications.yml is newer than .bib file. Skipping (use --force to override).")
+    if not force and YML_PATH.exists() and BIB_PATH.exists():
+        inputs_mtime = os.path.getmtime(BIB_PATH)
+        for slug in get_existing_dirs():
+            qmd_path = PUBS_DIR / slug / "index.qmd"
+            inputs_mtime = max(inputs_mtime, os.path.getmtime(qmd_path))
+        if os.path.getmtime(YML_PATH) > inputs_mtime:
+            print("publications.yml is up to date. Skipping (use --force to override).")
             return
 
     # Load and parse BibTeX
