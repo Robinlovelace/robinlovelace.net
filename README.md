@@ -1,43 +1,66 @@
-# Quarto Academic Website Template
+# robinlovelace.net
 
-Welcome! This is a simple and customizable template for building your own academic website using [Quarto](https://quarto.org/). You can easily fork, edit, and publish your site with just a few steps.
+This is the repository for the personal, academic, and professional website of **Robin Lovelace** (Associate Professor of Transport Data Science at the Leeds Institute for Transport Studies), hosted at [robinlovelace.net](https://www.robinlovelace.net).
 
-## 🚀 Quick Start
+The website is built using [Quarto](https://quarto.org) and is configured to deploy automatically via GitHub Pages.
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Test to publish** your site using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch) (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Check** if your website works or not. If successful, you should see exactly the same website as [this one](https://drganghe.github.io/quarto-academic-website-template/) using your own Github Pages url:
-   - `https://YourGitHubUserName.github.io` if your repository name is `YourGitHubUserName.github.io`
-   - `https://YourGitHubUserName.github.io/RepositoryName` for other `RepositoryName`
-   - Errors:
-      - If [404](/files/images/Error1.png), it is likely you haven't set up GitHub Pages
-      - If it shows the [README](/files/images/Error2.png) file, it is likely you've published from the `root` folder, not the `docs` directory
+---
 
-If you achieve this milestone, congratulations! You are now ready to start updating your website:
+## 🚀 Key Features & Customizations
 
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/#website-preview) your site locally.  
-1. **`Commit` to publish** your updates.
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
-1. **Link** your website on your official pages to let Google and AI bots include in their search results.
+This site is based on a Quarto academic template but has been heavily customized with several advanced features and automation scripts:
 
-## 🛠 Requirements
+1. **Automated Publications Manager**: 
+   * **Canonical Source**: Publications are managed inside the BibTeX file `references.bib`.
+   * **Automation Script**: [`scripts/generate_publications_yml.py`](file:///home/robin/github/robinlovelace/robinlovelace.net/scripts/generate_publications_yml.py) parses the `.bib` file (using a custom stdlib-only parser with nested brace support) and auto-generates the `publications.yml` database during the build pipeline.
+   * **Interactive Page**: The publications page is render-optimized and supports sorting, filtering, and dynamic Academicons link integration.
 
-- Install [Quarto](https://quarto.org/docs/get-started/)
-- Learn the basics from the [official Quarto documentation](https://quarto.org/docs/websites/)
+2. **Legacy Redirects for GitHub Pages**:
+   * **Problem**: GitHub Pages does not support Netlify's `_redirects` file natively.
+   * **Solution**: [`scripts/generate_html_redirects.py`](file:///home/robin/github/robinlovelace/robinlovelace.net/scripts/generate_html_redirects.py) parses the Netlify-style redirects and compiles them into static HTML stubs containing `<meta http-equiv="refresh" ...>` tags inside the built site directory.
 
-## 🔗 Legacy Redirects
+3. **Pre-commit File Size Guard**:
+   * A custom pre-commit hook in [`.githooks/pre-commit`](file:///home/robin/github/robinlovelace/robinlovelace.net/.githooks/pre-commit) automatically prevents files larger than **1 MB** from being committed, keeping the repository history clean and lightweight.
 
-Since the site is hosted on GitHub Pages (which natively ignores Netlify's `_redirects` file), we run a custom script [`scripts/generate_html_redirects.py`](file:///home/robin/github/robinlovelace/robinlovelace.net/scripts/generate_html_redirects.py) in the deployment pipeline. This script parses the `_redirects` rules and generates static HTML redirect stubs containing `<meta http-equiv="refresh" ...>` tags inside the built `_site/` directory.
+4. **Giscus Comments**:
+   * Blog posts in `/posts/` feature interactive comments powered by [Giscus](https://giscus.app) with automatic theme matching.
 
-## 📚 More Examples & Tips
+5. **Integrated Development Container**:
+   * The repository features a pre-configured [`.devcontainer/`](file:///home/robin/github/robinlovelace/robinlovelace.net/.devcontainer) utilizing the `ghcr.io/geocompx/pythonr` image, providing a unified, ready-to-use R and Python environment for local rendering and development.
 
-- [Quarto Academic Site Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html)
+---
+
+## 🛠 Local Development
+
+### Option A: Using VS Code Dev Containers (Recommended)
+1. Open this workspace in VS Code.
+2. Click **Reopen in Container** when prompted (or open the Command Palette and select `Dev Containers: Reopen in Container`).
+3. Render and preview the site using the integrated terminal:
+   ```bash
+   quarto preview
+   ```
+
+### Option B: Local Installation
+Ensure you have [Quarto installed](https://quarto.org/docs/get-started/) on your local machine, then run:
+
+* **Preview the website locally**:
+  ```bash
+  quarto preview
+  ```
+* **Build/Render the static site**:
+  ```bash
+  quarto render
+  ```
+
+---
+
+## 🔒 Activating the File Size Hook
+To enforce the 1 MB file size limit on your local commits:
+```bash
+git config core.hooksPath .githooks
+chmod +x .githooks/pre-commit
+```
+If you ever need to bypass this hook to commit a large file, commit with the `--no-verify` flag:
+```bash
+git commit -m "Commit message" --no-verify
+```
