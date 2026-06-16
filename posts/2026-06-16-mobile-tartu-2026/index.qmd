@@ -1,0 +1,18 @@
+---
+title: "Mobile Tartu 2026: a write-up"
+date: 2026-06-16
+categories: ["event"]
+tags: ["event", "travel", "conference"]
+subtitle: ""
+description: ""
+---
+
+
+Last week I attended the [10th Mobile Tartu Conference](https://mobiletartu.ut.ee/).
+In this post I share some reflections on the event, links to some of the great materials presented there, plus a few photos.
+After reading it you should have a good idea about what Mobile Tartu is all about and, if you're a mobility researcher interested in emerging data sources and reproducible research, why you should consider applying to attend the next one in 2028.
+
+The short version: it was a blast and you should go!
+
+
+
