@@ -54,7 +54,32 @@ Ensure you have [Quarto installed](https://quarto.org/docs/get-started/) on your
 
 ---
 
-## 🔒 Activating the File Size Hook
+## � Creating a New Post
+
+To create a new post with today's date, load the helper function and use it:
+
+```r
+devtools::load_all()
+create_post("Your Post Title", slug = "your-post-slug")
+```
+
+Or with tags and categories:
+
+```r
+devtools::load_all()
+create_post(
+  title = "Advanced Quarto Tips",
+  slug = "quarto-tips",
+  tags = c("quarto", "tips"),
+  categories = c("tutorial")
+)
+```
+
+The post folder and `index.qmd` are created automatically with today's date and YAML frontmatter. Run `quarto preview` to see it live.
+
+---
+
+## �🔒 Activating the File Size Hook
 To enforce the 1 MB file size limit on your local commits:
 ```bash
 git config core.hooksPath .githooks

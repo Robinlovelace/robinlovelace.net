@@ -1,0 +1,13 @@
+Package: robinlovelace
+Type: Package
+Title: Helper Functions for robinlovelace.net
+Version: 0.1.0
+Authors@R: 
+    person("Robin", "Lovelace", 
+           email = "robin@robinlovelace.net",
+           role = c("aut", "cre"))
+Description: Helper functions for managing the robinlovelace.net Quarto website.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
