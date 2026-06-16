@@ -11,9 +11,9 @@ Last week I attended the [10th Mobile Tartu Conference](https://mobiletartu.ut.e
 In this post I share some reflections on the event, links to some of the great materials presented there, plus a few photos.
 After reading it you should have a good idea about what Mobile Tartu is all about and, if you're a mobility researcher interested in emerging data sources and reproducible research, why you should consider applying to attend the next one in 2028.
 
-The short version: it was a blast and you should go!
+The short version: it was a blast and you should visit Estonia!
 
-![](images/paste-1.png)
+![](images/paste-5.png)
 
 I first attended Mobile Tartu 2 years previously as an invited speaker for Mobile Tartu 2024.
 This year, I was invited to [deliver a workshop ](https://robinlovelace.net/events/mobile-tartu-2026/)for the summer school that precedes the conference.
