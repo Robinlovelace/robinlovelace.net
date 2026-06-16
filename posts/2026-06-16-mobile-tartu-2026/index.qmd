@@ -62,3 +62,11 @@ Some photos from the talk, which was excellent, are provided below.
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7469324956632510464?collapsed=1" height="645" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 There was a good link between Andres's talk and the topic of his workshop: modelling pedestrian movements using the Python package madina [@sevtsuk2025].
+There were 4 workshops in total, with links to the workshop materials in the links where I could find them:
+
+1. Data Science for Transport Planning: from origin-destination to route network datasets (Robin Lovelace and Juan Fonseca Zamora, our workshop)  
+  - See the [workshop homepage](https://tdscience.github.io/tartu26/) for links to the materials, code and slides.
+2. Modelling Pedestrian Mobility in Cities: Tools for Sustainable Urban Design (Andres Sevtsuk)  
+3. Correcting Biases in Mobile Phone Mobility Data: The DEBIAS Framework (Francisco Rowe and Carmen Cabrera)  
+  - This workshop was based on the in-progress [`debiasR` R package](https://de-bias.github.io/debiasR/index.html) and it's open [documentation](https://de-bias.github.io/debiasR/articles/v03-getting-set-up.html) 
+4. Regional Inequities in Accessibility: Comparative Analysis of GTFS and Passenger Counts (Anto Aasa, Ago Tominga and Martin Haamer)  
