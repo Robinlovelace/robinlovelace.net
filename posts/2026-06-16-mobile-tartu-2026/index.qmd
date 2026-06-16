@@ -86,18 +86,46 @@ As outlined below, every team aced it, resulting in 4 excellent presentations on
 
 The final presentations were as follows:
 
+1. **Leisure and Commuting Mobility Patterns in the Spain-France Border Region** — Eva Hajčiarová, Paul Bairoh, Allison Fernández-Lobo, Juliette Le Corguillé. [Slides](https://tdscience.github.io/tartu26/group1.html)
+2. **Cross-Border Flows Between France and Spain through Catalonia** — Mariana Montero, Leonardo Moreira,  . [Slides](https://tdscience.github.io/tartu26/group2.html)
+3. **Cross-Border Trip Purposes, Bike-Sharing & Public Transport Strikes, and OD Flow Validation** — Jonas, Helen, Xiao, Jaanika, Keren Or. [Slides](https://tdscience.github.io/tartu26/group3.html)
+4. **How Is Human Mobility Driven By Amenities? A Pamplona Case Study** — Zijun Ding, Thomas Dimos, Laura Altin, Emiliano Beltran. [Slides](https://tdscience.github.io/tartu26/group4.html)
 
+One of my favourite parts from the presentations was seeing Juan Arquero presenting the results of his team's analysis of Spanish OD dataset to explain the travel patterns near his home in Madrid, shown in the video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3uCvPyB43rU?si=hc8NGRbbXp7LA-q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Beyond learning about new datasets and data science tools, the workshop also taught new ways to collaborate and communicate research findings, which is a key part of the reproducible research ethos.
+The course repository now has 10+ contributors and should help inspire future work and teaching.
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7470000166335340545?collapsed=1" height="669" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
+A key decision that we made early on with the teaching was to use [Devcontainers](https://containers.dev/) to provide a consistent environment for all participants.
+Despite some initial hiccups, this seems to have worked well, enabling people new to coding and GitHub to get up and running quickly, and allowing us to focus on the research questions rather than technical issues.
+A key lesson learned for anyone thinking of using Devcontainers: setup can take time, so it's worth using a pre-existing container and devcontainer.json settings.
+Use a tried-and-tested container such as the [itsleeds/tds](https://github.com/itsleeds/tds) container used in this workshop, or the [geocompx/docker](https://github.com/geocompx/docker) container that it builds on, rather than trying to build your own from scratch.
+See the [source code for our workshop](https://github.com/tdscience/tartu26) for the devcontainer.json settings we used and feel free to adapt them for your own workshops.
+
+Despite the fact that Devcontainers made installing and using the tools easier, it was still impressive to see how quickly the participants got up to speed with the tools and data, and how quickly they were able to produce high-quality outputs.
+
 Well done to all the participants!
 
-## 
+## The Mobile Tartu Conference
 
+The rest of the conference was great, including standard presentations by researchers from a wide range of backgrounds.
+The quality of the research presented was high, and there was lots to learn.
+There was also a poster session, providing a good way for researchers to present their work one-to-one and get feedback.
 
+This format, with a PhD School, and then multiple ways to present research, means that Mobile Tartu has something to offer everyone.
 
+Another great thing about the conference is how good the organising team, and the Mobility Lab in general, is at getting the work out there, meaning people who cannot attend in person can still benefit from the research presented.
+It's in that spirit that I have shared this write-up, and provide some more links below.
+
+- The [Mobility Lab YouTube channel](https://www.youtube.com/@mobilitylab7937) has keynotes from the conference
+- The [Mobile Tartu 2026 conference website](https://mobiletartu.ut.ee/) has links to the conference programme and abstracts
+- The [`madina ` Python package](https://github.com/City-Form-Lab/madina) for modelling pedestrian movements, which was the focus of Andres Sevtsuk's workshop
+- Course materials for the [Data Science for Transport Planning](https://tdscience.github.io/tartu26/) workshop delivered by me and Juan
+
+Thanks to everyone for making it such a great event, and hope to see you at the next one in 2028!
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7470474608744509441?collapsed=1" height="603" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
