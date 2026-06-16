@@ -70,3 +70,20 @@ There were 4 workshops in total, with links to the workshop materials in the lin
 3. Correcting Biases in Mobile Phone Mobility Data: The DEBIAS Framework (Francisco Rowe and Carmen Cabrera)  
   - This workshop was based on the in-progress [`debiasR` R package](https://de-bias.github.io/debiasR/index.html) and it's open [documentation](https://de-bias.github.io/debiasR/articles/v03-getting-set-up.html) 
 4. Regional Inequities in Accessibility: Comparative Analysis of GTFS and Passenger Counts (Anto Aasa, Ago Tominga and Martin Haamer)  
+
+## Our workshop: Data Science for Transport Planning
+
+Our workshop built on the [Data Science for Transport Planning](https://environment.leeds.ac.uk/dir-record/shortcourses/1179/data-science-for-transport-planning) continuous professional development (CPD) courses we have delivered for practitioners, plus the [Tools and Skills for Reproducible Transport Research](https://tdscience.github.io/course) that Juan and I delivered last year at the EIT Summer School in Lisbon.
+
+This time we focussed specifically on using origin-destination data from the [{spanishoddata} R package](https://ropenspain.github.io/spanishoddata/).
+We also included demonstrations of how to use the [OpenStreetMap](https://www.openstreetmap.org/) data with R and Python to generate estimates of flow on networks.
+We had 4 teams of 3-4 participants and each was tasked with developing a reproducible workflow to answer a research question of their choice using the data and tools we had introduced.
+
+A challenge for participants was to develop an understanding of the data and tools provided, while simultaneously developing their own research.
+It was a bit like trying to compress a research project into 2 half-days or, trying to fly a plane while building it.
+An additional challenge that we set the participants was to present their work using slides generated Quarto and hosted on the course website.
+As outlined below, every team aced it, resulting in 4 excellent presentations on the final day of the workshop, professional-looking interactive slides that others can benefit from, and the experience of committing code and opening pull requests to a GitHub repository, an impressive achievement given that many of the participants had never used GitHub, let along GitHub Codespaces or Pull Requests before.
+
+Well done to all the participants!
+
+## 
