@@ -84,6 +84,14 @@ It was a bit like trying to compress a research project into 2 half-days or, try
 An additional challenge that we set the participants was to present their work using slides generated Quarto and hosted on the course website.
 As outlined below, every team aced it, resulting in 4 excellent presentations on the final day of the workshop, professional-looking interactive slides that others can benefit from, and the experience of committing code and opening pull requests to a GitHub repository, an impressive achievement given that many of the participants had never used GitHub, let along GitHub Codespaces or Pull Requests before.
 
+The final presentations were as follows:
+
+
+
+Beyond learning about new datasets and data science tools, the workshop also taught new ways to collaborate and communicate research findings, which is a key part of the reproducible research ethos.
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7470000166335340545?collapsed=1" height="669" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 Well done to all the participants!
 
 ## 
