@@ -1,8 +1,9 @@
----
+|---
 categories: [upcoming]
 title: "AUM2026: Applied Urban Modelling Symposium and Pre-conference Seminar"
-abstract: I'm presenting at the 2026 Applied Urban Modelling (AUM) symposium at the University of Cambridge.
+abstract: I'm presenting at the Modelling Active Mobility seminar at the University of Cambridge, part of the Applied Urban Modelling (AUM) symposium.
 date: 2026-06-26 09:00:00+01:00
+date-end: 2026-07-01 17:00:00+01:00
 tags:
   - "AUM2026"
   - "Applied Urban Modelling"
@@ -17,28 +18,24 @@ tags:
 author:
   - "Robin Lovelace"
 ---
-I'll be presenting on **Modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling**.
+I'm heading to Cambridge for [AUM2026](https://www.landecon.cam.ac.uk/news/aum2026), the 11th Applied Urban Modelling symposium (29 Jun – 1 Jul), preceded by the [Modelling Active Mobility](https://www.landecon.cam.ac.uk/news/aum2026#pre-conference-seminar-%E2%80%98modelling-active-mobility%E2%80%99) pre-conference seminar (26–27 Jun). I'll be presenting on **Modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling**.
 
-## Abstract
+## Pre-conference Seminar: Modelling Active Mobility
 
-This talk presents data-driven approaches for modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling, with the aim of informing government guidance on critical safety issues for walking, wheeling, and cycling. The presentation will cover: data engineering pipelines designed to ingest large volumes of pedestrian and cycle count data; the integration of casualty and traffic data to characterise risk; and open-source tools and reproducible methods used to build models capable of informing evidence-based policy and design guidance. The work draws on and extends existing transport modelling frameworks and speaks to the broader challenge of making active travel the natural choice for short trips in UK cities and towns.
+A two-day invited seminar convening scholars, practitioners, and policy makers to discuss modelling pedestrians' and cyclists' interactions with built environments. Sponsored by VREF (Volvo Research and Educational Foundations).
 
-<!-- ## Event Details
+- **Dates:** 26–27 June 2026 (+ 28 Jun break day)
+- **Venue:** Bateman Auditorium, Gonville & Caius College (Old Courts), Cambridge
+- **Format:** Day 1 invited presentations; Day 2 group discussion
 
-### Pre-conference Seminar: Modelling Active Mobility
-- **Dates:** 26-27 June 2026
-- **Venue:** Bateman Auditorium, Gonville & Caius College (Old Courts)
-- **Format:** Day 1 presentations by invitation; Day 2 group discussion
-- **Sponsor:** VREF (Volvo Research and Educational Foundations)
+## Main AUM2026 Symposium
 
-### Main AUM2026 Symposium
-- **Dates:** 29 June - 1 July 2026
-- **Venue:** Cavonius Centre, Gonville & Caius College (Harvey Court)
-- **Organisers:** Department of Land Economy and Martin Centre, University of Cambridge
+The [AUM2026 symposium](https://www.landecon.cam.ac.uk/news/aum2026) (29 Jun – 1 Jul) is the 11th Applied Urban Modelling symposium, covering urban simulation models, land-use and transport interactions, and related topics. Venue: Cavonius Centre, Gonville & Caius College (Harvey Court), Cambridge.
 
-### Registration
-Registration covers symposium organisation, refreshments, and buffet lunches. Accommodation not included (limited college guestrooms available).
+## Links
 
-### Contact
-[aum@landecon.cam.ac.uk](mailto:aum@landecon.cam.ac.uk) -->
+- [Modelling Active Mobility seminar info](https://www.landecon.cam.ac.uk/news/aum2026#pre-conference-seminar-%E2%80%98modelling-active-mobility%E2%80%99) — part of the AUM2026 programme
+- [AUM2026 main page](https://www.landecon.cam.ac.uk/news/aum2026) — programme, schedule, and travel info
+- [Registration (Cambridge Online Store)](https://onlinesales.admin.cam.ac.uk/conferences-and-events/land-economy/applied-urban-modelling-aum/applied-urban-modelling-aum2026-26-june-01-july-2026) — options from £90 (single day) to £250 (full event + conference dinner); concession rates for students
+- [Contact](mailto:aum@landecon.cam.ac.uk)
 
