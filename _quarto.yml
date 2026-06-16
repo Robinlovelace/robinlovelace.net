@@ -94,4 +94,8 @@ format:
     email-obfuscation: javascript
     link-external-filter: '^(?:http:|https:)\/robinlovelace\.net\/'
     css: custom.css
+    include-after-body:
+      - text: |
+          <script data-goatcounter="https://YOURCODE.goatcounter.com/count"
+                  async src="//gc.zgo.at/count.js"></script>
 
