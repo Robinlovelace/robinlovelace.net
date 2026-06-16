@@ -7,12 +7,26 @@ subtitle: ""
 description: ""
 ---
 
-
 Last week I attended the [10th Mobile Tartu Conference](https://mobiletartu.ut.ee/).
 In this post I share some reflections on the event, links to some of the great materials presented there, plus a few photos.
 After reading it you should have a good idea about what Mobile Tartu is all about and, if you're a mobility researcher interested in emerging data sources and reproducible research, why you should consider applying to attend the next one in 2028.
 
 The short version: it was a blast and you should go!
 
+![](images/paste-1.png)
 
+I first attended Mobile Tartu 2 years previously as an invited speaker for Mobile Tartu 2024.
+This year, I was invited to [deliver a workshop ](https://robinlovelace.net/events/mobile-tartu-2026/)for the summer school that precedes the conference.
+I was very happy to accept, resulting in the 2 half-day course Data Science for Transport Planning delivered by me and my ITS colleague and PhD student Juan Fonseca, shown in the photo above.
 
+Before the event we got to spend some time exploring Tallinn.
+There was an outdoor festival taking place, which featured live music, the ideal way to acclimatise to the Estonian culture.
+Although I couldn't understand a single word of the lyrics I could appreciate the catchy and brilliantly executed songs.
+It was only several days later that I found out that it was an Estonian-language progressive pop band called [Lonitseera](https://lonitseera.ee/eng/meist/).
+Their music is available from their [website](https://lonitseera.ee/eng/muusika/), from [YouTube ](https://www.youtube.com/@lonitseera1403)and beyond, highly recommended!
+
+![Watching Estonian-language pop music in central Tallinn](images/paste-3.png)
+
+Then it was
+
+![As part of the opening session for the Mobile Tartu Summer School, we stood in a circle outside in the sun and introduced ourselves. What a venue!](images/paste-2.png)
