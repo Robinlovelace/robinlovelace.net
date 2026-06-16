@@ -11,13 +11,17 @@ Last week I attended the [10th Mobile Tartu Conference](https://mobiletartu.ut.e
 In this post I share some reflections on the event, links to some of the great materials presented there, plus a few photos.
 After reading it you should have a good idea about what Mobile Tartu is all about and, if you're a mobility researcher interested in emerging data sources and reproducible research, why you should consider applying to attend the next one in 2028.
 
-The short version: it was a blast and you should visit Estonia!
+The short version: it was a blast and you should visit Estonia (and if interested in reproducible transport planning check out our free and open access workshop materials, and the results from workshop attendees)!
 
-![](images/paste-5.png)
+![Me and Juan at Mobile Tartu](images/paste-5.png)
+
+## Introduction
 
 I first attended Mobile Tartu 2 years previously as an invited speaker for Mobile Tartu 2024.
 This year, I was invited to [deliver a workshop ](https://robinlovelace.net/events/mobile-tartu-2026/)for the summer school that precedes the conference.
 I was very happy to accept, resulting in the 2 half-day course Data Science for Transport Planning delivered by me and my ITS colleague and PhD student Juan Fonseca, shown in the photo above.
+
+## Tallinn and Estonian culture
 
 Before the event we got to spend some time exploring Tallinn.
 There was an outdoor festival taking place, which featured live music, the ideal way to acclimatise to the Estonian culture.
@@ -33,11 +37,28 @@ Climbing up the huge concrete structure gave me an impression of how much Tallin
 
 ![Linnahall, a soviet-era concrete structure built to support the Soviet Union's hosting of the 1980 Olympic Games](images/paste-4.png)
 
-We arrived at the venue, an Ice Age museum with impressive sculptures of Woolly Mamoths and more.
+## The Mobile Tartu PhD School
+
+While the main Mobile Tartu conference is always hosted at the [University of Tartu](https://ut.ee/en) (founded in 1632, [closely following](https://en.wikipedia.org/wiki/List_of_oldest_universities_in_continuous_operation) other early universities like Oxford, Cambridge, Salamanca and Uppsala, and more than 200 years earlier than the [University of Leeds](https://www.leeds.ac.uk/) where I'm based), the PhD School that precedes it moves to a new location each time.
+For Mobile Tartu 2026 the venue was an Ice Age museum with impressive sculptures of Woolly Mamoths and good views of the Estonian countryside on our doorstep.
 The venue was also on the edge of a lake ([Saadjärv](https://www.openstreetmap.org/relation/4567875#map=14/58.54080/26.64974&layers=C)) which was the ideal place to cool off after taking a sauna to celebrate completing the first day's work.
+
 As ice-breaker activities, we were asked to create a map of the world in the space shown below and find things we had in common.
 This was a great way to get to know each other and to see the impressive international spread of participants.
 
 ![As part of the opening session for the Mobile Tartu Summer School, we stood in a circle outside in the sun and introduced ourselves. What a venue!](images/paste-2.png)
 
-Before the workshops began there was a workshop.
+Before the workshops began there was a talk by Andres Sevstuk, who was doing a research visit to the University of Cambridge, UK, as part of a [sabbatical](https://en.wikipedia.org/wiki/Sabbatical).
+(Coincidentally, as part of the research visit, Andres is organising a symposium on [modelling active travel as part of the Applied Urban Modelling conference, where I will also be presenting](https://robinlovelace.net/events/aum2026/).)
+
+Some photos from the talk, which was excellent, are provided below.
+
+![](images/paste-6.png)
+
+![](images/paste-7.png)
+
+<!-- ![](images/paste-8.png) -->
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7469324956632510464?collapsed=1" height="645" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+There was a good link between Andres's talk and the topic of his workshop: modelling pedestrian movements using the Python package madina [@sevtsuk2025].
