@@ -17,9 +17,9 @@ The short version: it was a blast and you should visit Estonia (and if intereste
 
 ## Introduction
 
-I first attended Mobile Tartu 2 years previously as an invited speaker for Mobile Tartu 2024.
-This year, I was invited to [deliver a workshop ](https://robinlovelace.net/events/mobile-tartu-2026/)for the summer school that precedes the conference.
-I was very happy to accept, resulting in the 2 half-day course Data Science for Transport Planning delivered by me and my ITS colleague and PhD student Juan Fonseca, shown in the photo above.
+I first attended Mobile Tartu 2 years previously as an [invited speaker](https://robinlovelace.net/posts/2024-06-15-tartu2024/).
+This year, I was invited to [deliver a workshop ](https://robinlovelace.net/events/mobile-tartu-2026/)for the PhD school that precedes the conference.
+I was happy to accept, resulting in the 2 half-day course Data Science for Transport Planning delivered by me and my ITS colleague and PhD student Juan Fonseca, shown in the photo.
 
 ## Tallinn and Estonian culture
 
