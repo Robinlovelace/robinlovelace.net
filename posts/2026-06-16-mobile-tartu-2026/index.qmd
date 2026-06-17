@@ -95,8 +95,8 @@ As outlined below, every team aced it, resulting in 4 excellent presentations on
 The final presentations were as follows:
 
 1.  **Leisure and Commuting Mobility Patterns in the Spain-France Border Region** — Eva Hajčiarová, Paul Bairoh, Allison Fernández-Lobo, Juliette Le Corguillé. [Slides](https://tdscience.github.io/tartu26/group1.html)
-2.  **Cross-Border Flows Between France and Spain through Catalonia** — Mariana Montero, Leonardo Moreira, . [Slides](https://tdscience.github.io/tartu26/group2.html)
-3.  **Cross-Border Trip Purposes, Bike-Sharing & Public Transport Strikes, and OD Flow Validation** — Jonas, Helen, Xiao, Jaanika, Keren Or. [Slides](https://tdscience.github.io/tartu26/group3.html)
+2.  **Cross-Border Flows Between France and Spain through Catalonia** — Mariana Montero Vega, Leonardo Moreira, Juan Arquero Gallego, Keren Or Rosenbaum. [Slides](https://tdscience.github.io/tartu26/group2.html)
+3.  **Cross-Border Trip Purposes, Bike-Sharing & Public Transport Strikes, and OD Flow Validation** — Jonas Wübbenhorst, Helen Tera, Xiao Cai, Jaanika Jaanits. [Slides](https://tdscience.github.io/tartu26/group3.html)
 4.  **How Is Human Mobility Driven By Amenities? A Pamplona Case Study** — Zijun Ding, Thomas Dimos, Laura Altin, Emiliano Beltran. [Slides](https://tdscience.github.io/tartu26/group4.html)
 
 One of my favourite parts from the presentations was seeing Juan Arquero presenting the results of his team's analysis of Spanish OD dataset to explain the travel patterns near his home in Madrid, shown in the video below.
