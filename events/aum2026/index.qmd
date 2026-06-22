@@ -18,6 +18,8 @@ tags:
 author:
   - "Robin Lovelace"
 ---
+Main event page: https://cityform.mit.edu/projects/modelling-active-mobility-2026
+Organized by City Form Lab (MIT) and the University of Cambridge, with support from VREF.
 I'm heading to Cambridge for [AUM2026](https://www.landecon.cam.ac.uk/news/aum2026), the 11th Applied Urban Modelling symposium (29 Jun – 1 Jul), preceded by the [Modelling Active Mobility](https://www.landecon.cam.ac.uk/news/aum2026#pre-conference-seminar-%E2%80%98modelling-active-mobility%E2%80%99) pre-conference seminar (26–27 Jun). I'll be presenting on **Modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling**.
 
 ## Pre-conference Seminar: Modelling Active Mobility
@@ -35,7 +37,8 @@ The [AUM2026 symposium](https://www.landecon.cam.ac.uk/news/aum2026) (29 Jun –
 ## Links
 
 - [Modelling Active Mobility seminar info](https://www.landecon.cam.ac.uk/news/aum2026#pre-conference-seminar-%E2%80%98modelling-active-mobility%E2%80%99) — part of the AUM2026 programme
-- [AUM2026 main page](https://www.landecon.cam.ac.uk/news/aum2026) — programme, schedule, and travel info
+- [AUM2026 main page](https://cityform.mit.edu/projects/modelling-active-mobility-2026) — programme, schedule, and travel info
+- [Registration page](https://www.landecon.cam.ac.uk/news/aum2026) — event details and registration info
 - [Registration (Cambridge Online Store)](https://onlinesales.admin.cam.ac.uk/conferences-and-events/land-economy/applied-urban-modelling-aum/applied-urban-modelling-aum2026-26-june-01-july-2026) — options from £90 (single day) to £250 (full event + conference dinner); concession rates for students
 - [Contact](mailto:aum@landecon.cam.ac.uk)
 
