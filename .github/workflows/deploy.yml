@@ -42,6 +42,10 @@ jobs:
       - name: Ensure CNAME
         run: cp CNAME _site/CNAME
 
+      - name: Generate deploy.json
+        run: |
+          echo "{\"sha\":\"$(git rev-parse HEAD)\",\"date\":\"$(date -u +'%Y-%m-%d %H:%M UTC')\"}" > _site/deploy.json
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:

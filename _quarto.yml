@@ -98,4 +98,16 @@ format:
       - text: |
           <script data-goatcounter="https://YOURCODE.goatcounter.com/count"
                   async src="//gc.zgo.at/count.js"></script>
+      - text: |
+          <script>
+          (async function() {
+            try {
+              const r = await fetch('/deploy.json');
+              if (!r.ok) return;
+              const d = await r.json();
+              const ft = document.querySelector('.nav-footer-center');
+              if (ft) ft.innerHTML += ' · <span class="deploy-timestamp">Deployed ' + d.date + '</span>';
+            } catch(e) {}
+          })();
+          </script>
 
