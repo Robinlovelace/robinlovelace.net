@@ -20,7 +20,7 @@ author:
 ---
 Main event page: [cityform.mit.edu](https://cityform.mit.edu/projects/modelling-active-mobility-2026)
 Organized by City Form Lab (MIT) and the University of Cambridge, with support from [VREF](https://www.vref.se).
-I'm heading to Cambridge for [AUM2026](https://www.landecon.cam.ac.uk/news/aum2026), the 11th Applied Urban Modelling symposium (29 Jun – 1 Jul), preceded by the [Modelling Active Mobility](https://www.landecon.cam.ac.uk/news/aum2026#pre-conference-seminar-%E2%80%98modelling-active-mobility%E2%80%99) pre-conference seminar (26–27 Jun). I'll be presenting on **Modelling multi-modal traffic interactions, casualties, and safety risk for people walking and cycling**.
+I'm heading to Cambridge for [AUM2026](https://www.landecon.cam.ac.uk/news/aum2026), the 11th Applied Urban Modelling symposium (29 Jun – 1 Jul), preceded by the [Modelling Active Mobility](https://www.landecon.cam.ac.uk/news/aum2026#pre-conference-seminar-%E2%80%98modelling-active-mobility%E2%80%99) pre-conference seminar (26–27 Jun). I'll be presenting on **Modelling multi-model traffic, casualties and risk: a data-driven approach to improve government guidance on critical safety issues for walking and cycling.**
 
 ## Pre-conference Seminar: Modelling Active Mobility
 
