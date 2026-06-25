@@ -36,6 +36,8 @@ The [AUM2026 symposium](https://www.landecon.cam.ac.uk/news/aum2026) (29 Jun –
 
 ## Links
 
+- [Slides](https://robinlovelace.net/aum26/slides.html) — Modelling multi-model traffic, casualties and risk
+- [Source code](https://github.com/Robinlovelace/aum26) — GitHub repository with Quarto slides and self-contained release
 - [Modelling Active Mobility seminar info](https://www.landecon.cam.ac.uk/news/aum2026#pre-conference-seminar-%E2%80%98modelling-active-mobility%E2%80%99) — part of the AUM2026 programme
 - [AUM2026 main page](https://cityform.mit.edu/projects/modelling-active-mobility-2026) — programme, schedule, and travel info
 - [Registration page](https://www.landecon.cam.ac.uk/news/aum2026) — event details and registration info
