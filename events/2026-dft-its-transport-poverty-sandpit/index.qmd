@@ -1,0 +1,16 @@
+---
+title: "DfT / ITS Leeds Transport Poverty Sandpit"
+abstract: "A sandpit workshop co-organised by the Department for Transport and the Institute for Transport Studies at the University of Leeds, focused on defining and measuring transport affordability, and identifying the data needed to tackle transport poverty."
+date: 2026-06-30 10:30:00+01:00
+tags:
+  - "Transport"
+  - "Transport Poverty"
+  - "Data"
+  - "Policy"
+author:
+  - "Robin Lovelace"
+---
+
+## Transport Poverty Sandpit
+
+A sandpit workshop hosted at Cloth Hall Court, Leeds, bringing together DfT, ITS Leeds, and the European Commission's Joint Research Centre (Transport Poverty Hub) to advance work on transport poverty definitions, measurement methodologies, and data requirements.
