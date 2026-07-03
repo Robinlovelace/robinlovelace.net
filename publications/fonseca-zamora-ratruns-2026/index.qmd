@@ -1,0 +1,52 @@
+---
+title: "Spotting rat-runs: A network-based method for identifying potential cut-through routes in Bogotá, Colombia"
+description: "Juan P. Fonseca-Zamora, Roger Beecham, James Tate, and Robin Lovelace (2026). Spotting rat-runs: A network-based method for identifying potential cut-through routes in Bogotá, Colombia. *Computers, Environment and Urban Systems*. https://doi.org/10.1016/j.compenvurbsys.2026.102488"
+date: "2026-01-01"
+title-block-banner: false
+toc: false
+citation-key: "fonseca-zamora_ratruns_2026"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Computers, Environment and Urban Systems"
+doi: "10.1016/j.compenvurbsys.2026.102488"
+publication-url: "https://doi.org/10.1016/j.compenvurbsys.2026.102488"
+image: "figure.png"
+authors:
+  - "Juan P. Fonseca-Zamora"
+  - "Roger Beecham"
+  - "James Tate"
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Computers, Environment and Urban Systems
+**Year:** 2026
+
+[DOI](https://doi.org/10.1016/j.compenvurbsys.2026.102488) [URL](https://doi.org/10.1016/j.compenvurbsys.2026.102488) [BibTeX](entry.bib)
+
+## Citation
+
+Juan P. Fonseca-Zamora, Roger Beecham, James Tate, and Robin Lovelace (2026). Spotting rat-runs: A network-based method for identifying potential cut-through routes in Bogotá, Colombia. *Computers, Environment and Urban Systems*. https://doi.org/10.1016/j.compenvurbsys.2026.102488
+
+## BibTeX
+
+```bibtex
+@article{fonseca-zamora_ratruns_2026,
+	title = {Spotting rat-runs: {A} network-based method for identifying potential cut-through routes in {Bogotá}, {Colombia}},
+	volume = {129},
+	issn = {0198-9715},
+	url = {https://doi.org/10.1016/j.compenvurbsys.2026.102488},
+	doi = {10.1016/j.compenvurbsys.2026.102488},
+	language = {en},
+	journal = {Computers, Environment and Urban Systems},
+	publisher = {Elsevier BV},
+	author = {Fonseca-Zamora, Juan P. and Beecham, Roger and Tate, James and Lovelace, Robin},
+	year = {2026},
+	keywords = {bogota, network-analysis, rat-runs},
+	pages = {102488},
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}
