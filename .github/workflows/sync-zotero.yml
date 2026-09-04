@@ -10,6 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
+  actions: write
   contents: write
 
 jobs:
@@ -35,7 +36,9 @@ jobs:
       - name: Regenerate publication listing
         run: python scripts/generate_publications_yml.py --force
 
-      - name: Commit source updates when needed
+      - name: Commit source updates and deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -43,6 +46,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No bibliography changes to commit"
           else
-            git commit -m "chore(publications): sync Zotero bibliography [skip ci]"
+            git commit -m "chore(publications): sync Zotero bibliography"
             git push
+            gh workflow run deploy.yml --ref main
           fi
