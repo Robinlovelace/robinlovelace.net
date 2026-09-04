@@ -8,3 +8,40 @@ footer.footer .nav-footer {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+.activity-grid,
+.tool-gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin: 1.25rem 0;
+}
+
+.activity-card,
+.tool-card,
+.network-explainer {
+  border: 1px solid var(--bs-border-color);
+  border-radius: .4rem;
+  padding: 1rem;
+}
+
+.activity-card h3,
+.tool-card h3 {
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+
+.network-explainer input {
+  display: block;
+  width: min(100%, 32rem);
+  margin: .4rem 0 1rem;
+}
+
+.network-explainer svg {
+  display: block;
+  max-width: 100%;
+}
+
+.network-node { fill: var(--bs-primary); }
+.network-direct { stroke: var(--bs-secondary); stroke-dasharray: 5 5; stroke-width: 3; }
+.network-route { fill: none; stroke: var(--bs-primary); stroke-width: 6; }

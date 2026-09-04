@@ -10,6 +10,7 @@ project:
   resources:
     - _redirects
     - robots.txt
+    - llms.txt
 
 # Meta
 description-meta: "Personal website of Robin Lovelace"
@@ -32,6 +33,8 @@ website:
         href: software/
       - text: Projects
         href: projects/
+      - text: Now
+        href: now/
       - text: Events
         href: events/
       - text: Publications
@@ -69,10 +72,12 @@ website:
     type: textbox
   
   reader-mode: true
+  back-to-top-navigation: true
 
   draft-mode: visible
   
-  repo-url: https://robinlovelace.net
+  repo-url: https://github.com/Robinlovelace/robinlovelace.net
+  repo-actions: [edit, issue]
   
   open-graph: true
   

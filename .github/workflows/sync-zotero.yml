@@ -1,0 +1,52 @@
+name: Sync website bibliography from Zotero
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+concurrency:
+  group: publication-maintenance
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test Zotero synchronisation safeguards
+        run: python -m unittest -v tests/test_sync_zotero.py
+
+      - name: Sync curated Zotero bibliography
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_COLLECTION_KEY: ${{ secrets.ZOTERO_COLLECTION_KEY }}
+        run: python scripts/sync_zotero.py
+
+      - name: Regenerate publication listing
+        run: python scripts/generate_publications_yml.py --force
+
+      - name: Commit source updates and deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add files/bibliography/my-citations-for-web.bib publications/publications.yml
+          if git diff --cached --quiet; then
+            echo "No bibliography changes to commit"
+          else
+            git commit -m "chore(publications): sync Zotero bibliography"
+            git push
+            gh workflow run deploy.yml --ref main
+          fi

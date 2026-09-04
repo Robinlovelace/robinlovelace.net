@@ -13,9 +13,27 @@ All of them support evidence-based decision-making, especially in relation to su
 
 The links below provide more details on popular R packages I have developed (Andrea Gilardi now leads the {osmextract} package).
 
-| [stplanr](https://docs.ropensci.org/stplanr/) | [stats19](https://docs.ropensci.org/stats19/) | [osmextract](https://docs.ropensci.org/osmextract/) |
-|----------------------------------------------|----------------------------------------------|---------------------------------------------------|
-| Transport modelling | Road crash analysis | OpenStreetMap data |
+::: {.tool-gallery}
+::: {.tool-card}
+### [stplanr](https://docs.ropensci.org/stplanr/)
+
+Tools for sustainable transport planning with R. [Code](https://github.com/ropensci/stplanr) · [Docs](https://docs.ropensci.org/stplanr/)
+:::
+
+::: {.tool-card}
+### [stats19](https://docs.ropensci.org/stats19/)
+
+Reproducible road-crash data access and analysis. [Code](https://github.com/ropensci/stats19) · [Docs](https://docs.ropensci.org/stats19/)
+:::
+
+::: {.tool-card}
+### [junctions-rs](https://github.com/Robinlovelace/junctions-rs)
+
+Fast, reproducible road-junction detection from network data. [Code](https://github.com/Robinlovelace/junctions-rs)
+:::
+:::
+
+[Try the transport-network explainer](/projects/transport-network-explainer/){.btn .btn-outline-primary}
 
 See my [GitHub profile](https://github.com/robinlovelace/) for details.
 

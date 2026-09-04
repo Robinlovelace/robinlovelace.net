@@ -23,6 +23,7 @@ except Exception:
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 BIB_PATH = PROJECT_ROOT / "files" / "bibliography" / "my-citations-for-web.bib"
+DISCOVERED_PATH = PROJECT_ROOT / "publications" / "discovered-publications.json"
 YML_PATH = PROJECT_ROOT / "publications" / "publications.yml"
 PUBS_DIR = PROJECT_ROOT / "publications"
 
@@ -345,6 +346,35 @@ def write_yaml(entries, path):
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def _normalise_doi(value):
+    """Return a comparable DOI, accepting common resolver forms."""
+    value = (value or "").strip().lower()
+    value = re.sub(r"^doi:\s*", "", value)
+    return re.sub(r"^https?://(?:dx\.)?doi\.org/", "", value).rstrip(" .;,)")
+
+
+def merge_discovered_entries(canonical_entries, discovered_entries):
+    """Append provisional records unless a Zotero/page record owns their DOI.
+
+    Discovered records link directly to their DOI until a canonical Zotero
+    record replaces them, so every listing title always has a valid target.
+    """
+    canonical_dois = {_normalise_doi(item.get("doi", "")) for item in canonical_entries}
+    canonical_titles = {item.get("title", "").strip().lower() for item in canonical_entries}
+    merged = list(canonical_entries)
+    for item in discovered_entries:
+        doi = _normalise_doi(item.get("doi", ""))
+        title = item.get("title", "").strip().lower()
+        if not doi or doi in canonical_dois or title in canonical_titles:
+            continue
+        entry = dict(item)
+        entry["doi"] = doi
+        entry["path"] = entry.get("path") or f"https://doi.org/{doi}"
+        entry["type"] = f'{entry.get("type", "Publication")} (provisional)'
+        merged.append(entry)
+    return merged
+
+
 # ── Main ────────────────────────────────────────────────────────
 
 def get_existing_dirs():
@@ -362,6 +392,8 @@ def main():
     # Check if regeneration is needed
     if not force and YML_PATH.exists() and BIB_PATH.exists():
         inputs_mtime = os.path.getmtime(BIB_PATH)
+        if DISCOVERED_PATH.exists():
+            inputs_mtime = max(inputs_mtime, os.path.getmtime(DISCOVERED_PATH))
         for slug in get_existing_dirs():
             qmd_path = PUBS_DIR / slug / "index.qmd"
             inputs_mtime = max(inputs_mtime, os.path.getmtime(qmd_path))
@@ -410,6 +442,15 @@ def main():
             else:
                 print(f"  {slug}: (could not parse frontmatter)")
 
+    # Provisional OpenAlex/Crossref records supplement the listing only until
+    # Zotero contains the same DOI or title. They never overwrite canonical
+    # BibTeX/page metadata.
+    discovered_entries = []
+    if DISCOVERED_PATH.exists():
+        payload = json.loads(DISCOVERED_PATH.read_text(encoding="utf-8"))
+        discovered_entries = payload.get("records", [])
+    entries = merge_discovered_entries(entries, discovered_entries)
+
     # Sort: year desc, then title asc
     entries.sort(key=lambda e: (-e["year"], e["title"]))
 
@@ -417,7 +458,8 @@ def main():
     write_yaml(entries, YML_PATH)
 
     print(f"\nGenerated publications.yml with {len(entries)} entries "
-          f"({len(bib_entries)} from .bib + {len(missing_slugs)} from page frontmatter)")
+          f"({len(bib_entries)} from .bib + {len(missing_slugs)} from page frontmatter "
+          f"+ {len(discovered_entries)} discovered before de-duplication)")
 
 
 if __name__ == "__main__":
@@ -425,5 +467,5 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         print(f"Warning: Failed to generate publications.yml due to an error: {e}", file=sys.stderr)
-        print("Quarto build will proceed using the existing publications.yml.", file=sys.stderr)
-        sys.exit(0)
+        print("Publication listing was not regenerated; refusing to continue.", file=sys.stderr)
+        sys.exit(1)

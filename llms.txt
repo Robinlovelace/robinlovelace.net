@@ -1,0 +1,20 @@
+# Robin Lovelace
+
+> Professor of Transport Data Science at the University of Leeds. Research, open-source software, publications, and writing on evidence-based transport planning.
+
+## Core pages
+
+- [About and current work](https://robinlovelace.net/)
+- [Now](https://robinlovelace.net/now/): current research, tools, and collaboration priorities
+- [Publications](https://robinlovelace.net/publications/)
+- [Software](https://robinlovelace.net/software/)
+- [Projects](https://robinlovelace.net/projects/)
+- [Posts](https://robinlovelace.net/posts/)
+- [Events](https://robinlovelace.net/events/)
+- [Contact](https://robinlovelace.net/contact/)
+
+## Selected resources
+
+- [Transport-network explainer](https://robinlovelace.net/projects/transport-network-explainer/)
+- [GitHub profile](https://github.com/Robinlovelace)
+- [ORCID](https://orcid.org/0000-0001-5678-5255)

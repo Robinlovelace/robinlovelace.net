@@ -30,7 +30,7 @@ about:
       href: https://orcid.org/0000-0001-5678-5255
 ---
 
-### {{< animate fadeInDown "Welcome!" >}}
+## {{< animate fadeInDown "Welcome!" >}}
 
 I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport). 🚶🚴🚲🚗🚌🚆
 
@@ -40,4 +40,28 @@ I share code, methods, and writing on [GitHub](https://github.com/robinlovelace)
 
 [Current projects](/projects/){.btn .btn-primary .me-2}
 [Publications](/publications/){.btn .btn-outline-primary}
+
+## Current work
+
+::: {.activity-grid}
+::: {.activity-card}
+### Latest publication
+
+[Spotting rat-runs: a network-based method for identifying potential cut-through routes in Bogotá, Colombia](/publications/fonseca-zamora-ratruns-2026/)
+:::
+
+::: {.activity-card}
+### Open tools
+
+[SaferActive](https://saferactive.github.io) develops open methods for cyclist and pedestrian safety.
+:::
+
+::: {.activity-card}
+### Latest note
+
+[Migration to Quarto](/posts/2026-04-10-quarto-website-update/) explains the site's content-first publishing setup.
+:::
+:::
+
+[What I am working on](/now/){.btn .btn-outline-secondary}
 
