@@ -15,7 +15,7 @@ Feel free to get in touch with me through any of these channels:
 ### GitHub
 - [github.com/robinlovelace](https://github.com/robinlovelace)
 - Comment on an existing issue or discussion, or create a new one
-- I get a lot of software questions — asking on GitHub is best because:
+- I get a lot of software questions, asking on GitHub is best because:
   - You're likely to get a response more quickly
   - Other people can benefit from the answer
   - I prioritize well-asked questions with reproducible examples
