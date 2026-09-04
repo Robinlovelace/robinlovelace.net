@@ -1,0 +1,50 @@
+name: Discover recent publications
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: publication-discovery
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: write
+
+jobs:
+  discover:
+    if: github.repository == 'Robinlovelace/robinlovelace.net'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test publication discovery safeguards
+        run: python -m unittest -v tests/test_publication_discovery.py
+
+      - name: Discover new OpenAlex publications verified by Crossref
+        run: python scripts/discover_publications.py
+
+      - name: Regenerate publication listing
+        run: python scripts/generate_publications_yml.py --force
+
+      - name: Commit publication updates and deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publications/discovered-publications.json publications/publications.yml
+          if git diff --cached --quiet; then
+            echo "No new provisional publications"
+          else
+            git commit -m "chore(publications): discover recent papers"
+            git push
+            gh workflow run deploy.yml --ref main
+          fi
