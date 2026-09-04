@@ -9,6 +9,7 @@ project:
     - scripts/generate_publications_yml.py
   resources:
     - _redirects
+    - robots.txt
 
 # Meta
 description-meta: "Personal website of Robin Lovelace"
@@ -47,7 +48,7 @@ website:
         href: https://github.com/Robinlovelace
         target: _blank
       - icon: rss
-        href: posts.xml
+        href: posts/index.xml
         target: _blank
   
   page-navigation: true
@@ -60,7 +61,7 @@ website:
         href: https://github.com/Robinlovelace/robinlovelace.github.io
         target: _blank
       - icon: rss
-        href: posts.xml
+        href: posts/index.xml
         target: _blank  
   
   search:

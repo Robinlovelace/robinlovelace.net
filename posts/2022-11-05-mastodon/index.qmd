@@ -159,13 +159,13 @@ Hope so, more soon!
 
 </p>
 
-— @robinlovelace <a href="https://twitter.com/robinlovelace/status/1589010753633325062?ref_src=twsrc%5Etfw">November 5, 2022</a>
+— &#64;robinlovelace <a href="https://twitter.com/robinlovelace/status/1589010753633325062?ref_src=twsrc%5Etfw">November 5, 2022</a>
 
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
-Even if Twitter does become the MySpace of the 2020s, it is unlikely to happen over night.
+Even if Twitter does become the MySpace of the 2020s, it is unlikely to happen overnight.
 And the platform has many great people, despite some of the recent changes outlined above.
 Let’s see what happens.
 If nothing else, having alternatives like Mastodon allows you to choose to interact in the virtual spaces where you feel most at home.
@@ -180,7 +180,7 @@ There are now many options.
 I really liked (and still do like, on a good day) Twitter because, unlike Facebook or LinkedIn, it had (and still has) a publicly-accessible-by-default policy.
 That encourages sharing, transparency and collaboration across borders and cultures.
 
-Unlike Twitter, however, many of the fastest groing social media platforms of the 2020s open source.
+Unlike Twitter, however, many of the fastest-growing social media platforms of the 2020s are open source.
 This discourages (but may not completely prevent) abuses by the owners of the platforms for financial incentives.
 The excesses of large for-profit social media platforms are well documented in documentaries like [The Social Dilemma](https://en.wikipedia.org/wiki/The_Social_Dilemma).
 The fact that emerging social media platforms such as Mastodon are open source is not just important for transparency and data security: it encourages innovation and diversity.
@@ -189,10 +189,10 @@ This applies to open source software in general, encouraging participation in kn
 When the underlying technology is open, people are encouraged to set-up their own instances, spreading the compute, moderation, and content creation work widely.
 If you don’t like a particular space in this ‘fediverse’ world, you can simply move.
 And migrating from one Mastodon server to another *is easy*, as I have found, following in the [footsteps of Anita Graser](https://twitter.com/underdarkGIS/status/1588645497988091904): I set-up a Mastodon instance at <https://mastodon.social/@robinlovelace> years ago out of interest.
-That now redirects to my current Mastodon home [@robinlovelace@fosstodon.org](https://fosstodon.org/@robinlovelace).
+That now redirects to my current Mastodon home [\@robinlovelace\@fosstodon.org](https://fosstodon.org/@robinlovelace).
 
 In summary, there are good reasons for exploring alternatives to centralised for-profit social media platforms.
-Mastodon is relatively easy to set-up and seems to enable 2-way crossposting with Twitter.
+Mastodon is relatively easy to set up and seems to enable two-way cross-posting with Twitter.
 And social media platforms that are appropriate for the 2020s are:
 
 - ✅ Open source
@@ -202,7 +202,7 @@ And social media platforms that are appropriate for the 2020s are:
 Mastodon ticks all those boxes and I recommend checking it out.
 I also recommend donating to the free and open social media platform of your choice.
 I have just set-up a recurring donation to [fosstodon.org](https://hub.fosstodon.org/support/) via their [Patreon page](https://www.patreon.com/fosstodon).
-If that helps the ad free and seemingly good quality content to its users (while minimising downtime ; ), it’s money well spent for me.
+If that helps the ad-free platform provide seemingly good-quality content to its users (while minimising downtime), it’s money well spent for me.
 I’m glad to have received the message below!
 
 ![](https://user-images.githubusercontent.com/1825120/200148636-9db04d94-3641-4914-961e-186e0089629c.png)

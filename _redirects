@@ -1,6 +1,7 @@
 /event/* /events/:splat 301
 /publication/* /publications/:splat 301
 /post/* /posts/:splat 301
+/old-site/* /posts/ 301
 
 # Direct /post/* redirects (old Hugo root paths -> new Quarto date-based paths)
 /post/copenhagenize/ /posts/2025-04-03-copenhagenize/ 301

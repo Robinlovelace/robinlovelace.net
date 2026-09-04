@@ -14,7 +14,7 @@ For those new to the PCT, it's an online tool for helping to decide where to pri
 
 The context of its development is explained in the accompanying video on that page. This article reports how the tool itself works and how it uses data from CycleStreets.net.
 
-The PCT is best understood by using it to explore current cycling levels, at regional, area, desire line, route and route network levels. We will take a look at how the PCT works at each of these levels, after a brief look at the scenario results at the regional level (the senarios are described in more detail in the [paper](https://www.jtlu.org/index.php/jtlu/article/view/862/824)).
+The PCT is best understood by using it to explore current cycling levels, at regional, area, desire line, route and route network levels. We will take a look at how the PCT works at each of these levels, after a brief look at the scenario results at the regional level (the scenarios are described in more detail in the [paper](https://www.jtlu.org/index.php/jtlu/article/view/862/824)).
 
 Under the 2011 Census scenario, the PCT represents levels of cycling to work based on the Census. This is a reasonable proxy for levels of utility cycling overall. We used origin-destination (OD) data from the Census as the basis of the PCT as this is best publicly available dataset on English travel patterns. The input data is described in the [paper](https://www.jtlu.org/index.php/jtlu/article/view/862) and can be freely downloaded from the official http://wicid.ukdataservice.ac.uk/ website.
 
@@ -42,7 +42,7 @@ To launch the PCT for a region, click on it.  Try clicking on West Yorkshire. Yo
 
 ![](https://github.com/npct/pct/blob/master/figures/west-yorkshire-front.png?raw=true)
 
-This shows that West Yorkshire has very low levels of cycling to work, hovering around 1% to 2% in most places. This suggests strongly that the region has low levels of utility cycling overall (despite the successes of the region's sport cyclists). There is a cluster of zones with a higher level of cycling to the north of Leeds city centre (around Headingly) but even there the percentage of people cycling as their main mode of travel to work does not exceed 5%.
+This shows that West Yorkshire has very low levels of cycling to work, hovering around 1% to 2% in most places. This suggests strongly that the region has low levels of utility cycling overall (despite the successes of the region's sport cyclists). There is a cluster of zones with a higher level of cycling to the north of Leeds city centre (around Headingley), but even there the percentage of people cycling as their main mode of travel to work does not exceed 5%.
 
 ## Cycling potential at the desire line level
 
@@ -79,7 +79,7 @@ Here is not the place to answer such a question. Only the passage of time, and c
 There is much more to say about the use of CycleStreets.net in the PCT but it gets rather technical very quickly.
 Suffice to say at this stage that it involved writing lots of code in R, a language for statistical programming, and that this has now resulted in the publication of **stplanr**, [an R package for sustainable transport](https://github.com/ropensci/stplanr). 
 (For more on how to
-[install R](https://cran.r-project.org/) and (for bells and whistles) RStudio, which this blog post was written in, please see the relevant sections of the book [Efficent R Programming](https://csgillespie.github.io/efficientR/set-up.html#installing-r) (Gillespie and Lovelace, 2016).)
+[install R](https://cran.r-project.org/) and (for bells and whistles) RStudio, which this blog post was written in, please see the relevant sections of the book [Efficient R Programming](https://csgillespie.github.io/efficientR/set-up.html#installing-r) (Gillespie and Lovelace, 2016).
 With R installed, **stplanr** can be installed with:
 
 

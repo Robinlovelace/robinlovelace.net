@@ -386,6 +386,14 @@ def main():
     bib_slugs_norm = set()
     for entry in bib_entries:
         yml_entry = bib_to_yml_entry(entry)
+        # Citation keys occasionally omit the trailing hyphen used by an
+        # existing page directory (e.g. ``foo_2021a`` vs ``foo-2021-a``).
+        # Prefer the actual published page path so listing links stay valid.
+        existing_slug = existing_dirs_norm.get(
+            re.sub(r'[-_]', "", yml_entry["_slug"])
+        )
+        if existing_slug:
+            yml_entry["path"] = f"/publications/{existing_slug}/"
         entries.append(yml_entry)
         bib_slugs_norm.add(re.sub(r'[-_]', "", yml_entry["_slug"]))
 

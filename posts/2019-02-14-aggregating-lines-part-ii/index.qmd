@@ -98,7 +98,7 @@ This means that we cannot simply `rbind()` them to it as we did for `sl3`.
 They need to be dealt with separately.
 
 Before we deal with them, it's worth taking some time to consider what we mean by 'intersect'.
-Intersection is actuall a specific type of geometric relation between 2 sets of features.
+Intersection is actually a specific type of geometric relation between two sets of features.
 We can see the type of relation by using the function `st_relate()`:
 
 

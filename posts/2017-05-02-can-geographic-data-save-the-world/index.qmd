@@ -71,7 +71,7 @@ plot(l)
     ## Warning in CPL_crs_from_input(x): GDAL Message 1: +init=epsg:XXXX syntax is
     ## deprecated. It might return a CRS with a non-EPSG compliant axis order.
 
-<img src="post/2017-05-02-can-geographic-data-save-the-world_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<!-- Historical source image was unavailable in the site repository. -->
 
 Now that we have an idea of the commute patterns in the area, and the nature of ‘OD’ data (converted to geographical desire lines with the **[stplanr](https://github.com/ropensci/stplanr)** package), we can do some analysis.
 
@@ -82,13 +82,13 @@ plot(l)
 plot(l_walk, add = T, col = "red", lwd = 3)
 ```
 
-<img src="post/2017-05-02-can-geographic-data-save-the-world_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+<!-- Historical source image was unavailable in the site repository. -->
 
 ``` r
 library(dplyr) # for next slide...
 ```
 
-The above code subsets all the lines that have 10 or more people walking to work in the 2011 census and plots the results (as you’d expect the shorter trips are more commonly walked). It works, but could be interpretted as a little clunky. Enter [**dplyr**](https://github.com/tidyverse/dplyr), a package for data science (**grolemund_r_2016?**):
+The above code subsets all the lines that have 10 or more people walking to work in the 2011 census and plots the results (as you’d expect the shorter trips are more commonly walked). It works, but could be interpreted as a little clunky. Enter [**dplyr**](https://github.com/tidyverse/dplyr), a package for data science (**grolemund_r_2016?**):
 
 ``` r
 l_walk1 = l %>% filter(All > 10) # fails
@@ -118,7 +118,7 @@ plot(l_sf[6:15])
     ## Warning: plotting the first 9 out of 10 attributes; use max.plot = 10 to plot
     ## all
 
-<img src="post/2017-05-02-can-geographic-data-save-the-world_files/figure-html/unnamed-chunk-7-1.png" width="672" />
+<!-- Historical source image was unavailable in the site repository. -->
 
 Other than plotting multiples, one for each variable, objects of class `sf` behave much like objects of class `Spatial`, except they are also fully fledged data frames. This is what allows them to be subsetted with **dplyr**’s `%>%` operator (reproducing the square bracket subsetting above):
 
@@ -132,7 +132,7 @@ plot(l_walk2, add = T, lwd = 3)
     ## Warning in plot.sf(l_walk2, add = T, lwd = 3): ignoring all but the first
     ## attribute
 
-<img src="post/2017-05-02-can-geographic-data-save-the-world_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+<!-- Historical source image was unavailable in the site repository. -->
 
 A more advanced example involves the following: take all trips in the study area less than 1km and find those in which driving a car is more common than walking (areas that could have a major car dependency issue, the policy-relevant part):
 
