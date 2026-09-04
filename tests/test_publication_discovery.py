@@ -67,11 +67,29 @@ class PublicationDiscoveryTests(unittest.TestCase):
             works,
             {"10.1/already-known"},
             {"known title"},
-            {"excluded_title_regex": ["working paper"], "minimum_title_similarity": 0.9},
+            {
+                "excluded_title_regex": ["working paper"],
+                "ignored_dois": [],
+                "required_author_family_name": "Lovelace",
+                "minimum_title_similarity": 0.9,
+            },
             lambda doi: crossref.get(doi),
         )
         self.assertEqual([item["doi"] for item in found], ["10.1/new"])
         self.assertEqual(found[0]["provenance"]["crossref"], True)
+
+    def test_rejects_crossref_records_without_required_author_or_ignored_doi(self):
+        work = {
+            "id": "https://openalex.org/W1", "doi": "https://doi.org/10.1/new",
+            "display_name": "A genuinely new paper", "publication_date": "2026-07-01",
+            "type": "article", "authorships": [], "primary_location": {"source": {}},
+        }
+        crossref = {"title": ["A genuinely new paper"], "author": [{"family": "Other"}]}
+        config = {"required_author_family_name": "Lovelace", "minimum_title_similarity": 0.9}
+        self.assertEqual(discovery.select_candidates([work], set(), set(), config, lambda _: crossref), [])
+        crossref["author"] = [{"family": "Lovelace"}]
+        config["ignored_dois"] = ["10.1/new"]
+        self.assertEqual(discovery.select_candidates([work], set(), set(), config, lambda _: crossref), [])
 
     def test_zotero_entry_wins_over_discovered_duplicate(self):
         canonical = [{"key": "zotero", "doi": "10.1/same", "title": "Canonical", "year": 2026}]

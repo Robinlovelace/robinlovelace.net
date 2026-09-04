@@ -25,6 +25,12 @@ OUTPUT_PATH = ROOT / "publications" / "discovered-publications.json"
 OPENALEX_API = "https://api.openalex.org"
 CROSSREF_API = "https://api.crossref.org"
 USER_AGENT = "robinlovelace.net-publication-discovery/1.0 (https://robinlovelace.net/)"
+TYPE_LABELS = {
+    "journal-article": "Journal Article",
+    "review-article": "Journal Article",
+    "book-chapter": "Book Chapter",
+    "proceedings-article": "Conference Paper",
+}
 
 
 def normalize_doi(value: str) -> str:
@@ -86,20 +92,37 @@ def authors_from_crossref(record: dict) -> str:
     return ", ".join(people)
 
 
+def crossref_has_required_author(record: dict, family_name: str) -> bool:
+    """Require an independent author-name confirmation before publication."""
+    required = normalized_title(family_name)
+    return any(
+        normalized_title(person.get("family", "")) == required
+        for person in record.get("author", [])
+    )
+
+
+def publication_date(record: dict, fallback: str) -> str:
+    """Use Crossref's most specific date, falling back to OpenAlex."""
+    for field in ("published-online", "published-print", "issued"):
+        parts = record.get(field, {}).get("date-parts", [[]])[0]
+        if parts:
+            return "-".join(f"{int(value):0{4 if index == 0 else 2}d}" for index, value in enumerate(parts))
+    return fallback
+
+
 def candidate_from_records(work: dict, crossref: dict) -> dict:
     doi = normalize_doi(work.get("doi", ""))
     title = (crossref.get("title") or [work.get("display_name", "")])[0]
-    published = crossref.get("published-online") or crossref.get("published-print") or crossref.get("issued") or {}
-    date_parts = published.get("date-parts", [[work.get("publication_date", "")[:4] or 0]])[0]
-    year = int(date_parts[0]) if date_parts and str(date_parts[0]).isdigit() else int(work["publication_date"][:4])
+    date = publication_date(crossref, work.get("publication_date", ""))
+    year = int(date[:4])
     venue = (crossref.get("container-title") or [work.get("primary_location", {}).get("source", {}).get("display_name", "")])[0]
     return {
         "key": "openalex-" + work["id"].rstrip("/").split("/")[-1].lower(),
         "path": f"https://doi.org/{doi}",
         "title": title,
-        "date": f"{year:04d}-01-01",
+        "date": date,
         "year": year,
-        "type": "Journal Article",
+        "type": TYPE_LABELS.get(crossref.get("type", ""), "Miscellaneous"),
         "venue": venue,
         "doi": doi,
         "url": crossref.get("URL", f"https://doi.org/{doi}"),
@@ -123,11 +146,12 @@ def select_candidates(
 ) -> list[dict]:
     """Select only new, configured, Crossref-title-verified DOI records."""
     excluded = [re.compile(pattern, re.IGNORECASE) for pattern in config.get("excluded_title_regex", [])]
+    ignored_dois = {normalize_doi(value) for value in config.get("ignored_dois", [])}
     selected = []
     for work in works:
         doi = normalize_doi(work.get("doi", ""))
         title = work.get("display_name", "")
-        if not doi or doi in known_dois or normalized_title(title) in known_titles:
+        if not doi or doi in known_dois or doi in ignored_dois or normalized_title(title) in known_titles:
             continue
         allowed_types = config.get("allowed_work_types", [])
         if allowed_types and work.get("type") not in allowed_types:
@@ -136,6 +160,8 @@ def select_candidates(
             continue
         crossref = fetch_crossref(doi)
         if not crossref or not crossref.get("title"):
+            continue
+        if not crossref_has_required_author(crossref, config.get("required_author_family_name", "")):
             continue
         if title_similarity(title, crossref["title"][0]) < config.get("minimum_title_similarity", 0.9):
             continue
@@ -155,10 +181,19 @@ def canonical_identities() -> tuple[set[str], set[str]]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Report candidates without writing JSON")
+    parser.add_argument("--allow-empty", action="store_true", help="Allow an empty result to replace existing provisional records")
     args = parser.parse_args()
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     known_dois, known_titles = canonical_identities()
     candidates = select_candidates(fetch_openalex_works(config), known_dois, known_titles, config, crossref_record)
+    existing_records = []
+    if OUTPUT_PATH.exists():
+        existing_records = json.loads(OUTPUT_PATH.read_text(encoding="utf-8")).get("records", [])
+    if not candidates and existing_records and not args.allow_empty:
+        raise RuntimeError(
+            "Discovery returned no records while provisional records exist; refusing to unpublish them. "
+            "Investigate the source or rerun deliberately with --allow-empty."
+        )
     payload = {"schema_version": 1, "source": "OpenAlex + Crossref", "records": candidates}
     print(f"Found {len(candidates)} provisional publication record(s).")
     for candidate in candidates:

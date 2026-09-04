@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: zotero-website-bibliography
+  group: publication-maintenance
   cancel-in-progress: false
 
 permissions:

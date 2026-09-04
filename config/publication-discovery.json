@@ -2,6 +2,8 @@
   "openalex_author_id": "A5000936064",
   "from_publication_date": "2026-01-01",
   "allowed_work_types": ["article", "review", "book-chapter", "proceedings-article"],
+  "required_author_family_name": "Lovelace",
   "minimum_title_similarity": 0.9,
-  "excluded_title_regex": []
+  "excluded_title_regex": [],
+  "ignored_dois": []
 }

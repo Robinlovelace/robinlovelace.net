@@ -466,5 +466,5 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         print(f"Warning: Failed to generate publications.yml due to an error: {e}", file=sys.stderr)
-        print("Quarto build will proceed using the existing publications.yml.", file=sys.stderr)
-        sys.exit(0)
+        print("Publication listing was not regenerated; refusing to continue.", file=sys.stderr)
+        sys.exit(1)
