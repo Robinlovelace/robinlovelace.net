@@ -35,10 +35,6 @@ Fast, reproducible road-junction detection from network data. [Code](https://git
 
 [Try the transport-network explainer](/projects/transport-network-explainer/){.btn .btn-outline-primary}
 
-| [stplanr](https://docs.ropensci.org/stplanr/) | [stats19](https://docs.ropensci.org/stats19/) | [osmextract](https://docs.ropensci.org/osmextract/) |
-|----------------------------------------------|----------------------------------------------|---------------------------------------------------|
-| Transport modelling | Road crash analysis | OpenStreetMap data |
-
 See my [GitHub profile](https://github.com/robinlovelace/) for details.
 
 ---

@@ -6,3 +6,4 @@ upcoming-events.yml
 # Local Netlify folder
 .netlify
 old-site/
+__pycache__/

@@ -12,7 +12,7 @@ I am working on methods and open data for safer, more accessible active travel, 
 
 ## Open tools
 
-- [SaferActive](https://saferactive.org): data-driven methods for cyclist and pedestrian safety.
+- [SaferActive](https://saferactive.github.io): data-driven methods for cyclist and pedestrian safety.
 - [Propensity to Cycle Tool](https://www.pct.bike): open-source modelling of cycling potential.
 - [Transport Data Science](https://github.com/ITSLeeds/tds): teaching and reproducible research workflows.
 
