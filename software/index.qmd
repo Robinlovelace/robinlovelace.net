@@ -9,7 +9,7 @@ title-block-banner: false
 ## Software development
 
 I have developed and contributed to many software projects, with a focus on reproducible research, geocomputation, modelling and visualisation.
-All of them support evidence based decision-making, especially in relation to sustainable transport.
+All of them support evidence-based decision-making, especially in relation to sustainable transport.
 
 The links below provide more details on popular R packages I have developed (Andrea Gilardi now leads the {osmextract} package).
 
@@ -24,14 +24,14 @@ See my [GitHub profile](https://github.com/robinlovelace/) for details.
 ## Recommended software
 
 Scientific methods, and the truths they reveal, depend on transparency, collaboration and falsifiability.
-Translated into the 21st Century and field of data science, this means using software that is open source (and therefore transparent), accessible and community-led (and therefore collaborative), and conducive to reproducible research (and therefore falsifiable).
+Translated into the 21st century and the field of data science, this means using software that is open source (and therefore transparent), accessible and community-led (and therefore collaborative), and conducive to reproducible research (and therefore falsifiable).
 
 Reproducible research based on open source software means that data scientists and researchers operating in the public domain gain trust not by relying on arguments of authority but by producing code that other people can run to verify their outputs.
 Researchers who are unable to show their workings are less well-trusted, resulting in virtuous feedback loops through communities of practice that encourage sharing and collaboration.
 
 Software is not just a static 'tool of the trade'.
 It is language — or rather multiple languages — in which society encodes its digital capabilities, rules, and aspirations.
-Software is vital for humanity in the 21st Century.
+Software is vital for humanity in the 21st century.
 This realisation informs the software I use and develop.
 I hope you will take a look at and maybe even install a few of the open source tools I recommend below.
 
@@ -45,11 +45,11 @@ However, having the most appropriate OS for your needs installed is important fo
 
 Windows and Mac have a near [duopoly](https://en.wikipedia.org/wiki/Duopoly) over mainstream consumer laptop and desktop operating system markets.
 However, Linux forms the basis of the operating systems of choice for most serious software developers and many data scientists.
-I strongly recommend installing a Linux on at least one laptop or desktop that you have available if you have not done so already: it can be life changing.
+I strongly recommend installing Linux on at least one laptop or desktop that you have available if you have not done so already: it can be life-changing.
 
 #### Ubuntu
 
-I use and recommend [Ubuntu](https://ubuntu.com/), an operating system built on Linux with a focus on user friendliness and mainstream adoption.
+I use and recommend [Ubuntu](https://ubuntu.com/), an operating system built on Linux with a focus on user-friendliness and mainstream adoption.
 Developed by the multinational company [Canonical](https://en.wikipedia.org/wiki/Canonical_(company)), Ubuntu is a popular Linux distribution ('distro'), that you can install on most consumer desktops and laptops.
 
 I also recommend [itsfoss.com's article on Linux distros for beginners](https://itsfoss.com/best-linux-beginners/) if you're getting started in this space.
@@ -68,7 +68,7 @@ It is lightweight but powerful, with support for many programming languages thro
 
 ### AppImageLauncher
 
-[AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) is a user friendly tool for managing AppImages.
+[AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) is a user-friendly tool for managing AppImages.
 AppImage is a system for packaging applications that allows them to run, out of the box, on any Linux distro.
 
 Install it on Ubuntu with the following commands:
@@ -80,19 +80,19 @@ sudo apt update
 sudo apt install appimagelauncher
 ```
 
-### Note taking and task management
+### Note-taking and task management
 
-#### LogSeq
+#### Logseq
 
-[LogSeq](https://logseq.com/) has seen explosive growth since it was first launched in 2020.
+[Logseq](https://logseq.com/) has seen explosive growth since it was first launched in 2020.
 For me it has replaced about 3 other tools that I was using previously, functioning as:
 
-- A todo list manager. Previously I was using TaskWarrior and TimeWarrior.
-- A note taking app. I had tried a number of tools for this, including the excellent cross-platform [Joplin](https://joplinapp.org/).
+- A to-do list manager. Previously I was using TaskWarrior and TimeWarrior.
+- A note-taking app. I had tried a number of tools for this, including the excellent cross-platform [Joplin](https://joplinapp.org/).
 - A diary. Previously I was using various tools including RedNotebook.
 
-Having all your notes and TODO items in one place is very handy, especially when you can sync your notes between computers using Syncthing.
-Download the latest version of LogSeq in file format of your choice (I use the AppImage version) from [github.com/logseq](https://github.com/logseq/logseq/releases).
+Having all your notes and to-do items in one place is very handy, especially when you can sync your notes between computers using Syncthing.
+Download the latest version of Logseq in a file format of your choice (I use the AppImage version) from [github.com/logseq](https://github.com/logseq/logseq/releases).
 
 ### File sharing
 
@@ -109,9 +109,6 @@ sudo curl -o /usr/share/keyrings/syncthing-archive-keyring.gpg https://syncthing
 
 # Add the "stable" channel to your APT sources:
 echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
-
-# Add the "candidate" channel to your APT sources:
-echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing candidate" | sudo tee /etc/apt/sources.list.d/syncthing.list
 
 # Update and install syncthing:
 sudo apt-get update

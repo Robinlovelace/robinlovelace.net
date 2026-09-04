@@ -85,7 +85,7 @@ Full papers and extended abstracts will need to use the corresponding UTSG templ
 <!-- Start broad:
 
 - transport models are usually based on a handful of key input datasets
-  - this is problematic because it can lead to biases in the model outputs and 'blind spots' in the evidence base, e.g. an exessive focus on car travel or commuting
+  - this is problematic because it can lead to biases in the model outputs and 'blind spots' in the evidence base, e.g. an excessive focus on car travel or commuting
   - this is particularly problematic in the context of active travel, where the evidence base is less well-developed than for other modes
 - we propose a new approach to transport modelling that integrates diverse datasets from a range of sources, including open data, proprietary data, and crowdsourced data
   - this approach is designed to provide a more comprehensive and nuanced understanding of travel patterns and behaviours

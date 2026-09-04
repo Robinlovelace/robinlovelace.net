@@ -433,3 +433,6 @@
 /old-site/talk/travel-planning-co-ordinator-event-leeds/ /events/travel-planning-coordinator-leeds-2026/ 301
 /old-site/talk/why-r-2020/ /events/ 301
 /old-site/talk/zonebuilders-cross-platform-and-language-agnostic-tools-for-generating-zoning-systems-for-urban-analysis-and-modelling/ /events/ 301
+
+# Fallback only after the granular legacy redirects above.
+/old-site/* /posts/ 301

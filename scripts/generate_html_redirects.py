@@ -94,6 +94,37 @@ def main():
                                     print(f"Line {line_num}: Failed to write wildcard redirect at '{target_file}': {e}")
                     continue
 
+                # A wildcard that resolves to a single page cannot be represented
+                # for every unknown path in a static build, but its collection root
+                # can. Hosting providers such as Netlify apply the full wildcard
+                # rule; this keeps GitHub Pages' /old-site/ entry point aligned.
+                if src.endswith("/*") and "*" not in dst and ":" not in dst:
+                    src_prefix = src[:-2].strip("/")
+                    dst_url = dst if dst.startswith(("http://", "https://")) else "/" + dst.strip("/") + "/"
+                    target_dir = os.path.join(site_dir, src_prefix)
+                    os.makedirs(target_dir, exist_ok=True)
+                    target_file = os.path.join(target_dir, "index.html")
+                    try:
+                        with open(target_file, "w", encoding="utf-8") as out:
+                            out.write(f'''<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0; url={dst_url}">
+  <link rel="canonical" href="{dst_url}">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <p>Redirecting to <a href="{dst_url}">{dst_url}</a>...</p>
+</body>
+</html>
+''')
+                        count += 1
+                    except Exception as e:
+                        print(f"Line {line_num}: Failed to write wildcard root redirect at '{target_file}': {e}")
+                    continue
+
                 # Skip any other wildcard/splat rules
                 if "*" in src or ":" in src:
                     print(f"Line {line_num}: Skipping non-standard wildcard redirect '{src} -> {dst}'")

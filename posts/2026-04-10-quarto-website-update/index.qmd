@@ -7,7 +7,7 @@ subtitle: "A practical migration and deployment update"
 description: ""
 ---
 
-Following in the footsteps of reproducible research rolemodels including [Nicola Rennie](https://nrennie.rbind.io/blog/hugo-quarto-website/), [Andrew Heiss](https://www.andrewheiss.com/uses/) and [Jakub Nowosad](https://jakubnowosad.com/), I've finally migrated my website to Quarto!
+Following in the footsteps of reproducible-research role models including [Nicola Rennie](https://nrennie.rbind.io/blog/hugo-quarto-website/), [Andrew Heiss](https://www.andrewheiss.com/uses/) and [Jakub Nowosad](https://jakubnowosad.com/), I've finally migrated my website to Quarto!
 
 Some brief notes on the process follow, it's worth it but there are some gotchas and things to consider.
 

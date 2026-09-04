@@ -43,7 +43,7 @@ Colin Gillespie went into stand-up comedy mode to deliver a vital message: that 
 Use of a stable, in browser interface, as shown in the [Data Science in a Box](https://twitter.com/minebocek/status/1148904275550121984) project, can overcome the barrier of software installation to research, with clear implications for organisations: get a working instance of RStudio Server.
 
 Even the Keynotes were diverse, as can be seen from the [UseR website](http://user2019.r-project.org/program/).
-There wasn’t just one central ‘keynote speaker’ at the event but 6, half of whom were women, and with representatives from commercial, academic and [non-profit](http://user2019.r-project.org/program/#julien) organsiations.
+There wasn’t just one central ‘keynote speaker’ at the event but 6, half of whom were women, and with representatives from commercial, academic and [non-profit](http://user2019.r-project.org/program/#julien) organisations.
 The diversity of topics they covered was also impressive.
 They ranged from Bettina Grün’s highly technical yet accessible keynote on new models and packages for clustering data to Joe Cheng’s talk on [shinymeta](https://github.com/rstudio/shinymeta).
 It was roller coaster ride to the publication of this just open-sourced package, which enables shiny apps to generate scripts underlying the dynamic results.

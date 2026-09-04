@@ -269,13 +269,13 @@ I had a great time and learned loads during many of the sessions, and during the
 
 This write-up provides an overview of the event and links to some of the impressive research projects presented.
 The conference took place over 4 days, 5 including the excursion day on Saturday.
-(I mis most of 'day 5' on the long journey home during which I wrote much of this blog post).
+(I missed most of 'day 5' on the long journey home, during which I wrote much of this blog post).
 The location was --- you guessed it from the name --- the Estonian town of Tartu, which is how I (and I suspect many others working in the mobility/transport sector) first heard of it.
 
-In summery, I really enjoyed the conference!
+In summary, I really enjoyed the conference!
 I would highly recommend it to anyone working in the field of mobility and transport research.
 It had the highest quality of research focussed on origin-destination data and the use of mobile phone data for transport research that I have ever seen.
-I wonder: if there conference had a different name, e.g. the "Origin-destination and mobility data research conference", would it attract more people?
+I wonder: if the conference had a different name, e.g. the "Origin-destination and mobility data research conference", would it attract more people?
 Maybe, but the name should remain, Tartu is a fantastic place, and the strong links between the conference and the city are a big part of its appeal.
 
 # Tuesday 11th June
@@ -288,7 +288,7 @@ Even more inclusive was how everyone introduced themselves.
 We were asked to stand in a circle looking in and say our name, where we're from and how many 'Mobile Tartus' we had previously attended (number one for me, I was impressed to learn that there were people there who had all 9).
 After some refreshments and general mingling it was time for the first keynote talk: Kristjan ... who had spent time on a placement with the Estonian government.
 His talk was fascinating to me, as someone who had made the shift from academia to the public sector.
-Instead of working on separate jobs --- as I did when I shifted from being on secondment to Active Travel England as part of the 10DS Fellowship to taking on a second job in early 2023 --- Kristjan seems to have gone all-in on the public sector job, and acheived a huge amount.
+Instead of working on separate jobs --- as I did when I shifted from being on secondment to Active Travel England as part of the 10DS Fellowship to taking on a second job in early 2023 --- Kristjan seems to have gone all-in on the public sector job and achieved a huge amount.
 As far as I am aware, in Estonia (as in many other countries including Germany and perhaps all the nordic nations), being an academic *means* being a civil servant, that is to say: like civil servants, academics in Estonia are employed by the government.
 
 I'm not sure about the distribution of pros and cons of this, but I imagine that it makes it easier for academics to take on government roles (has anyone done research into the extent to which government policies are evidence-based in countries in which academic staff in state universities *are* civil servants, compared with countries in which they are not, I wonder).

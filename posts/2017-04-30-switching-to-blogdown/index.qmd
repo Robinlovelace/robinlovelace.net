@@ -14,7 +14,7 @@ Here's a test plot, to show how it allows R code to be embedded:
 plot(1:9)
 ```
 
-<img src="post/2017-04-30-switching-to-blogdown_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+<!-- Historical source image was unavailable in the site repository. -->
 
 Now that I have a quick-fire and fun way of getting new content onto the web I expect to be blogging lots more. 
 
