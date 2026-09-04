@@ -370,6 +370,7 @@ def merge_discovered_entries(canonical_entries, discovered_entries):
         entry = dict(item)
         entry["doi"] = doi
         entry["path"] = entry.get("path") or f"https://doi.org/{doi}"
+        entry["type"] = f'{entry.get("type", "Publication")} (provisional)'
         merged.append(entry)
     return merged
 

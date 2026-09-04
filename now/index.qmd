@@ -1,0 +1,21 @@
+---
+title: "Now"
+description-meta: "Current research, software, and collaboration priorities"
+toc: false
+---
+
+A short, periodically updated snapshot. **Last updated: September 2026.**
+
+## Research
+
+I am working on methods and open data for safer, more accessible active travel, with collaborators at the University of Leeds and beyond.
+
+## Open tools
+
+- [SaferActive](https://saferactive.org): data-driven methods for cyclist and pedestrian safety.
+- [Propensity to Cycle Tool](https://www.pct.bike): open-source modelling of cycling potential.
+- [Transport Data Science](https://github.com/ITSLeeds/tds): teaching and reproducible research workflows.
+
+## Collaboration
+
+I welcome conversations about reproducible transport data science, open-source software, and evidence for sustainable transport. [Get in touch](/contact/).

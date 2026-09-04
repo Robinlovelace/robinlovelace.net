@@ -41,3 +41,27 @@ I share code, methods, and writing on [GitHub](https://github.com/robinlovelace)
 [Current projects](/projects/){.btn .btn-primary .me-2}
 [Publications](/publications/){.btn .btn-outline-primary}
 
+## Current work
+
+::: {.activity-grid}
+::: {.activity-card}
+### Latest publication
+
+[Spotting rat-runs: a network-based method for identifying potential cut-through routes in Bogotá, Colombia](/publications/fonseca-zamora-ratruns-2026/)
+:::
+
+::: {.activity-card}
+### Open tools
+
+[SaferActive](https://saferactive.org) develops open methods for cyclist and pedestrian safety.
+:::
+
+::: {.activity-card}
+### Latest note
+
+[Migration to Quarto](/posts/2026-04-10-quarto-website-update/) explains the site's content-first publishing setup.
+:::
+:::
+
+[What I am working on](/now/){.btn .btn-outline-secondary}
+

@@ -1,0 +1,38 @@
+---
+title: "A transport-network explainer"
+description-meta: "A small interactive illustration of directness and network connectivity"
+toc: false
+page-layout: full
+---
+
+This simplified illustration shows why a direct, connected route can make active travel more practical. It is not a routing model or evidence for a particular scheme.
+
+<div class="network-explainer" aria-label="Interactive transport network explainer">
+  <label for="directness">Route directness <output id="directness-value">70%</output></label>
+  <input id="directness" type="range" min="40" max="100" value="70" step="5">
+  <svg viewBox="0 0 600 200" role="img" aria-label="Origin, destination and adjustable route">
+    <circle cx="70" cy="100" r="16" class="network-node"/><text x="70" y="140" text-anchor="middle">Origin</text>
+    <circle cx="530" cy="100" r="16" class="network-node"/><text x="530" y="140" text-anchor="middle">Destination</text>
+    <line x1="86" y1="100" x2="514" y2="100" class="network-direct"/>
+    <path id="network-route" class="network-route" d="M86,100 C210,20 390,180 514,100"/>
+  </svg>
+  <p id="route-summary" aria-live="polite">A 70% direct route is roughly 1.4× the straight-line distance.</p>
+</div>
+
+<script>
+(() => {
+  const input = document.querySelector('#directness');
+  const value = document.querySelector('#directness-value');
+  const route = document.querySelector('#network-route');
+  const summary = document.querySelector('#route-summary');
+  const update = () => {
+    const directness = Number(input.value);
+    const bend = Math.round((100 - directness) * 2);
+    value.value = `${directness}%`;
+    route.setAttribute('d', `M86,100 C210,${100-bend} 390,${100+bend} 514,100`);
+    summary.textContent = `A ${directness}% direct route is roughly ${(100 / directness).toFixed(1)}× the straight-line distance.`;
+  };
+  input.addEventListener('input', update);
+  update();
+})();
+</script>

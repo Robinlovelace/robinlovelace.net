@@ -99,9 +99,10 @@ class PublicationDiscoveryTests(unittest.TestCase):
 
     def test_discovered_entry_without_page_links_to_doi(self):
         canonical = []
-        discovered = [{"key": "oa", "doi": "10.1/new", "title": "Provisional", "year": 2026}]
+        discovered = [{"key": "oa", "doi": "10.1/new", "title": "Provisional", "year": 2026, "type": "Journal Article"}]
         merged = generator.merge_discovered_entries(canonical, discovered)
         self.assertEqual(merged[0]["path"], "https://doi.org/10.1/new")
+        self.assertEqual(merged[0]["type"], "Journal Article (provisional)")
 
 
 if __name__ == "__main__":
