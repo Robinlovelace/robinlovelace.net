@@ -1,0 +1,25 @@
+---
+categories: [upcoming]
+title: "Investment Strategy Innovation Sprint"
+abstract: "A free, one-day innovation sprint at the University of Sheffield for later-stage commercialisation projects preparing for their first fundraising milestone, run by the University of Sheffield Commercialisation Team. The morning — an investor panel and a founder fireside chat — is open to everyone; the afternoon mentoring sessions are invite-only."
+date: 2026-10-14 09:30:00+01:00
+tags:
+  - "Commercialisation"
+  - "Investment"
+  - "Spin-outs"
+  - "Deep Tech"
+  - "Entrepreneurship"
+author:
+  - "Robin Lovelace"
+---
+
+The University of Sheffield Commercialisation Team is running an Investment Strategy-focused Innovation Sprint at the University of Sheffield Students' Union on Wednesday 14 October 2026, 9:30am–5pm. This edition focuses specifically on later-stage commercialisation projects that are preparing for their first fundraising milestone.
+
+The morning session is open to everyone and includes:
+
+- **Investor Panel** — top angel and VC investors break down what they really look for in deep tech spin-outs, from replacing academic jargon with an impactful narrative to proving market demand before launching. Panel members include Emily Thompson (Investment Manager, Northern Gritstone), David Levine (CEO, Glenluna Ventures and Principal, Manchester Angels), Giles Moore (Regional Development Manager, PXN Ventures), Jordan Dargue (Co-founder, Lifted Ventures) and Simon Thorpe (Former Chair, Cambridge Angels).
+- **Founder Fireside** — Ben White, CEO of [Phlux Technology](https://phluxtechnology.com/), a spin-out from the University of Sheffield, shares insights on their investment strategy, the highs, and the lessons behind their fundraising journey.
+
+The afternoon speed-mentoring sprint sessions are invite-only: speak to your Commercialisation Manager to find out how to apply.
+
+Registration is free via [Eventbrite](https://www.eventbrite.co.uk/e/investment-strategy-innovation-sprint-tickets-1997146267247). The event is in person at the INOX Suite, Level 5, University of Sheffield Students' Union, Durham Road, Sheffield S10 2TG.
