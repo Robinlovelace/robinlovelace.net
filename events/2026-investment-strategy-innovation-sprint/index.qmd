@@ -1,7 +1,7 @@
 ---
 categories: [upcoming]
 title: "Investment Strategy Innovation Sprint"
-abstract: "A free, one-day innovation sprint at the University of Sheffield for later-stage commercialisation projects preparing for their first fundraising milestone, run by the University of Sheffield Commercialisation Team. The morning — an investor panel and a founder fireside chat — is open to everyone; the afternoon mentoring sessions are invite-only."
+abstract: "A one-day event at run by the University of Sheffield's Commercialisation Team. The morning is an investor panel and a founder fireside chat on how to generate positive impacts from research and start-ups."
 date: 2026-10-14 09:30:00+01:00
 tags:
   - "Commercialisation"
