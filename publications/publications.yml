@@ -1,3 +1,25 @@
+- key: "openalex-w7119495745"
+  path: "https://doi.org/10.1016/j.jtrangeo.2025.104525"
+  title: "Advancing unpaved road assessment in Africa: Leveraging multimodal machine learning and large language-and-vision assistants across satellite imagery resolutions"
+  date: "2026-02"
+  year: 2026
+  type: Journal Article (provisional)
+  venue: Journal of Transport Geography
+  doi: 10.1016/j.jtrangeo.2025.104525
+  url: "https://doi.org/10.1016/j.jtrangeo.2025.104525"
+  authors: "Zhao Wang, Chunlei Xin, Robin Workman, Hang Hu, Xinyuan Yu, Yuxin Tian, Robin Lovelace, Jiupeng Zhang, Haibo Chen"
+
+- key: "openalex-w7160034902"
+  path: "https://doi.org/10.1016/j.urbmob.2026.100219"
+  title: "Assessing trade-offs in demand-responsive transport service area design: Operational efficiency vs. system-wide goals"
+  date: "2026-06"
+  year: 2026
+  type: Journal Article (provisional)
+  venue: Journal of Urban Mobility
+  doi: 10.1016/j.urbmob.2026.100219
+  url: "https://doi.org/10.1016/j.urbmob.2026.100219"
+  authors: "Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen"
+
 - key: wang_corenet_2026
   path: "/publications/wang-corenet-2026/"
   title: "Corenet: A flexible framework for generating and prioritising core cycle network designs"

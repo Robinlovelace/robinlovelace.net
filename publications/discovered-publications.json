@@ -1,5 +1,63 @@
 {
   "schema_version": 1,
   "source": "OpenAlex + Crossref",
-  "records": []
+  "records": [
+    {
+      "key": "openalex-w7119495745",
+      "path": "https://doi.org/10.1016/j.jtrangeo.2025.104525",
+      "title": "Advancing unpaved road assessment in Africa: Leveraging multimodal machine learning and large language-and-vision assistants across satellite imagery resolutions",
+      "date": "2026-02",
+      "year": 2026,
+      "type": "Journal Article",
+      "venue": "Journal of Transport Geography",
+      "doi": "10.1016/j.jtrangeo.2025.104525",
+      "url": "https://doi.org/10.1016/j.jtrangeo.2025.104525",
+      "authors": "Zhao Wang, Chunlei Xin, Robin Workman, Hang Hu, Xinyuan Yu, Yuxin Tian, Robin Lovelace, Jiupeng Zhang, Haibo Chen",
+      "abstract": "",
+      "provenance": {
+        "status": "provisional",
+        "openalex_id": "https://openalex.org/W7119495745",
+        "crossref": true,
+        "detected_from": "OpenAlex author feed, verified against Crossref DOI metadata"
+      }
+    },
+    {
+      "key": "openalex-w7160034902",
+      "path": "https://doi.org/10.1016/j.urbmob.2026.100219",
+      "title": "Assessing trade-offs in demand-responsive transport service area design: Operational efficiency vs. system-wide goals",
+      "date": "2026-06",
+      "year": 2026,
+      "type": "Journal Article",
+      "venue": "Journal of Urban Mobility",
+      "doi": "10.1016/j.urbmob.2026.100219",
+      "url": "https://doi.org/10.1016/j.urbmob.2026.100219",
+      "authors": "Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen",
+      "abstract": "",
+      "provenance": {
+        "status": "provisional",
+        "openalex_id": "https://openalex.org/W7160034902",
+        "crossref": true,
+        "detected_from": "OpenAlex author feed, verified against Crossref DOI metadata"
+      }
+    },
+    {
+      "key": "openalex-w7124444109",
+      "path": "https://doi.org/10.1016/j.jtrangeo.2026.104549",
+      "title": "Corenet: A flexible framework for generating and prioritising core cycle network designs",
+      "date": "2026-02",
+      "year": 2026,
+      "type": "Journal Article",
+      "venue": "Journal of Transport Geography",
+      "doi": "10.1016/j.jtrangeo.2026.104549",
+      "url": "https://doi.org/10.1016/j.jtrangeo.2026.104549",
+      "authors": "Zhao Wang, Hang Hu, Hussein Mahfouz, Juan Pablo Fonseca-Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Matthew Davis, Joseph Talbot, Robin Lovelace",
+      "abstract": "",
+      "provenance": {
+        "status": "provisional",
+        "openalex_id": "https://openalex.org/W7124444109",
+        "crossref": true,
+        "detected_from": "OpenAlex author feed, verified against Crossref DOI metadata"
+      }
+    }
+  ]
 }
