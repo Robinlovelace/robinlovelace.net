@@ -3,8 +3,7 @@
 # robinlovelace.net
 
 This is the repository for the personal, academic, and professional
-website of **Robin Lovelace** (Associate Professor of Transport Data
-Science at the Leeds Institute for Transport Studies), hosted at
+website of **Robin Lovelace** (Professor of Transport Data Science at the Leeds Institute for Transport Studies), hosted at
 [robinlovelace.net](https://www.robinlovelace.net).
 
 The website is built using [Quarto](https://quarto.org) and is
