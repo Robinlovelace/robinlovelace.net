@@ -1,6 +1,6 @@
 ---
 title: "Open access, open source and cloud computing: A glimpse into the future of GIS"
-description: "Christopher Pettit, Bob Stimson, Jack Barton, Xavier Goldie, Philip Greenwood, Robin Lovelace, and Serryn Eagleson (2020). Open access, open source and cloud computing: A glimpse into the future of GIS. *Handbook of Planning Support Science*."
+description: "Christopher Pettit, Bob Stimson, Jack Barton, Xavier Goldie, Philip Greenwood, Robin Lovelace, and Serryn Eagleson (2020). Open access, open source and cloud computing: A glimpse into the future of GIS. *Handbook of Planning Support Science*. https://doi.org/10.4337/9781788971089.00011"
 date: "2020-02-01"
 title-block-banner: false
 toc: false
@@ -8,7 +8,7 @@ citation-key: "pettit_open_2020"
 citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Handbook of Planning Support Science"
-doi: ""
+doi: "10.4337/9781788971089.00011"
 publication-url: "https://www.elgaronline.com/view/edcoll/9781788971072/9781788971072.00011.xml"
 authors:
   - "Christopher Pettit"
@@ -25,7 +25,7 @@ abstract: "<p>Open access data, open source software and cloud computing are thr
 **Venue:** Handbook of Planning Support Science
 **Year:** 2020
 
-[URL](https://www.elgaronline.com/view/edcoll/9781788971072/9781788971072.00011.xml) [BibTeX](entry.bib)
+[DOI](https://doi.org/10.4337/9781788971089.00011) [Publisher Link](https://www.elgaronline.com/view/edcoll/9781788971072/9781788971072.00011.xml) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -33,7 +33,7 @@ abstract: "<p>Open access data, open source software and cloud computing are thr
 
 ## Citation
 
-Christopher Pettit, Bob Stimson, Jack Barton, Xavier Goldie, Philip Greenwood, Robin Lovelace, and Serryn Eagleson (2020). Open access, open source and cloud computing: A glimpse into the future of GIS. *Handbook of Planning Support Science*.
+Christopher Pettit, Bob Stimson, Jack Barton, Xavier Goldie, Philip Greenwood, Robin Lovelace, and Serryn Eagleson (2020). Open access, open source and cloud computing: A glimpse into the future of GIS. *Handbook of Planning Support Science*. https://doi.org/10.4337/9781788971089.00011
 
 ## BibTeX
 
@@ -52,6 +52,7 @@ Christopher Pettit, Bob Stimson, Jack Barton, Xavier Goldie, Philip Greenwood, R
 	author = {Pettit, Christopher and Stimson, Bob and Barton, Jack and Goldie, Xavier and Greenwood, Philip and Lovelace, Robin and Eagleson, Serryn},
 	month = feb,
 	year = {2020},
+	doi = {10.4337/9781788971089.00011},
 	note = {ZSCC: 0000000 
 ISBN: 9781788971089},
 }

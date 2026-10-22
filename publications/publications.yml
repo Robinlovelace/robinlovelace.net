@@ -1,20 +1,20 @@
-- key: "openalex-w7119495745"
-  path: "https://doi.org/10.1016/j.jtrangeo.2025.104525"
+- key: wang_unpaved_2026
+  path: "/publications/wang-unpaved-2026/"
   title: "Advancing unpaved road assessment in Africa: Leveraging multimodal machine learning and large language-and-vision assistants across satellite imagery resolutions"
-  date: "2026-02"
+  date: "2026-01-01"
   year: 2026
-  type: Journal Article (provisional)
+  type: Journal Article
   venue: Journal of Transport Geography
   doi: 10.1016/j.jtrangeo.2025.104525
   url: "https://doi.org/10.1016/j.jtrangeo.2025.104525"
   authors: "Zhao Wang, Chunlei Xin, Robin Workman, Hang Hu, Xinyuan Yu, Yuxin Tian, Robin Lovelace, Jiupeng Zhang, Haibo Chen"
 
-- key: "openalex-w7160034902"
-  path: "https://doi.org/10.1016/j.urbmob.2026.100219"
+- key: mahfouz_drt_tradeoffs_2026
+  path: "/publications/mahfouz-drt-tradeoffs-2026/"
   title: "Assessing trade-offs in demand-responsive transport service area design: Operational efficiency vs. system-wide goals"
-  date: "2026-06"
+  date: "2026-01-01"
   year: 2026
-  type: Journal Article (provisional)
+  type: Journal Article
   venue: Journal of Urban Mobility
   doi: 10.1016/j.urbmob.2026.100219
   url: "https://doi.org/10.1016/j.urbmob.2026.100219"
@@ -139,6 +139,28 @@
   authors: "Will Deakin, Zhao Wang, Josiah Parry, Robin Lovelace"
   abstract: "Will Deakin, Zhao Wang, Josiah Parry, and Robin Lovelace (2025). Route network simplification for transport planning. *Environment and Planning B: Urban Analytics and City Science*. https://doi.org/10.1177/23998083251387986"
 
+- key: pebesma_spatial_2025
+  path: "/publications/pebesma-spatial-2025/"
+  title: "Spatial data science languages: commonalities and needs"
+  date: "2025-01-01"
+  year: 2025
+  type: Journal Article
+  venue: Journal of Spatial Information Science
+  doi: 10.5311/JOSIS.2025.31.462
+  url: "https://doi.org/10.5311/JOSIS.2025.31.462"
+  authors: "Edzer Pebesma, Martin Fleischmann, Josiah Parry, Jakub Nowosad, Anita Graser, Dewey Dunnington, Maarten Pronk, Rafael Schouten, Robin Lovelace, Marius Appel, Lorena Abad"
+
+- key: felix_biclar_2025
+  path: "/publications/felix-biclar-2025/"
+  title: "biclaR: Estimating the Socio-Environmental Impacts of Car Substitution by Bicycle and Public Transit Using Open Tools"
+  date: "2025-01-01"
+  year: 2025
+  type: Book Chapter
+  venue: "Transport Transitions: Advancing Sustainable and Inclusive Mobility"
+  doi: "10.1007/978-3-031-95284-5_13"
+  url: "https://doi.org/10.1007/978-3-031-95284-5_13"
+  authors: "Rosa Félix, Filipe Moura, Robin Lovelace"
+
 - key: tait_build_2024
   path: "/publications/tait-build-2024/"
   title: "Build it but will they come? Exploring the impact of introducing contraflow cycling on cycling volumes with crowd-sourced data"
@@ -222,6 +244,17 @@
   url: ""
   authors: "Hussein Mahfouz, Robin Lovelace, Elsa Arcaute"
   abstract: "Understanding the motivators and deterrents to cycling is essential for creating infrastructure that gets more people to adopt cycling as a mode of transport. This paper demonstrates a new approach to support the prioritization of cycling infrastructure and cycling network design, accounting for cyclist preferences and the growing emphasis on “filtered permeability” and “Low Traffic Neighborhood” interventions internationally. The approach combines distance decay, route calculation, and network analysis methods to examine where future cycling demand is most likely to arise, how such demand could be accommodated within existing street networks, and how to ensure a fair distribution of investment. Although each of these methods has been applied to cycling infrastructure prioritization in previous research, this is the first time that they have been combined, creating an integrated road segment prioritization approach. The approach, which can be applied to other cities, is demonstrated in a case study of Manchester, resulting in cycling networks that balance directness against the need for safe and stress-free routes under different investment scenarios. A key benefit of the approach from a policy perspective is its ability to support egalitarian and cost-effective strategic cycle network planning."
+
+- key: beecham_connected_2023
+  path: "/publications/beecham-connected-2023/"
+  title: "Connected bikeability in London: Which localities are better connected by bike and does this matter?"
+  date: "2023-01-01"
+  year: 2023
+  type: Journal Article
+  venue: "Environment and Planning B: Urban Analytics and City Science"
+  doi: 10.1177/23998083231165122
+  url: "https://doi.org/10.1177/23998083231165122"
+  authors: "Roger Beecham, Yuanxuan Yang, Caroline Tait, Robin Lovelace"
 
 - key: tait_contraflows_2023
   path: "/publications/tait-contraflows-2023/"
@@ -624,7 +657,7 @@ This study found that people from deprived areas are at higher risk of cycling i
   year: 2020
   type: Journal Article
   venue: Handbook of Planning Support Science
-  doi: ""
+  doi: 10.4337/9781788971089.00011
   url: "https://www.elgaronline.com/view/edcoll/9781788971072/9781788971072.00011.xml"
   authors: "Christopher Pettit, Bob Stimson, Jack Barton, Xavier Goldie, Philip Greenwood, Robin Lovelace, Serryn Eagleson"
   abstract: "{\\textless}p{\\textgreater}Open access data, open source software and cloud computing are three parallel and mutually reinforcing drivers of change in the field of applied geographical information systems (GIS). While these developments create many new opportunities for GIS users and companies, they are also associated with under-explored risks. This chapter investigates cloud GIS, focusing on the Australian Urban Research Infrastructure Network (AURIN), an online, cloud-based data portal and GIS designed explicitly for Australian urban research and public-sector planning applications. AURIN provides direct access to more than 4000 data sets, over 100 spatial analysis tools and powerful computational resources that are typically available in desktop GIS. The experience of developing, communicating and using AURIN has provided insights into the opportunities unleashed by new models of GIS research. This chapter explores those opportunities, such as greater accessibility, transparency and consistency in decision support for public policy, and risks of cloud GIS and its potential uses for social benefit.{\\textless}/p{\\textgreater}"
@@ -874,7 +907,7 @@ Newly available data, combined with emerging high performance and open source st
   year: 2017
   type: Journal Article
   venue: "Environment and Planning B: Planning and Design"
-  doi: ""
+  doi: 10.1177/0265813516655644
   url: ""
   authors: Robin Lovelace
   abstract: "This book review discusses a seminal work on urban travel forecasting, tracing the evolution of transport modeling techniques and their implications for long-term urban planning and policy."

@@ -1,0 +1,50 @@
+---
+title: "Connected bikeability in london: Which localities are better connected by bike and does this matter?"
+description: "Roger Beecham, Yuanxuan Yang, Caroline Tait, and Robin Lovelace (2023). Connected bikeability in london: Which localities are better connected by bike and does this matter?. *Environment and Planning B: Urban Analytics and City Science*. https://doi.org/10.1177/23998083231165122"
+date: "2023-01-01"
+title-block-banner: false
+toc: false
+citation-key: "beecham_connected_2023"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Environment and Planning B: Urban Analytics and City Science"
+doi: "10.1177/23998083231165122"
+publication-url: "https://doi.org/10.1177/23998083231165122"
+authors:
+  - "Roger Beecham"
+  - "Yuanxuan Yang"
+  - "Caroline Tait"
+  - "Robin Lovelace"
+---
+
+**Type:** Journal Article
+**Venue:** Environment and Planning B: Urban Analytics and City Science
+**Year:** 2023
+
+[DOI](https://doi.org/10.1177/23998083231165122) [URL](https://doi.org/10.1177/23998083231165122) [BibTeX](entry.bib)
+
+## Citation
+
+Roger Beecham, Yuanxuan Yang, Caroline Tait, and Robin Lovelace (2023). Connected bikeability in london: Which localities are better connected by bike and does this matter?. *Environment and Planning B: Urban Analytics and City Science*. https://doi.org/10.1177/23998083231165122
+
+## BibTeX
+
+```bibtex
+@article{beecham_connected_2023,
+ author = {Beecham, Roger and Yang, Yuanxuan and Tait, Caroline and Lovelace, Robin},
+ year = {2023},
+ doi = {10.1177/23998083231165122},
+ issn = {2399-8083, 2399-8091},
+ journal = {Environment and Planning B: Urban Analytics and City Science},
+ language = {english},
+ number = {8},
+ pages = {2103--2117},
+ title = {Connected bikeability in London: Which localities are better connected by bike and does this matter?},
+ url = {https://doi.org/10.1177/23998083231165122},
+ volume = {50}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}
