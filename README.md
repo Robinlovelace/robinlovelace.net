@@ -17,8 +17,10 @@ This site is based on a Quarto academic template but has been heavily
 customized with several advanced features and automation scripts:
 
 1.  **Automated Publications Manager**:
-    - **Canonical Source**: Publications are managed inside the BibTeX
-      file `references.bib`.
+    - **Canonical Source**: Publications are managed in
+      `files/bibliography/my-citations-for-web.bib`, which the generator
+      reads. `references.bib` is an older Zotero export and is not used
+      for the listing.
     - **Automation Script**:
       [`scripts/generate_publications_yml.py`](file:///home/robin/github/robinlovelace/robinlovelace.net/scripts/generate_publications_yml.py)
       parses the `.bib` file (using a custom stdlib-only parser with
