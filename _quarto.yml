@@ -61,7 +61,8 @@ website:
     center: "Built with [Quarto](https://quarto.org)"
     right:  
       - icon: github
-        href: https://github.com/Robinlovelace/robinlovelace.github.io
+        href: https://github.com/Robinlovelace/robinlovelace.net
+        aria-label: Source code on GitHub
         target: _blank
       - icon: rss
         href: posts/index.xml

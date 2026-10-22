@@ -76,7 +76,7 @@ I also recommend [itsfoss.com's article on Linux distros for beginners](https://
 
 #### RStudio
 
-[RStudio](https://posit.co/products/source/rstudio/) is an integrated development environment (IDE) for R, a programming language for statistical computing and graphics.
+[RStudio](https://posit.co/download/rstudio-desktop/) is an integrated development environment (IDE) for R, a programming language for statistical computing and graphics.
 It is available as a free open source edition and a commercial professional edition.
 
 #### VSCode
@@ -118,7 +118,7 @@ Download the latest version of Logseq in a file format of your choice (I use the
 
 [Syncthing](https://apt.syncthing.net/) is a decentralised file sharing system that enables you to share folders between 2 or more devices.
 It does this efficiently and with minimal hassle on many devices.
-Its support for [Android](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid&hl=en_GB&gl=US) makes it ideal for syncing things between laptop and mobile.
+Its support for Android, through the community-maintained [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) app, makes it ideal for syncing things between laptop and mobile.
 
 Install it on Ubuntu/Debian systems with the following commands:
 

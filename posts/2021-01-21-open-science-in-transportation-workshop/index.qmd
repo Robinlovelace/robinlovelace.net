@@ -11,15 +11,15 @@ I say ‘presenting’ but in fact, the talk was a pre-record - see the video be
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mpqNW9ePVtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
-Information on the talk can be found [here](https://www.robinlovelace.net/talk/open-access-transport-models-from-collaborative-code-to-citizen-science/).
+Information on the talk can be found [here](/events/2021-trb-open-access-transport-models/).
 
 It’s based on a recently published paper on ‘open access models’ which are both based on open source code and, vitally, are available for use by the public without needing specialist training (Lovelace, Parkin, and Cohen 2020).
 
 It also links to a just-published paper in which I review a range of open source transport planning tools (Lovelace 2021).
 
-See the interactive slides [here](https://www.robinlovelace.net/presentations/2021-01-21-open-source-transport-tools.html).
+See the interactive slides [here](https://web.archive.org/web/2024/https://www.robinlovelace.net/presentations/2021-01-21-open-source-transport-tools.html).
 
-And [here](https://www.robinlovelace.net/talk/open-access-transport-models-from-collaborative-code-to-citizen-science/) for a link to the code, video and more!
+And [here](/events/2021-trb-open-access-transport-models/) for a link to the code, video and more!
 
 # References
 

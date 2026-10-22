@@ -102,7 +102,6 @@ library(leaflet)
 leaflet() %>% addTiles() %>% addPolylines(data = route)
 ```
 
- <iframe src="http://robinlovelace.net/leeds-cam-map.html"></iframe> 
 
 There is much more I could say about the technical side of things but at the request of the editors I will leave it there for now. For more info please see the [**stplanr** vignette](https://github.com/ropensci/stplanr/blob/master/vignettes/stplanr-paper.Rmd).
 

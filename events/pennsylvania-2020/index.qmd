@@ -12,7 +12,7 @@ Context: the ‘MUSA Masterclass’ is a series of seminars commissioned by the 
 Institute for Urban Research ([Penn IUR](https://penniur.upenn.edu/)) of
 the University of [Pennsylvania](https://www.upenn.edu).
 
-- Slides: [Transport Data Science: from regional to street levels](https://www.robinlovelace.net/presentations/2020-04-06-pennsylvania-tds-regional-street.html)
+- Slides: [Transport Data Science: from regional to street levels](https://web.archive.org/web/2024/https://www.robinlovelace.net/presentations/2020-04-06-pennsylvania-tds-regional-street.html)
 - Video link: [Zoom](https://zoom.us/rec/play/vpZ_dOir_DI3G4eXuQSDBfUtW428eqOs1idL8_BczhvmUndQOlLwZeBGMee7lvtR2pEHjJpPcFJUlqbf?continueMode=true)
 - Source code: [github.com/robinlovelace/presentations](https://github.com/Robinlovelace/presentations/blob/master/2020-04-06-pennsylvania-tds-regional-street.Rmd)
 

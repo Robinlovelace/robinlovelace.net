@@ -169,13 +169,13 @@ My talk was part of a session entitled ‘Movement & transport’, that containe
 | Movement & transport | Rocio Joo              | Navigating through the R packages for movement      | http://www.user2019.fr/static/pres/t258615.pdf                                     |
 | Movement & transport | Mohammad Mehdi Moradi  | Classes, methods and data analysis for trajectories | http://www.user2019.fr/static/pres/t251784.pdf                                     |
 | Movement & transport | Christine Thomas-Agnan | Modelling spatial flows with R                      | http://www.user2019.fr/static/pres/t256726.pdf                                     |
-| Movement & transport | Robin Lovelace         | R for Transport Planning                            | https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html |
+| Movement & transport | Robin Lovelace         | R for Transport Planning                            | https://web.archive.org/web/2024/https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html |
 
-I won’t go into the details of my talk because you can see the [slides for yourself at the URL](https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html#1).
+I won’t go into the details of my talk because you can see the [slides for yourself at the URL](https://web.archive.org/web/2024/https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html#1).
 However, it raised many questions and makes me wonder if it’s worth creating an ‘r-transport’ type organisation.
 Another question, that I didn’t get to answer, is where should reproducible transport questions go, now that my attempts to create a ‘Transport Planning’ StackExchange site seemed to have failed, as shown in the slide below : ( Any ideas on that, welcome : )
 
-<iframe src="https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html#28" width="672" height="400px" data-external="1">
+<iframe src="https://web.archive.org/web/2024if_/https://www.robinlovelace.net/presentations/user2019-r-for-transport-planning.html#28" width="672" height="400px" data-external="1">
 </iframe>
 
 # Conclusion
