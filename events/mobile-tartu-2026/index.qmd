@@ -1,5 +1,4 @@
 ---
-categories: [upcoming]
 title: 10th Mobile Tartu Conference
 abstract: |-
   I'm heading to the 10th Mobile Tartu Conference (June 7–10, 2026) to co-lead a

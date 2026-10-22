@@ -1,5 +1,4 @@
 ---
-categories: [upcoming]
 title: "AUM2026: Applied Urban Modelling Symposium and Pre-conference Seminar"
 abstract: I'm presenting at the Modelling Active Mobility seminar at the University of Cambridge, part of the Applied Urban Modelling (AUM) symposium.
 date: 2026-06-26 09:00:00+01:00
