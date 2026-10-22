@@ -1,21 +1,39 @@
 ---
 title: "Now"
-description-meta: "Current research, software, and collaboration priorities"
+description-meta: "What Robin Lovelace is working on now: cycle network planning tools, open mobility data, road safety and teaching transport data science"
 toc: false
 ---
 
-A short, periodically updated snapshot. **Last updated: September 2026.**
+A short, periodically updated snapshot, in the spirit of [now pages](https://nownownow.com/about).
+**Last updated: October 2026.**
 
 ## Research
 
-I am working on methods and open data for safer, more accessible active travel, with collaborators at the University of Leeds and beyond.
+- **Planning cycle networks.** I lead development of the [Network Planning Tool for Scotland](https://www.npt.scot), funded by Transport Scotland and developed with Sustrans, and work on methods for designing core networks, such as [Corenet](/publications/wang-corenet-2026/).
+- **Safer routes to school.** With colleagues at the University of Lisbon, the [BICISCHOOLS](https://github.com/bicischools) project develops open methods to plan cycling routes and bike buses to schools.
+- **Open mobility data.** Tools such as [spanishoddata](/publications/kotov-spanishoddata-2026/) make large origin-destination datasets usable on a laptop.
+- **Road safety and street design.** Recent work includes [outdoor lighting and active travel](/publications/vidal-tortosa-outdoor-lighting-2026/) and [identifying rat-runs](/publications/fonseca-zamora-ratruns-2026/).
+
+See [publications](/publications/) for the full list.
+
+## Recent and upcoming events
+
+- October 2026: [Investment Strategy Innovation Sprint](/events/2026-investment-strategy-innovation-sprint/), Sheffield
+- June 2026: [DfT and ITS Leeds Transport Poverty Sandpit](/events/2026-dft-its-transport-poverty-sandpit/), [Applied Urban Modelling](/events/aum2026/), [ITF conference on transport data in Ukraine](/events/itf-ukraine-2026/) and [Mobile Tartu](/events/mobile-tartu-2026/)
+
+See [all events](/events/).
 
 ## Open tools
 
+- [Network Planning Tool](https://www.npt.scot) and [Propensity to Cycle Tool](https://www.pct.bike): open tools for planning cycle networks.
 - [SaferActive](https://saferactive.github.io): data-driven methods for cyclist and pedestrian safety.
-- [Propensity to Cycle Tool](https://www.pct.bike): open-source modelling of cycling potential.
-- [Transport Data Science](https://github.com/ITSLeeds/tds): teaching and reproducible research workflows.
+- [Geocomputation with R](https://r.geocompx.org/) and [Geocomputation with Python](https://py.geocompx.org/): free, open-source books on geographic data science.
+
+## Teaching
+
+I lead the [Transport Data Science](https://github.com/ITSLeeds/tds) module at the University of Leeds.
 
 ## Collaboration
 
-I welcome conversations about reproducible transport data science, open-source software, and evidence for sustainable transport. [Get in touch](/contact/).
+I welcome conversations about reproducible transport data science, open-source software and evidence for sustainable transport.
+See [ways to get in touch](/contact/), including for [prospective students](/contact/#study-and-research) and [collaborators](/contact/#collaboration).
