@@ -1,39 +1,51 @@
 ---
 title: "Contact"
-description-meta: "Get in touch with Robin Lovelace"
+description-meta: "How to get in touch with Robin Lovelace about research, study, collaboration, software and talks"
 title-block-banner: false
 ---
 
-## Get in touch
+Email is the best way to reach me directly: [r.lovelace@leeds.ac.uk](mailto:r.lovelace@leeds.ac.uk).
+A short message saying who you are and what you would like to do together helps me reply quickly.
 
-Feel free to get in touch with me through any of these channels:
+## Study and research {#study-and-research}
 
-### Email
-- **University**: [r.lovelace@leeds.ac.uk](mailto:r.lovelace@leeds.ac.uk)
+I am interested in hearing from prospective PhD and Masters students working on transport data science, active travel, open data and open-source tools for planning.
 
+- See the Institute for Transport Studies [research degrees page](https://environment.leeds.ac.uk/transport-research-degrees) for funding and how to apply.
+- The [Transport Data Science](https://github.com/ITSLeeds/tds) module gives a flavour of the methods I teach.
+- When you email, include a few sentences on your research idea, how it links to my [publications](/publications/) or [projects](/projects/), and your CV.
 
-### GitHub
-- [github.com/robinlovelace](https://github.com/robinlovelace)
-- Comment on an existing issue or discussion, or create a new one
-- I get a lot of software questions, asking on GitHub is best because:
-  - You're likely to get a response more quickly
-  - Other people can benefit from the answer
-  - I prioritize well-asked questions with reproducible examples
+## Collaboration {#collaboration}
 
-### Social Media
-- Twitter/X: [Robin Lovelace on Twitter/X](https://twitter.com/robinlovelace)
-- Mastodon: [Robin Lovelace on Fosstodon](https://fosstodon.org/web/@robinlovelace)
-- YouTube: [RobinLovelace](https://www.youtube.com/c/RobinLovelace)
+I work with public bodies, charities, companies and other researchers on data, models and tools for sustainable transport, from national planning tools to city-level studies.
+See [current projects](/projects/) for examples, then email me with an outline of your question, data or idea.
 
-### Discord
-Join the Geocompr Discord Server to ask questions about methods and technology:
-[![discord](https://img.shields.io/discord/878051191374876683?label=discord&logo=Discord&color=blue)](https://discord.gg/PMztXYgNxp)
+## Software and methods questions {#software}
 
----
+I get many questions about software, and asking in public is usually best:
 
-## Postal Address
+- Open an issue or discussion on the relevant [GitHub](https://github.com/robinlovelace) repository.
+  You are likely to get a quicker answer, and other people can benefit from it.
+- I prioritise well-asked questions with a reproducible example.
+- For geographic data science with R or Python, join the geocompx Discord:
+  [![discord](https://img.shields.io/discord/878051191374876683?label=discord&logo=Discord&color=blue)](https://discord.gg/PMztXYgNxp)
 
-Institute for Transport Studies  
-University of Leeds  
-Leeds LS2 9JT  
+## Talks and media {#talks-and-media}
+
+I speak about open tools, transport data and reproducible research at conferences, workshops and training events.
+See [past and upcoming events](/events/), then email me with the date, audience and format.
+
+## Elsewhere online
+
+- [Bluesky](https://bsky.app/profile/robinlovelace.bsky.social)
+- [Mastodon](https://fosstodon.org/@robinlovelace)
+- [YouTube](https://www.youtube.com/c/RobinLovelace)
+- [X](https://x.com/robinlovelace)
+- [Google Scholar](https://scholar.google.co.uk/citations?user=xDJHVCAAAAAJ&hl=en) and [ORCID](https://orcid.org/0000-0001-5679-6536)
+
+## Postal address
+
+Institute for Transport Studies
+University of Leeds
+Leeds LS2 9JT
 United Kingdom

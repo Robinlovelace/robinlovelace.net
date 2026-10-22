@@ -1,67 +1,121 @@
 ---
 title: "Robin Lovelace"
-description-meta: "Professor of Transport Data Science at University of Leeds"
+description-meta: "Professor of Transport Data Science at the University of Leeds, building open tools and reproducible methods for evidence-based transport planning."
 image: "files/images/avatar.png"
 page-navigation: false
 toc: false
 about:
+  id: about-profile
   template: trestles
   image-shape: round
   image-width: 15em
+  image-alt: "Robin Lovelace speaking at a conference"
   links:
     - icon: envelope
       text: Email
       href: mailto:r.lovelace@leeds.ac.uk
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/robinlovelace
     - icon: github
       text: GitHub
       href: https://github.com/robinlovelace
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com/c/RobinLovelace
-    - icon: mastodon
-      text: Mastodon
-      href: https://fosstodon.org/web/@robinlovelace
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.co.uk/citations?user=xDJHVCAAAAAJ&hl=en
     - text: "{{< ai orcid >}} ORCID"
-      href: https://orcid.org/0000-0001-5678-5255
+      href: https://orcid.org/0000-0001-5679-6536
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/robinlovelace.bsky.social
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@robinlovelace
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/c/RobinLovelace
+    - icon: twitter-x
+      text: X
+      href: https://x.com/robinlovelace
+listing:
+  - id: latest-posts
+    contents:
+      - posts
+      - "!posts/index.qmd"
+    sort: "date desc"
+    max-items: 3
+    type: table
+    fields: [date, title]
+    date-format: "D MMM YYYY"
+    sort-ui: false
+    filter-ui: false
+  - id: latest-publications
+    contents: publications/publications.yml
+    sort: "date desc"
+    max-items: 4
+    type: table
+    fields: [year, title, venue]
+    field-display-names:
+      year: Year
+      title: Title
+      venue: Venue
+    sort-ui: false
+    filter-ui: false
 ---
 
-## {{< animate fadeInDown "Welcome!" >}}
+::: {#about-profile}
 
-I am a [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/dr-robin-lovelace) at the [University of Leeds](https://www.leeds.ac.uk/) [Institute for Transport Studies](https://environment.leeds.ac.uk/transport). 🚶🚴🚲🚗🚌🚆
+## Open data science for better transport
 
-I work with teams to help them build open tools 💻 and internationally deployed reproducible workflows and web applications 🌍 for evidence-based transport planning. 🚀
+I am [Professor of Transport Data Science](https://environment.leeds.ac.uk/transport/staff/953/professor-robin-lovelace) at the [Institute for Transport Studies](https://environment.leeds.ac.uk/transport), University of Leeds.
 
-I share code, methods, and writing on [GitHub](https://github.com/robinlovelace) and in the [posts section](/posts/). If you would like to collaborate, feel free to [get in touch](mailto:r.lovelace@leeds.ac.uk)! ✉️
+I work with researchers, governments and communities to build open tools and reproducible methods for evidence-based transport planning.
+Tools I have led or co-developed, including the [Propensity to Cycle Tool](https://www.pct.bike) and the [Network Planning Tool for Scotland](https://www.npt.scot), help plan cycling networks across the UK and beyond.
 
-[Current projects](/projects/){.btn .btn-primary .me-2}
-[Publications](/publications/){.btn .btn-outline-primary}
+[Current projects](/projects/){.btn .btn-primary .me-2 .mb-2}
+[Publications](/publications/){.btn .btn-outline-primary .me-2 .mb-2}
+[What I am working on now](/now/){.btn .btn-outline-secondary .mb-2}
 
-## Current work
+## Ways to get involved
 
 ::: {.activity-grid}
 ::: {.activity-card}
-### Latest publication
+### Study and research
 
-[Spotting rat-runs: a network-based method for identifying potential cut-through routes in Bogotá, Colombia](/publications/fonseca-zamora-ratruns-2026/)
+Interested in a PhD or Masters project on transport data science, active travel or open tools?
+Read about the [Transport Data Science module](https://github.com/ITSLeeds/tds), then [get in touch](/contact/#study-and-research) with a short summary of your idea.
 :::
 
 ::: {.activity-card}
-### Open tools
+### Collaborate
 
-[SaferActive](https://saferactive.github.io) develops open methods for cyclist and pedestrian safety.
+I work with public bodies, charities and companies on data, models and tools for sustainable transport.
+See [current projects](/projects/) and [get in touch](/contact/#collaboration) to discuss an idea.
 :::
 
 ::: {.activity-card}
-### Latest note
+### Use and contribute to open tools
 
-[Migration to Quarto](/posts/2026-04-10-quarto-website-update/) explains the site's content-first publishing setup.
+Software such as [stplanr](https://docs.ropensci.org/stplanr/) and books such as [Geocomputation with R](https://r.geocompx.org/) are free and open source.
+Questions, bug reports and contributions are welcome on [GitHub](https://github.com/robinlovelace) and the [geocompx Discord](https://discord.gg/PMztXYgNxp).
+:::
+
+::: {.activity-card}
+### Talks and events
+
+I speak about open tools, transport data and reproducible research.
+See [past and upcoming events](/events/) and [invite me to speak](/contact/#talks-and-media).
 :::
 :::
 
-[What I am working on](/now/){.btn .btn-outline-secondary}
+## Latest posts
 
+::: {#latest-posts}
+:::
+
+[All posts](/posts/){.btn .btn-sm .btn-outline-secondary}
+
+## Recent publications
+
+::: {#latest-publications}
+:::
+
+[All publications](/publications/){.btn .btn-sm .btn-outline-secondary}
+
+:::
