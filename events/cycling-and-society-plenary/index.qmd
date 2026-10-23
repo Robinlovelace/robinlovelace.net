@@ -8,5 +8,4 @@ author:
 
 Talk on methods for estimating severance in active transport networks.
 
-- Slides: [Severance, parallels and integration](https://www.robinlovelace.net/presentations/cs-infra.html#1)
-- Audio from the talk is available [here](https://www.robinlovelace.net/presentations/cs-infra.ogg)
+- Slides: [Severance, parallels and integration](https://web.archive.org/web/2024/https://www.robinlovelace.net/presentations/cs-infra.html#1)

@@ -1,0 +1,58 @@
+---
+title: "Spatial data science languages: Commonalities and needs"
+description: "Edzer Pebesma, Martin Fleischmann, Josiah Parry, Jakub Nowosad, Anita Graser, Dewey Dunnington, Maarten Pronk, Rafael Schouten, Robin Lovelace, Marius Appel, and Lorena Abad (2025). Spatial data science languages: Commonalities and needs. *Journal of Spatial Information Science*. https://doi.org/10.5311/JOSIS.2025.31.462"
+date: "2025-01-01"
+title-block-banner: false
+toc: false
+citation-key: "pebesma_spatial_2025"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Journal of Spatial Information Science"
+doi: "10.5311/JOSIS.2025.31.462"
+publication-url: "https://doi.org/10.5311/JOSIS.2025.31.462"
+authors:
+  - "Edzer Pebesma"
+  - "Martin Fleischmann"
+  - "Josiah Parry"
+  - "Jakub Nowosad"
+  - "Anita Graser"
+  - "Dewey Dunnington"
+  - "Maarten Pronk"
+  - "Rafael Schouten"
+  - "Robin Lovelace"
+  - "Marius Appel"
+  - "Lorena Abad"
+---
+
+**Type:** Journal Article
+**Venue:** Journal of Spatial Information Science
+**Year:** 2025
+
+[DOI](https://doi.org/10.5311/JOSIS.2025.31.462) [URL](https://doi.org/10.5311/JOSIS.2025.31.462) [BibTeX](entry.bib)
+
+## Citation
+
+Edzer Pebesma, Martin Fleischmann, Josiah Parry, Jakub Nowosad, Anita Graser, Dewey Dunnington, Maarten Pronk, Rafael Schouten, Robin Lovelace, Marius Appel, and Lorena Abad (2025). Spatial data science languages: Commonalities and needs. *Journal of Spatial Information Science*. https://doi.org/10.5311/JOSIS.2025.31.462
+
+## BibTeX
+
+```bibtex
+@article{pebesma_spatial_2025,
+ author = {Pebesma, Edzer and Fleischmann, Martin and Parry, Josiah and Nowosad, Jakub and Graser, Anita and Dunnington, Dewey and Pronk, Maarten and Schouten, Rafael and Lovelace, Robin and Appel, Marius and Abad, Lorena},
+ year = {2025},
+ doi = {10.5311/JOSIS.2025.31.462},
+ eprint = {2503.16686},
+ eprinttype = {arXiv},
+ issn = {1948-660X},
+ journal = {Journal of Spatial Information Science},
+ language = {english},
+ number = {31},
+ pages = {119--144},
+ title = {Spatial data science languages: commonalities and needs},
+ url = {https://doi.org/10.5311/JOSIS.2025.31.462}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -1,0 +1,49 @@
+---
+title: "biclaR: Estimating the socio-environmental impacts of car substitution by bicycle and public transit using open tools"
+description: "Rosa Félix, Filipe Moura, and Robin Lovelace (2025). biclaR: Estimating the socio-environmental impacts of car substitution by bicycle and public transit using open tools. *Transport transitions: Advancing sustainable and inclusive mobility*. https://doi.org/10.1007/978-3-031-95284-5_13"
+date: "2025-01-01"
+title-block-banner: false
+toc: false
+citation-key: "felix_biclar_2025"
+citation-type: "chapter"
+citation-type-label: "Book Chapter"
+venue: "Transport transitions: Advancing sustainable and inclusive mobility"
+doi: "10.1007/978-3-031-95284-5_13"
+publication-url: "https://doi.org/10.1007/978-3-031-95284-5_13"
+authors:
+  - "Rosa Félix"
+  - "Filipe Moura"
+  - "Robin Lovelace"
+---
+
+**Type:** Book Chapter
+**Venue:** Transport transitions: Advancing sustainable and inclusive mobility
+**Year:** 2025
+
+[DOI](https://doi.org/10.1007/978-3-031-95284-5_13) [URL](https://doi.org/10.1007/978-3-031-95284-5_13) [BibTeX](entry.bib)
+
+## Citation
+
+Rosa Félix, Filipe Moura, and Robin Lovelace (2025). biclaR: Estimating the socio-environmental impacts of car substitution by bicycle and public transit using open tools. *Transport transitions: Advancing sustainable and inclusive mobility*. https://doi.org/10.1007/978-3-031-95284-5_13
+
+## BibTeX
+
+```bibtex
+@incollection{felix_biclar_2025,
+ author = {Félix, Rosa and Moura, Filipe and Lovelace, Robin},
+ booktitle = {Transport Transitions: Advancing Sustainable and Inclusive Mobility},
+ year = {2025},
+ doi = {10.1007/978-3-031-95284-5_13},
+ issn = {2196-5544, 2196-5552},
+ language = {english},
+ pages = {85--92},
+ publisher = {Springer},
+ series = {Lecture Notes in Mobility},
+ title = {biclaR: Estimating the Socio-Environmental Impacts of Car Substitution by Bicycle and Public Transit Using Open Tools},
+ url = {https://doi.org/10.1007/978-3-031-95284-5_13}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

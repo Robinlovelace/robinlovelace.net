@@ -40,10 +40,14 @@ def get_event_data(file_path):
                             # Ensure timezone aware for comparison
                             if dt.tzinfo is None:
                                 dt = dt.replace(tzinfo=timezone.utc)
+                            cats = data.get('categories') or []
+                            if isinstance(cats, str):
+                                cats = [cats]
                             return {
                                 'path': file_path,
                                 'date': dt,
-                                'title': data.get('title', 'Untitled')
+                                'title': data.get('title', 'Untitled'),
+                                'upcoming_tag': 'upcoming' in cats
                             }
                 except Exception as e:
                     print(f"Error parsing {file_path}: {e}")
@@ -70,6 +74,11 @@ def main():
     
     future_events = [e for e in events if e['date'] >= now]
     past_events = [e for e in events if e['date'] < now]
+
+    # The 'upcoming' category is set by hand, so flag events that have passed.
+    for e in past_events:
+        if e['upcoming_tag']:
+            print(f"Warning: {e['path']} is in the past but still has the 'upcoming' category.", file=sys.stderr)
 
     future_events.sort(key=lambda x: x['date'])
     past_events.sort(key=lambda x: x['date'], reverse=True)

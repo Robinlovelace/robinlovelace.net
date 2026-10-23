@@ -336,7 +336,7 @@ Anu's talk was on the topic of "Mobility Data Justice: Estonian Data Manifesto",
 
 This was the final day of the academic part of the conference and a big one for me, as it was the day of my talk.
 As shown in the video below, my talk was titled "Reproducible research and open tools for future-proof transport planning".
-See more about the talk [here](https://www.robinlovelace.net/talk/reproducible-research-and-open-tools-for-future-proof-transport-planning/) and see the open source code at [futureproof.robinlovelace.net](https://future-proof.robinlovelace.net/).
+See more about the talk [here](/events/mobile-tartu-2024/) and see the open source code at [futureproof.robinlovelace.net](https://future-proof.robinlovelace.net/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BMYF3PybMiU?si=3U7YmRwHBrdqp3qx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

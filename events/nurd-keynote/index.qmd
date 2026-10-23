@@ -8,5 +8,4 @@ author:
 
 In this, titled *Geocomputation with R: Empower yourself with free software and geo`*` data*, I provide an overview of the evolving landscape for working with geographic data using open source, command-line driven software.
 
-- [Slides](https://www.robinlovelace.net/presentations/nurd.html#1)
-- [Audio](https://www.robinlovelace.net/presentations/nurd.ogg)
+- [Slides](https://web.archive.org/web/2024/https://www.robinlovelace.net/presentations/nurd.html#1)

@@ -1,4 +1,34 @@
-- path: https://saferactive.org
+- path: https://www.npt.scot
+  image:
+  title: "Network Planning Tool for Scotland (NPT)"
+  author: "Robin Lovelace (Lead Developer)"
+  subtitle: "Transport Scotland"
+  description: "National tool for planning cycle networks across Scotland, developed with Sustrans. It estimates cycling potential for every road and shows cycling level of service alongside it. Nominated for Most Innovative Project at the Scottish Transport Awards 2025."
+  started: "2022"
+  ended: ""
+  funding: ""
+
+- path: https://github.com/bicischools
+  image:
+  title: "BICISCHOOLS"
+  author: "Robin Lovelace with the University of Lisbon team"
+  subtitle: "University of Lisbon (collaboration)"
+  description: "Open methods and tools to plan safe cycling routes and bike buses to schools, building on the Propensity to Cycle Tool."
+  started: "2024"
+  ended: ""
+  funding: ""
+
+- path: https://cruse.bike
+  image:
+  title: "Cycle Route Uptake and Scenario Estimation (CRUSE)"
+  author: "Robin Lovelace (Lead Developer)"
+  subtitle: "Transport Infrastructure Ireland"
+  description: "Interactive tool estimating current and potential cycling on Ireland's road network, to support cycle network planning, business cases and evaluation."
+  started: ""
+  ended: ""
+  funding: ""
+
+- path: https://saferactive.github.io
   image: 
   title: "SaferActive"
   author: "Robin Lovelace (PI)"

@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-subtitle: "Funded projects"
+subtitle: "Research projects, tools and long-running work"
 page-layout: full
 listing: 
 - id: projects

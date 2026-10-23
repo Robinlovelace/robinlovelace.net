@@ -1,6 +1,6 @@
 ---
 title: "David Boyce and Huw Williams, Forecasting urban travel: Past, present and future"
-description: "Robin Lovelace (2017). David Boyce and Huw Williams, Forecasting urban travel: Past, present and future. *Environment and Planning B: Planning and Design*."
+description: "Robin Lovelace (2017). David Boyce and Huw Williams, Forecasting urban travel: Past, present and future. *Environment and Planning B: Planning and Design*. https://doi.org/10.1177/0265813516655644"
 date: "2017-01-01"
 title-block-banner: false
 toc: false
@@ -8,7 +8,7 @@ citation-key: "lovelace_david_2017"
 citation-type: "article-journal"
 citation-type-label: "Journal Article"
 venue: "Environment and Planning B: Planning and Design"
-doi: ""
+doi: "10.1177/0265813516655644"
 publication-url: ""
 authors:
   - "Robin Lovelace"
@@ -19,7 +19,7 @@ abstract: "This book review discusses a seminal work on urban travel forecasting
 **Venue:** Environment and Planning B: Planning and Design
 **Year:** 2017
 
-[BibTeX](entry.bib)
+[DOI](https://doi.org/10.1177/0265813516655644) [BibTeX](entry.bib)
 
 ## Abstract
 
@@ -27,7 +27,7 @@ This book review discusses a seminal work on urban travel forecasting, tracing t
 
 ## Citation
 
-Robin Lovelace (2017). David Boyce and Huw Williams, Forecasting urban travel: Past, present and future. *Environment and Planning B: Planning and Design*.
+Robin Lovelace (2017). David Boyce and Huw Williams, Forecasting urban travel: Past, present and future. *Environment and Planning B: Planning and Design*. https://doi.org/10.1177/0265813516655644
 
 ## BibTeX
 
@@ -41,6 +41,7 @@ Robin Lovelace (2017). David Boyce and Huw Williams, Forecasting urban travel: P
 	journal = {Environment and Planning B: Planning and Design},
 	author = {Lovelace, Robin},
 	year = {2017},
+	doi = {10.1177/0265813516655644},
 	keywords = {Book review},
 	pages = {184--186},
 }

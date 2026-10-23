@@ -1,0 +1,50 @@
+---
+title: "Assessing trade-offs in demand-responsive transport service area design: Operational efficiency vs. System-wide goals"
+description: "Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, and Eva Heinen (2026). Assessing trade-offs in demand-responsive transport service area design: Operational efficiency vs. System-wide goals. *Journal of Urban Mobility*. https://doi.org/10.1016/j.urbmob.2026.100219"
+date: "2026-01-01"
+title-block-banner: false
+toc: false
+citation-key: "mahfouz_drt_tradeoffs_2026"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Journal of Urban Mobility"
+doi: "10.1016/j.urbmob.2026.100219"
+publication-url: "https://doi.org/10.1016/j.urbmob.2026.100219"
+authors:
+  - "Hussein Mahfouz"
+  - "Milos Balac"
+  - "Malcolm Morgan"
+  - "Robin Lovelace"
+  - "Eva Heinen"
+---
+
+**Type:** Journal Article
+**Venue:** Journal of Urban Mobility
+**Year:** 2026
+
+[DOI](https://doi.org/10.1016/j.urbmob.2026.100219) [URL](https://doi.org/10.1016/j.urbmob.2026.100219) [BibTeX](entry.bib)
+
+## Citation
+
+Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, and Eva Heinen (2026). Assessing trade-offs in demand-responsive transport service area design: Operational efficiency vs. System-wide goals. *Journal of Urban Mobility*. https://doi.org/10.1016/j.urbmob.2026.100219
+
+## BibTeX
+
+```bibtex
+@article{mahfouz_drt_tradeoffs_2026,
+ author = {Mahfouz, Hussein and Balac, Milos and Morgan, Malcolm and Lovelace, Robin and Heinen, Eva},
+ year = {2026},
+ doi = {10.1016/j.urbmob.2026.100219},
+ issn = {2667-0917},
+ journal = {Journal of Urban Mobility},
+ language = {english},
+ pages = {100219},
+ title = {Assessing trade-offs in demand-responsive transport service area design: Operational efficiency vs. system-wide goals},
+ url = {https://doi.org/10.1016/j.urbmob.2026.100219},
+ volume = {9}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

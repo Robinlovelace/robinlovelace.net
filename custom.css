@@ -45,3 +45,24 @@ footer.footer .nav-footer {
 .network-node { fill: var(--bs-primary); }
 .network-direct { stroke: var(--bs-secondary); stroke-dasharray: 5 5; stroke-width: 3; }
 .network-route { fill: none; stroke: var(--bs-primary); stroke-width: 6; }
+
+/* Home: keep profile links compact on narrow screens. Quarto's trestles
+   template stacks them as full-width buttons, which fills the first screen. */
+@media (max-width: 991.98px) {
+  div.quarto-about-trestles .about-entity .about-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    width: auto;
+  }
+  div.quarto-about-trestles .about-entity .about-link {
+    font-size: .9rem;
+    padding: .3rem .6rem;
+  }
+}
+
+/* Cards: no trailing gap under the last paragraph */
+.activity-card > :last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,54 @@
+---
+title: "Advancing unpaved road assessment in africa: Leveraging multimodal machine learning and large language-and-vision assistants across satellite imagery resolutions"
+description: "Zhao Wang, Chunlei Xin, Robin Workman, Hang Hu, Xinyuan Yu, Yuxin Tian, Robin Lovelace, Jiupeng Zhang, and Haibo Chen (2026). Advancing unpaved road assessment in africa: Leveraging multimodal machine learning and large language-and-vision assistants across satellite imagery resolutions. *Journal of Transport Geography*. https://doi.org/10.1016/j.jtrangeo.2025.104525"
+date: "2026-01-01"
+title-block-banner: false
+toc: false
+citation-key: "wang_unpaved_2026"
+citation-type: "article-journal"
+citation-type-label: "Journal Article"
+venue: "Journal of Transport Geography"
+doi: "10.1016/j.jtrangeo.2025.104525"
+publication-url: "https://doi.org/10.1016/j.jtrangeo.2025.104525"
+authors:
+  - "Zhao Wang"
+  - "Chunlei Xin"
+  - "Robin Workman"
+  - "Hang Hu"
+  - "Xinyuan Yu"
+  - "Yuxin Tian"
+  - "Robin Lovelace"
+  - "Jiupeng Zhang"
+  - "Haibo Chen"
+---
+
+**Type:** Journal Article
+**Venue:** Journal of Transport Geography
+**Year:** 2026
+
+[DOI](https://doi.org/10.1016/j.jtrangeo.2025.104525) [URL](https://doi.org/10.1016/j.jtrangeo.2025.104525) [BibTeX](entry.bib)
+
+## Citation
+
+Zhao Wang, Chunlei Xin, Robin Workman, Hang Hu, Xinyuan Yu, Yuxin Tian, Robin Lovelace, Jiupeng Zhang, and Haibo Chen (2026). Advancing unpaved road assessment in africa: Leveraging multimodal machine learning and large language-and-vision assistants across satellite imagery resolutions. *Journal of Transport Geography*. https://doi.org/10.1016/j.jtrangeo.2025.104525
+
+## BibTeX
+
+```bibtex
+@article{wang_unpaved_2026,
+ author = {Wang, Zhao and Xin, Chunlei and Workman, Robin and Hu, Hang and Yu, Xinyuan and Tian, Yuxin and Lovelace, Robin and Zhang, Jiupeng and Chen, Haibo},
+ year = {2026},
+ doi = {10.1016/j.jtrangeo.2025.104525},
+ issn = {0966-6923},
+ journal = {Journal of Transport Geography},
+ language = {english},
+ pages = {104525},
+ title = {Advancing unpaved road assessment in Africa: Leveraging multimodal machine learning and large language-and-vision assistants across satellite imagery resolutions},
+ url = {https://doi.org/10.1016/j.jtrangeo.2025.104525},
+ volume = {131}
+}
+```
+
+## Notes
+
+{{< include _notes.qmd >}}

@@ -11,11 +11,6 @@ We planned the route around two destinations and one well-established route:
 - [Temple Newsam](https://en.wikipedia.org/wiki/Temple_Newsam), a publicly accessible stately home and leisure grounds part-designed by prolific landscaper [Capability Brown](https://en.wikipedia.org/wiki/Capability_Brown) in the 1760s and now owned by [Leeds City Council](https://www.leeds.gov.uk/)
 - The well-known [Wyke Beck Way](https://www.leeds.gov.uk/docs/Wyke%20Beck%20Way%20Cycle%20Route.pdf), which runs North from Temple Newsam to Roundhay Park
 
-An overview of the route is shown below:
-
-
-
-<iframe src="map-leeds-routes.html" width="672" height="400px" data-external="1"></iframe>
 
 
 ## Leeds Climate Innovation District

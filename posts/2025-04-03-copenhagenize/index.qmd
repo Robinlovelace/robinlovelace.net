@@ -32,7 +32,7 @@ One thing that I learned from the thesis was that the term “data science” wa
 This early commercial focus (or even its reason for existing) may come as a surprise given how prominent the term is in academic and public-sector research: data science is now taught as an academic subject in many if not most universities, and several academic journals bear its name.
 There are even job titles such as my job as Professor of Transport Data Science.
 Contemporary usage emphasise computational and data-driven techniques while perhaps glossing-over the term’s commercial origins.
-That’s not to imply that data science is bad, but the history of the term suggests that it could benefit from being reclaimed, as stated in this apt quote from the [thesis](Trip%20to%20Copenhagen%20to%20examine%20a%20thesis%20on%20urban%20data%20science%20for%20sustainable%20mobility%20and%20to%20explore%20and%20develop%20bike%20and%20collaborative%20research%20networks):
+That’s not to imply that data science is bad, but the history of the term suggests that it could benefit from being reclaimed, as stated in this apt quote from the [thesis](https://en.itu.dk/Research/PhD-Programme/PhD-Defences/PhD-Defences-2025/March/Anastassia-Vybornova):
 
 > The challenge therefore lies in repurposing digital tools and methods, putting them into service of a sustainable mobility shift instead.
 

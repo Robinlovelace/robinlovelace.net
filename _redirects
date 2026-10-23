@@ -436,3 +436,9 @@
 
 # Fallback only after the granular legacy redirects above.
 /old-site/* /posts/ 301
+
+# Root-level /talk/ URLs from the Hugo site (only /old-site/talk/ was covered)
+/talk/* /events/:splat 301
+/talk/open-access-transport-models-from-collaborative-code-to-citizen-science/ /events/2021-trb-open-access-transport-models/ 301
+/talk/propensity-to-cycle-tool-advanced-training-workshop-2021/ /events/pcttraining2021/ 301
+/talk/reproducible-research-and-open-tools-for-future-proof-transport-planning/ /events/mobile-tartu-2024/ 301
