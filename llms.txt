@@ -16,5 +16,7 @@
 ## Selected resources
 
 - [Transport-network explainer](https://robinlovelace.net/projects/transport-network-explainer/)
+- [Research portfolio and planned-papers dashboard](https://robinlovelace.net/research/)
+- [ResearchHQ open-source framework](https://robinlovelace.net/researchhq/) ([source code](https://github.com/Robinlovelace/researchhq))
 - [GitHub profile](https://github.com/Robinlovelace)
 - [ORCID](https://orcid.org/0000-0001-5679-6536)
