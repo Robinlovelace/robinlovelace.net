@@ -59,7 +59,7 @@ Fast DuckDB/Parquet access to national open human mobility datasets in Spain. [C
 ::: {.tool-card}
 ### [researchhq](https://github.com/Robinlovelace/researchhq)
 
-Open-source CLI and Svelte 5 dashboard for academic research portfolios, journal metrics, and planned-paper roadmaps. [Live demo](https://robinlovelace.net/research/)
+Open-source CLI and Svelte 5 dashboard for academic research portfolios, journal metrics, and planned-paper roadmaps. [Live demo](https://robinlovelace.net/researchhq/)
 :::
 :::
 

@@ -26,7 +26,7 @@ See [all events](/events/).
 ## Open tools
 
 - [Network Planning Tool](https://www.npt.scot) and [Propensity to Cycle Tool](https://www.pct.bike): open tools for planning cycle networks.
-- [ResearchHQ Portfolio](https://robinlovelace.net/research/) ([open-source engine](https://github.com/Robinlovelace/researchhq)): interactive overview of publications, journal metrics, 5-stage open science outputs, and planned 2026-2028 papers.
+- [ResearchHQ Portfolio](https://robinlovelace.net/researchhq/) ([open-source engine](https://github.com/Robinlovelace/researchhq)): interactive overview of publications, journal metrics, 5-stage open science outputs, and planned 2026-2028 papers.
 - [SaferActive](https://saferactive.github.io): data-driven methods for cyclist and pedestrian safety.
 - [Geocomputation with R](https://r.geocompx.org/) and [Geocomputation with Python](https://py.geocompx.org/): free, open-source books on geographic data science.
 

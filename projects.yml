@@ -1,4 +1,4 @@
-- path: https://robinlovelace.net/research/
+- path: https://robinlovelace.net/researchhq/
   image:
   title: "ResearchHQ: Interactive Research Portfolio & Roadmap"
   author: "Robin Lovelace"
@@ -26,7 +26,7 @@
   description: "Open methods and tools to plan safe cycling routes and bike buses to schools, building on the Propensity to Cycle Tool."
   started: "2024"
   ended: "2025"
-  funding: "£61k"
+  funding: ""
 
 - path: https://www.gov.uk/government/organisations/active-travel-england
   image:
@@ -36,7 +36,7 @@
   description: "National street-level cycling level of service, motor-traffic exposure calibration, and safety-critical infrastructure appraisal across England."
   started: "2024"
   ended: ""
-  funding: "£234k"
+  funding: ""
 
 - path: https://www.npt.scot
   image:
@@ -56,7 +56,7 @@
   description: "High-resolution satellite imagery, street-lighting, and active travel demand and safety modelling after dark."
   started: "2022"
   ended: "2024"
-  funding: "£169k"
+  funding: ""
 
 - path: https://www.ukri.org/
   image:
@@ -66,7 +66,7 @@
   description: "Embedded data science fellowship in 10 Downing Street and Active Travel England building open, reproducible transport evidence pipelines."
   started: "2021"
   ended: "2023"
-  funding: "£109k"
+  funding: ""
 
 - path: https://cruse.bike
   image:
@@ -76,7 +76,7 @@
   description: "Interactive tool estimating current and potential cycling on Ireland's road network, to support cycle network planning, business cases and evaluation."
   started: "2021"
   ended: "2022"
-  funding: "£127k"
+  funding: ""
 
 - path: https://actdev.cyipt.bike
   image:
@@ -86,7 +86,7 @@
   description: "Web application and reproducible methodology assessing walking and cycling provision around major new housing developments."
   started: "2020"
   ended: "2021"
-  funding: "£62k"
+  funding: ""
 
 - path: https://saferactive.github.io
   image:
@@ -96,7 +96,7 @@
   description: "Improving safety for active travel through data-driven approaches. Developing methods to measure and improve cyclist and pedestrian safety using open data and statistical models."
   started: "2020"
   ended: ""
-  funding: "£50k"
+  funding: ""
 
 - path: https://github.com/ITSLeeds/tds
   image:
@@ -116,7 +116,7 @@
   description: "Prioritisation tool for identifying the most cost-effective locations for new cycling infrastructure."
   started: "2017"
   ended: "2018"
-  funding: "£66k"
+  funding: ""
 
 - path: https://www.pct.bike
   image:
@@ -126,4 +126,4 @@
   description: "Open-source online tool for modelling cycling potential at regional and national scales. Used by over 100 local authorities in the UK."
   started: "2015"
   ended: ""
-  funding: "£174k+"
+  funding: ""
