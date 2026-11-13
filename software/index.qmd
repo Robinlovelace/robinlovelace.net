@@ -39,9 +39,9 @@ Classify cycle infrastructure and level of service from OpenStreetMap. [Code](ht
 :::
 
 ::: {.tool-card}
-### [odjitter](https://github.com/dabreegster/odjitter)
+### [odjitter](https://github.com/itsleeds/odjitter)
 
-Fast Rust and R/Python tools for jittering and disaggregating origin-destination data into realistic street networks. [Code](https://github.com/dabreegster/odjitter)
+Fast Rust and R/Python tools for jittering and disaggregating origin-destination data into realistic street networks. [Code](https://github.com/itsleeds/odjitter)
 :::
 
 ::: {.tool-card}
@@ -57,9 +57,9 @@ Fast DuckDB/Parquet access to national open human mobility datasets in Spain. [C
 :::
 
 ::: {.tool-card}
-### [researchhq](https://github.com/Robinlovelace/researchhq)
+### [researchhq](https://robinlovelace.net/researchhq/)
 
-Open-source CLI and Svelte 5 dashboard for academic research portfolios, journal metrics, and planned-paper roadmaps. [Live demo](https://robinlovelace.net/researchhq/)
+Open-source CLI and Svelte 5 dashboard for academic research portfolios, journal metrics, and planned-paper roadmaps. [Website & example demo](https://robinlovelace.net/researchhq/) · [Code](https://github.com/Robinlovelace/researchhq)
 :::
 :::
 

@@ -1,9 +1,9 @@
 - path: https://robinlovelace.net/researchhq/
   image:
-  title: "ResearchHQ: Interactive Research Portfolio & Roadmap"
+  title: "ResearchHQ: Open-Source Research Portfolio & Roadmap Framework"
   author: "Robin Lovelace"
   subtitle: "Open-source research analytics (MIT)"
-  description: "Interactive portfolio, 5-stage open science scorecard, hybrid journal metrics, and 2026-2028 planned-publications roadmap built on the open-source @researchhq framework."
+  description: "Open-source CLI and Svelte 5 dashboard for academic research portfolios, 5-stage open science scorecards, hybrid journal metrics, and planned-paper roadmaps, powering robinlovelace.net/research."
   started: "2026"
   ended: ""
   funding: ""

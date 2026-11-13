@@ -20,9 +20,9 @@ listing:
     page-size: 25
 ---
 
-{{< ai google-scholar size="lg" >}} [Google Scholar](https://scholar.google.com/citations?user=xDJHVCAAAAAJ&hl=en) · {{< ai orcid size="lg" >}} [ORCID](https://orcid.org/0000-0001-5679-6536) · [Interactive Research Dashboard & Pipeline](https://robinlovelace.net/researchhq/)
+{{< ai google-scholar size="lg" >}} [Google Scholar](https://scholar.google.com/citations?user=xDJHVCAAAAAJ&hl=en) · {{< ai orcid size="lg" >}} [ORCID](https://orcid.org/0000-0001-5679-6536) · [Interactive Research Dashboard & Pipeline](https://robinlovelace.net/research/)
 
-Citation metrics, journal analytics, 5-stage open science outputs, and planned 2026-2028 papers can be explored interactively at [https://robinlovelace.net/researchhq/](https://robinlovelace.net/researchhq/).
+Citation metrics, journal analytics, 5-stage open science outputs, and planned 2026-2028 papers can be explored interactively at [https://robinlovelace.net/research/](https://robinlovelace.net/research/).
 
 ::: {#publications-index}
 :::

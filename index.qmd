@@ -70,7 +70,7 @@ Tools I have led or co-developed, including the [Propensity to Cycle Tool](https
 
 [Current projects](/projects/){.btn .btn-primary .me-2 .mb-2}
 [Publications](/publications/){.btn .btn-outline-primary .me-2 .mb-2}
-[Research portfolio](/researchhq/){.btn .btn-outline-primary .me-2 .mb-2}
+[Research portfolio](https://robinlovelace.net/research/){.btn .btn-outline-primary .me-2 .mb-2}
 [What I am working on now](/now/){.btn .btn-outline-secondary .mb-2}
 
 ## Ways to get involved
