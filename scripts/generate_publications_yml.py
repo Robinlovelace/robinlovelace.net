@@ -160,6 +160,18 @@ def clean_bib_string(s):
     return s.replace("{", "").replace("}", "")
 
 
+# LaTeX single-character escapes that carry through BibTeX fields unexpanded.
+# Rendered literally they look like \\& or \\_ in listings, and inside
+# double-quoted YAML they can form invalid escape sequences, so unescape them
+# at the source instead of trying to escape them validly later.
+LATEX_ESCAPES = re.compile(r"\\([&%_$#{}~])")
+
+def clean_bib_text(s):
+    """Unescape LaTeX characters and remove braces from a bibtex value."""
+    s = LATEX_ESCAPES.sub(r"\1", s)
+    return clean_bib_string(s)
+
+
 def format_authors(author_raw):
     """Convert 'Last, First and Last2, First2' to 'First Last, First2 Last2'."""
     if not author_raw:
@@ -181,20 +193,20 @@ def bib_to_yml_entry(entry):
     slug = eid.strip("_-").replace("_", "-")
     fields = entry["fields"]
 
-    title = clean_bib_string(fields.get("title", ""))
+    title = clean_bib_text(fields.get("title", ""))
     year_str = fields.get("year", "0")
     year = int(year_str) if year_str.isdigit() else 0
     bib_type = entry["type"]
 
     authors = format_authors(fields.get("author", ""))
 
-    venue = fields.get("journal",
+    venue = clean_bib_text(fields.get("journal",
                        fields.get("booktitle",
                                    fields.get("publisher",
-                                               fields.get("school", ""))))
+                                               fields.get("school", "")))))
     doi = fields.get("doi", "")
     url = fields.get("url", "")
-    abstract = fields.get("abstract", "")
+    abstract = clean_bib_text(fields.get("abstract", ""))
 
     return {
         "key": eid,
@@ -312,8 +324,10 @@ def yaml_value(val, indent=0):
         return "true" if val else "false"
     if isinstance(val, int):
         return str(val)
-    # String — quote if it contains special chars
-    s = str(val)
+    # String: fold newlines so quoted scalars never span lines (YAML 1.2
+    # requires multi-line flow scalars to stay indented, which plain writers
+    # cannot guarantee), then quote if it contains special chars
+    s = re.sub(r"\s*\n\s*", " ", str(val))
     if any(ch in s for ch in (':', '#', '{', '}', '[', ']', ',', '&', '*', '?', '|', '-', '<', '>', '=', '!', '%', '@', '`')):
         escaped = s.replace("\\", "\\\\").replace('"', '\\"')
         return f'"{escaped}"'

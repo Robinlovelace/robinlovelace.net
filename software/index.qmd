@@ -31,6 +31,36 @@ Reproducible road-crash data access and analysis. [Code](https://github.com/rope
 
 Fast, reproducible road-junction detection from network data. [Code](https://github.com/Robinlovelace/junctions-rs)
 :::
+
+::: {.tool-card}
+### [osmactive](https://nptscot.github.io/osmactive/)
+
+Classify cycle infrastructure and level of service from OpenStreetMap. [Code](https://github.com/nptscot/osmactive)
+:::
+
+::: {.tool-card}
+### [odjitter](https://github.com/dabreegster/odjitter)
+
+Fast Rust and R/Python tools for jittering and disaggregating origin-destination data into realistic street networks. [Code](https://github.com/dabreegster/odjitter)
+:::
+
+::: {.tool-card}
+### [corenet](https://github.com/nptscot/corenet)
+
+Flexible framework for generating and prioritising connected core cycle network designs. [Code](https://github.com/nptscot/corenet)
+:::
+
+::: {.tool-card}
+### [spanishoddata](https://ropenspain.github.io/spanishoddata/)
+
+Fast DuckDB/Parquet access to national open human mobility datasets in Spain. [Code](https://github.com/rOpenSpain/spanishoddata)
+:::
+
+::: {.tool-card}
+### [researchhq](https://github.com/Robinlovelace/researchhq)
+
+Open-source CLI and Svelte 5 dashboard for academic research portfolios, journal metrics, and planned-paper roadmaps. [Live demo](https://robinlovelace.net/research/)
+:::
 :::
 
 [Try the transport-network explainer](/projects/transport-network-explainer/){.btn .btn-outline-primary}

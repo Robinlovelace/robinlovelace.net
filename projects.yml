@@ -1,10 +1,20 @@
-- path: https://www.npt.scot
+- path: https://robinlovelace.net/research/
   image:
-  title: "Network Planning Tool for Scotland (NPT)"
-  author: "Robin Lovelace (Lead Developer)"
-  subtitle: "Transport Scotland"
-  description: "National tool for planning cycle networks across Scotland, developed with Sustrans. It estimates cycling potential for every road and shows cycling level of service alongside it. Nominated for Most Innovative Project at the Scottish Transport Awards 2025."
-  started: "2022"
+  title: "ResearchHQ: Interactive Research Portfolio & Roadmap"
+  author: "Robin Lovelace"
+  subtitle: "Open-source research analytics (MIT)"
+  description: "Interactive portfolio, 5-stage open science scorecard, hybrid journal metrics, and 2026-2028 planned-publications roadmap built on the open-source @researchhq framework."
+  started: "2026"
+  ended: ""
+  funding: ""
+
+- path: https://github.com/railactive/railactive
+  image:
+  title: "RailActive"
+  author: "Robin Lovelace & ITS Leeds team"
+  subtitle: "Active Travel England"
+  description: "Strategic appraisal and interactive corridor explorer for national rail-to-active-travel corridors, including the safeguarded HS2 legacy route."
+  started: "2025"
   ended: ""
   funding: ""
 
@@ -12,11 +22,51 @@
   image:
   title: "BICISCHOOLS"
   author: "Robin Lovelace with the University of Lisbon team"
-  subtitle: "University of Lisbon (collaboration)"
+  subtitle: "ESRC & University of Lisbon"
   description: "Open methods and tools to plan safe cycling routes and bike buses to schools, building on the Propensity to Cycle Tool."
   started: "2024"
+  ended: "2025"
+  funding: "£61k"
+
+- path: https://www.gov.uk/government/organisations/active-travel-england
+  image:
+  title: "Multi-Modal Level of Service & Safety-Critical Issues"
+  author: "Robin Lovelace (PI)"
+  subtitle: "Active Travel England"
+  description: "National street-level cycling level of service, motor-traffic exposure calibration, and safety-critical infrastructure appraisal across England."
+  started: "2024"
+  ended: ""
+  funding: "£234k"
+
+- path: https://www.npt.scot
+  image:
+  title: "Network Planning Tool for Scotland (NPT)"
+  author: "Robin Lovelace (Lead Developer)"
+  subtitle: "Transport Scotland"
+  description: "National tool for planning cycle networks across Scotland, developed with Sustrans. It estimates cycling potential for every road and shows cycling level of service alongside it. Nominated for Most Innovative Project at the Scottish Transport Awards 2025."
+  started: "2023"
   ended: ""
   funding: ""
+
+- path: https://doi.org/10.1016/j.jth.2025.102224
+  image:
+  title: "SATURN: Supporting Active Travel Using Road-lighting at Night"
+  author: "Robin Lovelace (PI) with University of Sheffield"
+  subtitle: "EPSRC"
+  description: "High-resolution satellite imagery, street-lighting, and active travel demand and safety modelling after dark."
+  started: "2022"
+  ended: "2024"
+  funding: "£169k"
+
+- path: https://www.ukri.org/
+  image:
+  title: "No. 10 Data Science Fellowship (10DS)"
+  author: "Robin Lovelace (Fellow)"
+  subtitle: "ESRC / ADR UK"
+  description: "Embedded data science fellowship in 10 Downing Street and Active Travel England building open, reproducible transport evidence pipelines."
+  started: "2021"
+  ended: "2023"
+  funding: "£109k"
 
 - path: https://cruse.bike
   image:
@@ -24,27 +74,37 @@
   author: "Robin Lovelace (Lead Developer)"
   subtitle: "Transport Infrastructure Ireland"
   description: "Interactive tool estimating current and potential cycling on Ireland's road network, to support cycle network planning, business cases and evaluation."
-  started: ""
-  ended: ""
-  funding: ""
+  started: "2021"
+  ended: "2022"
+  funding: "£127k"
+
+- path: https://actdev.cyipt.bike
+  image:
+  title: "ActDev: Active Travel for New Developments"
+  author: "Robin Lovelace (PI), Martin Lucas-Smith, Joey Talbot, Dustin Carlino"
+  subtitle: "UKRI"
+  description: "Web application and reproducible methodology assessing walking and cycling provision around major new housing developments."
+  started: "2020"
+  ended: "2021"
+  funding: "£62k"
 
 - path: https://saferactive.github.io
-  image: 
+  image:
   title: "SaferActive"
   author: "Robin Lovelace (PI)"
   subtitle: "UKRI IAA"
   description: "Improving safety for active travel through data-driven approaches. Developing methods to measure and improve cyclist and pedestrian safety using open data and statistical models."
-  started: "2019"
+  started: "2020"
   ended: ""
-  funding: ""
+  funding: "£50k"
 
-- path: https://www.pct.bike
+- path: https://github.com/ITSLeeds/tds
   image:
-  title: "Propensity to Cycle Tool (PCT)"
-  author: "Robin Lovelace (Lead Developer)"
-  subtitle: "Department for Transport"
-  description: "Open-source online tool for modelling cycling potential at regional and national scales. Used by over 100 local authorities in the UK."
-  started: "2015"
+  title: "Transport Data Science"
+  author: "Robin Lovelace (Module Lead)"
+  subtitle: "University of Leeds"
+  description: "Teaching module for Masters students on data science methods for transport research and planning."
+  started: "2020"
   ended: ""
   funding: ""
 
@@ -56,14 +116,14 @@
   description: "Prioritisation tool for identifying the most cost-effective locations for new cycling infrastructure."
   started: "2017"
   ended: "2018"
-  funding: ""
+  funding: "£66k"
 
-- path: https://github.com/ITSLeeds/tds
+- path: https://www.pct.bike
   image:
-  title: "Transport Data Science"
-  author: "Robin Lovelace (Module Lead)"
-  subtitle: "University of Leeds"
-  description: "Teaching module for Masters students on data science methods for transport research and planning."
-  started: "2020"
+  title: "Propensity to Cycle Tool (PCT)"
+  author: "Robin Lovelace (Lead Developer)"
+  subtitle: "Department for Transport"
+  description: "Open-source online tool for modelling cycling potential at regional and national scales. Used by over 100 local authorities in the UK."
+  started: "2015"
   ended: ""
-  funding: ""
+  funding: "£174k+"
